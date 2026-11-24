@@ -1,0 +1,970 @@
+[
+ {
+  "p": "[noun A] は [noun B] です",
+  "ro": "[noun A] wa [noun B] desu",
+  "m": "A is B",
+  "how": "Put two nouns on either side of は (read 'wa') and end with です. This is the basic 'A is B' sentence. です makes it polite.",
+  "ex": [
+   {
+    "jp": "私は 学生です",
+    "rd": "わたし は がくせい です",
+    "en": "I am a student."
+   },
+   {
+    "jp": "これは 本です",
+    "rd": "これ は ほん です",
+    "en": "This is a book."
+   },
+   {
+    "jp": "田中さんは 先生です",
+    "rd": "たなかさん は せんせい です",
+    "en": "Mr. Tanaka is a teacher."
+   }
+  ],
+  "casual": "Drop です and use だ or nothing with friends: 私は 学生だ / 学生。",
+  "lvl": 1
+ },
+ {
+  "p": "[noun A] は [noun B] じゃありません",
+  "ro": "[noun A] wa [noun B] ja arimasen",
+  "m": "A is not B",
+  "how": "Replace です with じゃありません (or ではありません in formal writing). Casual speech uses じゃない.",
+  "ex": [
+   {
+    "jp": "私は 先生じゃありません",
+    "rd": "わたし は せんせい じゃ ありません",
+    "en": "I am not a teacher."
+   },
+   {
+    "jp": "これは 水じゃありません",
+    "rd": "これ は みず じゃ ありません",
+    "en": "This is not water."
+   },
+   {
+    "jp": "田中さんは 日本人じゃありません",
+    "rd": "たなかさん は にほんじん じゃ ありません",
+    "en": "Mr. Tanaka is not Japanese."
+   }
+  ],
+  "casual": "じゃない: 先生じゃない (is not a teacher).",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] は [adjective] です",
+  "ro": "[noun] wa [adjective] desu",
+  "m": "X is [adjective]",
+  "how": "い-adjectives (ending in い) go straight before です: 高い → 高いです. な-adjectives take です after the bare word: きれい → きれいです. Do not add な before です.",
+  "ex": [
+   {
+    "jp": "このラーメンは おいしいです",
+    "rd": "この ラーメン は おいしい です",
+    "en": "This ramen is delicious."
+   },
+   {
+    "jp": "今日は 暑いです",
+    "rd": "きょう は あつい です",
+    "en": "Today is hot."
+   },
+   {
+    "jp": "あの花は きれいです",
+    "rd": "あの はな は きれい です",
+    "en": "That flower is pretty."
+   }
+  ],
+  "casual": "Drop です: おいしい! / きれいだ (な-adj + だ).",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] が 好きです",
+  "ro": "[noun] ga suki desu",
+  "m": "I like [noun]",
+  "how": "Place what you like before が and end with 好きです. The person who likes it takes は: 私は 猫が 好きです. Use 大好き (love) for more, 嫌い (dislike) for the opposite.",
+  "ex": [
+   {
+    "jp": "私は 猫が 好きです",
+    "rd": "わたし は ねこ が すき です",
+    "en": "I like cats."
+   },
+   {
+    "jp": "ラーメンが 好きです",
+    "rd": "ラーメン が すき です",
+    "en": "I like ramen."
+   },
+   {
+    "jp": "音楽が 好きです",
+    "rd": "おんがく が すき です",
+    "en": "I like music."
+   }
+  ],
+  "casual": "好きだよ / 好き。 Add 大 for 'love': 大好き。",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] を ください",
+  "ro": "[noun] o kudasai",
+  "m": "Please give me [noun]",
+  "how": "Noun + を + ください. Also for ordering and shopping. Add お願いします for a softer tone. For counts: これを ふたつ ください.",
+  "ex": [
+   {
+    "jp": "水を ください",
+    "rd": "みず を ください",
+    "en": "Water, please."
+   },
+   {
+    "jp": "これを ください",
+    "rd": "これ を ください",
+    "en": "This one, please."
+   },
+   {
+    "jp": "コーヒーを ください",
+    "rd": "コーヒー を ください",
+    "en": "Coffee, please."
+   }
+  ],
+  "casual": "Drop を in casual talk: 水ください。",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] は どこですか",
+  "ro": "[noun] wa doko desu ka",
+  "m": "Where is [noun]?",
+  "how": "Name the thing, then は どこですか. Answer with ここ (here), そこ (there), あそこ (over there), or a direction.",
+  "ex": [
+   {
+    "jp": "トイレは どこですか",
+    "rd": "トイレ は どこ ですか",
+    "en": "Where is the toilet?"
+   },
+   {
+    "jp": "駅は どこですか",
+    "rd": "えき は どこ ですか",
+    "en": "Where is the station?"
+   },
+   {
+    "jp": "田中さんは どこですか",
+    "rd": "たなかさん は どこ ですか",
+    "en": "Where is Mr. Tanaka?"
+   }
+  ],
+  "casual": "トイレどこ? (drop は and です).",
+  "lvl": 1
+ },
+ {
+  "p": "[place] に [noun] が あります / います",
+  "ro": "[place] ni [noun] ga arimasu / imasu",
+  "m": "There is [noun] at [place]",
+  "how": "Use あります for things and plants, います for people and animals. Question: あります か / います か. Negative: ありません / いません.",
+  "ex": [
+   {
+    "jp": "机の 上に 本が あります",
+    "rd": "つくえ の うえ に ほん が あります",
+    "en": "There is a book on the desk."
+   },
+   {
+    "jp": "部屋に 猫が います",
+    "rd": "へや に ねこ が います",
+    "en": "There is a cat in the room."
+   },
+   {
+    "jp": "質問が あります",
+    "rd": "しつもん が あります",
+    "en": "I have a question."
+   }
+  ],
+  "casual": "あるよ / いるよ; ある? / いる? as questions.",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] が ほしい",
+  "ro": "[noun] ga hoshii",
+  "m": "I want [noun]",
+  "how": "Noun + が + ほしい (ほしいです for polite). It describes your own wants. For wanting to do something use [verb]-たい.",
+  "ex": [
+   {
+    "jp": "水が ほしいです",
+    "rd": "みず が ほしい です",
+    "en": "I want water."
+   },
+   {
+    "jp": "新しい 車が ほしい",
+    "rd": "あたらしい くるま が ほしい",
+    "en": "I want a new car."
+   },
+   {
+    "jp": "時間が ほしいです",
+    "rd": "じかん が ほしい です",
+    "en": "I want time."
+   }
+  ],
+  "casual": "ほしい is already casual; drop です.",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] を [verb]ます",
+  "ro": "[noun] o [verb]-masu",
+  "m": "Do [verb] to [noun]",
+  "how": "を marks what the action acts on. Polite verbs end in ます. Basic verbs: 食べます (eat), 飲みます (drink), 見ます (see/watch), 買います (buy).",
+  "ex": [
+   {
+    "jp": "ご飯を 食べます",
+    "rd": "ごはん を たべます",
+    "en": "I eat a meal."
+   },
+   {
+    "jp": "水を 飲みます",
+    "rd": "みず を のみます",
+    "en": "I drink water."
+   },
+   {
+    "jp": "映画を 見ます",
+    "rd": "えいが を みます",
+    "en": "I watch a movie."
+   }
+  ],
+  "casual": "Use the dictionary form: ご飯を 食べる。",
+  "lvl": 1
+ },
+ {
+  "p": "[place] に 行きます",
+  "ro": "[place] ni ikimasu",
+  "m": "Go to [place]",
+  "how": "Place + に (or へ) + 行きます. Replace 行きます with 来ます (come) or 帰ります (return). に marks the destination.",
+  "ex": [
+   {
+    "jp": "学校に 行きます",
+    "rd": "がっこう に いきます",
+    "en": "I go to school."
+   },
+   {
+    "jp": "明日 東京に 行きます",
+    "rd": "あした とうきょう に いきます",
+    "en": "I will go to Tokyo tomorrow."
+   },
+   {
+    "jp": "家に 帰ります",
+    "rd": "いえ に かえります",
+    "en": "I go home."
+   }
+  ],
+  "casual": "行く / 来る / 帰る (dictionary form).",
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-ません (negative)",
+  "ro": "[verb]-masen",
+  "m": "Don't / doesn't do",
+  "how": "Polite negative: change ます to ません. Casual negative is the ない form: 食べる → 食べない (see Casual).",
+  "ex": [
+   {
+    "jp": "肉を 食べません",
+    "rd": "にく を たべません",
+    "en": "I don't eat meat."
+   },
+   {
+    "jp": "お酒を 飲みません",
+    "rd": "おさけ を のみません",
+    "en": "I don't drink alcohol."
+   },
+   {
+    "jp": "今日は 行きません",
+    "rd": "きょう は いきません",
+    "en": "I'm not going today."
+   }
+  ],
+  "casual": "ない form: 食べない. For u-verbs, change the final u to a and add ない (飲む → 飲まない); る-verbs drop る (食べる → 食べない). する → しない, 来る → こない. Note: 買う → 買わない.",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] と [noun]",
+  "ro": "[noun] to [noun]",
+  "m": "[noun] and [noun] / with [person]",
+  "how": "と joins nouns ('and') or means 'with' for a person: 友達と 行きます. Use や for 'and things like', but と is the safest.",
+  "ex": [
+   {
+    "jp": "パンと 卵",
+    "rd": "パン と たまご",
+    "en": "bread and eggs"
+   },
+   {
+    "jp": "友達と 行きます",
+    "rd": "ともだち と いきます",
+    "en": "I go with a friend."
+   },
+   {
+    "jp": "猫と 犬が 好きです",
+    "rd": "ねこ と いぬ が すき です",
+    "en": "I like cats and dogs."
+   }
+  ],
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-たい",
+  "ro": "[verb]-tai",
+  "m": "I want to [verb]",
+  "how": "Take the ます-stem (the part before ます) and add たい: 食べます → 食べたい. 行きます → 行きたい. It conjugates like an い-adjective: 食べたくない (don't want to eat). Add です for polite.",
+  "ex": [
+   {
+    "jp": "日本に 行きたいです",
+    "rd": "にほん に いきたい です",
+    "en": "I want to go to Japan."
+   },
+   {
+    "jp": "ラーメンを 食べたい",
+    "rd": "ラーメン を たべたい",
+    "en": "I want to eat ramen."
+   },
+   {
+    "jp": "寝たいです",
+    "rd": "ねたい です",
+    "en": "I want to sleep."
+   }
+  ],
+  "casual": "Drop です: 食べたい! Best for yourself; for others use たがっている.",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-てください",
+  "ro": "[verb]-te kudasai",
+  "m": "Please do [verb]",
+  "how": "Change the verb to its て-form, then add ください. て-form: う/つ/る → って (買う → 買って); む/ぶ/ぬ → んで (飲む → 飲んで); く → いて (書く → 書いて, but 行く → 行って); す → して; る-verbs drop る and add て (食べる → 食べて); する → して; 来る → 来て.",
+  "ex": [
+   {
+    "jp": "ちょっと 待ってください",
+    "rd": "ちょっと まって ください",
+    "en": "Please wait a moment."
+   },
+   {
+    "jp": "見てください",
+    "rd": "みて ください",
+    "en": "Please look."
+   },
+   {
+    "jp": "名前を 書いてください",
+    "rd": "なまえ を かいて ください",
+    "en": "Please write your name."
+   }
+  ],
+  "casual": "Drop ください: 待って! (friendly request).",
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-ましょう",
+  "ro": "[verb]-mashō",
+  "m": "Let's [verb]",
+  "how": "Change ます to ましょう: 食べます → 食べましょう. It suggests doing something together. Casual: volitional form (see [verb]-よう).",
+  "ex": [
+   {
+    "jp": "食べましょう",
+    "rd": "たべましょう",
+    "en": "Let's eat."
+   },
+   {
+    "jp": "行きましょう",
+    "rd": "いきましょう",
+    "en": "Let's go."
+   },
+   {
+    "jp": "一緒に 帰りましょう",
+    "rd": "いっしょ に かえりましょう",
+    "en": "Let's go home together."
+   }
+  ],
+  "casual": "食べよう / 行こう (casual).",
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-てもいいですか",
+  "ro": "[verb]-te mo ii desu ka",
+  "m": "May I [verb]?",
+  "how": "て-form + もいいですか. Asking permission. To give permission say いいですよ; to refuse say すみません、ちょっと…. て-form rules: see [verb]-てください.",
+  "ex": [
+   {
+    "jp": "入ってもいいですか",
+    "rd": "はいって も いい ですか",
+    "en": "May I come in?"
+   },
+   {
+    "jp": "写真を 撮ってもいいですか",
+    "rd": "しゃしん を とって も いい ですか",
+    "en": "May I take a photo?"
+   },
+   {
+    "jp": "ここに 座ってもいいですか",
+    "rd": "ここ に すわって も いい ですか",
+    "en": "May I sit here?"
+   }
+  ],
+  "casual": "入ってもいい? / いい?",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-ないでください",
+  "ro": "[verb]-naide kudasai",
+  "m": "Please don't [verb]",
+  "how": "Change the verb to the ない form (see [verb]-ません), then add でください: 触る → 触らないで ください. する → しないで.",
+  "ex": [
+   {
+    "jp": "触らないでください",
+    "rd": "さわらないで ください",
+    "en": "Please don't touch."
+   },
+   {
+    "jp": "心配しないでください",
+    "rd": "しんぱい しないで ください",
+    "en": "Please don't worry."
+   },
+   {
+    "jp": "忘れないでください",
+    "rd": "わすれないで ください",
+    "en": "Please don't forget."
+   }
+  ],
+  "casual": "Drop ください: 心配しないで。",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-ている",
+  "ro": "[verb]-te iru",
+  "m": "Is doing / has done [verb]",
+  "how": "て-form + いる (います in polite). It shows an action in progress (食べている = is eating) or a continuing state (住んでいる = lives; 結婚している = is married).",
+  "ex": [
+   {
+    "jp": "今 ご飯を 食べています",
+    "rd": "いま ごはん を たべて います",
+    "en": "I'm eating a meal now."
+   },
+   {
+    "jp": "東京に 住んでいます",
+    "rd": "とうきょう に すんで います",
+    "en": "I live in Tokyo."
+   },
+   {
+    "jp": "日本語を 勉強しています",
+    "rd": "にほんご を べんきょう して います",
+    "en": "I'm studying Japanese."
+   }
+  ],
+  "casual": "In speech, い often drops: 食べてる, 勉強してる。",
+  "lvl": 2
+ },
+ {
+  "p": "[place/time] から [place/time] まで",
+  "ro": "[A] kara [B] made",
+  "m": "From A to B",
+  "how": "から means 'from', まで means 'until/up to'. Works for places and times. Add に (to) or で (by) for means.",
+  "ex": [
+   {
+    "jp": "九時から 五時まで",
+    "rd": "くじ から ごじ まで",
+    "en": "from nine to five"
+   },
+   {
+    "jp": "東京から 大阪まで",
+    "rd": "とうきょう から おおさか まで",
+    "en": "from Tokyo to Osaka"
+   },
+   {
+    "jp": "月曜日から 金曜日まで 働きます",
+    "rd": "げつようび から きんようび まで はたらきます",
+    "en": "I work from Monday to Friday."
+   }
+  ],
+  "lvl": 2
+ },
+ {
+  "p": "[clause] から、[clause]",
+  "ro": "[clause] kara, [clause]",
+  "m": "Because [reason], [result]",
+  "how": "Put the reason first, then から, then the result. Polite sentences use ですから; casual use だから. Use から alone as an answer to どうして.",
+  "ex": [
+   {
+    "jp": "疲れましたから、寝ます",
+    "rd": "つかれました から、ねます",
+    "en": "I'm tired, so I'll sleep."
+   },
+   {
+    "jp": "雨だから、行かない",
+    "rd": "あめ だ から、いかない",
+    "en": "It's raining, so I won't go."
+   },
+   {
+    "jp": "安いから、買いました",
+    "rd": "やすい から、かいました",
+    "en": "It was cheap, so I bought it."
+   }
+  ],
+  "casual": "だから. Often used alone: 安いから (because it's cheap).",
+  "lvl": 2
+ },
+ {
+  "p": "[place] で [verb]",
+  "ro": "[place] de [verb]",
+  "m": "Do [verb] at [place] / by [means]",
+  "how": "で marks where an action happens or the means used. Contrast に, which marks existence or destination.",
+  "ex": [
+   {
+    "jp": "駅で 会いましょう",
+    "rd": "えき で あいましょう",
+    "en": "Let's meet at the station."
+   },
+   {
+    "jp": "バスで 行きます",
+    "rd": "バス で いきます",
+    "en": "I go by bus."
+   },
+   {
+    "jp": "箸で 食べます",
+    "rd": "はし で たべます",
+    "en": "I eat with chopsticks."
+   }
+  ],
+  "lvl": 2
+ },
+ {
+  "p": "[clause] でしょう?",
+  "ro": "[clause] deshō?",
+  "m": "Right? / Probably",
+  "how": "Add でしょう after a noun, adjective or verb to express a guess or to ask for agreement. With rising pitch it means 'right?'. Casual: だろう (guess) or でしょ?.",
+  "ex": [
+   {
+    "jp": "明日は 雨でしょう",
+    "rd": "あした は あめ でしょう",
+    "en": "It will probably rain tomorrow."
+   },
+   {
+    "jp": "これ、おいしいでしょう?",
+    "rd": "これ、おいしい でしょう",
+    "en": "This is tasty, isn't it?"
+   },
+   {
+    "jp": "難しいでしょう?",
+    "rd": "むずかしい でしょう",
+    "en": "It's hard, right?"
+   }
+  ],
+  "casual": "でしょ? or だよね?",
+  "lvl": 2
+ },
+ {
+  "p": "[noun] って何?",
+  "ro": "[noun] tte nani?",
+  "m": "What is [noun]?",
+  "how": "って marks the topic of a casual question. Use it to ask about a word you heard: 「〜」って 何? Polite: 〜は 何ですか.",
+  "ex": [
+   {
+    "jp": "「ツンデレ」って 何?",
+    "rd": "ツンデレ って なに",
+    "en": "What is 'tsundere'?"
+   },
+   {
+    "jp": "「大丈夫」って 何ですか",
+    "rd": "だいじょうぶ って なん ですか",
+    "en": "What does 'daijōbu' mean?"
+   },
+   {
+    "jp": "これって 何?",
+    "rd": "これ って なに",
+    "en": "What is this?"
+   }
+  ],
+  "casual": "That is the casual form. Polite: 〜は 何ですか.",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-た / -ました (past)",
+  "ro": "[verb]-ta / -mashita",
+  "m": "Did [verb]",
+  "how": "Polite past: ます → ました. Casual past: use the た-form, built like the て-form but with た (食べて → 食べた, 飲んで → 飲んだ, 行って → 行った, 書いて → 書いた, して → した).",
+  "ex": [
+   {
+    "jp": "昨日 寿司を 食べた",
+    "rd": "きのう すし を たべた",
+    "en": "I ate sushi yesterday."
+   },
+   {
+    "jp": "日本に 行きました",
+    "rd": "にほん に いきました",
+    "en": "I went to Japan."
+   },
+   {
+    "jp": "宿題を しました",
+    "rd": "しゅくだい を しました",
+    "en": "I did my homework."
+   }
+  ],
+  "casual": "た-form is already casual.",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-たことがある",
+  "ro": "[verb]-ta koto ga aru",
+  "m": "Have done [verb] before",
+  "how": "た-form + ことがある (あります for polite). It states experience. Negative: ことがない (ありません).",
+  "ex": [
+   {
+    "jp": "日本に 行ったことが あります",
+    "rd": "にほん に いった こと が あります",
+    "en": "I have been to Japan."
+   },
+   {
+    "jp": "寿司を 食べたことが ある",
+    "rd": "すし を たべた こと が ある",
+    "en": "I have eaten sushi."
+   },
+   {
+    "jp": "アニメを 見たことが ありません",
+    "rd": "アニメ を みた こと が ありません",
+    "en": "I have never watched anime."
+   }
+  ],
+  "casual": "行ったことある? (drop が).",
+  "lvl": 3
+ },
+ {
+  "p": "[noun A] より [noun B] のほうが [adj]",
+  "ro": "[A] yori [B] no hō ga [adj]",
+  "m": "B is more [adj] than A",
+  "how": "Say the thing compared in より, then the winner with のほうが and an adjective. Question: AとBと どちらが 〜ですか.",
+  "ex": [
+   {
+    "jp": "犬より 猫のほうが 好きです",
+    "rd": "いぬ より ねこ の ほう が すき です",
+    "en": "I like cats more than dogs."
+   },
+   {
+    "jp": "電車より バスのほうが 安いです",
+    "rd": "でんしゃ より バス の ほう が やすい です",
+    "en": "The bus is cheaper than the train."
+   },
+   {
+    "jp": "夏より 冬のほうが 好き",
+    "rd": "なつ より ふゆ の ほう が すき",
+    "en": "I like winter more than summer."
+   }
+  ],
+  "casual": "Same, drop です.",
+  "lvl": 3
+ },
+ {
+  "p": "[clause] と思う",
+  "ro": "[clause] to omou",
+  "m": "I think that ...",
+  "how": "Put a plain-form sentence before と思う (思います for polite). Plain form: 雨だ, 高い, 行く, 行かない. Use だと after nouns and な-adjectives.",
+  "ex": [
+   {
+    "jp": "明日は 雨だと 思います",
+    "rd": "あした は あめ だ と おもいます",
+    "en": "I think it will rain tomorrow."
+   },
+   {
+    "jp": "日本語は 面白いと 思います",
+    "rd": "にほんご は おもしろい と おもいます",
+    "en": "I think Japanese is interesting."
+   },
+   {
+    "jp": "彼は 来ないと 思う",
+    "rd": "かれ は こない と おもう",
+    "en": "I don't think he will come."
+   }
+  ],
+  "casual": "思う or と思うんだ。",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-なければならない",
+  "ro": "[verb]-nakereba naranai",
+  "m": "Must / have to [verb]",
+  "how": "Take the ない form, drop the final い, add ければならない: 行かない → 行かなければならない. Polite: ならない → なりません. Casual: ないと or なきゃ.",
+  "ex": [
+   {
+    "jp": "勉強しなければなりません",
+    "rd": "べんきょう しなければ なりません",
+    "en": "I have to study."
+   },
+   {
+    "jp": "早く 寝なければならない",
+    "rd": "はやく ねなければ ならない",
+    "en": "I have to sleep early."
+   },
+   {
+    "jp": "行かなければならない",
+    "rd": "いかなければ ならない",
+    "en": "I have to go."
+   }
+  ],
+  "casual": "行かなきゃ / 行かないと (casual, 'gotta go').",
+  "lvl": 3
+ },
+ {
+  "p": "[clause] かもしれない",
+  "ro": "[clause] kamoshirenai",
+  "m": "Might / maybe",
+  "how": "Plain form before かもしれない (かもしれません in polite). After nouns and な-adjectives, don't add だ: 雨かもしれない.",
+  "ex": [
+   {
+    "jp": "雨が 降るかもしれない",
+    "rd": "あめ が ふる かも しれない",
+    "en": "It might rain."
+   },
+   {
+    "jp": "彼は 来ないかもしれません",
+    "rd": "かれ は こない かも しれません",
+    "en": "He might not come."
+   },
+   {
+    "jp": "これは 高いかもしれません",
+    "rd": "これ は たかい かも しれません",
+    "en": "This might be expensive."
+   }
+  ],
+  "casual": "かも (very casual).",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-ても",
+  "ro": "[verb]-te mo",
+  "m": "Even if / even though",
+  "how": "て-form + も for 'even if'. い-adjectives: 高い → 高くても. Nouns and な-adjectives: 〜でも.",
+  "ex": [
+   {
+    "jp": "雨が 降っても 行きます",
+    "rd": "あめ が ふって も いきます",
+    "en": "I'll go even if it rains."
+   },
+   {
+    "jp": "高くても 買う",
+    "rd": "たかくて も かう",
+    "en": "I'll buy it even if it is expensive."
+   },
+   {
+    "jp": "忙しくても 来て",
+    "rd": "いそがしくて も きて",
+    "en": "Come even if you're busy."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-たら",
+  "ro": "[verb]-tara",
+  "m": "If / when [verb]",
+  "how": "Take the た-form and add ら: 行く → 行ったら, 食べる → 食べたら. For い-adjectives: 安い → 安かったら. Use it for conditions and for 'after doing'.",
+  "ex": [
+   {
+    "jp": "安かったら 買います",
+    "rd": "やすかったら かいます",
+    "en": "If it's cheap, I'll buy it."
+   },
+   {
+    "jp": "雨が 降ったら 行きません",
+    "rd": "あめ が ふったら いきません",
+    "en": "If it rains I won't go."
+   },
+   {
+    "jp": "日本に 行ったら、寿司を 食べたい",
+    "rd": "にほん に いったら、すし を たべたい",
+    "en": "When I go to Japan, I want to eat sushi."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[noun] の ために",
+  "ro": "[noun] no tame ni",
+  "m": "For [noun] / in order to",
+  "how": "Noun + のため(に) means 'for the sake of'. With a verb dictionary form + ために: 勉強するために (in order to study).",
+  "ex": [
+   {
+    "jp": "健康のために 運動します",
+    "rd": "けんこう の ために うんどう します",
+    "en": "I exercise for my health."
+   },
+   {
+    "jp": "家族のために 働く",
+    "rd": "かぞく の ために はたらく",
+    "en": "I work for my family."
+   },
+   {
+    "jp": "日本語を 勉強するために、日本に 来ました",
+    "rd": "にほんご を べんきょう する ために、にほん に きました",
+    "en": "I came to Japan in order to study Japanese."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[noun] みたい",
+  "ro": "[noun] mitai",
+  "m": "Like [noun] / seems like",
+  "how": "Noun or plain-form clause + みたい (みたいです for polite). It means 'looks like' or 'seems like'. As an adjective: 夢みたいな 話 (a dream-like story).",
+  "ex": [
+   {
+    "jp": "夢みたい",
+    "rd": "ゆめ みたい",
+    "en": "It's like a dream."
+   },
+   {
+    "jp": "子供みたいですね",
+    "rd": "こども みたい ですね",
+    "en": "You're like a child."
+   },
+   {
+    "jp": "雨が 降っているみたい",
+    "rd": "あめ が ふっている みたい",
+    "en": "It looks like it's raining."
+   }
+  ],
+  "casual": "Already casual.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-ちゃった",
+  "ro": "[verb]-chatta",
+  "m": "I ended up doing [verb] (oops)",
+  "how": "Casual contraction of て-form + しまった. て → ちゃった (食べて → 食べちゃった); で → じゃった (飲んで → 飲んじゃった). Expresses regret, surprise or completion.",
+  "ex": [
+   {
+    "jp": "全部 食べちゃった",
+    "rd": "ぜんぶ たべちゃった",
+    "en": "I ate it all (oops)."
+   },
+   {
+    "jp": "忘れちゃった",
+    "rd": "わすれちゃった",
+    "en": "I forgot (oops)."
+   },
+   {
+    "jp": "寝坊しちゃった",
+    "rd": "ねぼう しちゃった",
+    "en": "I overslept (oops)."
+   }
+  ],
+  "casual": "That is the casual form of [verb]-てしまう.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-てしまう",
+  "ro": "[verb]-te shimau",
+  "m": "Do completely / end up doing",
+  "how": "て-form + しまう (しまいました polite, しまった casual past). Means 'finish doing completely' or 'regretfully do'.",
+  "ex": [
+   {
+    "jp": "財布を 忘れてしまいました",
+    "rd": "さいふ を わすれて しまいました",
+    "en": "I ended up forgetting my wallet."
+   },
+   {
+    "jp": "全部 食べてしまった",
+    "rd": "ぜんぶ たべて しまった",
+    "en": "I finished eating everything."
+   },
+   {
+    "jp": "電車に 乗り遅れてしまった",
+    "rd": "でんしゃ に のりおくれて しまった",
+    "en": "I missed my train."
+   }
+  ],
+  "casual": "-ちゃった / -じゃった.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-よう (let's / I'll)",
+  "ro": "[verb]-yō",
+  "m": "Let's [verb] / I'll [verb]",
+  "how": "The casual volitional form. る-verbs drop る and add よう (食べる → 食べよう); u-verbs change the final u to o and add う (行く → 行こう, 飲む → 飲もう); する → しよう, 来る → 来よう. Polite: ましょう.",
+  "ex": [
+   {
+    "jp": "食べよう",
+    "rd": "たべよう",
+    "en": "Let's eat."
+   },
+   {
+    "jp": "行こう",
+    "rd": "いこう",
+    "en": "Let's go."
+   },
+   {
+    "jp": "帰ろう",
+    "rd": "かえろう",
+    "en": "Let's go home."
+   }
+  ],
+  "casual": "That is the casual form. Polite is ましょう.",
+  "lvl": 2
+ },
+ {
+  "p": "[clause] んじゃない?",
+  "ro": "[clause] n janai?",
+  "m": "Isn't it ...? / Maybe ...",
+  "how": "Plain form + んじゃない? gives a soft suggestion or guess. Casual. Polite: んじゃないですか.",
+  "ex": [
+   {
+    "jp": "それ、いいんじゃない?",
+    "rd": "それ、いい んじゃ ない",
+    "en": "Isn't that good? / That seems fine."
+   },
+   {
+    "jp": "彼は もう 帰ったんじゃない?",
+    "rd": "かれ は もう かえった んじゃ ない",
+    "en": "He may have gone home already."
+   },
+   {
+    "jp": "疲れてるんじゃない?",
+    "rd": "つかれてる んじゃ ない",
+    "en": "You're tired, aren't you?"
+   }
+  ],
+  "casual": "Already casual.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-てから",
+  "ro": "[verb]-te kara",
+  "m": "After doing [verb]",
+  "how": "て-form + から means 'after doing', then the next action follows.",
+  "ex": [
+   {
+    "jp": "ご飯を 食べてから 行きます",
+    "rd": "ごはん を たべて から いきます",
+    "en": "I'll go after eating."
+   },
+   {
+    "jp": "顔を 洗ってから 寝る",
+    "rd": "かお を あらって から ねる",
+    "en": "I wash my face before sleeping."
+   },
+   {
+    "jp": "宿題を してから 遊ぼう",
+    "rd": "しゅくだい を して から あそぼう",
+    "en": "Let's play after doing homework."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[verb dictionary form] ことができる",
+  "ro": "[verb] koto ga dekiru",
+  "m": "Can [verb]",
+  "how": "Dictionary form + ことが できる (できます polite). Means 'be able to'. Easier alternative for many verbs: [verb]-られる.",
+  "ex": [
+   {
+    "jp": "日本語を 話すことが できます",
+    "rd": "にほんご を はなす こと が できます",
+    "en": "I can speak Japanese."
+   },
+   {
+    "jp": "泳ぐことが できる",
+    "rd": "およぐ こと が できる",
+    "en": "I can swim."
+   },
+   {
+    "jp": "ピアノを 弾くことが できます",
+    "rd": "ピアノ を ひく こと が できます",
+    "en": "I can play the piano."
+   }
+  ],
+  "casual": "話せる / 泳げる (potential forms).",
+  "lvl": 3
+ }
+]

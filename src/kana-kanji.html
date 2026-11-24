@@ -1,0 +1,458 @@
+<title>Kana &amp; Kanji Dojo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/*@CORE_CSS*/
+.modes{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--surface)}
+.modes button{border:none;background:transparent;padding:7px 14px;cursor:pointer;color:var(--ink-2);font-weight:500}
+.modes button+button{border-left:1px solid var(--line)}
+.modes button.on{background:var(--ink);color:var(--paper)}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:18px;align-items:start}
+@media (max-width:820px){.layout{grid-template-columns:minmax(0,1fr)}}
+.side{display:flex;flex-direction:column;gap:14px}
+.side .panel{display:flex;flex-direction:column;gap:10px}
+.qcard{display:flex;flex-direction:column;align-items:center;gap:16px}
+.qcard .sq{width:min(200px,52vw);aspect-ratio:1;max-width:100%}
+.qcard .glyph{font-size:min(120px,30vw)}
+.qcard .glyph.romaji{font-family:var(--f-mono);font-weight:500;font-size:min(64px,16vw)}
+.answer{display:flex;gap:8px;width:min(360px,100%)}
+.answer input{flex:1;font-family:var(--f-mono);font-size:20px;text-align:center;padding:10px}
+.answer input.ok{border-color:var(--matcha);background:var(--matcha-soft)}
+.answer input.bad{border-color:var(--shu);background:var(--shu-soft)}
+.opts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;width:min(380px,100%)}
+.opt{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:12px;cursor:pointer;font-size:26px;font-family:var(--f-glyph);font-weight:600}
+.opt.r{font-family:var(--f-mono);font-size:20px;font-weight:500}
+.opt:hover{border-color:var(--ink-3)}
+.opt.ok{border-color:var(--matcha);background:var(--matcha-soft);color:var(--matcha)}
+.opt.bad{border-color:var(--shu);background:var(--shu-soft);color:var(--shu)}
+.feedback{min-height:26px;font-size:15px;text-align:center}
+.feedback.bad{color:var(--shu)} .feedback.ok{color:var(--matcha)}
+.statrow{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;width:100%;max-width:520px}
+.stat{text-align:center}
+.stat b{display:block;font-size:20px;font-variant-numeric:tabular-nums}
+.stat span{font-size:11.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.07em}
+.weak{display:flex;flex-wrap:wrap;gap:6px}
+.weak span{font-family:var(--f-glyph);font-size:20px;font-weight:600;border:1px solid var(--shu);color:var(--shu);border-radius:6px;padding:0 7px}
+.grpname{font-size:12.5px;color:var(--ink-2);font-weight:500;margin-top:2px}
+/* chart */
+.chart-sec{margin-bottom:22px}
+.chart-sec h3{font-size:14px;margin-bottom:8px;color:var(--ink-2);font-weight:500}
+.kgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;max-width:520px}
+.kgrid.c3{grid-template-columns:repeat(3,minmax(0,1fr));max-width:330px}
+.kcell{border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:6px 2px 4px;text-align:center;cursor:pointer;position:relative}
+.kcell:hover{border-color:var(--ai)}
+.kcell .g{font-family:var(--f-glyph);font-size:30px;font-weight:600;line-height:1.15;display:block}
+.kcell .ro{font-family:var(--f-mono);font-size:12px;color:var(--ink-2)}
+.kcell .bar{position:absolute;left:6px;right:6px;bottom:2px;height:3px;border-radius:2px;background:var(--grid)}
+.kcell .bar i{display:block;height:100%;border-radius:2px}
+.kcell.blank{visibility:hidden}
+/* words */
+.wcard{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.wcard .big{font-family:var(--f-glyph);font-weight:600;font-size:min(64px,13vw);line-height:1.2;word-break:break-all}
+/* kanji */
+.kq .sq{width:min(220px,56vw);aspect-ratio:1}
+.kq .glyph{font-size:min(140px,34vw)}
+.kinfo{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;width:100%;max-width:560px;text-align:left}
+.kmean{font-size:22px;font-weight:700;text-align:center}
+.reads{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;font-size:15px}
+.reads dt{color:var(--ink-3);font-size:12px;text-transform:uppercase;letter-spacing:.07em;padding-top:3px}
+.reads dd{margin:0}
+.kwords{display:flex;flex-direction:column;gap:6px}
+.kword{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.kword .w{font-size:20px}
+.hint{font-size:14px;color:var(--ink-2);background:var(--paper);border-radius:8px;padding:8px 12px}
+.ktiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px}
+.ktile{border:1px solid var(--line);background:var(--surface);border-radius:8px;cursor:pointer;padding:4px 2px;text-align:center;border-bottom-width:3px}
+.ktile .g{font-family:var(--f-glyph);font-size:30px;font-weight:600;display:block;line-height:1.2}
+.ktile .m{font-size:10.5px;color:var(--ink-2);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 3px}
+.ktile.st-learning{border-bottom-color:var(--yamabuki)} .ktile.st-young{border-bottom-color:var(--matcha)} .ktile.st-known{border-bottom-color:var(--matcha);background:var(--matcha-soft)}
+.ktile:hover{border-color:var(--ai)}
+.detail{margin-bottom:16px}
+.counts{font-size:13.5px;color:var(--ink-2)}
+.counts b{color:var(--ink);font-variant-numeric:tabular-nums}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="seal" aria-hidden="true">字</div>
+    <div class="brand"><h1>Kana &amp; Kanji Dojo</h1><span class="sub">Drill the two syllabaries until they're instant, then start on kanji.</span></div>
+    <div class="sync"><i></i><span>Loading progress…</span></div>
+    <nav class="suite" id="suite"></nav>
+  </header>
+
+  <nav class="tabs">
+    <a href="#hiragana">Hiragana<span class="jp">ひらがな</span></a>
+    <a href="#katakana">Katakana<span class="jp">カタカナ</span></a>
+    <a href="#kanji">Kanji<span class="jp">漢字</span></a>
+  </nav>
+
+  <!-- KANA -->
+  <section id="view-kana">
+    <div class="row" style="margin-bottom:16px">
+      <div class="modes" id="kanaModes">
+        <button data-m="quiz" class="on">Quiz</button><button data-m="chart">Chart</button><button data-m="words">Read words</button>
+      </div>
+      <span class="spacer"></span>
+      <span class="faint" style="font-size:13px" id="kanaHint">Type the romaji and press Enter</span>
+    </div>
+
+    <div id="kana-quiz" class="layout">
+      <div class="stage">
+        <div class="qcard" id="qcard"></div>
+      </div>
+      <aside class="side">
+        <div class="panel">
+          <span class="label">Question type</span>
+          <select id="qtype" aria-label="Question type">
+            <option value="type">See kana → type romaji</option>
+            <option value="pickr">See kana → pick romaji</option>
+            <option value="pickk">See romaji → pick kana</option>
+          </select>
+        </div>
+        <div class="panel">
+          <div class="row"><span class="label">Characters</span><span class="spacer"></span><button class="btn small ghost" id="allRows" type="button">All</button><button class="btn small ghost" id="basicRows" type="button">Basic</button></div>
+          <div id="rowChips"></div>
+        </div>
+        <div class="panel">
+          <span class="label">Needs work</span>
+          <div class="weak" id="weak"><span class="faint" style="border:none;font-family:var(--f-body);font-size:13px;color:var(--ink-3);padding:0">Characters you miss show up here.</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <div id="kana-chart" hidden>
+      <p class="muted" style="margin:0 0 14px">Tap a character to hear it. The bar under each one shows your quiz accuracy.</p>
+      <div id="chart"></div>
+    </div>
+
+    <div id="kana-words" hidden>
+      <div class="stage"><div class="wcard" id="wcard"></div></div>
+    </div>
+  </section>
+
+  <!-- KANJI -->
+  <section id="view-kanji" hidden>
+    <div class="row" style="margin-bottom:12px">
+      <div class="modes" id="kanjiModes">
+        <button data-m="study" class="on">Flashcards</button><button data-m="quiz">Quiz</button><button data-m="browse">Browse</button>
+      </div>
+      <span class="spacer"></span>
+      <label class="row" style="gap:6px;font-size:13px" for="kNew"><span class="muted">New per day</span>
+        <select id="kNew"><option>5</option><option selected>10</option><option>15</option><option>20</option></select></label>
+    </div>
+    <div class="row" style="margin-bottom:16px"><span class="label">Levels</span><div class="chips" id="lvChips"></div></div>
+
+    <div id="kanji-study">
+      <div class="row counts" id="kCounts" style="margin-bottom:10px"></div>
+      <div class="stage"><div class="qcard kq" id="kcard"></div></div>
+    </div>
+    <div id="kanji-quiz" hidden>
+      <div class="row" style="margin-bottom:10px"><select id="kqType" aria-label="Kanji quiz type"><option value="mean">Kanji → meaning</option><option value="read">Word → reading</option><option value="word">Word → meaning</option></select><span class="spacer"></span><span class="counts" id="kqScore"></span></div>
+      <div class="stage"><div class="qcard kq" id="kqcard"></div></div>
+    </div>
+    <div id="kanji-browse" hidden>
+      <div id="kdetail"></div>
+      <div class="ktiles" id="ktiles"></div>
+    </div>
+  </section>
+</div>
+
+<script>
+/*@CORE_JS*/
+const KANJI = /*@DATA:kanji*/[];
+/*@SUITE*/
+
+/* ================= KANA DATA ================= */
+const h2k = s => s.replace(/[ぁ-ゖ]/g, c => String.fromCharCode(c.charCodeAt(0) + 0x60));
+const R = (k, r) => k.map((c, i) => c ? [c, r[i]] : null);
+const GROUPS = [
+  { id: "a", name: "a i u e o", set: "basic", cells: R(["あ","い","う","え","お"], ["a","i","u","e","o"]) },
+  { id: "k", name: "k", set: "basic", cells: R(["か","き","く","け","こ"], ["ka","ki","ku","ke","ko"]) },
+  { id: "s", name: "s", set: "basic", cells: R(["さ","し","す","せ","そ"], ["sa","shi","su","se","so"]) },
+  { id: "t", name: "t", set: "basic", cells: R(["た","ち","つ","て","と"], ["ta","chi","tsu","te","to"]) },
+  { id: "n", name: "n", set: "basic", cells: R(["な","に","ぬ","ね","の"], ["na","ni","nu","ne","no"]) },
+  { id: "h", name: "h", set: "basic", cells: R(["は","ひ","ふ","へ","ほ"], ["ha","hi","fu","he","ho"]) },
+  { id: "m", name: "m", set: "basic", cells: R(["ま","み","む","め","も"], ["ma","mi","mu","me","mo"]) },
+  { id: "y", name: "y", set: "basic", cells: R(["や",null,"ゆ",null,"よ"], ["ya",null,"yu",null,"yo"]) },
+  { id: "r", name: "r", set: "basic", cells: R(["ら","り","る","れ","ろ"], ["ra","ri","ru","re","ro"]) },
+  { id: "w", name: "w · n", set: "basic", cells: R(["わ",null,"を",null,"ん"], ["wa",null,"wo",null,"n"]) },
+  { id: "g", name: "g", set: "dakuten", cells: R(["が","ぎ","ぐ","げ","ご"], ["ga","gi","gu","ge","go"]) },
+  { id: "z", name: "z", set: "dakuten", cells: R(["ざ","じ","ず","ぜ","ぞ"], ["za","ji","zu","ze","zo"]) },
+  { id: "d", name: "d", set: "dakuten", cells: R(["だ","ぢ","づ","で","ど"], ["da","ji","zu","de","do"]) },
+  { id: "b", name: "b", set: "dakuten", cells: R(["ば","び","ぶ","べ","ぼ"], ["ba","bi","bu","be","bo"]) },
+  { id: "p", name: "p", set: "dakuten", cells: R(["ぱ","ぴ","ぷ","ぺ","ぽ"], ["pa","pi","pu","pe","po"]) },
+  ...[["き","k"],["し","sh"],["ち","ch"],["に","n"],["ひ","h"],["み","m"],["り","r"],["ぎ","g"],["じ","j"],["び","b"],["ぴ","p"]].map(([b, c]) => {
+    const y = c === "sh" || c === "ch" || c === "j";
+    return { id: "y" + b, name: c + (y ? "" : "y") + "a", set: "combo", cols: 3,
+      cells: R([b + "ゃ", b + "ゅ", b + "ょ"], y ? [c + "a", c + "u", c + "o"] : [c + "ya", c + "yu", c + "yo"]) };
+  }),
+  { id: "x1", name: "f · v", set: "extended", kataOnly: true, cols: 3, cells: [["ファ","fa"],["フィ","fi"],["フェ","fe"],["フォ","fo"],["ヴァ","va"],["ヴ","vu"]] },
+  { id: "x2", name: "t · d · w", set: "extended", kataOnly: true, cols: 3, cells: [["ティ","ti"],["ディ","di"],["トゥ","tu"],["ウィ","wi"],["ウェ","we"],["ウォ","wo"]] },
+  { id: "x3", name: "she · je · che", set: "extended", kataOnly: true, cols: 3, cells: [["シェ","she"],["ジェ","je"],["チェ","che"],["ツァ","tsa"],["デュ","dyu"],["ヴィ","vi"]] },
+];
+const SETS = { basic: "Basic", dakuten: "Dakuten ゛゜", combo: "Combinations ゃゅょ", extended: "Extended (katakana)" };
+const WORDS = {
+  hiragana: [["さくら","sakura","cherry blossom"],["ねこ","neko","cat"],["いぬ","inu","dog"],["すし","sushi","sushi"],["ありがとう","arigatō","thank you"],["おはよう","ohayō","good morning"],["こんにちは","konnichiwa","hello"],["さようなら","sayōnara","goodbye"],["ともだち","tomodachi","friend"],["やま","yama","mountain"],["うみ","umi","sea"],["そら","sora","sky"],["みず","mizu","water"],["おかね","okane","money"],["でんしゃ","densha","train"],["きっぷ","kippu","ticket"],["がっこう","gakkō","school"],["しゃしん","shashin","photo"],["りょこう","ryokō","trip"],["にほん","nihon","Japan"],["すき","suki","like, love"],["かわいい","kawaii","cute"],["おいしい","oishii","delicious"],["だいじょうぶ","daijōbu","okay, all right"],["ちょっと","chotto","a little; hey"],["ほんとう","hontō","truth, really"],["ゆめ","yume","dream"],["こころ","kokoro","heart, mind"],["ひと","hito","person"],["なまえ","namae","name"],["おちゃ","ocha","tea"],["ごはん","gohan","rice, meal"],["きょう","kyō","today"],["あした","ashita","tomorrow"],["ぎゅうにゅう","gyūnyū","milk"],["びょういん","byōin","hospital"],["ちいさい","chiisai","small"],["おおきい","ōkii","big"],["まって","matte","wait!"],["はやく","hayaku","quickly, hurry"],["けっこん","kekkon","marriage"],["じゃあね","jā ne","see ya"],["いただきます","itadakimasu","(said before eating)"],["ごめんなさい","gomen nasai","I'm sorry"],["おやすみ","oyasumi","good night"],["がんばって","ganbatte","do your best!"],["すごい","sugoi","amazing"],["わたし","watashi","I, me"]],
+  katakana: [["コーヒー","kōhī","coffee"],["テレビ","terebi","TV"],["パン","pan","bread"],["アニメ","anime","anime"],["ゲーム","gēmu","game"],["カメラ","kamera","camera"],["ホテル","hoteru","hotel"],["タクシー","takushī","taxi"],["バス","basu","bus"],["アイス","aisu","ice cream"],["ケーキ","kēki","cake"],["ピザ","piza","pizza"],["ハンバーガー","hanbāgā","hamburger"],["コンビニ","konbini","convenience store"],["スマホ","sumaho","smartphone"],["パソコン","pasokon","computer"],["メール","mēru","email"],["ノート","nōto","notebook"],["トイレ","toire","toilet"],["エレベーター","erebētā","elevator"],["レストラン","resutoran","restaurant"],["メニュー","menyū","menu"],["ジュース","jūsu","juice"],["ビール","bīru","beer"],["チーズ","chīzu","cheese"],["サッカー","sakkā","soccer"],["ギター","gitā","guitar"],["ピアノ","piano","piano"],["シャツ","shatsu","shirt"],["アメリカ","amerika","America"],["イギリス","igirisu","the UK"],["インド","indo","India"],["フランス","furansu","France"],["ドイツ","doitsu","Germany"],["ロボット","robotto","robot"],["チョコレート","chokorēto","chocolate"],["パーティー","pātī","party"],["フォーク","fōku","fork"],["ウェブサイト","webusaito","website"],["ヒーロー","hīrō","hero"],["ラーメン","rāmen","ramen"],["キャラクター","kyarakutā","character"],["ニュース","nyūsu","news"],["スーパー","sūpā","supermarket"],["ティッシュ","tisshu","tissue"],["ヴァイオリン","vaiorin","violin"]]
+};
+
+/* ================= KANA STATE ================= */
+const kanaStore = makeStore("kana", () => { renderWeak(); if (kanaMode === "chart") renderChart(); });
+const KS = () => (kanaStore.data.st ||= {});
+let script = "hiragana", kanaMode = "quiz";
+const conv = c => script === "katakana" ? h2k(c) : c;
+function cfg() { const c = (kanaStore.data.cfg ||= {}); c.rows ||= { hiragana: GROUPS.filter(g => g.set === "basic").map(g => g.id), katakana: GROUPS.filter(g => g.set === "basic").map(g => g.id) }; c.qtype ||= "type"; return c; }
+function groupsFor() { return GROUPS.filter(g => script === "katakana" || !g.kataOnly); }
+function pool() {
+  const on = new Set(cfg().rows[script]);
+  return groupsFor().filter(g => on.has(g.id)).flatMap(g => g.cells.filter(Boolean).map(([k, r]) => ({ k: g.kataOnly ? k : conv(k), r })));
+}
+const norm = s => s.toLowerCase().trim().replace(/\s+/g, "").replace(/nn$/, "n").replace(/si/g, "shi").replace(/sy/g, "sh").replace(/ti/g, "chi").replace(/t?cy|ty/g, "ch").replace(/tu/g, "tsu").replace(/hu/g, "fu").replace(/zi|di/g, "ji").replace(/[zj]y/g, "j").replace(/du/g, "zu").replace(/shhi/g, "shi").replace(/chhi/g, "chi").replace(/tssu/g, "tsu");
+function correct(item, input) {
+  const a = norm(input), b = norm(item.r);
+  if (a === b) return true;
+  if ((item.k === "を" || item.k === "ヲ") && a === "o") return true;
+  return false;
+}
+
+/* ================= KANA QUIZ ================= */
+let cur = null, recent = [], sess = { n: 0, ok: 0, streak: 0, ms: [] }, shownAt = 0, locked = false;
+function weightOf(k) { const s = KS()[k]; if (!s) return 3; const [r, w] = s; return Math.max(0.25, (w * 2 + 1) / (r + 1) + (r < 3 ? 1 : 0)); }
+function nextItem() {
+  const p = pool(); if (!p.length) return null;
+  const cands = p.filter(x => !recent.includes(x.k)); const list = cands.length ? cands : p;
+  let tot = 0; const ws = list.map(x => (tot += weightOf(x.k)));
+  const t = Math.random() * tot; const i = ws.findIndex(w => w >= t);
+  return list[i < 0 ? 0 : i];
+}
+function record(k, ok) { const s = KS()[k] ||= [0, 0]; ok ? s[0]++ : s[1]++; kanaStore.save(); }
+function statsHtml() {
+  const acc = sess.n ? Math.round(sess.ok / sess.n * 100) + "%" : "–";
+  const avg = sess.ms.length ? (sess.ms.reduce((a, b) => a + b, 0) / sess.ms.length / 1000).toFixed(1) + "s" : "–";
+  return `<div class="statrow"><div class="stat"><b>${sess.n}</b><span>Answered</span></div><div class="stat"><b>${acc}</b><span>Accuracy</span></div><div class="stat"><b>${sess.streak}</b><span>Streak</span></div><div class="stat"><b>${avg}</b><span>Avg time</span></div></div>`;
+}
+function renderQ() {
+  cur = nextItem(); locked = false;
+  const q = $("#qcard"); const type = cfg().qtype;
+  if (!cur) { q.innerHTML = `<div class="empty">Pick at least one row of characters on the right.</div>`; return; }
+  recent.push(cur.k); if (recent.length > Math.min(4, pool().length - 1)) recent.shift();
+  const showKana = type !== "pickk";
+  let body = `<div class="sq"><span class="glyph ${showKana ? "" : "romaji"}">${esc(showKana ? cur.k : cur.r)}</span></div>`;
+  if (type === "type") body += `<form class="answer" id="ansForm" autocomplete="off"><input type="text" id="ans" aria-label="Romaji answer" placeholder="romaji" autocapitalize="off" spellcheck="false"><button class="btn primary" type="submit">Check</button></form>`;
+  else {
+    const p = pool(); const others = shuffle(p.filter(x => x.r !== cur.r && x.k !== cur.k));
+    const seen = new Set([cur.r]); const opts = [cur];
+    for (const o of others) { if (opts.length >= 4) break; if (!seen.has(o.r)) { seen.add(o.r); opts.push(o); } }
+    body += `<div class="opts">${shuffle(opts).map(o => `<button class="opt ${type === "pickr" ? "r" : ""}" data-k="${esc(o.k)}" type="button">${esc(type === "pickr" ? o.r : o.k)}</button>`).join("")}</div>`;
+  }
+  body += `<div class="feedback" id="fb"></div>${statsHtml()}`;
+  q.innerHTML = body; shownAt = performance.now();
+  const inp = $("#ans"); if (inp) inp.focus({ preventScroll: true });
+}
+function finish(ok, input) {
+  if (locked) return; locked = true;
+  const ms = performance.now() - shownAt;
+  sess.n++; if (ok) { sess.ok++; sess.streak++; sess.ms.push(ms); if (sess.ms.length > 30) sess.ms.shift(); } else sess.streak = 0;
+  record(cur.k, ok);
+  const fb = $("#fb");
+  if (ok) { fb.className = "feedback ok"; fb.innerHTML = `${esc(cur.k)} = <span class="mono">${esc(cur.r)}</span>`; }
+  else { fb.className = "feedback bad"; fb.innerHTML = `${esc(cur.k)} is <b class="mono">${esc(cur.r)}</b>${input ? ` <span class="faint">(you put ${esc(input)})</span>` : ""}`; }
+  Speech.available() && !ok && Speech.speak(cur.k);
+  renderWeak();
+  setTimeout(renderQ, ok ? 450 : 1600);
+}
+document.addEventListener("submit", e => {
+  if (e.target.id !== "ansForm") return; e.preventDefault();
+  const v = $("#ans").value; if (!v.trim()) return;
+  const ok = correct(cur, v); $("#ans").classList.add(ok ? "ok" : "bad"); finish(ok, ok ? "" : v);
+});
+$("#qcard").addEventListener("click", e => {
+  const b = e.target.closest(".opt"); if (!b || locked) return;
+  const ok = b.dataset.k === cur.k; b.classList.add(ok ? "ok" : "bad");
+  if (!ok) $$(".opt", $("#qcard")).forEach(o => { if (o.dataset.k === cur.k) o.classList.add("ok"); });
+  finish(ok);
+});
+function renderRowChips() {
+  const on = new Set(cfg().rows[script]);
+  const bySet = {}; groupsFor().forEach(g => (bySet[g.set] ||= []).push(g));
+  $("#rowChips").innerHTML = Object.entries(bySet).map(([s, gs]) => `<div class="grpname">${SETS[s]}</div><div class="chips">${gs.map(g => {
+    const first = g.cells.find(Boolean)[0]; return `<button type="button" class="chip ${on.has(g.id) ? "on" : ""}" data-row="${g.id}">${esc(g.kataOnly ? first : conv(first))}<span class="n">${esc(g.name)}</span></button>`;
+  }).join("")}</div>`).join("");
+}
+$("#rowChips").addEventListener("click", e => {
+  const c = e.target.closest("[data-row]"); if (!c) return;
+  const rows = cfg().rows[script]; const i = rows.indexOf(c.dataset.row);
+  i >= 0 ? rows.splice(i, 1) : rows.push(c.dataset.row); kanaStore.save(); renderRowChips(); recent = []; renderQ();
+});
+$("#allRows").onclick = () => { cfg().rows[script] = groupsFor().map(g => g.id); kanaStore.save(); renderRowChips(); renderQ(); };
+$("#basicRows").onclick = () => { cfg().rows[script] = GROUPS.filter(g => g.set === "basic").map(g => g.id); kanaStore.save(); renderRowChips(); renderQ(); };
+$("#qtype").onchange = e => { cfg().qtype = e.target.value; kanaStore.save(); updateHint(); renderQ(); };
+function renderWeak() {
+  const all = groupsFor().flatMap(g => g.cells.filter(Boolean).map(([k]) => g.kataOnly ? k : conv(k)));
+  const w = all.map(k => [k, KS()[k]]).filter(([, s]) => s && s[1] > 0 && s[1] / (s[0] + s[1]) > 0.2).sort((a, b) => (b[1][1] / (b[1][0] + b[1][1])) - (a[1][1] / (a[1][0] + a[1][1]))).slice(0, 14);
+  $("#weak").innerHTML = w.length ? w.map(([k, s]) => `<span title="${s[0]} right, ${s[1]} wrong">${esc(k)}</span>`).join("") : `<span style="border:none;font-family:var(--f-body);font-size:13px;color:var(--ink-3);padding:0">Characters you miss show up here.</span>`;
+}
+function updateHint() { $("#kanaHint").textContent = kanaMode === "quiz" ? ({ type: "Type the romaji and press Enter", pickr: "Pick the matching romaji", pickk: "Pick the matching kana" })[cfg().qtype] : kanaMode === "words" ? "Read it aloud, then check" : ""; }
+
+/* ================= CHART ================= */
+function renderChart() {
+  const bySet = {}; groupsFor().forEach(g => (bySet[g.set] ||= []).push(g));
+  $("#chart").innerHTML = Object.entries(bySet).map(([s, gs]) => {
+    const cols = gs[0].cols || 5;
+    const cells = gs.flatMap(g => g.cells).map(c => {
+      if (!c) return `<div class="kcell blank"></div>`;
+      const k = gs[0].kataOnly ? c[0] : conv(c[0]); const st = KS()[k]; let bar = "";
+      if (st && st[0] + st[1]) { const a = st[0] / (st[0] + st[1]); bar = `<span class="bar"><i style="width:${Math.round(a * 100)}%;background:var(${a > .85 ? "--matcha" : a > .6 ? "--yamabuki" : "--shu"})"></i></span>`; }
+      return `<button type="button" class="kcell" data-say="${esc(k)}" aria-label="${esc(k)} ${esc(c[1])}"><span class="g">${esc(k)}</span><span class="ro">${esc(c[1])}</span>${bar}</button>`;
+    }).join("");
+    return `<div class="chart-sec"><h3>${SETS[s]}</h3><div class="kgrid ${cols === 3 ? "c3" : ""}">${cells}</div></div>`;
+  }).join("") + (script === "katakana" ? `<p class="muted" style="font-size:13.5px">ー lengthens the vowel before it: コーヒー = kō-hī. A small ッ doubles the next consonant: ロボット = robo<b>tt</b>o.</p>` : `<p class="muted" style="font-size:13.5px">A small っ doubles the next consonant: きっぷ = ki<b>pp</b>u. Long vowels are spelled out: おかあさん = o-kā-san, がっこう = gak-kō.</p>`);
+}
+
+/* ================= READ WORDS ================= */
+let wi = -1, wOrder = [], wRevealed = false;
+function renderWord() {
+  const list = WORDS[script]; if (!wOrder.length || wOrder._s !== script) { wOrder = shuffle(list.map((_, i) => i)); wOrder._s = script; wi = 0; }
+  const [w, ro, m] = list[wOrder[wi % wOrder.length]];
+  $("#wcard").innerHTML = `<div class="faint" style="font-size:13px">${wi % wOrder.length + 1} / ${wOrder.length}</div><div class="big">${esc(w)}</div>` +
+    (wRevealed ? `<div class="mono" style="font-size:20px">${esc(ro)} ${sayBtn(w)}</div><div style="font-size:17px">${esc(m)}</div><div class="row" style="justify-content:center"><button class="btn primary" id="wNext" type="button">Next word →</button></div>`
+      : `<div class="row" style="justify-content:center"><button class="btn primary" id="wShow" type="button">Show reading <kbd class="faint mono" style="font-size:11px">space</kbd></button></div>`);
+}
+$("#wcard").addEventListener("click", e => {
+  if (e.target.closest("#wShow")) { wRevealed = true; renderWord(); }
+  else if (e.target.closest("#wNext")) { wRevealed = false; wi++; renderWord(); }
+});
+
+/* ================= KANJI ================= */
+const kanjiStore = makeStore("kanji", () => renderKanji());
+const KC = () => (kanjiStore.data.cards ||= {});
+const kcfg = () => { const c = (kanjiStore.data.cfg ||= {}); c.lv ||= [1]; c.newPerDay ||= 10; return c; };
+let kanjiMode = "study", kRevealed = false, kCur = null, kLast = null;
+const LEVELS = [...new Set(KANJI.map(k => k.lv))].sort((a, b) => a - b);
+function selKanji() { const on = new Set(kcfg().lv); return KANJI.filter(k => on.has(k.lv)); }
+function kNewLeft() { const l = (kanjiStore.data.log ||= {})[todayKey()] || { n: 0 }; return Math.max(0, kcfg().newPerDay - l.n); }
+function renderLv() {
+  const on = new Set(kcfg().lv);
+  $("#lvChips").innerHTML = LEVELS.map(l => { const ks = KANJI.filter(k => k.lv === l); const learned = ks.filter(k => KC()[k.k]).length;
+    return `<button type="button" class="chip ${on.has(l) ? "on" : ""}" data-lv="${l}">${l}<span class="n">${learned}/${ks.length}</span></button>`; }).join("");
+}
+$("#lvChips").addEventListener("click", e => {
+  const c = e.target.closest("[data-lv]"); if (!c) return; const lv = kcfg().lv; const n = +c.dataset.lv; const i = lv.indexOf(n);
+  i >= 0 ? (lv.length > 1 && lv.splice(i, 1)) : lv.push(n); kanjiStore.save(); renderKanji();
+});
+$("#kNew").onchange = e => { kcfg().newPerDay = +e.target.value; kanjiStore.save(); renderKanji(); };
+function kanjiInfo(k) {
+  return `<div class="kmean">${esc(k.m)}</div>
+  <dl class="reads"><dt>On</dt><dd>${esc((k.on || []).join("・") || "—")} <span class="faint" style="font-size:12.5px">used in compound words</span></dd><dt>Kun</dt><dd>${esc((k.kun || []).join("・") || "—")} <span class="faint" style="font-size:12.5px">used when it stands alone</span></dd><dt>Strokes</dt><dd class="tnum">${esc(k.s)}</dd></dl>
+  <div class="kwords">${(k.w || []).map(w => `<div class="kword"><span class="w">${ruby(w.w, w.r)}</span>${sayBtn(w.r)}<span class="muted">${esc(w.m)}</span></div>`).join("")}</div>
+  ${k.hint ? `<div class="hint">${esc(k.hint)}</div>` : ""}`;
+}
+function renderKCounts() {
+  const items = selKanji(); const c = srsCounts(items, KC(), k => k.k);
+  $("#kCounts").innerHTML = `<span><b>${c.due}</b> due</span><span>·</span><span><b>${Math.min(c.fresh, kNewLeft())}</b> new today</span><span>·</span><span><b>${c.learning}</b> learning</span>`;
+}
+function renderKStudy() {
+  renderKCounts();
+  if (!kRevealed) { const p = pickNext(selKanji(), KC(), { id: k => k.k, newLeft: kNewLeft(), lastId: kLast }); kCur = p; }
+  const el = $("#kcard");
+  if (!kCur) { el.innerHTML = `<div class="empty"><b>All caught up for these levels.</b><br>Add another level above, raise the daily new limit, or come back later for reviews.</div>`; return; }
+  const k = kCur.it, c = KC()[k.k];
+  let h = `<div class="row" style="justify-content:center">${kCur.kind === "new" ? `<span class="pill new">New</span>` : `<span class="pill ${SRS.status(c)}">${SRS.status(c) === "learning" ? "Learning" : "Review"}</span>`}</div><div class="sq"><span class="glyph">${esc(k.k)}</span></div>`;
+  if (!kRevealed) h += `<p class="muted" style="margin:0">What does it mean? Do you know a reading?</p><button class="btn primary" id="kShow" type="button">Show answer <kbd class="mono faint" style="font-size:11px">space</kbd></button>`;
+  else h += `<div class="kinfo">${kanjiInfo(k)}</div><div class="grades" style="width:100%;max-width:560px">${["Again", "Hard", "Good", "Easy"].map((n, g) => `<button class="grade g${g}" data-g="${g}" type="button">${n}<small>${SRS.preview(c, g)}</small><kbd>${g + 1}</kbd></button>`).join("")}</div>`;
+  el.innerHTML = h;
+}
+function kGrade(g) {
+  if (!kCur || !kRevealed) return; const k = kCur.it;
+  if (!KC()[k.k]) { const log = (kanjiStore.data.log ||= {}); const t = todayKey(); (log[t] ||= { n: 0, r: 0 }).n++; }
+  KC()[k.k] = SRS.grade(KC()[k.k], g); const t = todayKey(); ((kanjiStore.data.log ||= {})[t] ||= { n: 0, r: 0 }).r++;
+  kanjiStore.save(); kLast = k.k; kRevealed = false; renderLv(); renderKStudy();
+}
+$("#kcard").addEventListener("click", e => {
+  if (e.target.closest("#kShow")) { kRevealed = true; renderKStudy(); return; }
+  const g = e.target.closest("[data-g]"); if (g) kGrade(+g.dataset.g);
+});
+/* kanji quiz */
+let kq = null, kqScore = { n: 0, ok: 0 }, kqLock = false;
+function kWordsPool() { return selKanji().flatMap(k => (k.w || []).map(w => ({ ...w, k: k.k }))); }
+function renderKQuiz() {
+  const type = $("#kqType").value; const el = $("#kqcard"); kqLock = false;
+  $("#kqScore").innerHTML = kqScore.n ? `<b>${kqScore.ok}</b> / ${kqScore.n} correct` : "";
+  if (type === "mean") {
+    const items = selKanji(); if (items.length < 4) { el.innerHTML = `<div class="empty">Select more levels to quiz.</div>`; return; }
+    const ans = items[Math.floor(Math.random() * items.length)];
+    const opts = [ans, ...shuffle(KANJI.filter(k => k.k !== ans.k && k.m !== ans.m)).slice(0, 3)];
+    kq = { ans: ans.m, say: (ans.kun[0] || ans.on[0] || "").replace(".", "") };
+    el.innerHTML = `<div class="sq"><span class="glyph">${esc(ans.k)}</span></div><div class="opts">${shuffle(opts).map(o => `<button class="opt r" style="font-family:var(--f-body);font-size:15px" data-a="${esc(o.m)}" type="button">${esc(o.m)}</button>`).join("")}</div><div class="feedback" id="kqfb"></div>`;
+  } else {
+    const ws = kWordsPool(); if (ws.length < 4) { el.innerHTML = `<div class="empty">Select more levels to quiz.</div>`; return; }
+    const ans = ws[Math.floor(Math.random() * ws.length)]; const field = type === "read" ? "r" : "m";
+    const all = ws.length >= 8 ? ws : KANJI.flatMap(k => k.w || []);
+    const seen = new Set([ans[field]]); const opts = [ans];
+    for (const o of shuffle(all)) { if (opts.length >= 4) break; if (!seen.has(o[field])) { seen.add(o[field]); opts.push(o); } }
+    kq = { ans: ans[field], say: ans.r, extra: `${esc(ans.w)} = ${esc(ans.r)} · ${esc(ans.m)}` };
+    el.innerHTML = `<div class="glyph" style="font-size:min(72px,16vw);padding:10px 0">${esc(ans.w)}</div><div class="opts">${shuffle(opts).map(o => `<button class="opt r" style="font-family:var(--f-body);font-size:${field === "r" ? 20 : 15}px" data-a="${esc(o[field])}" type="button">${esc(o[field])}</button>`).join("")}</div><div class="feedback" id="kqfb"></div>`;
+  }
+}
+$("#kqcard").addEventListener("click", e => {
+  const b = e.target.closest(".opt"); if (!b || kqLock) return; kqLock = true;
+  const ok = b.dataset.a === kq.ans; kqScore.n++; if (ok) kqScore.ok++;
+  b.classList.add(ok ? "ok" : "bad"); if (!ok) $$(".opt", $("#kqcard")).forEach(o => o.dataset.a === kq.ans && o.classList.add("ok"));
+  const fb = $("#kqfb"); fb.className = "feedback " + (ok ? "ok" : "bad"); fb.innerHTML = (ok ? "Correct" : "Not quite") + (kq.extra ? ` — ${kq.extra}` : "");
+  if (kq.say) Speech.speak(kq.say);
+  setTimeout(renderKQuiz, ok ? 900 : 2200);
+});
+$("#kqType").onchange = () => renderKQuiz();
+/* browse */
+let kSel = null;
+function renderKBrowse() {
+  const items = selKanji();
+  $("#ktiles").innerHTML = items.map(k => `<button type="button" class="ktile st-${SRS.status(KC()[k.k])}" data-k="${esc(k.k)}"><span class="g">${esc(k.k)}</span><span class="m">${esc(k.m.split(",")[0])}</span></button>`).join("");
+  const k = kSel && KANJI.find(x => x.k === kSel);
+  $("#kdetail").innerHTML = k ? `<div class="panel detail"><div class="row" style="align-items:flex-start;gap:18px"><div class="sq" style="width:120px;height:120px;margin:0"><span class="glyph" style="font-size:84px">${esc(k.k)}</span></div><div class="kinfo" style="flex:1;min-width:220px">${kanjiInfo(k)}</div></div><div class="row" style="margin-top:12px"><span class="pill ${SRS.status(KC()[k.k])}">${({ new: "Not studied", learning: "Learning", young: "Reviewing", known: "Known" })[SRS.status(KC()[k.k])]}</span><span class="spacer"></span>${KC()[k.k] ? "" : `<button class="btn small" type="button" id="kKnow">I already know this</button>`}<button class="btn small ghost" type="button" id="kClose">Close</button></div></div>` : `<p class="muted" style="margin:0 0 12px">Tap a kanji for readings, example words and a memory hint. Colored edges show your progress.</p>`;
+}
+$("#ktiles").addEventListener("click", e => { const t = e.target.closest("[data-k]"); if (!t) return; kSel = t.dataset.k; renderKBrowse(); window.scrollTo({ top: $("#kdetail").offsetTop - 20, behavior: "smooth" }); });
+$("#kdetail").addEventListener("click", e => {
+  if (e.target.closest("#kClose")) { kSel = null; renderKBrowse(); }
+  if (e.target.closest("#kKnow")) { KC()[kSel] = SRS.known(); kanjiStore.save(); toast("Marked as known"); renderLv(); renderKBrowse(); }
+});
+function renderKanji() {
+  $("#kNew").value = String(kcfg().newPerDay);
+  renderLv();
+  $$("#kanjiModes button").forEach(b => b.classList.toggle("on", b.dataset.m === kanjiMode));
+  ["study", "quiz", "browse"].forEach(m => $("#kanji-" + m).hidden = m !== kanjiMode);
+  if (kanjiMode === "study") renderKStudy(); else if (kanjiMode === "quiz") renderKQuiz(); else renderKBrowse();
+}
+$("#kanjiModes").addEventListener("click", e => { const b = e.target.closest("[data-m]"); if (!b) return; kanjiMode = b.dataset.m; kRevealed = false; renderKanji(); });
+
+/* ================= ROUTING & KEYS ================= */
+function renderKana() {
+  $$("#kanaModes button").forEach(b => b.classList.toggle("on", b.dataset.m === kanaMode));
+  ["quiz", "chart", "words"].forEach(m => $("#kana-" + m).hidden = m !== kanaMode);
+  $("#qtype").value = cfg().qtype; updateHint();
+  if (kanaMode === "quiz") { renderRowChips(); renderWeak(); recent = []; renderQ(); }
+  else if (kanaMode === "chart") renderChart(); else { wOrder = []; wRevealed = false; renderWord(); }
+}
+$("#kanaModes").addEventListener("click", e => { const b = e.target.closest("[data-m]"); if (!b) return; kanaMode = b.dataset.m; renderKana(); });
+let view = "hiragana";
+function route() {
+  const h = location.hash.slice(1); view = ["hiragana", "katakana", "kanji"].includes(h) ? h : "hiragana";
+  $$(".tabs a").forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#" + view));
+  $("#view-kana").hidden = view === "kanji"; $("#view-kanji").hidden = view !== "kanji";
+  if (view === "kanji") renderKanji(); else { script = view; sess = { n: 0, ok: 0, streak: 0, ms: [] }; renderKana(); }
+}
+window.addEventListener("hashchange", route);
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input,select,textarea")) return;
+  if (view === "kanji" && kanjiMode === "study") {
+    if (e.key === " " && !kRevealed && kCur) { e.preventDefault(); kRevealed = true; renderKStudy(); }
+    else if (kRevealed && "1234".includes(e.key)) kGrade(+e.key - 1);
+  } else if (view !== "kanji" && kanaMode === "words" && e.key === " ") {
+    e.preventDefault(); if (!wRevealed) { wRevealed = true; } else { wRevealed = false; wi++; } renderWord();
+  } else if (view !== "kanji" && kanaMode === "quiz" && cfg().qtype !== "type" && "1234".includes(e.key)) {
+    const o = $$(".opt", $("#qcard"))[+e.key - 1]; o && o.click();
+  }
+});
+route();
+</script>

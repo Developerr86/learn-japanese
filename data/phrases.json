@@ -1,0 +1,3287 @@
+[
+ {
+  "jp": "おはようございます",
+  "rd": "おはよう ございます",
+  "ro": "ohayō gozaimasu",
+  "en": "Good morning",
+  "lit": "おはよう (early) ございます (polite 'is')",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Morning greeting, used until about late morning. Use it with coworkers, teachers, neighbours; with friends and family drop ございます.",
+  "alt": [
+   "おはよう (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "こんにちは",
+  "rd": "こんにちは",
+  "ro": "konnichiwa",
+  "en": "Hello / Good afternoon",
+  "lit": "今日 (today) は (topic marker, read 'wa') ...",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "All-purpose daytime hello, roughly 10am to dusk. Safe with anyone; a bit stiff among close friends.",
+  "core": true
+ },
+ {
+  "jp": "こんばんは",
+  "rd": "こんばんは",
+  "ro": "konbanwa",
+  "en": "Good evening",
+  "lit": "今晩 (this evening) は (topic marker, read 'wa') ...",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Greeting from dusk onward, when meeting someone. Not used when leaving (that is おやすみなさい).",
+  "core": true
+ },
+ {
+  "jp": "おやすみなさい",
+  "rd": "おやすみ なさい",
+  "ro": "oyasumi nasai",
+  "en": "Good night",
+  "lit": "お休み (rest) なさい (please do)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Said before going to bed or when parting late at night. Never used as a daytime hello.",
+  "alt": [
+   "おやすみ (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "さようなら",
+  "rd": "さようなら",
+  "ro": "sayōnara",
+  "en": "Goodbye",
+  "lit": "さようなら (if that is how it is...)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "A fairly final goodbye, common at school and in formal settings. In daily life friends usually say じゃあね or またね instead.",
+  "alt": [
+   "さよなら (shortened)",
+   "じゃあね (casual)"
+  ]
+ },
+ {
+  "jp": "じゃあね",
+  "rd": "じゃあ ね",
+  "ro": "jā ne",
+  "en": "See you / Bye",
+  "lit": "じゃあ (well then) ね (softener)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Casual goodbye between friends and family. Very common in anime and daily talk.",
+  "alt": [
+   "またね (casual, 'see you again')",
+   "バイバイ (casual, 'bye-bye')"
+  ]
+ },
+ {
+  "jp": "またね",
+  "rd": "また ね",
+  "ro": "mata ne",
+  "en": "See you again",
+  "lit": "また (again) ね (softener)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Friendly goodbye when you expect to meet again. Add a time for precision: また明日 (see you tomorrow).",
+  "alt": [
+   "また明日 (see you tomorrow)",
+   "またあとで (see you later)"
+  ]
+ },
+ {
+  "jp": "お久しぶりです",
+  "rd": "おひさしぶり です",
+  "ro": "ohisashiburi desu",
+  "en": "Long time no see",
+  "lit": "お久しぶり (long time) です (is)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Greeting someone you have not seen in a long while. Politeness adjusts by dropping です with friends.",
+  "alt": [
+   "久しぶり (casual)",
+   "お久しぶりですね (polite, with 'isn't it')"
+  ]
+ },
+ {
+  "jp": "お元気ですか",
+  "rd": "おげんき ですか",
+  "ro": "ogenki desu ka",
+  "en": "How are you? / Are you well?",
+  "lit": "お元気 (healthy, honorific) です (is) か (question)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Asked of someone you have not seen for a while, not as a daily hello. Reply 元気です.",
+  "alt": [
+   "元気? (casual)"
+  ]
+ },
+ {
+  "jp": "元気です",
+  "rd": "げんき です",
+  "ro": "genki desu",
+  "en": "I'm fine / I'm well",
+  "lit": "元気 (energetic) です (is)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Standard answer to お元気ですか. Add おかげさまで (thanks to you) to be extra polite.",
+  "alt": [
+   "元気だよ (casual)",
+   "まあまあです (so-so)"
+  ]
+ },
+ {
+  "jp": "いってきます",
+  "rd": "いってきます",
+  "ro": "ittekimasu",
+  "en": "I'm off (and I'll be back)",
+  "lit": "行って (go) きます (come)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Said when leaving home, school, or the office, meaning 'I'll go and come back'. The reply is いってらっしゃい.",
+  "alt": [
+   "いってきまーす (cheerful, casual)"
+  ]
+ },
+ {
+  "jp": "いってらっしゃい",
+  "rd": "いってらっしゃい",
+  "ro": "itterasshai",
+  "en": "Have a good day / See you later (to someone leaving)",
+  "lit": "行って (go) らっしゃい (honorific 'come')",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Reply to いってきます, said by whoever stays behind. Warm and routine; used with family and colleagues."
+ },
+ {
+  "jp": "あけましておめでとうございます",
+  "rd": "あけまして おめでとう ございます",
+  "ro": "akemashite omedetō gozaimasu",
+  "en": "Happy New Year",
+  "lit": "あけまして (opening [of the new year]) おめでとう (congratulations) ございます (polite)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Said from January 1 for the first days of the year. Before the New Year people say 良いお年を (have a good year).",
+  "alt": [
+   "あけおめ (very casual, abbreviation)"
+  ]
+ },
+ {
+  "jp": "お誕生日おめでとう",
+  "rd": "おたんじょうび おめでとう",
+  "ro": "otanjōbi omedetō",
+  "en": "Happy birthday",
+  "lit": "お誕生日 (birthday) おめでとう (congratulations)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Say it to friends and family on their birthday. Add ございます to be polite to a boss or older person.",
+  "alt": [
+   "お誕生日おめでとうございます (polite)"
+  ]
+ },
+ {
+  "jp": "おめでとう",
+  "rd": "おめでとう",
+  "ro": "omedetō",
+  "en": "Congratulations",
+  "lit": "おめでとう (congratulations)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "For any good news: passing an exam, marriage, a baby, a win. Add ございます for polite use.",
+  "alt": [
+   "おめでとうございます (polite)"
+  ]
+ },
+ {
+  "jp": "ありがとうございます",
+  "rd": "ありがとう ございます",
+  "ro": "arigatō gozaimasu",
+  "en": "Thank you",
+  "lit": "ありがとう (thanks) ございます (polite 'is')",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "The standard polite thanks, fine with anyone. Use the past ございました after something is finished.",
+  "alt": [
+   "ありがとう (casual)",
+   "どうもありがとうございます (very polite)",
+   "ありがとうございました (polite, past)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "どうも ありがとうございました",
+  "rd": "どうも ありがとう ございました",
+  "ro": "dōmo arigatō gozaimashita",
+  "en": "Thank you very much (for what you did)",
+  "lit": "どうも (very much) ありがとう (thanks) ございました (polite, past)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Use after receiving help or service, especially when leaving a shop or ending a favour. Warm and slightly formal.",
+  "alt": [
+   "どうも (casual, short)"
+  ]
+ },
+ {
+  "jp": "どういたしまして",
+  "rd": "どう いたしまして",
+  "ro": "dō itashimashite",
+  "en": "You're welcome",
+  "lit": "どう (how) いたしまして (doing, humble)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Reply to thanks. Japanese often just say いえいえ (no no) or 気にしないで instead, as this can sound a little stiff.",
+  "alt": [
+   "いえいえ (casual, 'not at all')",
+   "気にしないで (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "すみません",
+  "rd": "すみません",
+  "ro": "sumimasen",
+  "en": "Excuse me / Sorry / Thank you (for the trouble)",
+  "lit": "済み (finished) ません (not)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "The most useful word: get a waiter's attention, apologise lightly, squeeze past someone, or thank someone for going to trouble. Polite and flexible.",
+  "alt": [
+   "すいません (relaxed pronunciation)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ごめんなさい",
+  "rd": "ごめん なさい",
+  "ro": "gomen nasai",
+  "en": "I'm sorry",
+  "lit": "ごめん (pardon) なさい (please do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "A sincere personal apology to people close to you, or for a minor mistake. Stronger and more personal than すみません.",
+  "alt": [
+   "ごめん (casual)",
+   "ごめんね (casual, soft)",
+   "申し訳ありません (formal)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "申し訳ありません",
+  "rd": "もうしわけ ありません",
+  "ro": "mōshiwake arimasen",
+  "en": "I'm very sorry (formal apology)",
+  "lit": "申し訳 (excuse) ありません (there is none)",
+  "c": "politeness",
+  "lvl": "formal",
+  "use": "Business and customer-service apology, used to superiors and customers. Literally 'I have no excuse'.",
+  "alt": [
+   "申し訳ございません (even more formal)",
+   "すみません (everyday)"
+  ]
+ },
+ {
+  "jp": "失礼します",
+  "rd": "しつれい します",
+  "ro": "shitsurei shimasu",
+  "en": "Excuse me (entering/leaving) / Pardon the intrusion",
+  "lit": "失礼 (rudeness) します (do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Said when entering a room, leaving a meeting, or hanging up a call. Part of workplace and school manners.",
+  "alt": [
+   "失礼しました (I apologise for what I did, past)",
+   "失礼します (formal)"
+  ]
+ },
+ {
+  "jp": "お願いします",
+  "rd": "おねがい します",
+  "ro": "onegai shimasu",
+  "en": "Please (I request this)",
+  "lit": "お願い (request) します (do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Attach it after a noun to ask for something: 水をお願いします. It is the polite 'please' for service situations.",
+  "alt": [
+   "お願い (casual)",
+   "お願いします (polite)",
+   "お願いいたします (formal)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "どうぞ",
+  "rd": "どうぞ",
+  "ro": "dōzo",
+  "en": "Please go ahead / Here you are",
+  "lit": "どうぞ (please, go ahead)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Offering something or permission: gesturing someone to go first, handing something over, inviting someone to sit.",
+  "alt": [
+   "どうぞ (polite)",
+   "はい、どうぞ (when handing over)"
+  ]
+ },
+ {
+  "jp": "どうも",
+  "rd": "どうも",
+  "ro": "dōmo",
+  "en": "Thanks / Hi / Sorry (all-purpose)",
+  "lit": "どうも (very much, somehow)",
+  "c": "politeness",
+  "lvl": "casual",
+  "use": "A short mumbled thanks, hello or apology. Casual and polite-neutral; fine to shop assistants and neighbours.",
+  "alt": [
+   "どうもすみません (sorry, more polite)"
+  ]
+ },
+ {
+  "jp": "気にしないでください",
+  "rd": "きに しないで ください",
+  "ro": "ki ni shinaide kudasai",
+  "en": "Please don't worry about it",
+  "lit": "気 (mind) に しないで (not doing) ください (please)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Reassuring someone who apologised or feels they troubled you. Use the short form 気にしないで with friends.",
+  "alt": [
+   "気にしないで (casual)",
+   "気にしなくていいよ (casual, 'no need to worry')"
+  ]
+ },
+ {
+  "jp": "大丈夫です",
+  "rd": "だいじょうぶ です",
+  "ro": "daijōbu desu",
+  "en": "I'm fine / It's OK / No thank you",
+  "lit": "大丈夫 (all right) です (is)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Works both as 'I'm OK' and as a polite refusal ('No, I'm fine, thanks'). Tone and context tell which.",
+  "alt": [
+   "大丈夫 (casual)",
+   "結構です (polite refusal)"
+  ]
+ },
+ {
+  "jp": "お待たせしました",
+  "rd": "おまたせ しました",
+  "ro": "omatase shimashita",
+  "en": "Sorry to keep you waiting",
+  "lit": "お待たせ (making [you] wait) しました (did)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Say it when you arrive late, or when bringing food or finishing something people waited for.",
+  "alt": [
+   "待たせてごめん (casual)",
+   "お待たせ (casual)"
+  ]
+ },
+ {
+  "jp": "お先にどうぞ",
+  "rd": "おさきに どうぞ",
+  "ro": "osaki ni dōzo",
+  "en": "After you / Please go first",
+  "lit": "お先に (ahead) どうぞ (please)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Offering someone to go through a door or in a line before you. Also said at the elevator.",
+  "alt": [
+   "先にどうぞ (shorter)"
+  ]
+ },
+ {
+  "jp": "お邪魔します",
+  "rd": "おじゃま します",
+  "ro": "ojama shimasu",
+  "en": "Pardon the intrusion (entering someone's home)",
+  "lit": "お邪魔 (hindrance) します (do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Say it when you step into someone's house. When leaving: お邪魔しました.",
+  "alt": [
+   "お邪魔しました (when leaving)"
+  ]
+ },
+ {
+  "jp": "はい",
+  "rd": "はい",
+  "ro": "hai",
+  "en": "Yes / Okay / Understood",
+  "lit": "はい (yes)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Yes, and also 'I hear you' or 'here' when your name is called. Polite and universal; it does not always mean agreement.",
+  "alt": [
+   "ええ (polite, softer)",
+   "うん (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いいえ",
+  "rd": "いいえ",
+  "ro": "iie",
+  "en": "No",
+  "lit": "いいえ (no)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "The polite 'no', also used to deflect compliments or thanks. Japanese often soften it or use ちょっと….",
+  "alt": [
+   "いえ (shorter)",
+   "ううん (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "うん",
+  "rd": "うん",
+  "ro": "un",
+  "en": "Yeah / Uh-huh",
+  "lit": "うん (yes, casual)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual yes among friends and family. Do not use it to teachers, bosses, or strangers; use はい.",
+  "alt": [
+   "ええ (polite)",
+   "はい (polite)"
+  ]
+ },
+ {
+  "jp": "ううん",
+  "rd": "ううん",
+  "ro": "ūn",
+  "en": "Nope / No (casual)",
+  "lit": "ううん (no, casual)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual no, said with falling or flat intonation, in contrast to うん (yes) with a rising feel. Friends only.",
+  "alt": [
+   "いいえ (polite)"
+  ]
+ },
+ {
+  "jp": "そうですか",
+  "rd": "そう ですか",
+  "ro": "sō desu ka",
+  "en": "I see / Is that so?",
+  "lit": "そう (that way) です (is) か (question)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Reaction to new information, said with falling pitch to show you took it in. Rising pitch makes it sound like genuine doubt.",
+  "alt": [
+   "そうなんだ (casual)",
+   "そっか (casual)",
+   "そうなんですか (polite, interested)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "そうですね",
+  "rd": "そう ですね",
+  "ro": "sō desu ne",
+  "en": "That's right / Let me see...",
+  "lit": "そう (that way) です (is) ね (isn't it)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Agree with the speaker, or buy time to think before answering. Casual: そうだね.",
+  "alt": [
+   "そうだね (casual)",
+   "そうですね…(hesitant)"
+  ]
+ },
+ {
+  "jp": "本当ですか",
+  "rd": "ほんとう ですか",
+  "ro": "hontō desu ka",
+  "en": "Really?",
+  "lit": "本当 (true) です (is) か (question)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Express surprise or ask for confirmation. Casual version is 本当? or ほんとに?.",
+  "alt": [
+   "ほんと? (casual)",
+   "本当に? (casual)",
+   "マジで? (very casual slang)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "なるほど",
+  "rd": "なるほど",
+  "ro": "naruhodo",
+  "en": "I see / That makes sense",
+  "lit": "なるほど (indeed, I see)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Signals that you understand a reasoning or explanation. Slightly 'know-it-all' to superiors; use なるほどですね or そうですか then.",
+  "alt": [
+   "なるほどね (casual)",
+   "なるほどです (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "わかりました",
+  "rd": "わかりました",
+  "ro": "wakarimashita",
+  "en": "Understood / Got it / Okay",
+  "lit": "わかり (understand) ました (did, polite past)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Say it after instructions or requests to show you understood and will do it. Casual: わかった.",
+  "alt": [
+   "わかった (casual)",
+   "了解 (casual-business, 'roger')",
+   "かしこまりました (very polite, service)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いいですよ",
+  "rd": "いい ですよ",
+  "ro": "ii desu yo",
+  "en": "Sure / That's fine / It's OK",
+  "lit": "いい (good) です (is) よ (assertion)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Giving permission or accepting an offer. With a flat tone it may also mean 'no need, thanks'.",
+  "alt": [
+   "いいよ (casual)",
+   "いいですね (sounds good)"
+  ]
+ },
+ {
+  "jp": "だめです",
+  "rd": "だめ です",
+  "ro": "dame desu",
+  "en": "That's no good / You can't / Not allowed",
+  "lit": "だめ (no good) です (is)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Refusing permission or saying something is not OK. Casual だめ! is common to children.",
+  "alt": [
+   "だめ (casual)",
+   "だめだよ (casual, softer)",
+   "いけません (formal)"
+  ]
+ },
+ {
+  "jp": "もちろん",
+  "rd": "もちろん",
+  "ro": "mochiron",
+  "en": "Of course",
+  "lit": "もちろん (of course)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Strong agreement or yes. Add です to be polite: もちろんです.",
+  "alt": [
+   "もちろんです (polite)"
+  ]
+ },
+ {
+  "jp": "たぶん",
+  "rd": "たぶん",
+  "ro": "tabun",
+  "en": "Maybe / Probably",
+  "lit": "たぶん (probably)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Use when you are not sure. Combine with だと思う (I think) or でしょう to soften.",
+  "alt": [
+   "たぶんね (casual)",
+   "おそらく (formal)"
+  ]
+ },
+ {
+  "jp": "えっと",
+  "rd": "えっと",
+  "ro": "etto",
+  "en": "Um... / Let me see...",
+  "lit": "えっと (um)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "A filler word while thinking. Also あの, ええと. Helps you sound natural when forming a sentence.",
+  "alt": [
+   "ええと (less casual)",
+   "あのう (hesitant)"
+  ]
+ },
+ {
+  "jp": "そうだね",
+  "rd": "そう だ ね",
+  "ro": "sō da ne",
+  "en": "Yeah, you're right",
+  "lit": "そう (that way) だ (is) ね (isn't it)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual agreement with a friend. Also used to stall for a moment.",
+  "alt": [
+   "そうですね (polite)"
+  ]
+ },
+ {
+  "jp": "確かに",
+  "rd": "たしかに",
+  "ro": "tashika ni",
+  "en": "Good point / True / Indeed",
+  "lit": "確か (certain) に (adverb)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Show you agree with a point just made. Very common in everyday conversations and anime.",
+  "alt": [
+   "確かにね (casual)",
+   "確かにそうですね (polite)"
+  ]
+ },
+ {
+  "jp": "ですよね",
+  "rd": "です よね",
+  "ro": "desu yo ne",
+  "en": "Right? / I agree / Isn't it?",
+  "lit": "です (is) よ (assertion) ね (confirm)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Agree with someone and invite them to agree. Casual: だよね.",
+  "alt": [
+   "だよね (casual)",
+   "そうですよね (polite, 'exactly')"
+  ]
+ },
+ {
+  "jp": "へえ",
+  "rd": "へえ",
+  "ro": "hē",
+  "en": "Oh really? / Wow",
+  "lit": "へえ (interjection)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "A small reaction of mild surprise or interest while someone talks. Very frequent in conversation.",
+  "alt": [
+   "へー (casual)",
+   "そうなんだ (casual)"
+  ]
+ },
+ {
+  "jp": "すごい",
+  "rd": "すごい",
+  "ro": "sugoi",
+  "en": "Amazing / Wow / Awesome",
+  "lit": "すごい (amazing, terrible)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Praise or astonishment, for people, skills, food, scenery. One of the most common reactions in anime.",
+  "alt": [
+   "すごいですね (polite)",
+   "すごっ (very casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いや",
+  "rd": "いや",
+  "ro": "iya",
+  "en": "No / Nah / Hold on",
+  "lit": "いや (no)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual 'no' to correct or disagree, also a starting 'well, actually'. In anime it can be stronger: 'No!'.",
+  "alt": [
+   "いやいや (no no, waving it off)",
+   "いえ (polite)"
+  ]
+ },
+ {
+  "jp": "了解",
+  "rd": "りょうかい",
+  "ro": "ryōkai",
+  "en": "Roger / Understood",
+  "lit": "了解 (understanding, roger)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Brief confirmation among friends and coworkers in chat. Not polite enough for a boss.",
+  "alt": [
+   "了解です (polite-ish)",
+   "承知しました (formal business)"
+  ]
+ },
+ {
+  "jp": "わかりません",
+  "rd": "わかり ません",
+  "ro": "wakarimasen",
+  "en": "I don't understand / I don't know",
+  "lit": "わかり (understand) ません (not)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Your most important survival phrase. Say it plainly when you did not catch something. Casual: わからない.",
+  "alt": [
+   "わからない (casual)",
+   "よくわかりません (I don't quite understand)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "もう一度お願いします",
+  "rd": "もう いちど おねがい します",
+  "ro": "mō ichido onegai shimasu",
+  "en": "Once more, please",
+  "lit": "もう (more) 一度 (one time) お願いします (I request)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask someone to repeat what they said. Natural and polite in conversation, shops and stations.",
+  "alt": [
+   "もう一回言って (casual)",
+   "もう一度言ってください (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ゆっくりお願いします",
+  "rd": "ゆっくり おねがい します",
+  "ro": "yukkuri onegai shimasu",
+  "en": "Slowly, please",
+  "lit": "ゆっくり (slowly) お願いします (I request)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask a speaker to slow down. Combine with もう一度: もう一度、ゆっくりお願いします.",
+  "alt": [
+   "ゆっくり話してください (please speak slowly)",
+   "ゆっくり言って (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "これは何ですか",
+  "rd": "これ は なん ですか",
+  "ro": "kore wa nan desu ka",
+  "en": "What is this?",
+  "lit": "これ (this) は (topic) 何 (what) です (is) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Point at something and ask. Swap これ for それ (that near you) or あれ (that over there).",
+  "alt": [
+   "これ、何? (casual)",
+   "それは何ですか (what is that?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "日本語で何と言いますか",
+  "rd": "にほんご で なんと いいます か",
+  "ro": "nihongo de nanto iimasu ka",
+  "en": "How do you say this in Japanese?",
+  "lit": "日本語 (Japanese) で (in) 何と (what) 言います (say) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Use it with pointing or an English word to learn vocab on the spot. Reverse: 英語で何ですか (what is it in English?).",
+  "alt": [
+   "日本語で何ですか (simpler)",
+   "これは日本語で何ですか (this, in Japanese?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "どういう意味ですか",
+  "rd": "どういう いみ ですか",
+  "ro": "dō iu imi desu ka",
+  "en": "What does that mean?",
+  "lit": "どういう (what kind of) 意味 (meaning) です (is) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask about a word you heard. Put the word first: 「大丈夫」はどういう意味ですか.",
+  "alt": [
+   "どういう意味? (casual)",
+   "〜って何? (casual)"
+  ]
+ },
+ {
+  "jp": "日本語が少し話せます",
+  "rd": "にほんご が すこし はなせます",
+  "ro": "nihongo ga sukoshi hanasemasu",
+  "en": "I can speak a little Japanese",
+  "lit": "日本語 (Japanese) が (subject) 少し (a little) 話せます (can speak)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Set expectations; people will then speak more simply. Use 少しだけ to stress 'just a bit'.",
+  "alt": [
+   "日本語が下手です (my Japanese is bad)",
+   "日本語を勉強しています (I'm studying Japanese)"
+  ]
+ },
+ {
+  "jp": "英語が話せますか",
+  "rd": "えいご が はなせます か",
+  "ro": "eigo ga hanasemasu ka",
+  "en": "Can you speak English?",
+  "lit": "英語 (English) が (subject) 話せます (can speak) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask before launching into English, at a hotel or shop. Smile and add すみません first.",
+  "alt": [
+   "英語わかりますか (do you understand English?)"
+  ]
+ },
+ {
+  "jp": "聞こえません",
+  "rd": "きこえ ません",
+  "ro": "kikoemasen",
+  "en": "I can't hear you",
+  "lit": "聞こえ (be audible) ません (not)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "On a noisy street or a bad phone line. Add もう少し大きい声でお願いします (a bit louder, please).",
+  "alt": [
+   "聞こえない (casual)"
+  ]
+ },
+ {
+  "jp": "書いてください",
+  "rd": "かいて ください",
+  "ro": "kaite kudasai",
+  "en": "Please write it down",
+  "lit": "書いて (write) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask someone to write a word, price, or address when speaking is too hard.",
+  "alt": [
+   "書いてもらえますか (softer)"
+  ]
+ },
+ {
+  "jp": "ちょっと待ってください",
+  "rd": "ちょっと まって ください",
+  "ro": "chotto matte kudasai",
+  "en": "Please wait a moment",
+  "lit": "ちょっと (a little) 待って (wait) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Buy time to think or look something up. Close friends hear ちょっと待って.",
+  "alt": [
+   "ちょっと待って (casual)",
+   "少々お待ちください (formal, service)"
+  ]
+ },
+ {
+  "jp": "助けてください",
+  "rd": "たすけて ください",
+  "ro": "tasukete kudasai",
+  "en": "Please help me",
+  "lit": "助けて (help) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "For real trouble. For small favours use 手伝ってください (please lend a hand).",
+  "alt": [
+   "手伝ってください (please help with a task)",
+   "助けて (casual, urgent)"
+  ]
+ },
+ {
+  "jp": "知りません",
+  "rd": "しり ません",
+  "ro": "shirimasen",
+  "en": "I don't know (it)",
+  "lit": "知り (know) ません (not)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "About facts, people, places you are not aware of. Different from わかりません (can't grasp/figure out).",
+  "alt": [
+   "知らない (casual)",
+   "知らなかった (I didn't know)"
+  ]
+ },
+ {
+  "jp": "忘れました",
+  "rd": "わすれ ました",
+  "ro": "wasuremashita",
+  "en": "I forgot",
+  "lit": "忘れ (forget) ました (did)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Use it for words, names, items left behind. 忘れ物 means a lost item.",
+  "alt": [
+   "忘れた (casual)",
+   "忘れちゃった (casual, 'oops')"
+  ]
+ },
+ {
+  "jp": "迷いました",
+  "rd": "まよい ました",
+  "ro": "mayoimashita",
+  "en": "I'm lost / I got lost",
+  "lit": "迷い (lose one's way) ました (did)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Say it when asking for directions: 道に迷いました (I lost my way).",
+  "alt": [
+   "道に迷いました (I lost my way)",
+   "迷った (casual)"
+  ]
+ },
+ {
+  "jp": "困っています",
+  "rd": "こまって います",
+  "ro": "komatte imasu",
+  "en": "I'm in trouble / I have a problem",
+  "lit": "困って (be troubled) います (am doing)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Explain you need help before describing the problem. Common at counters and with staff.",
+  "alt": [
+   "困った (casual, 'what a pain')"
+  ]
+ },
+ {
+  "jp": "手伝ってください",
+  "rd": "てつだって ください",
+  "ro": "tetsudatte kudasai",
+  "en": "Please help (me with this)",
+  "lit": "手伝って (assist) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask for hands-on help: carrying, filling in a form. Less dramatic than 助けて.",
+  "alt": [
+   "手伝って (casual)",
+   "手伝いましょうか (shall I help?)"
+  ]
+ },
+ {
+  "jp": "何ですか",
+  "rd": "なん ですか",
+  "ro": "nan desu ka",
+  "en": "What is it?",
+  "lit": "何 (what) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Basic question. Before です/の/か, 何 reads 'nan'; before other words it can read 'nani' (何を, 何が).",
+  "alt": [
+   "何? (casual)",
+   "何なの? (casual, 'what is it?')"
+  ]
+ },
+ {
+  "jp": "誰ですか",
+  "rd": "だれ ですか",
+  "ro": "dare desu ka",
+  "en": "Who is it?",
+  "lit": "誰 (who) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask about a person. Polite form of who is どなた.",
+  "alt": [
+   "誰? (casual)",
+   "どなたですか (very polite)"
+  ]
+ },
+ {
+  "jp": "どこですか",
+  "rd": "どこ ですか",
+  "ro": "doko desu ka",
+  "en": "Where is it?",
+  "lit": "どこ (where) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Put a place first: トイレはどこですか. Also ask 'where' to point: どこ?.",
+  "alt": [
+   "どこ? (casual)",
+   "どちらですか (more polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いつですか",
+  "rd": "いつ ですか",
+  "ro": "itsu desu ka",
+  "en": "When is it?",
+  "lit": "いつ (when) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "About events and plans: 試験はいつですか (when is the exam?).",
+  "alt": [
+   "いつ? (casual)",
+   "いつ行く? (casual, when will you go?)"
+  ]
+ },
+ {
+  "jp": "どうして",
+  "rd": "どうして",
+  "ro": "dōshite",
+  "en": "Why?",
+  "lit": "どうして (why, how come)",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "Asks for a reason, can sound sympathetic or surprised. Answer with から (because).",
+  "alt": [
+   "なんで (casual)",
+   "なぜ (formal)",
+   "どうしてですか (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "なんで",
+  "rd": "なんで",
+  "ro": "nande",
+  "en": "Why? / How come?",
+  "lit": "なんで (why, 'for what')",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "Everyday casual 'why'. In anime often angry or incredulous: なんでだ!",
+  "alt": [
+   "どうして (a bit softer)",
+   "なぜ (formal)"
+  ]
+ },
+ {
+  "jp": "どうやって",
+  "rd": "どうやって",
+  "ro": "dō yatte",
+  "en": "How (do I do it)?",
+  "lit": "どう (how) やって (doing)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for a method: どうやって行きますか (how do I get there?).",
+  "alt": [
+   "どうすればいい? (casual, 'what should I do?')"
+  ]
+ },
+ {
+  "jp": "いくつですか",
+  "rd": "いくつ ですか",
+  "ro": "ikutsu desu ka",
+  "en": "How many? / How old?",
+  "lit": "いくつ (how many) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for a count of items. With people's ages use おいくつですか; to ask for number use 何個.",
+  "alt": [
+   "何個ですか (how many pieces?)"
+  ]
+ },
+ {
+  "jp": "どれですか",
+  "rd": "どれ ですか",
+  "ro": "dore desu ka",
+  "en": "Which one?",
+  "lit": "どれ (which one of three or more) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask to identify something among several. For two, どちら is common; to say 'which + noun' use どの.",
+  "alt": [
+   "どっち? (casual, 'which of two')"
+  ]
+ },
+ {
+  "jp": "どう思いますか",
+  "rd": "どう おもいます か",
+  "ro": "dō omoimasu ka",
+  "en": "What do you think?",
+  "lit": "どう (how) 思います (think) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for someone's opinion. Casual: どう思う?.",
+  "alt": [
+   "どう思う? (casual)",
+   "どう? (casual, 'how about it?')"
+  ]
+ },
+ {
+  "jp": "どうしたの",
+  "rd": "どうした の",
+  "ro": "dōshita no",
+  "en": "What's wrong? / What happened?",
+  "lit": "どう (how) した (did) の (soft question)",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "To someone who looks troubled or acts strangely. Warm and caring, among close people.",
+  "alt": [
+   "どうしたんですか (polite)",
+   "どうした? (casual, shorter)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "何してるの",
+  "rd": "なに してる の",
+  "ro": "nani shiteru no",
+  "en": "What are you doing?",
+  "lit": "何 (what) してる (doing) の (soft question)",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "Casual chat starter, or asking what someone is up to. Polite: 何をしていますか.",
+  "alt": [
+   "何をしていますか (polite)",
+   "何してる? (casual, shorter)"
+  ]
+ },
+ {
+  "jp": "何時ですか",
+  "rd": "なんじ ですか",
+  "ro": "nanji desu ka",
+  "en": "What time is it?",
+  "lit": "何時 (what time) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for the time, or a schedule: 電車は何時ですか (what time is the train?).",
+  "alt": [
+   "今何時? (casual)"
+  ]
+ },
+ {
+  "jp": "何が好きですか",
+  "rd": "なにが すき ですか",
+  "ro": "nani ga suki desu ka",
+  "en": "What do you like?",
+  "lit": "何 (what) が (subject) 好き (liked) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Good conversation opener. Replace 何 with a category: 食べ物は何が好きですか.",
+  "alt": [
+   "何が好き? (casual)",
+   "趣味は何ですか (what's your hobby?)"
+  ]
+ },
+ {
+  "jp": "どこから来ましたか",
+  "rd": "どこ から きました か",
+  "ro": "doko kara kimashita ka",
+  "en": "Where are you from? / Where did you come from?",
+  "lit": "どこ (where) から (from) 来ました (came) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask where someone is from. Answer: アメリカから来ました.",
+  "alt": [
+   "お国はどちらですか (very polite)",
+   "どこの出身ですか (where are you from?)"
+  ]
+ },
+ {
+  "jp": "どうですか",
+  "rd": "どう ですか",
+  "ro": "dō desu ka",
+  "en": "How is it? / How about it?",
+  "lit": "どう (how) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for impressions or offer a suggestion: コーヒーはどうですか (how about coffee?).",
+  "alt": [
+   "どう? (casual)",
+   "いかがですか (very polite)"
+  ]
+ },
+ {
+  "jp": "うれしい",
+  "rd": "うれしい",
+  "ro": "ureshii",
+  "en": "I'm happy / glad",
+  "lit": "うれしい (happy)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Express happiness about something that happened to you. Polite: うれしいです.",
+  "alt": [
+   "うれしいです (polite)",
+   "幸せ (happy, deeper)"
+  ]
+ },
+ {
+  "jp": "楽しい",
+  "rd": "たのしい",
+  "ro": "tanoshii",
+  "en": "Fun / enjoyable",
+  "lit": "楽しい (fun)",
+  "c": "feelings",
+  "lvl": "polite",
+  "use": "For activities, events or time together. Past: 楽しかった (it was fun).",
+  "alt": [
+   "楽しかったです (polite, past)",
+   "楽しいです (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "悲しい",
+  "rd": "かなしい",
+  "ro": "kanashii",
+  "en": "I'm sad / sad",
+  "lit": "悲しい (sad)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Sadness over losses or sad news. Related: さびしい (lonely).",
+  "alt": [
+   "悲しいです (polite)",
+   "つらい (painful, hard)"
+  ]
+ },
+ {
+  "jp": "疲れた",
+  "rd": "つかれた",
+  "ro": "tsukareta",
+  "en": "I'm tired",
+  "lit": "疲れた (became tired)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say after work or exercise. Polite: 疲れました.",
+  "alt": [
+   "疲れました (polite)",
+   "疲れてる (I'm tired now)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お腹がすいた",
+  "rd": "おなか が すいた",
+  "ro": "onaka ga suita",
+  "en": "I'm hungry",
+  "lit": "お腹 (stomach) が (subject) すいた (became empty)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Very common. Polite: お腹がすきました. Another casual word: はらへった (rough, male).",
+  "alt": [
+   "お腹がすきました (polite)",
+   "お腹ペコペコ (very hungry, casual)",
+   "腹減った (rough, male)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "のどが渇いた",
+  "rd": "のど が かわいた",
+  "ro": "nodo ga kawaita",
+  "en": "I'm thirsty",
+  "lit": "のど (throat) が (subject) 渇いた (dried)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say when you want a drink. Polite: のどが渇きました.",
+  "alt": [
+   "のどが渇きました (polite)"
+  ]
+ },
+ {
+  "jp": "眠い",
+  "rd": "ねむい",
+  "ro": "nemui",
+  "en": "I'm sleepy",
+  "lit": "眠い (sleepy)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Used about yourself or others. Add です for polite use.",
+  "alt": [
+   "眠いです (polite)",
+   "眠たい (sleepy, softer)"
+  ]
+ },
+ {
+  "jp": "怖い",
+  "rd": "こわい",
+  "ro": "kowai",
+  "en": "Scary / I'm scared",
+  "lit": "怖い (scary)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Both 'I'm scared' and 'that's scary'. Context tells which. Polite: 怖いです.",
+  "alt": [
+   "怖いです (polite)",
+   "怖かった (it was scary)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "好きです",
+  "rd": "すき です",
+  "ro": "suki desu",
+  "en": "I like it / I like you",
+  "lit": "好き (liked) です (is)",
+  "c": "feelings",
+  "lvl": "polite",
+  "use": "Expresses liking: [thing] が好きです. Alone to a person, it means romantic confession.",
+  "alt": [
+   "好き (casual)",
+   "大好き (love it)",
+   "好きだよ (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "大好き",
+  "rd": "だいすき",
+  "ro": "daisuki",
+  "en": "I love it / I really like it",
+  "lit": "大 (big) 好き (like)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Strong liking for foods, hobbies, friends. 大好きです is polite.",
+  "alt": [
+   "大好きです (polite)",
+   "愛してる (I love you, rare, deep)"
+  ]
+ },
+ {
+  "jp": "嫌い",
+  "rd": "きらい",
+  "ro": "kirai",
+  "en": "I hate it / I dislike it",
+  "lit": "嫌い (disliked)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Strong dislike. Softer: あまり好きじゃない (don't like it much).",
+  "alt": [
+   "嫌いです (polite)",
+   "あまり好きじゃない (don't much like it)"
+  ]
+ },
+ {
+  "jp": "嫌だ",
+  "rd": "いやだ",
+  "ro": "iya da",
+  "en": "I don't want to / I hate that",
+  "lit": "嫌 (unpleasant) だ (is)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Express refusal or aversion. Childish or strong in tone. Anime uses いやだ!",
+  "alt": [
+   "いやです (polite)",
+   "いや! (casual, short)"
+  ]
+ },
+ {
+  "jp": "暑い",
+  "rd": "あつい",
+  "ro": "atsui",
+  "en": "Hot (weather)",
+  "lit": "暑い (hot weather)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "For weather and room temperature. Hot thing/touch uses 熱い, same sound.",
+  "alt": [
+   "暑いですね (it's hot, isn't it)"
+  ]
+ },
+ {
+  "jp": "寒い",
+  "rd": "さむい",
+  "ro": "samui",
+  "en": "Cold (weather)",
+  "lit": "寒い (cold weather)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Weather small talk. 'Cold' to the touch is 冷たい.",
+  "alt": [
+   "寒いですね (it's cold, isn't it)"
+  ]
+ },
+ {
+  "jp": "痛い",
+  "rd": "いたい",
+  "ro": "itai",
+  "en": "It hurts / Ouch",
+  "lit": "痛い (painful)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Pain. Specify where: お腹が痛い (my stomach hurts), 頭が痛い (my head hurts).",
+  "alt": [
+   "痛いです (polite)",
+   "頭が痛い (I have a headache)"
+  ]
+ },
+ {
+  "jp": "恥ずかしい",
+  "rd": "はずかしい",
+  "ro": "hazukashii",
+  "en": "I'm embarrassed / How embarrassing",
+  "lit": "恥ずかしい (embarrassing)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Shyness or embarrassment. Common in anime romance and comedy.",
+  "alt": [
+   "恥ずかしいです (polite)",
+   "照れる (be bashful)"
+  ]
+ },
+ {
+  "jp": "緊張する",
+  "rd": "きんちょう する",
+  "ro": "kinchō suru",
+  "en": "I'm nervous",
+  "lit": "緊張 (tension) する (do)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Before exams, interviews, speeches. Past: 緊張した.",
+  "alt": [
+   "緊張してる (I'm nervous now)",
+   "ドキドキする (my heart's pounding)"
+  ]
+ },
+ {
+  "jp": "楽しみ",
+  "rd": "たのしみ",
+  "ro": "tanoshimi",
+  "en": "I'm looking forward to it",
+  "lit": "楽しみ (something to look forward to)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say it when anticipating an event: 明日が楽しみ (I'm looking forward to tomorrow).",
+  "alt": [
+   "楽しみです (polite)",
+   "楽しみにしています (polite, 'I'm looking forward')"
+  ]
+ },
+ {
+  "jp": "さびしい",
+  "rd": "さびしい",
+  "ro": "sabishii",
+  "en": "I'm lonely / I miss it",
+  "lit": "さびしい (lonely)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Loneliness or missing someone. Often used when a friend leaves.",
+  "alt": [
+   "さみしい (variant)",
+   "さびしいです (polite)"
+  ]
+ },
+ {
+  "jp": "びっくりした",
+  "rd": "びっくり した",
+  "ro": "bikkuri shita",
+  "en": "I was surprised / You scared me",
+  "lit": "びっくり (startled) した (did)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Mild shock. Polite: びっくりしました.",
+  "alt": [
+   "驚きました (polite, formal)",
+   "びっくりしました (polite)"
+  ]
+ },
+ {
+  "jp": "面白い",
+  "rd": "おもしろい",
+  "ro": "omoshiroi",
+  "en": "Interesting / Funny",
+  "lit": "面白い (interesting, funny)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Praise a film, joke, or idea. Opposite is つまらない (boring).",
+  "alt": [
+   "面白いですね (polite)",
+   "つまらない (boring)"
+  ]
+ },
+ {
+  "jp": "おいしい",
+  "rd": "おいしい",
+  "ro": "oishii",
+  "en": "Delicious",
+  "lit": "おいしい (tasty)",
+  "c": "feelings",
+  "lvl": "polite",
+  "use": "Praise food. Say おいしいです to be polite. Even more: すごくおいしい.",
+  "alt": [
+   "おいしいです (polite)",
+   "うまい (casual, masculine)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "かわいい",
+  "rd": "かわいい",
+  "ro": "kawaii",
+  "en": "Cute",
+  "lit": "かわいい (cute)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Used for babies, animals, clothes, people. Very common in Japanese. Strong form: めっちゃかわいい.",
+  "alt": [
+   "かわいいですね (polite)",
+   "かわいい! (exclamation)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "かっこいい",
+  "rd": "かっこいい",
+  "ro": "kakkoii",
+  "en": "Cool / Handsome",
+  "lit": "かっこいい (cool-looking)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Praise people, cars, moves, anime heroes. Polite: かっこいいですね.",
+  "alt": [
+   "かっこいいですね (polite)",
+   "イケメン (handsome guy)"
+  ]
+ },
+ {
+  "jp": "最高",
+  "rd": "さいこう",
+  "ro": "saikō",
+  "en": "The best / Fantastic",
+  "lit": "最高 (the highest)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say it about a meal, a day, a trip. Equivalent to 'it's the best'.",
+  "alt": [
+   "最高です (polite)",
+   "最高!(exclamation)"
+  ]
+ },
+ {
+  "jp": "忙しい",
+  "rd": "いそがしい",
+  "ro": "isogashii",
+  "en": "I'm busy",
+  "lit": "忙しい (busy)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Explain you have no time. Polite: 忙しいです.",
+  "alt": [
+   "忙しいです (polite)",
+   "暇 (free, not busy)"
+  ]
+ },
+ {
+  "jp": "気持ちいい",
+  "rd": "きもち いい",
+  "ro": "kimochi ii",
+  "en": "It feels good",
+  "lit": "気持ち (feeling) いい (good)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Hot baths, fresh air, massage. Casual and fun.",
+  "alt": [
+   "気持ちいいです (polite)",
+   "気持ち悪い (feels bad, gross)"
+  ]
+ },
+ {
+  "jp": "これをください",
+  "rd": "これ を ください",
+  "ro": "kore o kudasai",
+  "en": "This one, please",
+  "lit": "これ (this) を (object) ください (please give)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Point and say it to order or buy. Swap これ for any noun: 水をください.",
+  "alt": [
+   "これお願いします (this, please)",
+   "これ、ください (casual-polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いくらですか",
+  "rd": "いくら ですか",
+  "ro": "ikura desu ka",
+  "en": "How much is it?",
+  "lit": "いくら (how much) です (is) か (question)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask a price while pointing: これはいくらですか. Prices are given in 円 (en).",
+  "alt": [
+   "いくら? (casual)",
+   "おいくらですか (very polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "高い",
+  "rd": "たかい",
+  "ro": "takai",
+  "en": "Expensive / High / Tall",
+  "lit": "高い (high, expensive)",
+  "c": "shopping-food",
+  "lvl": "casual",
+  "use": "Comment on a price: ちょっと高い (a bit expensive). Opposite is 安い (cheap).",
+  "alt": [
+   "高いですね (polite)",
+   "ちょっと高いです (it's a bit pricey)"
+  ]
+ },
+ {
+  "jp": "安い",
+  "rd": "やすい",
+  "ro": "yasui",
+  "en": "Cheap",
+  "lit": "安い (cheap)",
+  "c": "shopping-food",
+  "lvl": "casual",
+  "use": "Praise a good price: 安い! Opposite is 高い (expensive).",
+  "alt": [
+   "安いですね (polite)"
+  ]
+ },
+ {
+  "jp": "お会計お願いします",
+  "rd": "おかいけい おねがい します",
+  "ro": "okaikei onegai shimasu",
+  "en": "The bill, please",
+  "lit": "お会計 (bill) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say it in a restaurant after you have finished eating. Staff will bring the bill or point to the register.",
+  "alt": [
+   "お会計 (shorter)",
+   "お勘定お願いします (older style)",
+   "チェックお願いします (casual, English-loan)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "カードは使えますか",
+  "rd": "カード は つかえます か",
+  "ro": "kādo wa tsukaemasu ka",
+  "en": "Can I use a card?",
+  "lit": "カード (card) は (topic) 使えます (can use) か (question)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask before paying at small shops and restaurants. Many accept only cash.",
+  "alt": [
+   "現金のみですか (cash only?)",
+   "クレジットカードは使えますか (credit card?)"
+  ]
+ },
+ {
+  "jp": "袋はいりません",
+  "rd": "ふくろ は いりません",
+  "ro": "fukuro wa irimasen",
+  "en": "I don't need a bag",
+  "lit": "袋 (bag) は (topic) いりません (don't need)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say it at a convenience store or supermarket where bags cost extra and the clerk asks.",
+  "alt": [
+   "袋は大丈夫です (the bag is fine)"
+  ]
+ },
+ {
+  "jp": "メニューをお願いします",
+  "rd": "メニュー を おねがい します",
+  "ro": "menyū o onegai shimasu",
+  "en": "A menu, please",
+  "lit": "メニュー (menu) を (object) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say it after being seated. For English menus: 英語のメニューはありますか.",
+  "alt": [
+   "メニューください (casual)",
+   "英語のメニューはありますか (English menu?)"
+  ]
+ },
+ {
+  "jp": "おすすめは何ですか",
+  "rd": "おすすめ は なん ですか",
+  "ro": "osusume wa nan desu ka",
+  "en": "What do you recommend?",
+  "lit": "おすすめ (recommendation) は (topic) 何 (what) ですか (is?)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask the staff what is good; helpful when you cannot read a menu.",
+  "alt": [
+   "おすすめはありますか (do you have recommendations?)"
+  ]
+ },
+ {
+  "jp": "水をください",
+  "rd": "みず を ください",
+  "ro": "mizu o kudasai",
+  "en": "Water, please",
+  "lit": "水 (water) を (object) ください (please give)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Water is free in most restaurants and will be brought. The お冷 (ohiya) is cold water.",
+  "alt": [
+   "お水をお願いします (polite)",
+   "お水ください (casual-polite)"
+  ]
+ },
+ {
+  "jp": "注文お願いします",
+  "rd": "ちゅうもん おねがい します",
+  "ro": "chūmon onegai shimasu",
+  "en": "I'd like to order",
+  "lit": "注文 (order) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Call a waiter over by saying すみません first, then this. Or press the call button on the table.",
+  "alt": [
+   "すみません、注文いいですか (excuse me, can I order?)"
+  ]
+ },
+ {
+  "jp": "ひとつください",
+  "rd": "ひとつ ください",
+  "ro": "hitotsu kudasai",
+  "en": "One of these, please",
+  "lit": "ひとつ (one thing) ください (please give)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Counting items by pointing: ふたつ (2), みっつ (3). Combine: これをふたつください.",
+  "alt": [
+   "ふたつください (two, please)",
+   "これを二つお願いします (two of these)"
+  ]
+ },
+ {
+  "jp": "いただきます",
+  "rd": "いただきます",
+  "ro": "itadakimasu",
+  "en": "Let's eat / Thanks for the meal (before eating)",
+  "lit": "いただき (receive, humble) ます (polite)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Said by everyone before eating, with hands together. It thanks the cook and the food itself. Always say it.",
+  "alt": [
+   "いただきまーす (cheerful)",
+   "いただきます (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ごちそうさまでした",
+  "rd": "ごちそう さま でした",
+  "ro": "gochisōsama deshita",
+  "en": "Thank you for the meal (after eating)",
+  "lit": "ごちそう (feast) さま (honorific) でした (was)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Said after eating, and to the staff when leaving a restaurant. Casual: ごちそうさま.",
+  "alt": [
+   "ごちそうさま (casual)",
+   "ごちそうさまです (said when someone treats you)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "おいしかった",
+  "rd": "おいしかった",
+  "ro": "oishikatta",
+  "en": "That was delicious",
+  "lit": "おいしかった (was tasty)",
+  "c": "shopping-food",
+  "lvl": "casual",
+  "use": "Praise after a meal. Polite: おいしかったです. A real compliment to a host or cook.",
+  "alt": [
+   "おいしかったです (polite)",
+   "すごくおいしかった (it was really good)"
+  ]
+ },
+ {
+  "jp": "見ているだけです",
+  "rd": "みている だけ です",
+  "ro": "mite iru dake desu",
+  "en": "I'm just looking",
+  "lit": "見ている (looking) だけ (only) です (is)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Politely decline a shop assistant's offer to help. Often accompanied by a small bow.",
+  "alt": [
+   "見てるだけです (casual)",
+   "大丈夫です (I'm fine)"
+  ]
+ },
+ {
+  "jp": "試着してもいいですか",
+  "rd": "しちゃく しても いい ですか",
+  "ro": "shichaku shite mo ii desu ka",
+  "en": "May I try it on?",
+  "lit": "試着 (try on) して (do) も (even) いい (OK) です (is) か (question)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask in clothing stores. You will be pointed to the fitting room.",
+  "alt": [
+   "試着できますか (can I try it on?)"
+  ]
+ },
+ {
+  "jp": "おかわりお願いします",
+  "rd": "おかわり おねがい します",
+  "ro": "okawari onegai shimasu",
+  "en": "Another helping, please",
+  "lit": "おかわり (refill) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Used for rice, tea, coffee, or drinks when you want a refill. Some places refill rice free.",
+  "alt": [
+   "おかわり (casual)",
+   "おかわりください (please give a refill)"
+  ]
+ },
+ {
+  "jp": "二人です",
+  "rd": "ふたり です",
+  "ro": "futari desu",
+  "en": "Table for two",
+  "lit": "二人 (two people) です (is)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say the number of people when you enter a restaurant. 一人 (hitori) for one, 三人 (sannin) for three.",
+  "alt": [
+   "一人です (one person)",
+   "三人です (three people)"
+  ]
+ },
+ {
+  "jp": "いらっしゃいませ",
+  "rd": "いらっしゃいませ",
+  "ro": "irasshaimase",
+  "en": "Welcome (said by shop staff)",
+  "lit": "いらっしゃいませ (honorific 'please come')",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "You hear it on entering shops and restaurants. You do not need to reply, just nod.",
+  "alt": [
+   "いらっしゃい (casual)"
+  ]
+ },
+ {
+  "jp": "持ち帰りでお願いします",
+  "rd": "もちかえり で おねがい します",
+  "ro": "mochikaeri de onegai shimasu",
+  "en": "To take away, please",
+  "lit": "持ち帰り (takeaway) で (as) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "For takeout. For dining in, you say ここで食べます (I'll eat here).",
+  "alt": [
+   "テイクアウトで (takeout)",
+   "ここで食べます (eating here)"
+  ]
+ },
+ {
+  "jp": "トイレはどこですか",
+  "rd": "トイレ は どこ ですか",
+  "ro": "toire wa doko desu ka",
+  "en": "Where is the toilet?",
+  "lit": "トイレ (toilet) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Probably the most useful travel sentence. Also works with お手洗い (otearai) in polite contexts.",
+  "alt": [
+   "お手洗いはどこですか (more polite)",
+   "トイレどこ? (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "駅はどこですか",
+  "rd": "えき は どこ ですか",
+  "ro": "eki wa doko desu ka",
+  "en": "Where is the station?",
+  "lit": "駅 (station) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Replace 駅 with another place: コンビニ, ホテル, 出口.",
+  "alt": [
+   "一番近い駅はどこですか (where is the nearest station?)"
+  ]
+ },
+ {
+  "jp": "〜に行きたいです",
+  "rd": "〜 に いきたい です",
+  "ro": "~ ni ikitai desu",
+  "en": "I want to go to ~",
+  "lit": "〜 (place) に (to) 行きたい (want to go) です (is)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Tell a taxi driver, station staff or a friend where you want to go: 京都に行きたいです.",
+  "alt": [
+   "〜に行きたい (casual)",
+   "〜に行きたいんですが (polite, softer)"
+  ]
+ },
+ {
+  "jp": "まっすぐ",
+  "rd": "まっすぐ",
+  "ro": "massugu",
+  "en": "Straight ahead",
+  "lit": "まっすぐ (straight)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Direction word. With 行きます: まっすぐ行ってください (go straight).",
+  "alt": [
+   "まっすぐ行ってください (go straight)"
+  ]
+ },
+ {
+  "jp": "右・左",
+  "rd": "みぎ ・ ひだり",
+  "ro": "migi / hidari",
+  "en": "Right / Left",
+  "lit": "右 (right) 左 (left)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Used in directions: 右に曲がってください (please turn right). 曲がる means to turn.",
+  "alt": [
+   "右に曲がってください (turn right)",
+   "左に曲がってください (turn left)"
+  ]
+ },
+ {
+  "jp": "近いですか",
+  "rd": "ちかい ですか",
+  "ro": "chikai desu ka",
+  "en": "Is it close?",
+  "lit": "近い (close) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask whether a place is near. Opposite question: 遠いですか (is it far?).",
+  "alt": [
+   "遠いですか (is it far?)",
+   "ここから遠いですか (is it far from here?)"
+  ]
+ },
+ {
+  "jp": "この電車は〜に行きますか",
+  "rd": "この でんしゃ は 〜 に いきます か",
+  "ro": "kono densha wa ~ ni ikimasu ka",
+  "en": "Does this train go to ~?",
+  "lit": "この (this) 電車 (train) は (topic) 〜に (to) 行きます (go) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Check before boarding. Replace 電車 with バス (bus).",
+  "alt": [
+   "このバスは〜に行きますか (does this bus go to ~?)"
+  ]
+ },
+ {
+  "jp": "何番線ですか",
+  "rd": "なんばんせん ですか",
+  "ro": "nanbansen desu ka",
+  "en": "Which platform is it?",
+  "lit": "何番線 (which platform) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask station staff or a passer-by for the platform number.",
+  "alt": [
+   "〜は何番線ですか (which platform for ~?)"
+  ]
+ },
+ {
+  "jp": "〜までいくらですか",
+  "rd": "〜 まで いくら ですか",
+  "ro": "~ made ikura desu ka",
+  "en": "How much is it to ~?",
+  "lit": "〜 (place) まで (up to) いくら (how much) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Used for train tickets or taxi fares. 駅までいくらですか.",
+  "alt": [
+   "〜までお願いします (to ~, please, to a taxi)"
+  ]
+ },
+ {
+  "jp": "ここはどこですか",
+  "rd": "ここ は どこ ですか",
+  "ro": "koko wa doko desu ka",
+  "en": "Where am I? / Where is this?",
+  "lit": "ここ (here) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "When you are lost. Show a map and ask これはどこですか (where is this?).",
+  "alt": [
+   "今どこですか (where am I now?)"
+  ]
+ },
+ {
+  "jp": "乗り換えはどこですか",
+  "rd": "のりかえ は どこ ですか",
+  "ro": "norikae wa doko desu ka",
+  "en": "Where do I transfer?",
+  "lit": "乗り換え (transfer) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Used in big stations. Staff will point to the correct platform or line.",
+  "alt": [
+   "乗り換えが必要ですか (do I need to transfer?)"
+  ]
+ },
+ {
+  "jp": "歩いて何分ですか",
+  "rd": "あるいて なんぷん ですか",
+  "ro": "aruite nanpun desu ka",
+  "en": "How many minutes on foot?",
+  "lit": "歩いて (walking) 何分 (how many minutes) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask how long on foot: 駅から歩いて何分ですか.",
+  "alt": [
+   "何分かかりますか (how long does it take?)",
+   "電車で何分ですか (how many minutes by train?)"
+  ]
+ },
+ {
+  "jp": "ここで止めてください",
+  "rd": "ここ で とめて ください",
+  "ro": "koko de tomete kudasai",
+  "en": "Please stop here",
+  "lit": "ここ (here) で (at) 止めて (stop) ください (please)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Tell a taxi driver where to stop. Taxi doors open automatically.",
+  "alt": [
+   "ここでお願いします (here, please)"
+  ]
+ },
+ {
+  "jp": "写真を撮ってもいいですか",
+  "rd": "しゃしん を とって も いい ですか",
+  "ro": "shashin o totte mo ii desu ka",
+  "en": "May I take a photo?",
+  "lit": "写真 (photo) を (object) 撮って (take) も (even) いい (OK) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask before photographing people, shops, or shrines. Also: 写真を撮ってもらえますか (could you take a photo of us?).",
+  "alt": [
+   "写真を撮ってください (please take a photo)",
+   "撮ってもいいですか (May I take one?)"
+  ]
+ },
+ {
+  "jp": "パスポートです",
+  "rd": "パスポート です",
+  "ro": "pasupōto desu",
+  "en": "Here is my passport",
+  "lit": "パスポート (passport) です (is)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "At immigration or hotel check-in, hand over your passport and say this.",
+  "alt": [
+   "パスポートをお願いします (staff asks for it)"
+  ]
+ },
+ {
+  "jp": "予約しています",
+  "rd": "よやく して います",
+  "ro": "yoyaku shite imasu",
+  "en": "I have a reservation",
+  "lit": "予約 (reservation) して (do) います (am)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Say it at hotels or restaurants. Add the name: 田中で予約しています.",
+  "alt": [
+   "〜で予約しました (I reserved under ~)"
+  ]
+ },
+ {
+  "jp": "入口・出口",
+  "rd": "いりぐち ・ でぐち",
+  "ro": "iriguchi / deguchi",
+  "en": "Entrance / Exit",
+  "lit": "入口 (entrance) 出口 (exit)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Signs in stations, shops, and buildings. Useful to ask 出口はどこですか.",
+  "alt": [
+   "出口はどこですか (where is the exit?)"
+  ]
+ },
+ {
+  "jp": "はじめまして",
+  "rd": "はじめまして",
+  "ro": "hajimemashite",
+  "en": "Nice to meet you (first meeting)",
+  "lit": "初めまして (for the first time)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "The standard opener when meeting someone for the first time. Follow with your name and よろしくお願いします.",
+  "alt": [
+   "初めまして (kanji)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "私の名前は〜です",
+  "rd": "わたし の なまえ は 〜 です",
+  "ro": "watashi no namae wa ~ desu",
+  "en": "My name is ~",
+  "lit": "私 (I) の (possessive) 名前 (name) は (topic) 〜です (is)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Self-introduction. Shortened: 〜です, or 〜と申します (formal, humble).",
+  "alt": [
+   "〜です (short)",
+   "〜と申します (formal)",
+   "〜といいます (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "よろしくお願いします",
+  "rd": "よろしく おねがい します",
+  "ro": "yoroshiku onegai shimasu",
+  "en": "Please treat me well / Nice to meet you",
+  "lit": "よろしく (well) お願いします (I request)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Used after introductions, and when asking for a favour or beginning a collaboration. Casual: よろしく.",
+  "alt": [
+   "よろしく (casual)",
+   "どうぞよろしくお願いします (very polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "〜から来ました",
+  "rd": "〜 から きました",
+  "ro": "~ kara kimashita",
+  "en": "I'm from ~",
+  "lit": "〜 (place) から (from) 来ました (came)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Tell where you are from: アメリカから来ました.",
+  "alt": [
+   "〜出身です (I'm originally from ~)",
+   "〜人です (I'm [nationality])"
+  ]
+ },
+ {
+  "jp": "学生です",
+  "rd": "がくせい です",
+  "ro": "gakusei desu",
+  "en": "I'm a student",
+  "lit": "学生 (student) です (is)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Self introduction. Replace with your job: 会社員です (office worker), エンジニアです.",
+  "alt": [
+   "会社員です (I'm an office worker)"
+  ]
+ },
+ {
+  "jp": "趣味は何ですか",
+  "rd": "しゅみ は なん ですか",
+  "ro": "shumi wa nan desu ka",
+  "en": "What are your hobbies?",
+  "lit": "趣味 (hobby) は (topic) 何 (what) です (is) か (question)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Safe small talk with new acquaintances. Answer: 趣味は〜です.",
+  "alt": [
+   "趣味は〜です (my hobby is ~)"
+  ]
+ },
+ {
+  "jp": "行こう",
+  "rd": "いこう",
+  "ro": "ikō",
+  "en": "Let's go",
+  "lit": "行こう (let's go)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Casual invitation to go together. Polite: 行きましょう.",
+  "alt": [
+   "行きましょう (polite)",
+   "行こうか (shall we go?)"
+  ]
+ },
+ {
+  "jp": "気をつけて",
+  "rd": "き を つけて",
+  "ro": "ki o tsukete",
+  "en": "Take care / Be careful",
+  "lit": "気 (attention) を (object) つけて (attach)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Said to someone leaving or doing something risky. Polite: 気をつけてください.",
+  "alt": [
+   "気をつけてください (polite)",
+   "お気をつけて (more polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お元気で",
+  "rd": "おげんき で",
+  "ro": "ogenki de",
+  "en": "Take care of yourself (when parting for long)",
+  "lit": "お元気 (healthy) で (state)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "For long separations, such as a friend moving away. Feels slightly final and warm.",
+  "alt": [
+   "お大事に (get well soon)"
+  ]
+ },
+ {
+  "jp": "乾杯",
+  "rd": "かんぱい",
+  "ro": "kanpai",
+  "en": "Cheers!",
+  "lit": "乾杯 (dry cup)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Said when raising drinks together. Everyone waits until all have a glass, then toasts.",
+  "alt": [
+   "乾杯! (exclamation)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お大事に",
+  "rd": "おだいじ に",
+  "ro": "odaiji ni",
+  "en": "Get well soon / Take care of yourself",
+  "lit": "お大事 (precious) に (adverb)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "To someone sick or injured. Used by shopkeepers, doctors and friends.",
+  "alt": [
+   "お大事にしてください (polite)"
+  ]
+ },
+ {
+  "jp": "お先に失礼します",
+  "rd": "おさき に しつれい します",
+  "ro": "osaki ni shitsurei shimasu",
+  "en": "Excuse me for leaving before you",
+  "lit": "お先に (ahead) 失礼 (rudeness) します (do)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Said when leaving work before others. Coworkers reply お疲れ様でした.",
+  "alt": [
+   "お先に (casual)"
+  ]
+ },
+ {
+  "jp": "待った?",
+  "rd": "まった",
+  "ro": "matta",
+  "en": "Did you wait? / Sorry I'm late",
+  "lit": "待った (waited?)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Casual question when you meet someone you kept waiting. Reply: ううん、今来たところ (no, I just got here).",
+  "alt": [
+   "待たせてごめん (sorry to make you wait)",
+   "ううん、今来たところ (no, I just arrived)"
+  ]
+ },
+ {
+  "jp": "今度遊ぼう",
+  "rd": "こんど あそぼう",
+  "ro": "kondo asobō",
+  "en": "Let's hang out sometime",
+  "lit": "今度 (next time) 遊ぼう (let's play)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Friendly invitation, often vague. It may not lead to a real plan.",
+  "alt": [
+   "今度遊びましょう (polite)",
+   "また遊ぼうね (let's hang out again)"
+  ]
+ },
+ {
+  "jp": "私も",
+  "rd": "わたし も",
+  "ro": "watashi mo",
+  "en": "Me too",
+  "lit": "私 (I) も (also)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Show agreement. Casual: 私も! Men may say 俺も.",
+  "alt": [
+   "僕も (casual, male)",
+   "俺も (rough, male)"
+  ]
+ },
+ {
+  "jp": "一緒にどうですか",
+  "rd": "いっしょ に どう ですか",
+  "ro": "issho ni dō desu ka",
+  "en": "Would you like to join me?",
+  "lit": "一緒に (together) どう (how) です (is) か (question)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Invite someone politely: 一緒にご飯はどうですか (how about eating together?).",
+  "alt": [
+   "一緒に行きませんか (won't you go with me?)",
+   "一緒に行こう (casual)"
+  ]
+ },
+ {
+  "jp": "楽しかった",
+  "rd": "たのしかった",
+  "ro": "tanoshikatta",
+  "en": "That was fun",
+  "lit": "楽しかった (was fun)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Say at the end of a party or outing. Polite: 楽しかったです.",
+  "alt": [
+   "楽しかったです (polite)",
+   "楽しかったね (it was fun, wasn't it?)"
+  ]
+ },
+ {
+  "jp": "お願いがあります",
+  "rd": "おねがい が あります",
+  "ro": "onegai ga arimasu",
+  "en": "I have a favour to ask",
+  "lit": "お願い (request) が (subject) あります (exists)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Prepare a request politely before saying it. Casual: お願いがあるんだけど.",
+  "alt": [
+   "お願いがあるんだけど (casual)",
+   "ちょっといいですか (do you have a minute?)"
+  ]
+ },
+ {
+  "jp": "やめて",
+  "rd": "やめて",
+  "ro": "yamete",
+  "en": "Stop it! / Don't!",
+  "lit": "やめ (stop) て (request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Said to make someone stop doing something. Add ください for polite; やめろ is a harsh command.",
+  "alt": [
+   "やめてください (polite)",
+   "やめろ (rough command)",
+   "やめなさい (firm, parent-like)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "待って",
+  "rd": "まって",
+  "ro": "matte",
+  "en": "Wait!",
+  "lit": "待って (wait, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Calling out to stop someone leaving or to get a moment. Polite: 待ってください.",
+  "alt": [
+   "待ってください (polite)",
+   "待て (rough command)",
+   "ちょっと待って (wait a sec)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "大丈夫?",
+  "rd": "だいじょうぶ",
+  "ro": "daijōbu?",
+  "en": "Are you okay?",
+  "lit": "大丈夫 (all right)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Asked with rising intonation when someone looks hurt or upset. Reply 大丈夫 (I'm okay). Polite: 大丈夫ですか.",
+  "alt": [
+   "大丈夫ですか (polite)",
+   "大丈夫だ (I'm fine, masculine)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "うそ!",
+  "rd": "うそ",
+  "ro": "uso!",
+  "en": "No way! / You're kidding!",
+  "lit": "うそ (a lie)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Shock reaction to surprising news. Literally 'lie', used like 'no way!'. Noun for lying: うそつき.",
+  "alt": [
+   "うそでしょ (you've got to be kidding)",
+   "うそだ! (it's a lie!)",
+   "まじで? (really?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "まさか",
+  "rd": "まさか",
+  "ro": "masaka",
+  "en": "No way... / Surely not",
+  "lit": "まさか (surely not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Disbelief at something unexpected or feared. Anime characters say it when the villain's identity or plan is revealed.",
+  "alt": [
+   "まさか…! (said trailing off)",
+   "まさかそんな (surely not)"
+  ]
+ },
+ {
+  "jp": "よし!",
+  "rd": "よし",
+  "ro": "yoshi!",
+  "en": "Alright! / Okay, let's go!",
+  "lit": "よし (good, okay)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Self-motivation or confirming a plan. Hero announces readiness. Often before action.",
+  "alt": [
+   "よっしゃ (more fired-up, Kansai flavour)",
+   "よし、行こう (alright, let's go)"
+  ]
+ },
+ {
+  "jp": "行くぞ",
+  "rd": "いくぞ",
+  "ro": "ikuzo",
+  "en": "Here I go! / Let's go!",
+  "lit": "行く (go) ぞ (masculine emphasis)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Battle cry or a push to move out. ぞ gives a rough, masculine, emphatic tone.",
+  "alt": [
+   "行くよ (softer, any gender)",
+   "行くわよ (feminine)"
+  ]
+ },
+ {
+  "jp": "任せて",
+  "rd": "まかせて",
+  "ro": "makasete",
+  "en": "Leave it to me",
+  "lit": "任せて (entrust, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Confident reassurance that you will handle it. 任せろ is a rougher male version.",
+  "alt": [
+   "任せてください (polite)",
+   "任せろ (rough, male)",
+   "俺に任せろ (leave it to me, male)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "信じて",
+  "rd": "しんじて",
+  "ro": "shinjite",
+  "en": "Believe in me / Trust me",
+  "lit": "信じて (believe, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Used by heroes and in emotional scenes. Also 信じてる (I trust you).",
+  "alt": [
+   "信じてください (polite)",
+   "信じてる (I believe in you)",
+   "信じろ (rough command)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "助けて",
+  "rd": "たすけて",
+  "ro": "tasukete",
+  "en": "Help!",
+  "lit": "助けて (help, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "An urgent cry for help. A staple in anime and dramas. Real emergencies: 助けて!",
+  "alt": [
+   "助けてください (polite)",
+   "誰か助けて (somebody help)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ふざけるな",
+  "rd": "ふざける な",
+  "ro": "fuzakeru na",
+  "en": "Don't mess with me! / Quit joking!",
+  "lit": "ふざける (to joke around) な (don't)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Angry shout, very rough. Never use to someone you respect. Common from villains and angry heroes.",
+  "alt": [
+   "ふざけないで (less rough)",
+   "冗談じゃない (this is no joke)"
+  ]
+ },
+ {
+  "jp": "何だと?",
+  "rd": "なんだと",
+  "ro": "nan da to?",
+  "en": "What did you say?!",
+  "lit": "何 (what) だ (is) と (quote)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Angry or shocked, masculine and confrontational. Very common in anime.",
+  "alt": [
+   "何を言ってる (what are you saying?)",
+   "なんだって? (what did you say?)"
+  ]
+ },
+ {
+  "jp": "しまった",
+  "rd": "しまった",
+  "ro": "shimatta",
+  "en": "Damn! / Oh no, I messed up",
+  "lit": "しまった (ended, I blew it)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Realising a mistake or something bad. Related to しまう (finish up); often said under the breath.",
+  "alt": [
+   "やっちゃった (oops, I did it)",
+   "しまった! (exclamation)"
+  ]
+ },
+ {
+  "jp": "どういうこと?",
+  "rd": "どういう こと",
+  "ro": "dō iu koto?",
+  "en": "What do you mean? / What's going on?",
+  "lit": "どういう (what kind of) こと (thing)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Demand an explanation after a shock. Polite: どういうことですか.",
+  "alt": [
+   "どういうことですか (polite)",
+   "どういうこと? (casual)",
+   "どういう意味? (what does that mean?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "頑張って",
+  "rd": "がんばって",
+  "ro": "ganbatte",
+  "en": "Do your best! / Good luck!",
+  "lit": "頑張って (try hard, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Encouragement to someone about to do something hard. Add ください for politeness. To someone already exhausted, avoid it; use 無理しないで.",
+  "alt": [
+   "頑張ってください (polite)",
+   "頑張れ (rough, cheer)",
+   "頑張ります (I'll do my best)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お疲れ様",
+  "rd": "おつかれさま",
+  "ro": "otsukaresama",
+  "en": "Good work / Thanks for your effort",
+  "lit": "お疲れ (tired) 様 (honorific)",
+  "c": "media",
+  "lvl": "polite",
+  "use": "Greeting between coworkers and teammates: for end-of-day, after work or tasks. Formal: お疲れ様でした.",
+  "alt": [
+   "お疲れ様です (polite)",
+   "お疲れ様でした (when done)",
+   "お疲れ (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ただいま",
+  "rd": "ただいま",
+  "ro": "tadaima",
+  "en": "I'm home / I'm back",
+  "lit": "ただいま (just now)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Said when arriving home or back to the office. Reply is おかえり.",
+  "alt": [
+   "ただいま戻りました (formal, office)"
+  ]
+ },
+ {
+  "jp": "おかえり",
+  "rd": "おかえり",
+  "ro": "okaeri",
+  "en": "Welcome back / Welcome home",
+  "lit": "お帰り (return)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Reply to ただいま. Polite: おかえりなさい.",
+  "alt": [
+   "おかえりなさい (polite)"
+  ]
+ },
+ {
+  "jp": "やった!",
+  "rd": "やった",
+  "ro": "yatta!",
+  "en": "I did it! / Yay!",
+  "lit": "やった (did it)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Joy at success or good news. Said alone or loudly.",
+  "alt": [
+   "やったー (happy shout)",
+   "よっしゃ (yes!)"
+  ]
+ },
+ {
+  "jp": "逃げろ",
+  "rd": "にげろ",
+  "ro": "nigero",
+  "en": "Run! / Escape!",
+  "lit": "逃げろ (escape, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Urgent order from heroes or rescuers. Polite request: 逃げてください.",
+  "alt": [
+   "逃げて (softer)",
+   "逃げてください (polite)"
+  ]
+ },
+ {
+  "jp": "危ない",
+  "rd": "あぶない",
+  "ro": "abunai",
+  "en": "Watch out! / Dangerous",
+  "lit": "危ない (dangerous)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Shout when danger is near. Also describes something risky.",
+  "alt": [
+   "危ないよ (careful)",
+   "危ない! (shout)"
+  ]
+ },
+ {
+  "jp": "見て",
+  "rd": "みて",
+  "ro": "mite",
+  "en": "Look!",
+  "lit": "見て (look, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Draw attention to something. Polite: 見てください. 見ろ is a rough command.",
+  "alt": [
+   "見てください (polite)",
+   "見ろ (rough)",
+   "ほら (look, there)"
+  ]
+ },
+ {
+  "jp": "聞いて",
+  "rd": "きいて",
+  "ro": "kiite",
+  "en": "Listen to me",
+  "lit": "聞いて (listen, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Used to get someone to hear you out, often emotionally: 聞いてくれ (male).",
+  "alt": [
+   "聞いてください (polite)",
+   "聞いてくれ (please listen, male)"
+  ]
+ },
+ {
+  "jp": "静かに",
+  "rd": "しずかに",
+  "ro": "shizuka ni",
+  "en": "Quiet! / Be quiet",
+  "lit": "静か (quiet) に (adverb)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Telling others to quiet down. Polite: 静かにしてください.",
+  "alt": [
+   "静かにして (casual)",
+   "静かにしてください (polite)",
+   "黙れ (shut up, rough)"
+  ]
+ },
+ {
+  "jp": "動くな",
+  "rd": "うごくな",
+  "ro": "ugoku na",
+  "en": "Don't move!",
+  "lit": "動く (move) な (don't)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Used by police or captors. The 'verb + な' pattern is a rough prohibition.",
+  "alt": [
+   "動かないで (softer)"
+  ]
+ },
+ {
+  "jp": "許さない",
+  "rd": "ゆるさない",
+  "ro": "yurusanai",
+  "en": "I won't forgive you",
+  "lit": "許さ (forgive) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Anger and revenge in dramas and anime. Strong; often a villain or hero vow.",
+  "alt": [
+   "許せない (I can't forgive)",
+   "絶対に許さない (I'll never forgive you)"
+  ]
+ },
+ {
+  "jp": "負けない",
+  "rd": "まけない",
+  "ro": "makenai",
+  "en": "I won't lose",
+  "lit": "負け (lose) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Declaration of determination, rival-style. Opposite 負けた (I lost).",
+  "alt": [
+   "負けないよ (softer)",
+   "絶対負けない (I'll never lose)"
+  ]
+ },
+ {
+  "jp": "絶対",
+  "rd": "ぜったい",
+  "ro": "zettai",
+  "en": "Absolutely / Definitely",
+  "lit": "絶対 (absolute)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Emphasis word. 絶対に行く (I will definitely go), 絶対ダメ (absolutely not).",
+  "alt": [
+   "絶対に (with に, more emphasis)",
+   "絶対だよ (promise)"
+  ]
+ },
+ {
+  "jp": "約束だよ",
+  "rd": "やくそく だよ",
+  "ro": "yakusoku da yo",
+  "en": "It's a promise",
+  "lit": "約束 (promise) だ (is) よ (assertion)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Seal a promise. Popular in emotional scenes. Pinky promise: 指切り.",
+  "alt": [
+   "約束する (I promise)",
+   "約束します (polite)"
+  ]
+ },
+ {
+  "jp": "なんとかなる",
+  "rd": "なんとか なる",
+  "ro": "nantoka naru",
+  "en": "It'll work out somehow",
+  "lit": "なんとか (somehow) なる (become)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Optimism in a tough spot. Said by friendly characters.",
+  "alt": [
+   "なんとかなるさ (it'll be alright)",
+   "なんとかする (I'll manage it)"
+  ]
+ },
+ {
+  "jp": "しょうがない",
+  "rd": "しょうがない",
+  "ro": "shōganai",
+  "en": "It can't be helped",
+  "lit": "しょうが (way) ない (none)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Resignation, accepting what cannot be changed. Very Japanese attitude.",
+  "alt": [
+   "仕方ない (same meaning)",
+   "しょうがないですね (polite)"
+  ]
+ },
+ {
+  "jp": "やばい",
+  "rd": "やばい",
+  "ro": "yabai",
+  "en": "Uh-oh / Crazy / Awesome",
+  "lit": "やばい (dangerous, wow)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Slang with many meanings: danger, shock, or super-good, depending on context. Casual only; avoid at work.",
+  "alt": [
+   "やばっ (short)",
+   "ヤバすぎる (way too crazy)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "最悪",
+  "rd": "さいあく",
+  "ro": "saiaku",
+  "en": "The worst / Terrible",
+  "lit": "最悪 (the worst)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Complain about a bad situation. Opposite 最高 (the best).",
+  "alt": [
+   "最悪だ (it's the worst)",
+   "最悪です (polite)"
+  ]
+ },
+ {
+  "jp": "くそ",
+  "rd": "くそ",
+  "ro": "kuso",
+  "en": "Damn! / Crap!",
+  "lit": "くそ (excrement)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Rough curse of frustration, very common in anime. Do not use in polite company.",
+  "alt": [
+   "ちくしょう (damn it)",
+   "くそっ (short)"
+  ]
+ },
+ {
+  "jp": "本気?",
+  "rd": "ほんき",
+  "ro": "honki?",
+  "en": "Are you serious?",
+  "lit": "本気 (serious)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Check that someone means it. 本気だ (I'm serious).",
+  "alt": [
+   "本気だ (I'm serious)",
+   "本気ですか (polite)",
+   "マジ? (slangy)"
+  ]
+ },
+ {
+  "jp": "冗談でしょ",
+  "rd": "じょうだん でしょ",
+  "ro": "jōdan desho",
+  "en": "You must be joking",
+  "lit": "冗談 (joke) でしょ (right?)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Express disbelief. 冗談じゃない (this is no joke) is an angry denial.",
+  "alt": [
+   "冗談じゃない (this is no joke)",
+   "冗談だよ (just kidding)"
+  ]
+ },
+ {
+  "jp": "まじで?",
+  "rd": "まじ で",
+  "ro": "maji de?",
+  "en": "Seriously? / For real?",
+  "lit": "まじ (serious) で (adverb)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Slangy 'really?'. Also まじ (really). Casual only.",
+  "alt": [
+   "マジ? (short)",
+   "本当に? (more neutral)"
+  ]
+ },
+ {
+  "jp": "何でもない",
+  "rd": "なんでも ない",
+  "ro": "nandemo nai",
+  "en": "It's nothing / Never mind",
+  "lit": "何でも (anything) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Brush off a question or worry. 'Nothing' as a sort of evasion.",
+  "alt": [
+   "何でもないです (polite)",
+   "なんでもないよ (soft)"
+  ]
+ },
+ {
+  "jp": "気のせい",
+  "rd": "き の せい",
+  "ro": "ki no sei",
+  "en": "It's just your imagination",
+  "lit": "気 (mind) の (of) せい (fault)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Dismiss a feeling or sound as imagined. Often in horror scenes.",
+  "alt": [
+   "気のせいだよ (it's just in your head)",
+   "気のせいかな (maybe it's my imagination)"
+  ]
+ },
+ {
+  "jp": "当たり前",
+  "rd": "あたりまえ",
+  "ro": "atarimae",
+  "en": "Obviously / Of course",
+  "lit": "当たり前 (taken for granted)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Something self-evident. 当たり前だ! 'Of course!'",
+  "alt": [
+   "当たり前だよ (casual)",
+   "当然 (naturally)"
+  ]
+ },
+ {
+  "jp": "無理",
+  "rd": "むり",
+  "ro": "muri",
+  "en": "Impossible / No way / Can't",
+  "lit": "無理 (unreasonable)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Declare something impossible or refuse. Polite: 無理です. 無理しないで means 'don't push yourself'.",
+  "alt": [
+   "無理です (polite)",
+   "無理しないで (don't overdo it)"
+  ]
+ },
+ {
+  "jp": "大変だ",
+  "rd": "たいへん だ",
+  "ro": "taihen da",
+  "en": "This is bad! / It's tough",
+  "lit": "大変 (serious) だ (is)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Alert to an emergency or grumbling about difficulty. Polite: 大変です. 大変でしたね is sympathy.",
+  "alt": [
+   "大変です (polite)",
+   "大変だったね (that was rough)"
+  ]
+ },
+ {
+  "jp": "離せ",
+  "rd": "はなせ",
+  "ro": "hanase",
+  "en": "Let go of me!",
+  "lit": "離せ (release, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Rough command. Gentler: 離して.",
+  "alt": [
+   "離して (softer)",
+   "離してください (polite)"
+  ]
+ },
+ {
+  "jp": "来い",
+  "rd": "こい",
+  "ro": "koi",
+  "en": "Come on! / Come at me!",
+  "lit": "来い (come, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Challenge in a fight, or calling someone near. Rough and masculine.",
+  "alt": [
+   "来て (come, softer)",
+   "おいで (come, to children)"
+  ]
+ },
+ {
+  "jp": "お前は誰だ",
+  "rd": "おまえ は だれ だ",
+  "ro": "omae wa dare da",
+  "en": "Who are you?",
+  "lit": "お前 (you, rough) は (topic) 誰 (who) だ (is)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Confrontational question to a stranger. お前 is rude. Polite: あなたは誰ですか.",
+  "alt": [
+   "あなたは誰ですか (polite)",
+   "誰だ (who's there?)"
+  ]
+ },
+ {
+  "jp": "俺に任せろ",
+  "rd": "おれ に まかせろ",
+  "ro": "ore ni makasero",
+  "en": "Leave it to me",
+  "lit": "俺 (I, rough male) に (to) 任せろ (entrust, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Confident hero line, masculine. Neutral version: 私に任せて.",
+  "alt": [
+   "私に任せて (neutral)",
+   "任せてください (polite)"
+  ]
+ },
+ {
+  "jp": "一緒に行こう",
+  "rd": "いっしょ に いこう",
+  "ro": "issho ni ikō",
+  "en": "Let's go together",
+  "lit": "一緒に (together) 行こう (let's go)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Invitation to join forces. Polite: 一緒に行きましょう.",
+  "alt": [
+   "一緒に行きましょう (polite)"
+  ]
+ },
+ {
+  "jp": "よかった",
+  "rd": "よかった",
+  "ro": "yokatta",
+  "en": "Thank goodness / I'm glad",
+  "lit": "よかった (was good)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Relief when something works out or someone is safe. Polite: よかったです.",
+  "alt": [
+   "よかったです (polite)",
+   "無事でよかった (glad you're safe)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "間に合った",
+  "rd": "まにあった",
+  "ro": "ma ni atta",
+  "en": "I made it in time",
+  "lit": "間に合った (was in time)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Relief of arriving or finishing before it was too late. Opposite 間に合わなかった.",
+  "alt": [
+   "間に合いました (polite)",
+   "間に合わなかった (didn't make it)"
+  ]
+ },
+ {
+  "jp": "あきらめない",
+  "rd": "あきらめ ない",
+  "ro": "akiramenai",
+  "en": "I won't give up",
+  "lit": "あきらめ (give up) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Hero determination; also a motto. Command: あきらめるな (don't give up).",
+  "alt": [
+   "あきらめるな (don't give up)",
+   "あきらめません (polite)"
+  ]
+ },
+ {
+  "jp": "何を言っている",
+  "rd": "なに を いっている",
+  "ro": "nani o itte iru",
+  "en": "What are you talking about?",
+  "lit": "何 (what) を (object) 言って (say) いる (is doing)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Incredulous reaction. Casual: 何言ってるの. Rough: 何を言ってやがる.",
+  "alt": [
+   "何言ってるの (casual)",
+   "何を言っているんですか (polite)"
+  ]
+ },
+ {
+  "jp": "本当にごめん",
+  "rd": "ほんとうに ごめん",
+  "ro": "hontō ni gomen",
+  "en": "I'm really sorry",
+  "lit": "本当に (truly) ごめん (sorry)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Sincere apology to a friend or family member. More polite: 本当にすみません.",
+  "alt": [
+   "本当にごめんなさい (more polite)",
+   "本当にすみません (polite)"
+  ]
+ },
+ {
+  "jp": "助かった",
+  "rd": "たすかった",
+  "ro": "tasukatta",
+  "en": "You saved me / That helped",
+  "lit": "助かった (was saved)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Thanks for a rescue or favour. Polite: 助かりました.",
+  "alt": [
+   "助かりました (polite)",
+   "ありがとう、助かった (thanks, you saved me)"
+  ]
+ },
+ {
+  "jp": "いい加減にしろ",
+  "rd": "いいかげん に しろ",
+  "ro": "iikagen ni shiro",
+  "en": "That's enough! / Cut it out!",
+  "lit": "いい加減 (decent limit) に (to) しろ (do, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Angry demand to stop. Heard when someone has had enough. Rough.",
+  "alt": [
+   "いい加減にして (a bit softer)",
+   "いい加減にしてください (polite)"
+  ]
+ },
+ {
+  "jp": "心配するな",
+  "rd": "しんぱい する な",
+  "ro": "shinpai suru na",
+  "en": "Don't worry",
+  "lit": "心配 (worry) する (do) な (don't)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Reassurance, masculine. Neutral: 心配しないで.",
+  "alt": [
+   "心配しないで (neutral)",
+   "心配しないでください (polite)"
+  ]
+ },
+ {
+  "jp": "気をつけろ",
+  "rd": "き を つけろ",
+  "ro": "ki o tsukero",
+  "en": "Watch out!",
+  "lit": "気 (attention) を (object) つけろ (attach, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Warning to take care. Neutral: 気をつけて.",
+  "alt": [
+   "気をつけて (neutral)"
+  ]
+ },
+ {
+  "jp": "やるしかない",
+  "rd": "やる しか ない",
+  "ro": "yaru shika nai",
+  "en": "There's no choice but to do it",
+  "lit": "やる (do) しか (nothing but) ない (none)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "A resolved moment before a hard act. Polite: やるしかありません.",
+  "alt": [
+   "やるしかありません (polite)",
+   "やるしかないね (casual)"
+  ]
+ },
+ {
+  "jp": "お待たせ",
+  "rd": "おまたせ",
+  "ro": "omatase",
+  "en": "Sorry to keep you waiting",
+  "lit": "お待たせ (made you wait)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Casual line when arriving or when ready. Hero shows up: お待たせ!",
+  "alt": [
+   "お待たせしました (polite)",
+   "待たせたな (male, cool)"
+  ]
+ },
+ {
+  "jp": "おい",
+  "rd": "おい",
+  "ro": "oi",
+  "en": "Hey!",
+  "lit": "おい (hey)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Rough way to call someone, used by men or in anger. Do not use to people you respect.",
+  "alt": [
+   "ねえ (friendly hey)",
+   "ちょっと (hey, you)"
+  ]
+ },
+ {
+  "jp": "ねえ",
+  "rd": "ねえ",
+  "ro": "nē",
+  "en": "Hey / Say...",
+  "lit": "ねえ (hey)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Get someone's attention among friends or family. Friendlier than おい.",
+  "alt": [
+   "ねえねえ (hey hey)",
+   "あのう (excuse me, polite)"
+  ]
+ },
+ {
+  "jp": "嘘つき",
+  "rd": "うそつき",
+  "ro": "usotsuki",
+  "en": "Liar",
+  "lit": "嘘 (lie) つき (teller)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Accusation in drama, or playful. 嘘つき! is a cry in betrayals.",
+  "alt": [
+   "嘘つかないで (don't lie)"
+  ]
+ },
+ {
+  "jp": "誰だ",
+  "rd": "だれ だ",
+  "ro": "dare da?",
+  "en": "Who's there?",
+  "lit": "誰 (who) だ (is)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Sharp question to an unknown person, often in the dark. Rough and masculine.",
+  "alt": [
+   "誰ですか (polite)",
+   "誰?(casual)"
+  ]
+ },
+ {
+  "jp": "行け",
+  "rd": "いけ",
+  "ro": "ike",
+  "en": "Go!",
+  "lit": "行け (go, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Urging someone onward. Often cheering a hero on.",
+  "alt": [
+   "行って (softer)",
+   "行って!(go!)"
+  ]
+ },
+ {
+  "jp": "守る",
+  "rd": "まもる",
+  "ro": "mamoru",
+  "en": "I will protect you",
+  "lit": "守る (protect)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Pledge of protection, a trope: 俺が守る (I'll protect you). Dictionary form used as declaration.",
+  "alt": [
+   "私が守る (I will protect)",
+   "守ってみせる (I'll protect you, I swear)"
+  ]
+ },
+ {
+  "jp": "やっぱり",
+  "rd": "やっぱり",
+  "ro": "yappari",
+  "en": "As expected / After all",
+  "lit": "やっぱり (after all)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Shows that things turned out as you thought. Casual form of やはり.",
+  "alt": [
+   "やはり (more formal)",
+   "やっぱりね (just as I thought)"
+  ]
+ },
+ {
+  "jp": "さすが",
+  "rd": "さすが",
+  "ro": "sasuga",
+  "en": "As expected of you / Impressive",
+  "lit": "さすが (as expected)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Praise for someone living up to reputation: さすがだね.",
+  "alt": [
+   "さすがですね (polite)",
+   "さすが〜 (as expected of ~)"
+  ]
+ },
+ {
+  "jp": "お願い",
+  "rd": "おねがい",
+  "ro": "onegai",
+  "en": "Please! / I beg you",
+  "lit": "お願い (request)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Emotional plea. Polite: お願いします.",
+  "alt": [
+   "お願いします (polite)",
+   "お願いだから (I'm begging you)"
+  ]
+ }
+]

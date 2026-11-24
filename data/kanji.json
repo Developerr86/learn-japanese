@@ -1,0 +1,7866 @@
+[
+ {
+  "k": "一",
+  "m": "one",
+  "on": [
+   "イチ",
+   "イツ"
+  ],
+  "kun": [
+   "ひと.つ",
+   "ひと"
+  ],
+  "s": 1,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A single horizontal stroke, just like the number one lying on its side.",
+  "w": [
+   {
+    "w": "一つ",
+    "r": "ひとつ",
+    "m": "one thing"
+   },
+   {
+    "w": "一人",
+    "r": "ひとり",
+    "m": "one person"
+   },
+   {
+    "w": "一月",
+    "r": "いちがつ",
+    "m": "January"
+   }
+  ]
+ },
+ {
+  "k": "二",
+  "m": "two",
+  "on": [
+   "ニ"
+  ],
+  "kun": [
+   "ふた.つ",
+   "ふた"
+  ],
+  "s": 2,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Two horizontal strokes, the top one shorter.",
+  "w": [
+   {
+    "w": "二つ",
+    "r": "ふたつ",
+    "m": "two things"
+   },
+   {
+    "w": "二人",
+    "r": "ふたり",
+    "m": "two people"
+   },
+   {
+    "w": "二月",
+    "r": "にがつ",
+    "m": "February"
+   }
+  ]
+ },
+ {
+  "k": "三",
+  "m": "three",
+  "on": [
+   "サン"
+  ],
+  "kun": [
+   "み.つ",
+   "み"
+  ],
+  "s": 3,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Three horizontal strokes stacked up.",
+  "w": [
+   {
+    "w": "三つ",
+    "r": "みっつ",
+    "m": "three things"
+   },
+   {
+    "w": "三月",
+    "r": "さんがつ",
+    "m": "March"
+   },
+   {
+    "w": "三日",
+    "r": "みっか",
+    "m": "third day"
+   }
+  ]
+ },
+ {
+  "k": "四",
+  "m": "four",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "よ.つ",
+   "よん",
+   "よ"
+  ],
+  "s": 5,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A box with two legs inside, like a room with four walls.",
+  "w": [
+   {
+    "w": "四つ",
+    "r": "よっつ",
+    "m": "four things"
+   },
+   {
+    "w": "四月",
+    "r": "しがつ",
+    "m": "April"
+   },
+   {
+    "w": "四人",
+    "r": "よにん",
+    "m": "four people"
+   }
+  ]
+ },
+ {
+  "k": "五",
+  "m": "five",
+  "on": [
+   "ゴ"
+  ],
+  "kun": [
+   "いつ.つ",
+   "いつ"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Looks like a fence with a gate; picture a hand with five fingers.",
+  "w": [
+   {
+    "w": "五つ",
+    "r": "いつつ",
+    "m": "five things"
+   },
+   {
+    "w": "五月",
+    "r": "ごがつ",
+    "m": "May"
+   },
+   {
+    "w": "五人",
+    "r": "ごにん",
+    "m": "five people"
+   }
+  ]
+ },
+ {
+  "k": "六",
+  "m": "six",
+  "on": [
+   "ロク"
+  ],
+  "kun": [
+   "む.つ",
+   "む"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A little roof on top of two legs, like a person with six sides.",
+  "w": [
+   {
+    "w": "六つ",
+    "r": "むっつ",
+    "m": "six things"
+   },
+   {
+    "w": "六月",
+    "r": "ろくがつ",
+    "m": "June"
+   },
+   {
+    "w": "六人",
+    "r": "ろくにん",
+    "m": "six people"
+   }
+  ]
+ },
+ {
+  "k": "七",
+  "m": "seven",
+  "on": [
+   "シチ"
+  ],
+  "kun": [
+   "なな.つ",
+   "なな"
+  ],
+  "s": 2,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Looks like a bent 7 shape.",
+  "w": [
+   {
+    "w": "七つ",
+    "r": "ななつ",
+    "m": "seven things"
+   },
+   {
+    "w": "七月",
+    "r": "しちがつ",
+    "m": "July"
+   },
+   {
+    "w": "七時",
+    "r": "しちじ",
+    "m": "seven o'clock"
+   }
+  ]
+ },
+ {
+  "k": "八",
+  "m": "eight",
+  "on": [
+   "ハチ"
+  ],
+  "kun": [
+   "や.つ",
+   "や"
+  ],
+  "s": 2,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Two strokes spreading wide like the number 8 opening downward, a mountain slope.",
+  "w": [
+   {
+    "w": "八つ",
+    "r": "やっつ",
+    "m": "eight things"
+   },
+   {
+    "w": "八月",
+    "r": "はちがつ",
+    "m": "August"
+   },
+   {
+    "w": "八百屋",
+    "r": "やおや",
+    "m": "greengrocer"
+   }
+  ]
+ },
+ {
+  "k": "九",
+  "m": "nine",
+  "on": [
+   "キュウ",
+   "ク"
+  ],
+  "kun": [
+   "ここの.つ"
+  ],
+  "s": 2,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A hooked stroke like the tail of a 9.",
+  "w": [
+   {
+    "w": "九つ",
+    "r": "ここのつ",
+    "m": "nine things"
+   },
+   {
+    "w": "九月",
+    "r": "くがつ",
+    "m": "September"
+   },
+   {
+    "w": "九時",
+    "r": "くじ",
+    "m": "nine o'clock"
+   }
+  ]
+ },
+ {
+  "k": "十",
+  "m": "ten",
+  "on": [
+   "ジュウ",
+   "ジッ"
+  ],
+  "kun": [
+   "とお",
+   "と"
+  ],
+  "s": 2,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A cross, like a plus sign for ten.",
+  "w": [
+   {
+    "w": "十",
+    "r": "じゅう",
+    "m": "ten"
+   },
+   {
+    "w": "十月",
+    "r": "じゅうがつ",
+    "m": "October"
+   },
+   {
+    "w": "十分",
+    "r": "じゅっぷん",
+    "m": "ten minutes"
+   }
+  ]
+ },
+ {
+  "k": "百",
+  "m": "hundred",
+  "on": [
+   "ヒャク"
+  ],
+  "kun": [],
+  "s": 6,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "One (一) on top of white (白): one white hundred.",
+  "w": [
+   {
+    "w": "百",
+    "r": "ひゃく",
+    "m": "hundred"
+   },
+   {
+    "w": "三百",
+    "r": "さんびゃく",
+    "m": "three hundred"
+   },
+   {
+    "w": "百円",
+    "r": "ひゃくえん",
+    "m": "100 yen"
+   }
+  ]
+ },
+ {
+  "k": "千",
+  "m": "thousand",
+  "on": [
+   "セン"
+  ],
+  "kun": [
+   "ち"
+  ],
+  "s": 3,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A person (人) with a line across, a thousand people.",
+  "w": [
+   {
+    "w": "千",
+    "r": "せん",
+    "m": "thousand"
+   },
+   {
+    "w": "三千",
+    "r": "さんぜん",
+    "m": "three thousand"
+   },
+   {
+    "w": "千円",
+    "r": "せんえん",
+    "m": "1000 yen"
+   }
+  ]
+ },
+ {
+  "k": "万",
+  "m": "ten thousand",
+  "on": [
+   "マン",
+   "バン"
+  ],
+  "kun": [],
+  "s": 3,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Simplified shape, picture a huge number of ten thousand ants crawling.",
+  "w": [
+   {
+    "w": "一万",
+    "r": "いちまん",
+    "m": "ten thousand"
+   },
+   {
+    "w": "万円",
+    "r": "まんえん",
+    "m": "10,000 yen"
+   },
+   {
+    "w": "万年筆",
+    "r": "まんねんひつ",
+    "m": "fountain pen"
+   }
+  ]
+ },
+ {
+  "k": "円",
+  "m": "yen, circle",
+  "on": [
+   "エン"
+  ],
+  "kun": [
+   "まる.い"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A round coin in a frame, the yen.",
+  "w": [
+   {
+    "w": "円",
+    "r": "えん",
+    "m": "yen"
+   },
+   {
+    "w": "百円",
+    "r": "ひゃくえん",
+    "m": "100 yen"
+   },
+   {
+    "w": "円高",
+    "r": "えんだか",
+    "m": "strong yen"
+   }
+  ]
+ },
+ {
+  "k": "人",
+  "m": "person",
+  "on": [
+   "ジン",
+   "ニン"
+  ],
+  "kun": [
+   "ひと"
+  ],
+  "s": 2,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A person walking, seen from the side with two legs.",
+  "w": [
+   {
+    "w": "人",
+    "r": "ひと",
+    "m": "person"
+   },
+   {
+    "w": "日本人",
+    "r": "にほんじん",
+    "m": "Japanese person"
+   },
+   {
+    "w": "三人",
+    "r": "さんにん",
+    "m": "three people"
+   }
+  ]
+ },
+ {
+  "k": "日",
+  "m": "day, sun",
+  "on": [
+   "ニチ",
+   "ジツ"
+  ],
+  "kun": [
+   "ひ",
+   "か"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "The sun as a window with a line across the middle.",
+  "w": [
+   {
+    "w": "日曜日",
+    "r": "にちようび",
+    "m": "Sunday"
+   },
+   {
+    "w": "今日",
+    "r": "きょう",
+    "m": "today"
+   },
+   {
+    "w": "日本",
+    "r": "にほん",
+    "m": "Japan"
+   }
+  ]
+ },
+ {
+  "k": "月",
+  "m": "month, moon",
+  "on": [
+   "ゲツ",
+   "ガツ"
+  ],
+  "kun": [
+   "つき"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A crescent moon with two lines inside.",
+  "w": [
+   {
+    "w": "月",
+    "r": "つき",
+    "m": "moon"
+   },
+   {
+    "w": "月曜日",
+    "r": "げつようび",
+    "m": "Monday"
+   },
+   {
+    "w": "一月",
+    "r": "いちがつ",
+    "m": "January"
+   }
+  ]
+ },
+ {
+  "k": "火",
+  "m": "fire",
+  "on": [
+   "カ"
+  ],
+  "kun": [
+   "ひ"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A bonfire with sparks flying off to each side.",
+  "w": [
+   {
+    "w": "火",
+    "r": "ひ",
+    "m": "fire"
+   },
+   {
+    "w": "火曜日",
+    "r": "かようび",
+    "m": "Tuesday"
+   },
+   {
+    "w": "花火",
+    "r": "はなび",
+    "m": "fireworks"
+   }
+  ]
+ },
+ {
+  "k": "水",
+  "m": "water",
+  "on": [
+   "スイ"
+  ],
+  "kun": [
+   "みず"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A stream of water flowing with splashes to both sides.",
+  "w": [
+   {
+    "w": "水",
+    "r": "みず",
+    "m": "water"
+   },
+   {
+    "w": "水曜日",
+    "r": "すいようび",
+    "m": "Wednesday"
+   },
+   {
+    "w": "水道",
+    "r": "すいどう",
+    "m": "water supply"
+   }
+  ]
+ },
+ {
+  "k": "木",
+  "m": "tree, wood",
+  "on": [
+   "モク",
+   "ボク"
+  ],
+  "kun": [
+   "き"
+  ],
+  "s": 4,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A tree with a trunk, branches and roots.",
+  "w": [
+   {
+    "w": "木",
+    "r": "き",
+    "m": "tree"
+   },
+   {
+    "w": "木曜日",
+    "r": "もくようび",
+    "m": "Thursday"
+   },
+   {
+    "w": "木材",
+    "r": "もくざい",
+    "m": "lumber"
+   }
+  ]
+ },
+ {
+  "k": "金",
+  "m": "gold, money",
+  "on": [
+   "キン",
+   "コン"
+  ],
+  "kun": [
+   "かね"
+  ],
+  "s": 8,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A roof over gold nuggets buried in the ground.",
+  "w": [
+   {
+    "w": "お金",
+    "r": "おかね",
+    "m": "money"
+   },
+   {
+    "w": "金曜日",
+    "r": "きんようび",
+    "m": "Friday"
+   },
+   {
+    "w": "金色",
+    "r": "きんいろ",
+    "m": "golden color"
+   }
+  ]
+ },
+ {
+  "k": "土",
+  "m": "earth, soil",
+  "on": [
+   "ド",
+   "ト"
+  ],
+  "kun": [
+   "つち"
+  ],
+  "s": 3,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "A small plant sprouting out of the ground.",
+  "w": [
+   {
+    "w": "土",
+    "r": "つち",
+    "m": "soil"
+   },
+   {
+    "w": "土曜日",
+    "r": "どようび",
+    "m": "Saturday"
+   },
+   {
+    "w": "土地",
+    "r": "とち",
+    "m": "land"
+   }
+  ]
+ },
+ {
+  "k": "山",
+  "m": "mountain",
+  "on": [
+   "サン"
+  ],
+  "kun": [
+   "やま"
+  ],
+  "s": 3,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Three peaks, the middle one tallest.",
+  "w": [
+   {
+    "w": "山",
+    "r": "やま",
+    "m": "mountain"
+   },
+   {
+    "w": "富士山",
+    "r": "ふじさん",
+    "m": "Mt. Fuji"
+   },
+   {
+    "w": "火山",
+    "r": "かざん",
+    "m": "volcano"
+   }
+  ]
+ },
+ {
+  "k": "川",
+  "m": "river",
+  "on": [
+   "セン"
+  ],
+  "kun": [
+   "かわ"
+  ],
+  "s": 3,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "Three lines of water flowing downstream.",
+  "w": [
+   {
+    "w": "川",
+    "r": "かわ",
+    "m": "river"
+   },
+   {
+    "w": "小川",
+    "r": "おがわ",
+    "m": "stream"
+   },
+   {
+    "w": "天の川",
+    "r": "あまのがわ",
+    "m": "Milky Way"
+   }
+  ]
+ },
+ {
+  "k": "口",
+  "m": "mouth",
+  "on": [
+   "コウ",
+   "ク"
+  ],
+  "kun": [
+   "くち"
+  ],
+  "s": 3,
+  "lv": 1,
+  "jlpt": 5,
+  "hint": "An open mouth drawn as a box.",
+  "w": [
+   {
+    "w": "口",
+    "r": "くち",
+    "m": "mouth"
+   },
+   {
+    "w": "入口",
+    "r": "いりぐち",
+    "m": "entrance"
+   },
+   {
+    "w": "出口",
+    "r": "でぐち",
+    "m": "exit"
+   }
+  ]
+ },
+ {
+  "k": "目",
+  "m": "eye",
+  "on": [
+   "モク",
+   "ボク"
+  ],
+  "kun": [
+   "め"
+  ],
+  "s": 5,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "An eye turned sideways, with the pupil lines inside.",
+  "w": [
+   {
+    "w": "目",
+    "r": "め",
+    "m": "eye"
+   },
+   {
+    "w": "目的",
+    "r": "もくてき",
+    "m": "purpose"
+   },
+   {
+    "w": "三番目",
+    "r": "さんばんめ",
+    "m": "third"
+   }
+  ]
+ },
+ {
+  "k": "手",
+  "m": "hand",
+  "on": [
+   "シュ"
+  ],
+  "kun": [
+   "て"
+  ],
+  "s": 4,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A hand with fingers stretched out and a wrist line.",
+  "w": [
+   {
+    "w": "手",
+    "r": "て",
+    "m": "hand"
+   },
+   {
+    "w": "上手",
+    "r": "じょうず",
+    "m": "skillful"
+   },
+   {
+    "w": "手紙",
+    "r": "てがみ",
+    "m": "letter"
+   }
+  ]
+ },
+ {
+  "k": "足",
+  "m": "foot, leg, enough",
+  "on": [
+   "ソク"
+  ],
+  "kun": [
+   "あし",
+   "た.りる"
+  ],
+  "s": 7,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A mouth (口) on top of a leg (止) walking; enough steps.",
+  "w": [
+   {
+    "w": "足",
+    "r": "あし",
+    "m": "foot"
+   },
+   {
+    "w": "足りる",
+    "r": "たりる",
+    "m": "to be enough"
+   },
+   {
+    "w": "不足",
+    "r": "ふそく",
+    "m": "shortage"
+   }
+  ]
+ },
+ {
+  "k": "耳",
+  "m": "ear",
+  "on": [
+   "ジ"
+  ],
+  "kun": [
+   "みみ"
+  ],
+  "s": 6,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "An ear shape with the lobe and inner curve.",
+  "w": [
+   {
+    "w": "耳",
+    "r": "みみ",
+    "m": "ear"
+   },
+   {
+    "w": "耳元",
+    "r": "みみもと",
+    "m": "near the ear"
+   },
+   {
+    "w": "耳鼻科",
+    "r": "じびか",
+    "m": "ENT clinic"
+   }
+  ]
+ },
+ {
+  "k": "力",
+  "m": "power",
+  "on": [
+   "リョク",
+   "リキ"
+  ],
+  "kun": [
+   "ちから"
+  ],
+  "s": 2,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A flexed arm showing muscle power.",
+  "w": [
+   {
+    "w": "力",
+    "r": "ちから",
+    "m": "power"
+   },
+   {
+    "w": "体力",
+    "r": "たいりょく",
+    "m": "physical strength"
+   },
+   {
+    "w": "努力",
+    "r": "どりょく",
+    "m": "effort"
+   }
+  ]
+ },
+ {
+  "k": "大",
+  "m": "big",
+  "on": [
+   "ダイ",
+   "タイ"
+  ],
+  "kun": [
+   "おお.きい",
+   "おお"
+  ],
+  "s": 3,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A person stretching out both arms to show how big.",
+  "w": [
+   {
+    "w": "大きい",
+    "r": "おおきい",
+    "m": "big"
+   },
+   {
+    "w": "大学",
+    "r": "だいがく",
+    "m": "university"
+   },
+   {
+    "w": "大丈夫",
+    "r": "だいじょうぶ",
+    "m": "okay"
+   }
+  ]
+ },
+ {
+  "k": "小",
+  "m": "small",
+  "on": [
+   "ショウ"
+  ],
+  "kun": [
+   "ちい.さい",
+   "こ",
+   "お"
+  ],
+  "s": 3,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A tiny thing split by little drops on both sides.",
+  "w": [
+   {
+    "w": "小さい",
+    "r": "ちいさい",
+    "m": "small"
+   },
+   {
+    "w": "小学校",
+    "r": "しょうがっこう",
+    "m": "elementary school"
+   },
+   {
+    "w": "小鳥",
+    "r": "ことり",
+    "m": "small bird"
+   }
+  ]
+ },
+ {
+  "k": "中",
+  "m": "middle, inside",
+  "on": [
+   "チュウ",
+   "ジュウ"
+  ],
+  "kun": [
+   "なか"
+  ],
+  "s": 4,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "An arrow piercing the center of a box.",
+  "w": [
+   {
+    "w": "中",
+    "r": "なか",
+    "m": "inside"
+   },
+   {
+    "w": "中学校",
+    "r": "ちゅうがっこう",
+    "m": "junior high school"
+   },
+   {
+    "w": "一日中",
+    "r": "いちにちじゅう",
+    "m": "all day"
+   }
+  ]
+ },
+ {
+  "k": "上",
+  "m": "up, above",
+  "on": [
+   "ジョウ",
+   "ショウ"
+  ],
+  "kun": [
+   "うえ",
+   "あ.がる",
+   "のぼ.る"
+  ],
+  "s": 3,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A short line sitting above the long baseline.",
+  "w": [
+   {
+    "w": "上",
+    "r": "うえ",
+    "m": "above"
+   },
+   {
+    "w": "上手",
+    "r": "じょうず",
+    "m": "skillful"
+   },
+   {
+    "w": "上がる",
+    "r": "あがる",
+    "m": "to rise"
+   }
+  ]
+ },
+ {
+  "k": "下",
+  "m": "down, below",
+  "on": [
+   "カ",
+   "ゲ"
+  ],
+  "kun": [
+   "した",
+   "さ.がる",
+   "くだ.さる"
+  ],
+  "s": 3,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A short line hanging below the long baseline.",
+  "w": [
+   {
+    "w": "下",
+    "r": "した",
+    "m": "below"
+   },
+   {
+    "w": "下手",
+    "r": "へた",
+    "m": "unskillful"
+   },
+   {
+    "w": "下さい",
+    "r": "ください",
+    "m": "please give"
+   }
+  ]
+ },
+ {
+  "k": "左",
+  "m": "left",
+  "on": [
+   "サ"
+  ],
+  "kun": [
+   "ひだり"
+  ],
+  "s": 5,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A hand (ナ) holding a carpenter's ruler, the left hand.",
+  "w": [
+   {
+    "w": "左",
+    "r": "ひだり",
+    "m": "left"
+   },
+   {
+    "w": "左手",
+    "r": "ひだりて",
+    "m": "left hand"
+   },
+   {
+    "w": "左右",
+    "r": "さゆう",
+    "m": "left and right"
+   }
+  ]
+ },
+ {
+  "k": "右",
+  "m": "right",
+  "on": [
+   "ウ",
+   "ユウ"
+  ],
+  "kun": [
+   "みぎ"
+  ],
+  "s": 5,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A hand (ナ) bringing food to the mouth (口), the right hand.",
+  "w": [
+   {
+    "w": "右",
+    "r": "みぎ",
+    "m": "right"
+   },
+   {
+    "w": "右手",
+    "r": "みぎて",
+    "m": "right hand"
+   },
+   {
+    "w": "右側",
+    "r": "みぎがわ",
+    "m": "right side"
+   }
+  ]
+ },
+ {
+  "k": "外",
+  "m": "outside",
+  "on": [
+   "ガイ",
+   "ゲ"
+  ],
+  "kun": [
+   "そと",
+   "ほか",
+   "はず.す"
+  ],
+  "s": 5,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "Evening (夕) fortune-telling stays outside the home.",
+  "w": [
+   {
+    "w": "外",
+    "r": "そと",
+    "m": "outside"
+   },
+   {
+    "w": "外国",
+    "r": "がいこく",
+    "m": "foreign country"
+   },
+   {
+    "w": "外国人",
+    "r": "がいこくじん",
+    "m": "foreigner"
+   }
+  ]
+ },
+ {
+  "k": "内",
+  "m": "inside",
+  "on": [
+   "ナイ"
+  ],
+  "kun": [
+   "うち"
+  ],
+  "s": 4,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A person (人) entering inside a frame.",
+  "w": [
+   {
+    "w": "内",
+    "r": "うち",
+    "m": "inside"
+   },
+   {
+    "w": "国内",
+    "r": "こくない",
+    "m": "domestic"
+   },
+   {
+    "w": "内側",
+    "r": "うちがわ",
+    "m": "inner side"
+   }
+  ]
+ },
+ {
+  "k": "前",
+  "m": "before, front",
+  "on": [
+   "ゼン"
+  ],
+  "kun": [
+   "まえ"
+  ],
+  "s": 9,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "Stepping forward with a knife cutting the ribbon at the front.",
+  "w": [
+   {
+    "w": "前",
+    "r": "まえ",
+    "m": "front"
+   },
+   {
+    "w": "午前",
+    "r": "ごぜん",
+    "m": "morning"
+   },
+   {
+    "w": "名前",
+    "r": "なまえ",
+    "m": "name"
+   }
+  ]
+ },
+ {
+  "k": "後",
+  "m": "after, behind",
+  "on": [
+   "ゴ",
+   "コウ"
+  ],
+  "kun": [
+   "のち",
+   "うし.ろ",
+   "あと"
+  ],
+  "s": 9,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "Small steps (彳) taking tiny threads behind you.",
+  "w": [
+   {
+    "w": "後ろ",
+    "r": "うしろ",
+    "m": "behind"
+   },
+   {
+    "w": "午後",
+    "r": "ごご",
+    "m": "afternoon"
+   },
+   {
+    "w": "後",
+    "r": "あと",
+    "m": "after"
+   }
+  ]
+ },
+ {
+  "k": "空",
+  "m": "sky, empty",
+  "on": [
+   "クウ"
+  ],
+  "kun": [
+   "そら",
+   "あ.く",
+   "から"
+  ],
+  "s": 8,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A hole (穴) under which there is work (工): the empty sky.",
+  "w": [
+   {
+    "w": "空",
+    "r": "そら",
+    "m": "sky"
+   },
+   {
+    "w": "空港",
+    "r": "くうこう",
+    "m": "airport"
+   },
+   {
+    "w": "空く",
+    "r": "あく",
+    "m": "to be empty"
+   }
+  ]
+ },
+ {
+  "k": "天",
+  "m": "heaven, sky",
+  "on": [
+   "テン"
+  ],
+  "kun": [
+   "あめ",
+   "あま"
+  ],
+  "s": 4,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A big (大) person with a line above, the heavens.",
+  "w": [
+   {
+    "w": "天気",
+    "r": "てんき",
+    "m": "weather"
+   },
+   {
+    "w": "天国",
+    "r": "てんごく",
+    "m": "heaven"
+   },
+   {
+    "w": "天才",
+    "r": "てんさい",
+    "m": "genius"
+   }
+  ]
+ },
+ {
+  "k": "雨",
+  "m": "rain",
+  "on": [
+   "ウ"
+  ],
+  "kun": [
+   "あめ",
+   "あま"
+  ],
+  "s": 8,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A window with raindrops falling from the clouds.",
+  "w": [
+   {
+    "w": "雨",
+    "r": "あめ",
+    "m": "rain"
+   },
+   {
+    "w": "大雨",
+    "r": "おおあめ",
+    "m": "heavy rain"
+   },
+   {
+    "w": "雨傘",
+    "r": "あまがさ",
+    "m": "rain umbrella"
+   }
+  ]
+ },
+ {
+  "k": "田",
+  "m": "rice field",
+  "on": [
+   "デン"
+  ],
+  "kun": [
+   "た"
+  ],
+  "s": 5,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A rice field divided into four plots.",
+  "w": [
+   {
+    "w": "田んぼ",
+    "r": "たんぼ",
+    "m": "rice paddy"
+   },
+   {
+    "w": "山田",
+    "r": "やまだ",
+    "m": "Yamada (surname)"
+   },
+   {
+    "w": "田中",
+    "r": "たなか",
+    "m": "Tanaka (surname)"
+   }
+  ]
+ },
+ {
+  "k": "石",
+  "m": "stone",
+  "on": [
+   "セキ",
+   "シャク"
+  ],
+  "kun": [
+   "いし"
+  ],
+  "s": 5,
+  "lv": 2,
+  "jlpt": 4,
+  "hint": "A rock (口) lying under a cliff (厂).",
+  "w": [
+   {
+    "w": "石",
+    "r": "いし",
+    "m": "stone"
+   },
+   {
+    "w": "宝石",
+    "r": "ほうせき",
+    "m": "jewel"
+   },
+   {
+    "w": "石油",
+    "r": "せきゆ",
+    "m": "oil"
+   }
+  ]
+ },
+ {
+  "k": "花",
+  "m": "flower",
+  "on": [
+   "カ"
+  ],
+  "kun": [
+   "はな"
+  ],
+  "s": 7,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "Grass (艹) that transforms (化) into blossoms.",
+  "w": [
+   {
+    "w": "花",
+    "r": "はな",
+    "m": "flower"
+   },
+   {
+    "w": "花火",
+    "r": "はなび",
+    "m": "fireworks"
+   },
+   {
+    "w": "花見",
+    "r": "はなみ",
+    "m": "cherry blossom viewing"
+   }
+  ]
+ },
+ {
+  "k": "林",
+  "m": "grove",
+  "on": [
+   "リン"
+  ],
+  "kun": [
+   "はやし"
+  ],
+  "s": 8,
+  "lv": 2,
+  "jlpt": 4,
+  "hint": "Two trees (木) side by side make a grove.",
+  "w": [
+   {
+    "w": "林",
+    "r": "はやし",
+    "m": "grove"
+   },
+   {
+    "w": "小林",
+    "r": "こばやし",
+    "m": "Kobayashi (surname)"
+   },
+   {
+    "w": "森林",
+    "r": "しんりん",
+    "m": "forest"
+   }
+  ]
+ },
+ {
+  "k": "森",
+  "m": "forest",
+  "on": [
+   "シン"
+  ],
+  "kun": [
+   "もり"
+  ],
+  "s": 12,
+  "lv": 2,
+  "jlpt": 4,
+  "hint": "Three trees (木) together make a deep forest.",
+  "w": [
+   {
+    "w": "森",
+    "r": "もり",
+    "m": "forest"
+   },
+   {
+    "w": "森林",
+    "r": "しんりん",
+    "m": "woodland"
+   },
+   {
+    "w": "青森",
+    "r": "あおもり",
+    "m": "Aomori"
+   }
+  ]
+ },
+ {
+  "k": "本",
+  "m": "book, origin",
+  "on": [
+   "ホン"
+  ],
+  "kun": [
+   "もと"
+  ],
+  "s": 5,
+  "lv": 2,
+  "jlpt": 5,
+  "hint": "A tree (木) with a line at the root: the origin, also a book.",
+  "w": [
+   {
+    "w": "本",
+    "r": "ほん",
+    "m": "book"
+   },
+   {
+    "w": "日本",
+    "r": "にほん",
+    "m": "Japan"
+   },
+   {
+    "w": "本当",
+    "r": "ほんとう",
+    "m": "truth"
+   }
+  ]
+ },
+ {
+  "k": "年",
+  "m": "year",
+  "on": [
+   "ネン"
+  ],
+  "kun": [
+   "とし"
+  ],
+  "s": 6,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A harvest cycle that comes once per year.",
+  "w": [
+   {
+    "w": "今年",
+    "r": "ことし",
+    "m": "this year"
+   },
+   {
+    "w": "来年",
+    "r": "らいねん",
+    "m": "next year"
+   },
+   {
+    "w": "毎年",
+    "r": "まいとし",
+    "m": "every year"
+   }
+  ]
+ },
+ {
+  "k": "学",
+  "m": "study",
+  "on": [
+   "ガク"
+  ],
+  "kun": [
+   "まな.ぶ"
+  ],
+  "s": 8,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A child (子) under a roof learning with hands raised.",
+  "w": [
+   {
+    "w": "学校",
+    "r": "がっこう",
+    "m": "school"
+   },
+   {
+    "w": "大学",
+    "r": "だいがく",
+    "m": "university"
+   },
+   {
+    "w": "学生",
+    "r": "がくせい",
+    "m": "student"
+   }
+  ]
+ },
+ {
+  "k": "校",
+  "m": "school",
+  "on": [
+   "コウ"
+  ],
+  "kun": [],
+  "s": 10,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "Wood (木) crossing (交) like desks and beams in a school building.",
+  "w": [
+   {
+    "w": "学校",
+    "r": "がっこう",
+    "m": "school"
+   },
+   {
+    "w": "高校",
+    "r": "こうこう",
+    "m": "high school"
+   },
+   {
+    "w": "校長",
+    "r": "こうちょう",
+    "m": "principal"
+   }
+  ]
+ },
+ {
+  "k": "生",
+  "m": "life, birth",
+  "on": [
+   "セイ",
+   "ショウ"
+  ],
+  "kun": [
+   "い.きる",
+   "う.まれる",
+   "なま"
+  ],
+  "s": 5,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A plant sprouting up from the ground: life.",
+  "w": [
+   {
+    "w": "先生",
+    "r": "せんせい",
+    "m": "teacher"
+   },
+   {
+    "w": "学生",
+    "r": "がくせい",
+    "m": "student"
+   },
+   {
+    "w": "生まれる",
+    "r": "うまれる",
+    "m": "to be born"
+   }
+  ]
+ },
+ {
+  "k": "先",
+  "m": "previous, ahead",
+  "on": [
+   "セン"
+  ],
+  "kun": [
+   "さき"
+  ],
+  "s": 6,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A person with feet pointing ahead of everyone else.",
+  "w": [
+   {
+    "w": "先生",
+    "r": "せんせい",
+    "m": "teacher"
+   },
+   {
+    "w": "先週",
+    "r": "せんしゅう",
+    "m": "last week"
+   },
+   {
+    "w": "先",
+    "r": "さき",
+    "m": "ahead"
+   }
+  ]
+ },
+ {
+  "k": "名",
+  "m": "name",
+  "on": [
+   "メイ",
+   "ミョウ"
+  ],
+  "kun": [
+   "な"
+  ],
+  "s": 6,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "In the evening (夕) you call out (口) your name in the dark.",
+  "w": [
+   {
+    "w": "名前",
+    "r": "なまえ",
+    "m": "name"
+   },
+   {
+    "w": "有名",
+    "r": "ゆうめい",
+    "m": "famous"
+   },
+   {
+    "w": "名字",
+    "r": "みょうじ",
+    "m": "family name"
+   }
+  ]
+ },
+ {
+  "k": "子",
+  "m": "child",
+  "on": [
+   "シ",
+   "ス"
+  ],
+  "kun": [
+   "こ"
+  ],
+  "s": 3,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A baby with a big head and arms stretched out.",
+  "w": [
+   {
+    "w": "子供",
+    "r": "こども",
+    "m": "child"
+   },
+   {
+    "w": "女の子",
+    "r": "おんなのこ",
+    "m": "girl"
+   },
+   {
+    "w": "子犬",
+    "r": "こいぬ",
+    "m": "puppy"
+   }
+  ]
+ },
+ {
+  "k": "女",
+  "m": "woman",
+  "on": [
+   "ジョ",
+   "ニョ"
+  ],
+  "kun": [
+   "おんな",
+   "め"
+  ],
+  "s": 3,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A woman kneeling with her arms folded in front.",
+  "w": [
+   {
+    "w": "女",
+    "r": "おんな",
+    "m": "woman"
+   },
+   {
+    "w": "彼女",
+    "r": "かのじょ",
+    "m": "she, girlfriend"
+   },
+   {
+    "w": "女性",
+    "r": "じょせい",
+    "m": "woman"
+   }
+  ]
+ },
+ {
+  "k": "男",
+  "m": "man",
+  "on": [
+   "ダン",
+   "ナン"
+  ],
+  "kun": [
+   "おとこ"
+  ],
+  "s": 7,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "Strength (力) in the rice field (田): a man works the fields.",
+  "w": [
+   {
+    "w": "男",
+    "r": "おとこ",
+    "m": "man"
+   },
+   {
+    "w": "男の子",
+    "r": "おとこのこ",
+    "m": "boy"
+   },
+   {
+    "w": "男性",
+    "r": "だんせい",
+    "m": "male"
+   }
+  ]
+ },
+ {
+  "k": "友",
+  "m": "friend",
+  "on": [
+   "ユウ"
+  ],
+  "kun": [
+   "とも"
+  ],
+  "s": 4,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "Two hands (ナ and 又) reaching out to each other.",
+  "w": [
+   {
+    "w": "友達",
+    "r": "ともだち",
+    "m": "friend"
+   },
+   {
+    "w": "友人",
+    "r": "ゆうじん",
+    "m": "friend"
+   },
+   {
+    "w": "親友",
+    "r": "しんゆう",
+    "m": "best friend"
+   }
+  ]
+ },
+ {
+  "k": "父",
+  "m": "father",
+  "on": [
+   "フ"
+  ],
+  "kun": [
+   "ちち"
+  ],
+  "s": 4,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A hand holding an axe, the father who chops wood.",
+  "w": [
+   {
+    "w": "父",
+    "r": "ちち",
+    "m": "my father"
+   },
+   {
+    "w": "お父さん",
+    "r": "おとうさん",
+    "m": "father"
+   },
+   {
+    "w": "父親",
+    "r": "ちちおや",
+    "m": "father"
+   }
+  ]
+ },
+ {
+  "k": "母",
+  "m": "mother",
+  "on": [
+   "ボ"
+  ],
+  "kun": [
+   "はは"
+  ],
+  "s": 5,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A woman (女) with two dots for nursing breasts.",
+  "w": [
+   {
+    "w": "母",
+    "r": "はは",
+    "m": "my mother"
+   },
+   {
+    "w": "お母さん",
+    "r": "おかあさん",
+    "m": "mother"
+   },
+   {
+    "w": "母親",
+    "r": "ははおや",
+    "m": "mother"
+   }
+  ]
+ },
+ {
+  "k": "兄",
+  "m": "older brother",
+  "on": [
+   "ケイ",
+   "キョウ"
+  ],
+  "kun": [
+   "あに"
+  ],
+  "s": 5,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A mouth (口) on top of legs (儿): the older brother who gives orders.",
+  "w": [
+   {
+    "w": "兄",
+    "r": "あに",
+    "m": "older brother"
+   },
+   {
+    "w": "お兄さん",
+    "r": "おにいさん",
+    "m": "big brother"
+   },
+   {
+    "w": "兄弟",
+    "r": "きょうだい",
+    "m": "siblings"
+   }
+  ]
+ },
+ {
+  "k": "姉",
+  "m": "older sister",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "あね"
+  ],
+  "s": 8,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A woman (女) beside a market (市): the older sister who shops.",
+  "w": [
+   {
+    "w": "姉",
+    "r": "あね",
+    "m": "older sister"
+   },
+   {
+    "w": "お姉さん",
+    "r": "おねえさん",
+    "m": "big sister"
+   },
+   {
+    "w": "姉妹",
+    "r": "しまい",
+    "m": "sisters"
+   }
+  ]
+ },
+ {
+  "k": "弟",
+  "m": "younger brother",
+  "on": [
+   "テイ",
+   "ダイ",
+   "デ"
+  ],
+  "kun": [
+   "おとうと"
+  ],
+  "s": 7,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A bow with a string wrapped around it, a younger brother in line.",
+  "w": [
+   {
+    "w": "弟",
+    "r": "おとうと",
+    "m": "younger brother"
+   },
+   {
+    "w": "兄弟",
+    "r": "きょうだい",
+    "m": "siblings"
+   },
+   {
+    "w": "弟子",
+    "r": "でし",
+    "m": "pupil"
+   }
+  ]
+ },
+ {
+  "k": "妹",
+  "m": "younger sister",
+  "on": [
+   "マイ"
+  ],
+  "kun": [
+   "いもうと"
+  ],
+  "s": 8,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A woman (女) who has not yet (未) grown up.",
+  "w": [
+   {
+    "w": "妹",
+    "r": "いもうと",
+    "m": "younger sister"
+   },
+   {
+    "w": "姉妹",
+    "r": "しまい",
+    "m": "sisters"
+   },
+   {
+    "w": "妹さん",
+    "r": "いもうとさん",
+    "m": "your younger sister"
+   }
+  ]
+ },
+ {
+  "k": "家",
+  "m": "house, family",
+  "on": [
+   "カ",
+   "ケ"
+  ],
+  "kun": [
+   "いえ",
+   "うち"
+  ],
+  "s": 10,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A pig (豕) under a roof (宀): a household in old times.",
+  "w": [
+   {
+    "w": "家",
+    "r": "いえ",
+    "m": "house"
+   },
+   {
+    "w": "家族",
+    "r": "かぞく",
+    "m": "family"
+   },
+   {
+    "w": "画家",
+    "r": "がか",
+    "m": "painter"
+   }
+  ]
+ },
+ {
+  "k": "犬",
+  "m": "dog",
+  "on": [
+   "ケン"
+  ],
+  "kun": [
+   "いぬ"
+  ],
+  "s": 4,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A big (大) body with a dot for the dog's ear.",
+  "w": [
+   {
+    "w": "犬",
+    "r": "いぬ",
+    "m": "dog"
+   },
+   {
+    "w": "子犬",
+    "r": "こいぬ",
+    "m": "puppy"
+   },
+   {
+    "w": "愛犬",
+    "r": "あいけん",
+    "m": "pet dog"
+   }
+  ]
+ },
+ {
+  "k": "魚",
+  "m": "fish",
+  "on": [
+   "ギョ"
+  ],
+  "kun": [
+   "さかな",
+   "うお"
+  ],
+  "s": 11,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A fish with head on top, body in the middle and tail fins as dots.",
+  "w": [
+   {
+    "w": "魚",
+    "r": "さかな",
+    "m": "fish"
+   },
+   {
+    "w": "金魚",
+    "r": "きんぎょ",
+    "m": "goldfish"
+   },
+   {
+    "w": "魚屋",
+    "r": "さかなや",
+    "m": "fish shop"
+   }
+  ]
+ },
+ {
+  "k": "白",
+  "m": "white",
+  "on": [
+   "ハク",
+   "ビャク"
+  ],
+  "kun": [
+   "しろ",
+   "しろ.い"
+  ],
+  "s": 5,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A sun (日) with a ray on top shining bright white.",
+  "w": [
+   {
+    "w": "白い",
+    "r": "しろい",
+    "m": "white"
+   },
+   {
+    "w": "白",
+    "r": "しろ",
+    "m": "white"
+   },
+   {
+    "w": "白鳥",
+    "r": "はくちょう",
+    "m": "swan"
+   }
+  ]
+ },
+ {
+  "k": "赤",
+  "m": "red",
+  "on": [
+   "セキ",
+   "シャク"
+  ],
+  "kun": [
+   "あか",
+   "あか.い"
+  ],
+  "s": 7,
+  "lv": 3,
+  "jlpt": 4,
+  "hint": "Earth (土) on top of fire (火), glowing red.",
+  "w": [
+   {
+    "w": "赤い",
+    "r": "あかい",
+    "m": "red"
+   },
+   {
+    "w": "赤ちゃん",
+    "r": "あかちゃん",
+    "m": "baby"
+   },
+   {
+    "w": "赤色",
+    "r": "あかいろ",
+    "m": "red color"
+   }
+  ]
+ },
+ {
+  "k": "青",
+  "m": "blue, green",
+  "on": [
+   "セイ",
+   "ショウ"
+  ],
+  "kun": [
+   "あお",
+   "あお.い"
+  ],
+  "s": 8,
+  "lv": 3,
+  "jlpt": 4,
+  "hint": "Fresh growth (生 variant) above the moon (月): youthful blue.",
+  "w": [
+   {
+    "w": "青い",
+    "r": "あおい",
+    "m": "blue"
+   },
+   {
+    "w": "青空",
+    "r": "あおぞら",
+    "m": "blue sky"
+   },
+   {
+    "w": "青年",
+    "r": "せいねん",
+    "m": "youth"
+   }
+  ]
+ },
+ {
+  "k": "黒",
+  "m": "black",
+  "on": [
+   "コク"
+  ],
+  "kun": [
+   "くろ",
+   "くろ.い"
+  ],
+  "s": 11,
+  "lv": 3,
+  "jlpt": 4,
+  "hint": "A village (里) with fire (灬) under it, blackened with soot.",
+  "w": [
+   {
+    "w": "黒い",
+    "r": "くろい",
+    "m": "black"
+   },
+   {
+    "w": "黒",
+    "r": "くろ",
+    "m": "black"
+   },
+   {
+    "w": "黒板",
+    "r": "こくばん",
+    "m": "blackboard"
+   }
+  ]
+ },
+ {
+  "k": "車",
+  "m": "car, vehicle",
+  "on": [
+   "シャ"
+  ],
+  "kun": [
+   "くるま"
+  ],
+  "s": 7,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "A cart seen from above with an axle through the middle.",
+  "w": [
+   {
+    "w": "車",
+    "r": "くるま",
+    "m": "car"
+   },
+   {
+    "w": "電車",
+    "r": "でんしゃ",
+    "m": "train"
+   },
+   {
+    "w": "自動車",
+    "r": "じどうしゃ",
+    "m": "automobile"
+   }
+  ]
+ },
+ {
+  "k": "電",
+  "m": "electricity",
+  "on": [
+   "デン"
+  ],
+  "kun": [],
+  "s": 13,
+  "lv": 3,
+  "jlpt": 5,
+  "hint": "Rain (雨) with lightning bolt below it: electricity.",
+  "w": [
+   {
+    "w": "電車",
+    "r": "でんしゃ",
+    "m": "train"
+   },
+   {
+    "w": "電話",
+    "r": "でんわ",
+    "m": "telephone"
+   },
+   {
+    "w": "電気",
+    "r": "でんき",
+    "m": "electricity"
+   }
+  ]
+ },
+ {
+  "k": "駅",
+  "m": "station",
+  "on": [
+   "エキ"
+  ],
+  "kun": [],
+  "s": 14,
+  "lv": 4,
+  "jlpt": 4,
+  "hint": "A horse (馬) rests at a relay post, the station.",
+  "w": [
+   {
+    "w": "駅",
+    "r": "えき",
+    "m": "station"
+   },
+   {
+    "w": "駅前",
+    "r": "えきまえ",
+    "m": "in front of the station"
+   },
+   {
+    "w": "東京駅",
+    "r": "とうきょうえき",
+    "m": "Tokyo Station"
+   }
+  ]
+ },
+ {
+  "k": "国",
+  "m": "country",
+  "on": [
+   "コク"
+  ],
+  "kun": [
+   "くに"
+  ],
+  "s": 8,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A jewel (玉) enclosed by borders, a country.",
+  "w": [
+   {
+    "w": "国",
+    "r": "くに",
+    "m": "country"
+   },
+   {
+    "w": "外国",
+    "r": "がいこく",
+    "m": "foreign country"
+   },
+   {
+    "w": "中国",
+    "r": "ちゅうごく",
+    "m": "China"
+   }
+  ]
+ },
+ {
+  "k": "語",
+  "m": "language, word",
+  "on": [
+   "ゴ"
+  ],
+  "kun": [
+   "かた.る"
+  ],
+  "s": 14,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "Words (言) that I (吾) speak: language.",
+  "w": [
+   {
+    "w": "日本語",
+    "r": "にほんご",
+    "m": "Japanese language"
+   },
+   {
+    "w": "英語",
+    "r": "えいご",
+    "m": "English"
+   },
+   {
+    "w": "物語",
+    "r": "ものがたり",
+    "m": "story"
+   }
+  ]
+ },
+ {
+  "k": "話",
+  "m": "talk, story",
+  "on": [
+   "ワ"
+  ],
+  "kun": [
+   "はな.す",
+   "はなし"
+  ],
+  "s": 13,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "Words (言) coming from a tongue (舌): talking.",
+  "w": [
+   {
+    "w": "話す",
+    "r": "はなす",
+    "m": "to speak"
+   },
+   {
+    "w": "電話",
+    "r": "でんわ",
+    "m": "telephone"
+   },
+   {
+    "w": "会話",
+    "r": "かいわ",
+    "m": "conversation"
+   }
+  ]
+ },
+ {
+  "k": "言",
+  "m": "say",
+  "on": [
+   "ゲン",
+   "ゴン"
+  ],
+  "kun": [
+   "い.う",
+   "こと"
+  ],
+  "s": 7,
+  "lv": 4,
+  "jlpt": 4,
+  "hint": "A mouth (口) with lines of speech coming out above it.",
+  "w": [
+   {
+    "w": "言う",
+    "r": "いう",
+    "m": "to say"
+   },
+   {
+    "w": "言葉",
+    "r": "ことば",
+    "m": "word"
+   },
+   {
+    "w": "一言",
+    "r": "ひとこと",
+    "m": "a single word"
+   }
+  ]
+ },
+ {
+  "k": "読",
+  "m": "read",
+  "on": [
+   "ドク",
+   "トク"
+  ],
+  "kun": [
+   "よ.む"
+  ],
+  "s": 14,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "Words (言) that you sell (売) to the eyes: reading.",
+  "w": [
+   {
+    "w": "読む",
+    "r": "よむ",
+    "m": "to read"
+   },
+   {
+    "w": "読書",
+    "r": "どくしょ",
+    "m": "reading"
+   },
+   {
+    "w": "読み方",
+    "r": "よみかた",
+    "m": "way of reading"
+   }
+  ]
+ },
+ {
+  "k": "書",
+  "m": "write",
+  "on": [
+   "ショ"
+  ],
+  "kun": [
+   "か.く"
+  ],
+  "s": 10,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A brush (聿) writing on a page of days (日).",
+  "w": [
+   {
+    "w": "書く",
+    "r": "かく",
+    "m": "to write"
+   },
+   {
+    "w": "辞書",
+    "r": "じしょ",
+    "m": "dictionary"
+   },
+   {
+    "w": "教科書",
+    "r": "きょうかしょ",
+    "m": "textbook"
+   }
+  ]
+ },
+ {
+  "k": "見",
+  "m": "see, look",
+  "on": [
+   "ケン"
+  ],
+  "kun": [
+   "み.る",
+   "み.える",
+   "み.せる"
+  ],
+  "s": 7,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "An eye (目) on top of legs (儿): walking and looking.",
+  "w": [
+   {
+    "w": "見る",
+    "r": "みる",
+    "m": "to see"
+   },
+   {
+    "w": "見える",
+    "r": "みえる",
+    "m": "to be visible"
+   },
+   {
+    "w": "花見",
+    "r": "はなみ",
+    "m": "cherry blossom viewing"
+   }
+  ]
+ },
+ {
+  "k": "聞",
+  "m": "hear, ask",
+  "on": [
+   "ブン",
+   "モン"
+  ],
+  "kun": [
+   "き.く",
+   "き.こえる"
+  ],
+  "s": 14,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "An ear (耳) pressed to a gate (門) to listen.",
+  "w": [
+   {
+    "w": "聞く",
+    "r": "きく",
+    "m": "to listen"
+   },
+   {
+    "w": "新聞",
+    "r": "しんぶん",
+    "m": "newspaper"
+   },
+   {
+    "w": "聞こえる",
+    "r": "きこえる",
+    "m": "to be audible"
+   }
+  ]
+ },
+ {
+  "k": "食",
+  "m": "eat, food",
+  "on": [
+   "ショク",
+   "ジキ"
+  ],
+  "kun": [
+   "た.べる",
+   "く.う"
+  ],
+  "s": 9,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A lid over a bowl of good food (良).",
+  "w": [
+   {
+    "w": "食べる",
+    "r": "たべる",
+    "m": "to eat"
+   },
+   {
+    "w": "食事",
+    "r": "しょくじ",
+    "m": "meal"
+   },
+   {
+    "w": "食堂",
+    "r": "しょくどう",
+    "m": "cafeteria"
+   }
+  ]
+ },
+ {
+  "k": "飲",
+  "m": "drink",
+  "on": [
+   "イン"
+  ],
+  "kun": [
+   "の.む"
+  ],
+  "s": 12,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "Food (食) with an open mouth (欠): drinking.",
+  "w": [
+   {
+    "w": "飲む",
+    "r": "のむ",
+    "m": "to drink"
+   },
+   {
+    "w": "飲み物",
+    "r": "のみもの",
+    "m": "beverage"
+   },
+   {
+    "w": "飲食",
+    "r": "いんしょく",
+    "m": "eating and drinking"
+   }
+  ]
+ },
+ {
+  "k": "行",
+  "m": "go",
+  "on": [
+   "コウ",
+   "ギョウ"
+  ],
+  "kun": [
+   "い.く",
+   "ゆ.く",
+   "おこな.う"
+  ],
+  "s": 6,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A crossroads where people go in all directions.",
+  "w": [
+   {
+    "w": "行く",
+    "r": "いく",
+    "m": "to go"
+   },
+   {
+    "w": "旅行",
+    "r": "りょこう",
+    "m": "trip"
+   },
+   {
+    "w": "銀行",
+    "r": "ぎんこう",
+    "m": "bank"
+   }
+  ]
+ },
+ {
+  "k": "来",
+  "m": "come",
+  "on": [
+   "ライ"
+  ],
+  "kun": [
+   "く.る",
+   "きた.る"
+  ],
+  "s": 7,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A wheat plant that people come from afar to harvest.",
+  "w": [
+   {
+    "w": "来る",
+    "r": "くる",
+    "m": "to come"
+   },
+   {
+    "w": "来年",
+    "r": "らいねん",
+    "m": "next year"
+   },
+   {
+    "w": "来週",
+    "r": "らいしゅう",
+    "m": "next week"
+   }
+  ]
+ },
+ {
+  "k": "出",
+  "m": "exit, go out",
+  "on": [
+   "シュツ",
+   "スイ"
+  ],
+  "kun": [
+   "で.る",
+   "だ.す"
+  ],
+  "s": 5,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A plant sprouting up and out of its pot.",
+  "w": [
+   {
+    "w": "出る",
+    "r": "でる",
+    "m": "to go out"
+   },
+   {
+    "w": "出口",
+    "r": "でぐち",
+    "m": "exit"
+   },
+   {
+    "w": "出す",
+    "r": "だす",
+    "m": "to take out"
+   }
+  ]
+ },
+ {
+  "k": "入",
+  "m": "enter",
+  "on": [
+   "ニュウ"
+  ],
+  "kun": [
+   "い.る",
+   "はい.る",
+   "い.れる"
+  ],
+  "s": 2,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "An arrow pointing in, like a roof sloping into a house.",
+  "w": [
+   {
+    "w": "入る",
+    "r": "はいる",
+    "m": "to enter"
+   },
+   {
+    "w": "入口",
+    "r": "いりぐち",
+    "m": "entrance"
+   },
+   {
+    "w": "入れる",
+    "r": "いれる",
+    "m": "to put in"
+   }
+  ]
+ },
+ {
+  "k": "買",
+  "m": "buy",
+  "on": [
+   "バイ"
+  ],
+  "kun": [
+   "か.う"
+  ],
+  "s": 12,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A net (罒) catching shells (貝), the old money, to buy things.",
+  "w": [
+   {
+    "w": "買う",
+    "r": "かう",
+    "m": "to buy"
+   },
+   {
+    "w": "買い物",
+    "r": "かいもの",
+    "m": "shopping"
+   },
+   {
+    "w": "買い手",
+    "r": "かいて",
+    "m": "buyer"
+   }
+  ]
+ },
+ {
+  "k": "売",
+  "m": "sell",
+  "on": [
+   "バイ"
+  ],
+  "kun": [
+   "う.る"
+  ],
+  "s": 7,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A scholar (士) showing goods on a stand to sell.",
+  "w": [
+   {
+    "w": "売る",
+    "r": "うる",
+    "m": "to sell"
+   },
+   {
+    "w": "売り場",
+    "r": "うりば",
+    "m": "sales floor"
+   },
+   {
+    "w": "売店",
+    "r": "ばいてん",
+    "m": "kiosk"
+   }
+  ]
+ },
+ {
+  "k": "休",
+  "m": "rest",
+  "on": [
+   "キュウ"
+  ],
+  "kun": [
+   "やす.む"
+  ],
+  "s": 6,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A person (亻) leaning against a tree (木) to rest.",
+  "w": [
+   {
+    "w": "休む",
+    "r": "やすむ",
+    "m": "to rest"
+   },
+   {
+    "w": "休み",
+    "r": "やすみ",
+    "m": "holiday"
+   },
+   {
+    "w": "休日",
+    "r": "きゅうじつ",
+    "m": "day off"
+   }
+  ]
+ },
+ {
+  "k": "立",
+  "m": "stand",
+  "on": [
+   "リツ",
+   "リュウ"
+  ],
+  "kun": [
+   "た.つ",
+   "た.てる"
+  ],
+  "s": 5,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A person standing on the ground with arms wide.",
+  "w": [
+   {
+    "w": "立つ",
+    "r": "たつ",
+    "m": "to stand"
+   },
+   {
+    "w": "国立",
+    "r": "こくりつ",
+    "m": "national"
+   },
+   {
+    "w": "立派",
+    "r": "りっぱ",
+    "m": "splendid"
+   }
+  ]
+ },
+ {
+  "k": "会",
+  "m": "meet, association",
+  "on": [
+   "カイ",
+   "エ"
+  ],
+  "kun": [
+   "あ.う"
+  ],
+  "s": 6,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "People under a roof gathering to meet.",
+  "w": [
+   {
+    "w": "会う",
+    "r": "あう",
+    "m": "to meet"
+   },
+   {
+    "w": "会社",
+    "r": "かいしゃ",
+    "m": "company"
+   },
+   {
+    "w": "会話",
+    "r": "かいわ",
+    "m": "conversation"
+   }
+  ]
+ },
+ {
+  "k": "時",
+  "m": "time, hour",
+  "on": [
+   "ジ"
+  ],
+  "kun": [
+   "とき"
+  ],
+  "s": 10,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "The sun (日) at a temple (寺) that rings the hour.",
+  "w": [
+   {
+    "w": "時間",
+    "r": "じかん",
+    "m": "time"
+   },
+   {
+    "w": "時",
+    "r": "とき",
+    "m": "time"
+   },
+   {
+    "w": "何時",
+    "r": "なんじ",
+    "m": "what time"
+   }
+  ]
+ },
+ {
+  "k": "分",
+  "m": "minute, part",
+  "on": [
+   "ブン",
+   "フン",
+   "ブ"
+  ],
+  "kun": [
+   "わ.かる",
+   "わ.ける"
+  ],
+  "s": 4,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A knife (刀) dividing something (八) into parts.",
+  "w": [
+   {
+    "w": "分かる",
+    "r": "わかる",
+    "m": "to understand"
+   },
+   {
+    "w": "自分",
+    "r": "じぶん",
+    "m": "oneself"
+   },
+   {
+    "w": "五分",
+    "r": "ごふん",
+    "m": "five minutes"
+   }
+  ]
+ },
+ {
+  "k": "半",
+  "m": "half",
+  "on": [
+   "ハン"
+  ],
+  "kun": [
+   "なか.ば"
+  ],
+  "s": 5,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "An ox (牛) with a line cutting it in half.",
+  "w": [
+   {
+    "w": "半分",
+    "r": "はんぶん",
+    "m": "half"
+   },
+   {
+    "w": "一時半",
+    "r": "いちじはん",
+    "m": "half past one"
+   },
+   {
+    "w": "半年",
+    "r": "はんとし",
+    "m": "half a year"
+   }
+  ]
+ },
+ {
+  "k": "何",
+  "m": "what",
+  "on": [
+   "カ"
+  ],
+  "kun": [
+   "なに",
+   "なん"
+  ],
+  "s": 7,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A person (亻) asking about a thing that can (可) be what?",
+  "w": [
+   {
+    "w": "何",
+    "r": "なに",
+    "m": "what"
+   },
+   {
+    "w": "何時",
+    "r": "なんじ",
+    "m": "what time"
+   },
+   {
+    "w": "何人",
+    "r": "なんにん",
+    "m": "how many people"
+   }
+  ]
+ },
+ {
+  "k": "今",
+  "m": "now",
+  "on": [
+   "コン",
+   "キン"
+  ],
+  "kun": [
+   "いま"
+  ],
+  "s": 4,
+  "lv": 4,
+  "jlpt": 5,
+  "hint": "A roof covering a mark: this very moment under the roof.",
+  "w": [
+   {
+    "w": "今",
+    "r": "いま",
+    "m": "now"
+   },
+   {
+    "w": "今日",
+    "r": "きょう",
+    "m": "today"
+   },
+   {
+    "w": "今年",
+    "r": "ことし",
+    "m": "this year"
+   }
+  ]
+ },
+ {
+  "k": "毎",
+  "m": "every",
+  "on": [
+   "マイ"
+  ],
+  "kun": [],
+  "s": 6,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A mother (母) with a person on top: every day she cares.",
+  "w": [
+   {
+    "w": "毎日",
+    "r": "まいにち",
+    "m": "every day"
+   },
+   {
+    "w": "毎年",
+    "r": "まいとし",
+    "m": "every year"
+   },
+   {
+    "w": "毎朝",
+    "r": "まいあさ",
+    "m": "every morning"
+   }
+  ]
+ },
+ {
+  "k": "午",
+  "m": "noon",
+  "on": [
+   "ゴ"
+  ],
+  "kun": [],
+  "s": 4,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A mortar pestle standing straight up, like the sun at noon.",
+  "w": [
+   {
+    "w": "午前",
+    "r": "ごぜん",
+    "m": "morning"
+   },
+   {
+    "w": "午後",
+    "r": "ごご",
+    "m": "afternoon"
+   },
+   {
+    "w": "正午",
+    "r": "しょうご",
+    "m": "noon"
+   }
+  ]
+ },
+ {
+  "k": "間",
+  "m": "interval, between",
+  "on": [
+   "カン",
+   "ケン"
+  ],
+  "kun": [
+   "あいだ",
+   "ま"
+  ],
+  "s": 12,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "The sun (日) peeking through a gate (門): the gap between.",
+  "w": [
+   {
+    "w": "時間",
+    "r": "じかん",
+    "m": "time"
+   },
+   {
+    "w": "間",
+    "r": "あいだ",
+    "m": "between"
+   },
+   {
+    "w": "人間",
+    "r": "にんげん",
+    "m": "human being"
+   }
+  ]
+ },
+ {
+  "k": "週",
+  "m": "week",
+  "on": [
+   "シュウ"
+  ],
+  "kun": [],
+  "s": 11,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Going around (辶) a full circle (周): a week.",
+  "w": [
+   {
+    "w": "今週",
+    "r": "こんしゅう",
+    "m": "this week"
+   },
+   {
+    "w": "毎週",
+    "r": "まいしゅう",
+    "m": "every week"
+   },
+   {
+    "w": "週末",
+    "r": "しゅうまつ",
+    "m": "weekend"
+   }
+  ]
+ },
+ {
+  "k": "曜",
+  "m": "weekday",
+  "on": [
+   "ヨウ"
+  ],
+  "kun": [],
+  "s": 18,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Sun (日) beside a bird (隹) with feathers: shining days of the week.",
+  "w": [
+   {
+    "w": "日曜日",
+    "r": "にちようび",
+    "m": "Sunday"
+   },
+   {
+    "w": "月曜日",
+    "r": "げつようび",
+    "m": "Monday"
+   },
+   {
+    "w": "何曜日",
+    "r": "なんようび",
+    "m": "what day"
+   }
+  ]
+ },
+ {
+  "k": "朝",
+  "m": "morning",
+  "on": [
+   "チョウ"
+  ],
+  "kun": [
+   "あさ"
+  ],
+  "s": 12,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "The moon (月) still in the sky as the sun rises in the grass: morning.",
+  "w": [
+   {
+    "w": "朝",
+    "r": "あさ",
+    "m": "morning"
+   },
+   {
+    "w": "今朝",
+    "r": "けさ",
+    "m": "this morning"
+   },
+   {
+    "w": "朝ご飯",
+    "r": "あさごはん",
+    "m": "breakfast"
+   }
+  ]
+ },
+ {
+  "k": "昼",
+  "m": "daytime, noon",
+  "on": [
+   "チュウ"
+  ],
+  "kun": [
+   "ひる"
+  ],
+  "s": 9,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "The sun (日) high above a ruler line, midday.",
+  "w": [
+   {
+    "w": "昼",
+    "r": "ひる",
+    "m": "daytime"
+   },
+   {
+    "w": "昼ご飯",
+    "r": "ひるごはん",
+    "m": "lunch"
+   },
+   {
+    "w": "昼休み",
+    "r": "ひるやすみ",
+    "m": "lunch break"
+   }
+  ]
+ },
+ {
+  "k": "夜",
+  "m": "night",
+  "on": [
+   "ヤ"
+  ],
+  "kun": [
+   "よる",
+   "よ"
+  ],
+  "s": 8,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A person under a lid with the moon (夕) beside them at night.",
+  "w": [
+   {
+    "w": "夜",
+    "r": "よる",
+    "m": "night"
+   },
+   {
+    "w": "今夜",
+    "r": "こんや",
+    "m": "tonight"
+   },
+   {
+    "w": "夜中",
+    "r": "よなか",
+    "m": "midnight"
+   }
+  ]
+ },
+ {
+  "k": "夕",
+  "m": "evening",
+  "on": [
+   "セキ"
+  ],
+  "kun": [
+   "ゆう"
+  ],
+  "s": 3,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A crescent moon appearing in the evening.",
+  "w": [
+   {
+    "w": "夕方",
+    "r": "ゆうがた",
+    "m": "evening"
+   },
+   {
+    "w": "夕食",
+    "r": "ゆうしょく",
+    "m": "dinner"
+   },
+   {
+    "w": "夕日",
+    "r": "ゆうひ",
+    "m": "setting sun"
+   }
+  ]
+ },
+ {
+  "k": "北",
+  "m": "north",
+  "on": [
+   "ホク"
+  ],
+  "kun": [
+   "きた"
+  ],
+  "s": 5,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Two people sitting back to back, turning their backs to the north.",
+  "w": [
+   {
+    "w": "北",
+    "r": "きた",
+    "m": "north"
+   },
+   {
+    "w": "北海道",
+    "r": "ほっかいどう",
+    "m": "Hokkaido"
+   },
+   {
+    "w": "北口",
+    "r": "きたぐち",
+    "m": "north exit"
+   }
+  ]
+ },
+ {
+  "k": "南",
+  "m": "south",
+  "on": [
+   "ナン"
+  ],
+  "kun": [
+   "みなみ"
+  ],
+  "s": 9,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A greenhouse with plants growing in the warm south.",
+  "w": [
+   {
+    "w": "南",
+    "r": "みなみ",
+    "m": "south"
+   },
+   {
+    "w": "南口",
+    "r": "みなみぐち",
+    "m": "south exit"
+   },
+   {
+    "w": "南北",
+    "r": "なんぼく",
+    "m": "north and south"
+   }
+  ]
+ },
+ {
+  "k": "東",
+  "m": "east",
+  "on": [
+   "トウ"
+  ],
+  "kun": [
+   "ひがし"
+  ],
+  "s": 8,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "The sun (日) rising behind a tree (木): the east.",
+  "w": [
+   {
+    "w": "東",
+    "r": "ひがし",
+    "m": "east"
+   },
+   {
+    "w": "東京",
+    "r": "とうきょう",
+    "m": "Tokyo"
+   },
+   {
+    "w": "東口",
+    "r": "ひがしぐち",
+    "m": "east exit"
+   }
+  ]
+ },
+ {
+  "k": "西",
+  "m": "west",
+  "on": [
+   "セイ",
+   "サイ"
+  ],
+  "kun": [
+   "にし"
+  ],
+  "s": 6,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A bird settling into its nest as the sun sets in the west.",
+  "w": [
+   {
+    "w": "西",
+    "r": "にし",
+    "m": "west"
+   },
+   {
+    "w": "西口",
+    "r": "にしぐち",
+    "m": "west exit"
+   },
+   {
+    "w": "関西",
+    "r": "かんさい",
+    "m": "Kansai region"
+   }
+  ]
+ },
+ {
+  "k": "高",
+  "m": "tall, expensive, high",
+  "on": [
+   "コウ"
+  ],
+  "kun": [
+   "たか.い"
+  ],
+  "s": 10,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A tall tower with a roof and a gate.",
+  "w": [
+   {
+    "w": "高い",
+    "r": "たかい",
+    "m": "tall, expensive"
+   },
+   {
+    "w": "高校",
+    "r": "こうこう",
+    "m": "high school"
+   },
+   {
+    "w": "最高",
+    "r": "さいこう",
+    "m": "the best"
+   }
+  ]
+ },
+ {
+  "k": "安",
+  "m": "cheap, safe",
+  "on": [
+   "アン"
+  ],
+  "kun": [
+   "やす.い"
+  ],
+  "s": 6,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A woman (女) under a roof (宀): safe and peaceful at home.",
+  "w": [
+   {
+    "w": "安い",
+    "r": "やすい",
+    "m": "cheap"
+   },
+   {
+    "w": "安全",
+    "r": "あんぜん",
+    "m": "safety"
+   },
+   {
+    "w": "安心",
+    "r": "あんしん",
+    "m": "peace of mind"
+   }
+  ]
+ },
+ {
+  "k": "長",
+  "m": "long, leader",
+  "on": [
+   "チョウ"
+  ],
+  "kun": [
+   "なが.い"
+  ],
+  "s": 8,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "An old person with long flowing hair and a cane.",
+  "w": [
+   {
+    "w": "長い",
+    "r": "ながい",
+    "m": "long"
+   },
+   {
+    "w": "社長",
+    "r": "しゃちょう",
+    "m": "company president"
+   },
+   {
+    "w": "校長",
+    "r": "こうちょう",
+    "m": "principal"
+   }
+  ]
+ },
+ {
+  "k": "新",
+  "m": "new",
+  "on": [
+   "シン"
+  ],
+  "kun": [
+   "あたら.しい",
+   "あら.た"
+  ],
+  "s": 13,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Cutting (斤) a tree (木) while standing (立): fresh new wood.",
+  "w": [
+   {
+    "w": "新しい",
+    "r": "あたらしい",
+    "m": "new"
+   },
+   {
+    "w": "新聞",
+    "r": "しんぶん",
+    "m": "newspaper"
+   },
+   {
+    "w": "新年",
+    "r": "しんねん",
+    "m": "new year"
+   }
+  ]
+ },
+ {
+  "k": "古",
+  "m": "old (things)",
+  "on": [
+   "コ"
+  ],
+  "kun": [
+   "ふる.い"
+  ],
+  "s": 5,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Ten (十) generations of mouths (口) have told the story: old.",
+  "w": [
+   {
+    "w": "古い",
+    "r": "ふるい",
+    "m": "old"
+   },
+   {
+    "w": "中古",
+    "r": "ちゅうこ",
+    "m": "secondhand"
+   },
+   {
+    "w": "古本",
+    "r": "ふるほん",
+    "m": "used book"
+   }
+  ]
+ },
+ {
+  "k": "多",
+  "m": "many",
+  "on": [
+   "タ"
+  ],
+  "kun": [
+   "おお.い"
+  ],
+  "s": 6,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Two evenings (夕) stacked: many nights, many things.",
+  "w": [
+   {
+    "w": "多い",
+    "r": "おおい",
+    "m": "many"
+   },
+   {
+    "w": "多分",
+    "r": "たぶん",
+    "m": "probably"
+   },
+   {
+    "w": "多少",
+    "r": "たしょう",
+    "m": "somewhat"
+   }
+  ]
+ },
+ {
+  "k": "少",
+  "m": "few, little",
+  "on": [
+   "ショウ"
+  ],
+  "kun": [
+   "すく.ない",
+   "すこ.し"
+  ],
+  "s": 4,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Small (小) with an extra stroke cut away: fewer.",
+  "w": [
+   {
+    "w": "少ない",
+    "r": "すくない",
+    "m": "few"
+   },
+   {
+    "w": "少し",
+    "r": "すこし",
+    "m": "a little"
+   },
+   {
+    "w": "少年",
+    "r": "しょうねん",
+    "m": "boy"
+   }
+  ]
+ },
+ {
+  "k": "好",
+  "m": "like",
+  "on": [
+   "コウ"
+  ],
+  "kun": [
+   "す.く",
+   "この.む"
+  ],
+  "s": 6,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "A woman (女) with a child (子): what is there not to like.",
+  "w": [
+   {
+    "w": "好き",
+    "r": "すき",
+    "m": "like"
+   },
+   {
+    "w": "大好き",
+    "r": "だいすき",
+    "m": "love"
+   },
+   {
+    "w": "好物",
+    "r": "こうぶつ",
+    "m": "favorite food"
+   }
+  ]
+ },
+ {
+  "k": "早",
+  "m": "early, fast",
+  "on": [
+   "ソウ",
+   "サッ"
+  ],
+  "kun": [
+   "はや.い"
+  ],
+  "s": 6,
+  "lv": 5,
+  "jlpt": 4,
+  "hint": "The sun (日) rising over a cross (十): early in the day.",
+  "w": [
+   {
+    "w": "早い",
+    "r": "はやい",
+    "m": "early"
+   },
+   {
+    "w": "早口",
+    "r": "はやくち",
+    "m": "fast talking"
+   },
+   {
+    "w": "早朝",
+    "r": "そうちょう",
+    "m": "early morning"
+   }
+  ]
+ },
+ {
+  "k": "近",
+  "m": "near",
+  "on": [
+   "キン"
+  ],
+  "kun": [
+   "ちか.い"
+  ],
+  "s": 7,
+  "lv": 5,
+  "jlpt": 5,
+  "hint": "Walking (辶) toward an axe (斤) that is near.",
+  "w": [
+   {
+    "w": "近い",
+    "r": "ちかい",
+    "m": "near"
+   },
+   {
+    "w": "近く",
+    "r": "ちかく",
+    "m": "nearby"
+   },
+   {
+    "w": "最近",
+    "r": "さいきん",
+    "m": "recently"
+   }
+  ]
+ },
+ {
+  "k": "町",
+  "m": "town",
+  "on": [
+   "チョウ"
+  ],
+  "kun": [
+   "まち"
+  ],
+  "s": 7,
+  "lv": 5,
+  "jlpt": 4,
+  "hint": "Rice fields (田) lined along a nail (丁) street: a town.",
+  "w": [
+   {
+    "w": "町",
+    "r": "まち",
+    "m": "town"
+   },
+   {
+    "w": "下町",
+    "r": "したまち",
+    "m": "old downtown"
+   },
+   {
+    "w": "町中",
+    "r": "まちなか",
+    "m": "in town"
+   }
+  ]
+ },
+ {
+  "k": "村",
+  "m": "village",
+  "on": [
+   "ソン"
+  ],
+  "kun": [
+   "むら"
+  ],
+  "s": 7,
+  "lv": 5,
+  "jlpt": 4,
+  "hint": "Trees (木) and an inch (寸) of land: a small village.",
+  "w": [
+   {
+    "w": "村",
+    "r": "むら",
+    "m": "village"
+   },
+   {
+    "w": "村人",
+    "r": "むらびと",
+    "m": "villager"
+   },
+   {
+    "w": "市町村",
+    "r": "しちょうそん",
+    "m": "municipalities"
+   }
+  ]
+ },
+ {
+  "k": "市",
+  "m": "city, market",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "いち"
+  ],
+  "s": 5,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A cloth banner raised over the market of a city.",
+  "w": [
+   {
+    "w": "市",
+    "r": "し",
+    "m": "city"
+   },
+   {
+    "w": "市場",
+    "r": "いちば",
+    "m": "market"
+   },
+   {
+    "w": "市長",
+    "r": "しちょう",
+    "m": "mayor"
+   }
+  ]
+ },
+ {
+  "k": "道",
+  "m": "road, way",
+  "on": [
+   "ドウ"
+  ],
+  "kun": [
+   "みち"
+  ],
+  "s": 12,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "Walking (辶) toward a head (首) down the road.",
+  "w": [
+   {
+    "w": "道",
+    "r": "みち",
+    "m": "road"
+   },
+   {
+    "w": "北海道",
+    "r": "ほっかいどう",
+    "m": "Hokkaido"
+   },
+   {
+    "w": "歩道",
+    "r": "ほどう",
+    "m": "sidewalk"
+   }
+  ]
+ },
+ {
+  "k": "店",
+  "m": "shop",
+  "on": [
+   "テン"
+  ],
+  "kun": [
+   "みせ"
+  ],
+  "s": 8,
+  "lv": 6,
+  "jlpt": 5,
+  "hint": "Goods laid out under a roof (广): a shop.",
+  "w": [
+   {
+    "w": "店",
+    "r": "みせ",
+    "m": "shop"
+   },
+   {
+    "w": "書店",
+    "r": "しょてん",
+    "m": "bookstore"
+   },
+   {
+    "w": "店員",
+    "r": "てんいん",
+    "m": "shop clerk"
+   }
+  ]
+ },
+ {
+  "k": "社",
+  "m": "company, shrine",
+  "on": [
+   "シャ"
+  ],
+  "kun": [
+   "やしろ"
+  ],
+  "s": 7,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "Altar (礻) over the earth (土): a shrine or society.",
+  "w": [
+   {
+    "w": "会社",
+    "r": "かいしゃ",
+    "m": "company"
+   },
+   {
+    "w": "神社",
+    "r": "じんじゃ",
+    "m": "shrine"
+   },
+   {
+    "w": "社長",
+    "r": "しゃちょう",
+    "m": "company president"
+   }
+  ]
+ },
+ {
+  "k": "使",
+  "m": "use",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "つか.う"
+  ],
+  "s": 8,
+  "lv": 6,
+  "jlpt": 5,
+  "hint": "A person (亻) with an official (吏) uses things.",
+  "w": [
+   {
+    "w": "使う",
+    "r": "つかう",
+    "m": "to use"
+   },
+   {
+    "w": "大使",
+    "r": "たいし",
+    "m": "ambassador"
+   },
+   {
+    "w": "使い方",
+    "r": "つかいかた",
+    "m": "how to use"
+   }
+  ]
+ },
+ {
+  "k": "持",
+  "m": "hold",
+  "on": [
+   "ジ"
+  ],
+  "kun": [
+   "も.つ"
+  ],
+  "s": 9,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A hand (扌) at the temple (寺) holding something.",
+  "w": [
+   {
+    "w": "持つ",
+    "r": "もつ",
+    "m": "to hold"
+   },
+   {
+    "w": "気持ち",
+    "r": "きもち",
+    "m": "feeling"
+   },
+   {
+    "w": "お金持ち",
+    "r": "おかねもち",
+    "m": "rich person"
+   }
+  ]
+ },
+ {
+  "k": "待",
+  "m": "wait",
+  "on": [
+   "タイ"
+  ],
+  "kun": [
+   "ま.つ"
+  ],
+  "s": 9,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "Walking (彳) slowly at the temple (寺) while waiting.",
+  "w": [
+   {
+    "w": "待つ",
+    "r": "まつ",
+    "m": "to wait"
+   },
+   {
+    "w": "待ち合わせ",
+    "r": "まちあわせ",
+    "m": "meeting up"
+   },
+   {
+    "w": "期待",
+    "r": "きたい",
+    "m": "expectation"
+   }
+  ]
+ },
+ {
+  "k": "思",
+  "m": "think",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "おも.う"
+  ],
+  "s": 9,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "The brain (田) over the heart (心): thinking from the heart.",
+  "w": [
+   {
+    "w": "思う",
+    "r": "おもう",
+    "m": "to think"
+   },
+   {
+    "w": "思い出",
+    "r": "おもいで",
+    "m": "memory"
+   },
+   {
+    "w": "不思議",
+    "r": "ふしぎ",
+    "m": "mysterious"
+   }
+  ]
+ },
+ {
+  "k": "知",
+  "m": "know",
+  "on": [
+   "チ"
+  ],
+  "kun": [
+   "し.る"
+  ],
+  "s": 8,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "An arrow (矢) hitting the mouth (口): words you know are precise.",
+  "w": [
+   {
+    "w": "知る",
+    "r": "しる",
+    "m": "to know"
+   },
+   {
+    "w": "知らせ",
+    "r": "しらせ",
+    "m": "notice"
+   },
+   {
+    "w": "知り合い",
+    "r": "しりあい",
+    "m": "acquaintance"
+   }
+  ]
+ },
+ {
+  "k": "教",
+  "m": "teach",
+  "on": [
+   "キョウ"
+  ],
+  "kun": [
+   "おし.える",
+   "おそ.わる"
+  ],
+  "s": 11,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A child (子) imitating (爻) a teacher with a stick (攵).",
+  "w": [
+   {
+    "w": "教える",
+    "r": "おしえる",
+    "m": "to teach"
+   },
+   {
+    "w": "教室",
+    "r": "きょうしつ",
+    "m": "classroom"
+   },
+   {
+    "w": "教会",
+    "r": "きょうかい",
+    "m": "church"
+   }
+  ]
+ },
+ {
+  "k": "勉",
+  "m": "effort",
+  "on": [
+   "ベン"
+  ],
+  "kun": [],
+  "s": 10,
+  "lv": 6,
+  "jlpt": 5,
+  "hint": "Strength (力) used to escape (免) laziness: effort.",
+  "w": [
+   {
+    "w": "勉強",
+    "r": "べんきょう",
+    "m": "study"
+   },
+   {
+    "w": "勉強家",
+    "r": "べんきょうか",
+    "m": "diligent person"
+   },
+   {
+    "w": "勤勉",
+    "r": "きんべん",
+    "m": "diligent"
+   }
+  ]
+ },
+ {
+  "k": "習",
+  "m": "learn",
+  "on": [
+   "シュウ"
+  ],
+  "kun": [
+   "なら.う"
+  ],
+  "s": 11,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A bird's wings (羽) flapping over white (白): practice flapping.",
+  "w": [
+   {
+    "w": "習う",
+    "r": "ならう",
+    "m": "to learn"
+   },
+   {
+    "w": "練習",
+    "r": "れんしゅう",
+    "m": "practice"
+   },
+   {
+    "w": "復習",
+    "r": "ふくしゅう",
+    "m": "review"
+   }
+  ]
+ },
+ {
+  "k": "楽",
+  "m": "fun, music",
+  "on": [
+   "ガク",
+   "ラク"
+  ],
+  "kun": [
+   "たの.しい"
+  ],
+  "s": 13,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A drum on a wooden stand: music and fun.",
+  "w": [
+   {
+    "w": "楽しい",
+    "r": "たのしい",
+    "m": "fun"
+   },
+   {
+    "w": "音楽",
+    "r": "おんがく",
+    "m": "music"
+   },
+   {
+    "w": "楽",
+    "r": "らく",
+    "m": "easy"
+   }
+  ]
+ },
+ {
+  "k": "仕",
+  "m": "serve, do",
+  "on": [
+   "シ",
+   "ジ"
+  ],
+  "kun": [
+   "つか.える"
+  ],
+  "s": 5,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A person (亻) who is a samurai (士) serving.",
+  "w": [
+   {
+    "w": "仕事",
+    "r": "しごと",
+    "m": "work"
+   },
+   {
+    "w": "仕方",
+    "r": "しかた",
+    "m": "way, method"
+   },
+   {
+    "w": "仕組み",
+    "r": "しくみ",
+    "m": "mechanism"
+   }
+  ]
+ },
+ {
+  "k": "事",
+  "m": "matter, thing",
+  "on": [
+   "ジ"
+  ],
+  "kun": [
+   "こと"
+  ],
+  "s": 8,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A hand holding a brush to record matters.",
+  "w": [
+   {
+    "w": "仕事",
+    "r": "しごと",
+    "m": "work"
+   },
+   {
+    "w": "食事",
+    "r": "しょくじ",
+    "m": "meal"
+   },
+   {
+    "w": "大事",
+    "r": "だいじ",
+    "m": "important"
+   }
+  ]
+ },
+ {
+  "k": "物",
+  "m": "thing",
+  "on": [
+   "ブツ",
+   "モツ"
+  ],
+  "kun": [
+   "もの"
+  ],
+  "s": 8,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "An ox (牛) with a flag (勿): an object.",
+  "w": [
+   {
+    "w": "物",
+    "r": "もの",
+    "m": "thing"
+   },
+   {
+    "w": "食べ物",
+    "r": "たべもの",
+    "m": "food"
+   },
+   {
+    "w": "買い物",
+    "r": "かいもの",
+    "m": "shopping"
+   }
+  ]
+ },
+ {
+  "k": "私",
+  "m": "I, private",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "わたし",
+   "わたくし"
+  ],
+  "s": 7,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "Grain (禾) hugged to oneself (厶): mine, private.",
+  "w": [
+   {
+    "w": "私",
+    "r": "わたし",
+    "m": "I"
+   },
+   {
+    "w": "私達",
+    "r": "わたしたち",
+    "m": "we"
+   },
+   {
+    "w": "私立",
+    "r": "しりつ",
+    "m": "private"
+   }
+  ]
+ },
+ {
+  "k": "気",
+  "m": "spirit, air",
+  "on": [
+   "キ",
+   "ケ"
+  ],
+  "kun": [],
+  "s": 6,
+  "lv": 6,
+  "jlpt": 5,
+  "hint": "Steam rising from rice cooking: the spirit and air.",
+  "w": [
+   {
+    "w": "元気",
+    "r": "げんき",
+    "m": "healthy"
+   },
+   {
+    "w": "天気",
+    "r": "てんき",
+    "m": "weather"
+   },
+   {
+    "w": "気持ち",
+    "r": "きもち",
+    "m": "feeling"
+   }
+  ]
+ },
+ {
+  "k": "心",
+  "m": "heart",
+  "on": [
+   "シン"
+  ],
+  "kun": [
+   "こころ"
+  ],
+  "s": 4,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "A drawing of the heart with its chambers.",
+  "w": [
+   {
+    "w": "心",
+    "r": "こころ",
+    "m": "heart"
+   },
+   {
+    "w": "安心",
+    "r": "あんしん",
+    "m": "relief"
+   },
+   {
+    "w": "心配",
+    "r": "しんぱい",
+    "m": "worry"
+   }
+  ]
+ },
+ {
+  "k": "愛",
+  "m": "love",
+  "on": [
+   "アイ"
+  ],
+  "kun": [
+   "いと.しい"
+  ],
+  "s": 13,
+  "lv": 6,
+  "jlpt": 3,
+  "hint": "A heart (心) in the middle, hugged with care: love.",
+  "w": [
+   {
+    "w": "愛",
+    "r": "あい",
+    "m": "love"
+   },
+   {
+    "w": "愛する",
+    "r": "あいする",
+    "m": "to love"
+   },
+   {
+    "w": "愛犬",
+    "r": "あいけん",
+    "m": "pet dog"
+   }
+  ]
+ },
+ {
+  "k": "夢",
+  "m": "dream",
+  "on": [
+   "ム"
+  ],
+  "kun": [
+   "ゆめ"
+  ],
+  "s": 13,
+  "lv": 6,
+  "jlpt": 3,
+  "hint": "Grass over eyes, covered by evening: what you see when sleeping.",
+  "w": [
+   {
+    "w": "夢",
+    "r": "ゆめ",
+    "m": "dream"
+   },
+   {
+    "w": "悪夢",
+    "r": "あくむ",
+    "m": "nightmare"
+   },
+   {
+    "w": "夢中",
+    "r": "むちゅう",
+    "m": "absorbed"
+   }
+  ]
+ },
+ {
+  "k": "神",
+  "m": "god",
+  "on": [
+   "シン",
+   "ジン"
+  ],
+  "kun": [
+   "かみ"
+  ],
+  "s": 9,
+  "lv": 6,
+  "jlpt": 3,
+  "hint": "An altar (礻) showing lightning (申): a god.",
+  "w": [
+   {
+    "w": "神",
+    "r": "かみ",
+    "m": "god"
+   },
+   {
+    "w": "神社",
+    "r": "じんじゃ",
+    "m": "shrine"
+   },
+   {
+    "w": "神様",
+    "r": "かみさま",
+    "m": "god"
+   }
+  ]
+ },
+ {
+  "k": "死",
+  "m": "death",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "し.ぬ"
+  ],
+  "s": 6,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "Bones (歹) beside a person (ヒ): death.",
+  "w": [
+   {
+    "w": "死ぬ",
+    "r": "しぬ",
+    "m": "to die"
+   },
+   {
+    "w": "死",
+    "r": "し",
+    "m": "death"
+   },
+   {
+    "w": "死亡",
+    "r": "しぼう",
+    "m": "death"
+   }
+  ]
+ },
+ {
+  "k": "当",
+  "m": "hit, appropriate",
+  "on": [
+   "トウ"
+  ],
+  "kun": [
+   "あ.たる",
+   "あ.てる"
+  ],
+  "s": 6,
+  "lv": 6,
+  "jlpt": 3,
+  "hint": "A small (⺌) arrow hitting the mark exactly: appropriate.",
+  "w": [
+   {
+    "w": "本当",
+    "r": "ほんとう",
+    "m": "truth"
+   },
+   {
+    "w": "当たり前",
+    "r": "あたりまえ",
+    "m": "natural"
+   },
+   {
+    "w": "当然",
+    "r": "とうぜん",
+    "m": "naturally"
+   }
+  ]
+ },
+ {
+  "k": "者",
+  "m": "person",
+  "on": [
+   "シャ"
+  ],
+  "kun": [
+   "もの"
+  ],
+  "s": 8,
+  "lv": 6,
+  "jlpt": 4,
+  "hint": "An old man with a sun (日) over his head: a person.",
+  "w": [
+   {
+    "w": "者",
+    "r": "もの",
+    "m": "person"
+   },
+   {
+    "w": "学者",
+    "r": "がくしゃ",
+    "m": "scholar"
+   },
+   {
+    "w": "医者",
+    "r": "いしゃ",
+    "m": "doctor"
+   }
+  ]
+ },
+ {
+  "k": "自",
+  "m": "self",
+  "on": [
+   "ジ",
+   "シ"
+  ],
+  "kun": [
+   "みずか.ら"
+  ],
+  "s": 6,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A nose drawn from the front: people point to themselves.",
+  "w": [
+   {
+    "w": "自分",
+    "r": "じぶん",
+    "m": "oneself"
+   },
+   {
+    "w": "自由",
+    "r": "じゆう",
+    "m": "freedom"
+   },
+   {
+    "w": "自然",
+    "r": "しぜん",
+    "m": "nature"
+   }
+  ]
+ },
+ {
+  "k": "方",
+  "m": "direction, way",
+  "on": [
+   "ホウ"
+  ],
+  "kun": [
+   "かた"
+  ],
+  "s": 4,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A boat tied with a rope, going in a direction.",
+  "w": [
+   {
+    "w": "方",
+    "r": "かた",
+    "m": "person, way"
+   },
+   {
+    "w": "夕方",
+    "r": "ゆうがた",
+    "m": "evening"
+   },
+   {
+    "w": "方法",
+    "r": "ほうほう",
+    "m": "method"
+   }
+  ]
+ },
+ {
+  "k": "部",
+  "m": "section, part",
+  "on": [
+   "ブ"
+  ],
+  "kun": [],
+  "s": 11,
+  "lv": 7,
+  "jlpt": 3,
+  "hint": "A village (阝) with an established (咅) section.",
+  "w": [
+   {
+    "w": "部屋",
+    "r": "へや",
+    "m": "room"
+   },
+   {
+    "w": "全部",
+    "r": "ぜんぶ",
+    "m": "all"
+   },
+   {
+    "w": "部分",
+    "r": "ぶぶん",
+    "m": "part"
+   }
+  ]
+ },
+ {
+  "k": "理",
+  "m": "reason, logic",
+  "on": [
+   "リ"
+  ],
+  "kun": [],
+  "s": 11,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "Jade (王) polished in a village (里): logical order.",
+  "w": [
+   {
+    "w": "理由",
+    "r": "りゆう",
+    "m": "reason"
+   },
+   {
+    "w": "料理",
+    "r": "りょうり",
+    "m": "cooking"
+   },
+   {
+    "w": "無理",
+    "r": "むり",
+    "m": "impossible"
+   }
+  ]
+ },
+ {
+  "k": "意",
+  "m": "meaning, mind",
+  "on": [
+   "イ"
+  ],
+  "kun": [],
+  "s": 13,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A sound (音) from the heart (心): its meaning.",
+  "w": [
+   {
+    "w": "意味",
+    "r": "いみ",
+    "m": "meaning"
+   },
+   {
+    "w": "注意",
+    "r": "ちゅうい",
+    "m": "caution"
+   },
+   {
+    "w": "用意",
+    "r": "ようい",
+    "m": "preparation"
+   }
+  ]
+ },
+ {
+  "k": "味",
+  "m": "taste",
+  "on": [
+   "ミ"
+  ],
+  "kun": [
+   "あじ",
+   "あじ.わう"
+  ],
+  "s": 8,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A mouth (口) tasting something not yet (未) finished.",
+  "w": [
+   {
+    "w": "味",
+    "r": "あじ",
+    "m": "taste"
+   },
+   {
+    "w": "意味",
+    "r": "いみ",
+    "m": "meaning"
+   },
+   {
+    "w": "趣味",
+    "r": "しゅみ",
+    "m": "hobby"
+   }
+  ]
+ },
+ {
+  "k": "帰",
+  "m": "return home",
+  "on": [
+   "キ"
+  ],
+  "kun": [
+   "かえ.る"
+  ],
+  "s": 10,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A broom (⺕) sweeping at home upon returning.",
+  "w": [
+   {
+    "w": "帰る",
+    "r": "かえる",
+    "m": "to return"
+   },
+   {
+    "w": "帰り",
+    "r": "かえり",
+    "m": "return"
+   },
+   {
+    "w": "帰国",
+    "r": "きこく",
+    "m": "return to one's country"
+   }
+  ]
+ },
+ {
+  "k": "開",
+  "m": "open",
+  "on": [
+   "カイ"
+  ],
+  "kun": [
+   "ひら.く",
+   "あ.く",
+   "あ.ける"
+  ],
+  "s": 12,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "Hands pulling a gate (門) open.",
+  "w": [
+   {
+    "w": "開ける",
+    "r": "あける",
+    "m": "to open"
+   },
+   {
+    "w": "開く",
+    "r": "ひらく",
+    "m": "to open"
+   },
+   {
+    "w": "開店",
+    "r": "かいてん",
+    "m": "store opening"
+   }
+  ]
+ },
+ {
+  "k": "閉",
+  "m": "close",
+  "on": [
+   "ヘイ"
+  ],
+  "kun": [
+   "し.める",
+   "と.じる",
+   "し.まる"
+  ],
+  "s": 11,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A gate (門) with a bar (才) across: closed.",
+  "w": [
+   {
+    "w": "閉める",
+    "r": "しめる",
+    "m": "to close"
+   },
+   {
+    "w": "閉まる",
+    "r": "しまる",
+    "m": "to be closed"
+   },
+   {
+    "w": "閉店",
+    "r": "へいてん",
+    "m": "store closing"
+   }
+  ]
+ },
+ {
+  "k": "歩",
+  "m": "walk",
+  "on": [
+   "ホ",
+   "ブ",
+   "フ"
+  ],
+  "kun": [
+   "ある.く",
+   "あゆ.む"
+  ],
+  "s": 8,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "Stop (止) and few (少) steps alternating: walking.",
+  "w": [
+   {
+    "w": "歩く",
+    "r": "あるく",
+    "m": "to walk"
+   },
+   {
+    "w": "散歩",
+    "r": "さんぽ",
+    "m": "stroll"
+   },
+   {
+    "w": "歩道",
+    "r": "ほどう",
+    "m": "sidewalk"
+   }
+  ]
+ },
+ {
+  "k": "走",
+  "m": "run",
+  "on": [
+   "ソウ"
+  ],
+  "kun": [
+   "はし.る"
+  ],
+  "s": 7,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "Earth (土) kicked up by feet (走): running.",
+  "w": [
+   {
+    "w": "走る",
+    "r": "はしる",
+    "m": "to run"
+   },
+   {
+    "w": "走者",
+    "r": "そうしゃ",
+    "m": "runner"
+   },
+   {
+    "w": "走り方",
+    "r": "はしりかた",
+    "m": "way of running"
+   }
+  ]
+ },
+ {
+  "k": "止",
+  "m": "stop",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "と.まる",
+   "と.める",
+   "や.める"
+  ],
+  "s": 4,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A foot print planted on the ground: stop.",
+  "w": [
+   {
+    "w": "止まる",
+    "r": "とまる",
+    "m": "to stop"
+   },
+   {
+    "w": "止める",
+    "r": "とめる",
+    "m": "to stop something"
+   },
+   {
+    "w": "中止",
+    "r": "ちゅうし",
+    "m": "cancellation"
+   }
+  ]
+ },
+ {
+  "k": "住",
+  "m": "live, reside",
+  "on": [
+   "ジュウ"
+  ],
+  "kun": [
+   "す.む"
+  ],
+  "s": 7,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A person (亻) staying at the master's (主) place: living.",
+  "w": [
+   {
+    "w": "住む",
+    "r": "すむ",
+    "m": "to live"
+   },
+   {
+    "w": "住所",
+    "r": "じゅうしょ",
+    "m": "address"
+   },
+   {
+    "w": "住まい",
+    "r": "すまい",
+    "m": "residence"
+   }
+  ]
+ },
+ {
+  "k": "作",
+  "m": "make",
+  "on": [
+   "サク",
+   "サ"
+  ],
+  "kun": [
+   "つく.る"
+  ],
+  "s": 7,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A person (亻) suddenly (乍) making something.",
+  "w": [
+   {
+    "w": "作る",
+    "r": "つくる",
+    "m": "to make"
+   },
+   {
+    "w": "作品",
+    "r": "さくひん",
+    "m": "work"
+   },
+   {
+    "w": "作文",
+    "r": "さくぶん",
+    "m": "composition"
+   }
+  ]
+ },
+ {
+  "k": "用",
+  "m": "use, business",
+  "on": [
+   "ヨウ"
+  ],
+  "kun": [
+   "もち.いる"
+  ],
+  "s": 5,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A bucket with a handle: a tool in use.",
+  "w": [
+   {
+    "w": "用事",
+    "r": "ようじ",
+    "m": "errand"
+   },
+   {
+    "w": "用意",
+    "r": "ようい",
+    "m": "preparation"
+   },
+   {
+    "w": "利用",
+    "r": "りよう",
+    "m": "use"
+   }
+  ]
+ },
+ {
+  "k": "考",
+  "m": "think, consider",
+  "on": [
+   "コウ"
+  ],
+  "kun": [
+   "かんが.える"
+  ],
+  "s": 6,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "An old (耂) person bending over, thinking hard.",
+  "w": [
+   {
+    "w": "考える",
+    "r": "かんがえる",
+    "m": "to think"
+   },
+   {
+    "w": "考え",
+    "r": "かんがえ",
+    "m": "idea"
+   },
+   {
+    "w": "参考",
+    "r": "さんこう",
+    "m": "reference"
+   }
+  ]
+ },
+ {
+  "k": "答",
+  "m": "answer",
+  "on": [
+   "トウ"
+  ],
+  "kun": [
+   "こた.える",
+   "こた.え"
+  ],
+  "s": 12,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "Bamboo (竹) slips fitted together as an answer.",
+  "w": [
+   {
+    "w": "答える",
+    "r": "こたえる",
+    "m": "to answer"
+   },
+   {
+    "w": "答え",
+    "r": "こたえ",
+    "m": "answer"
+   },
+   {
+    "w": "回答",
+    "r": "かいとう",
+    "m": "reply"
+   }
+  ]
+ },
+ {
+  "k": "問",
+  "m": "question",
+  "on": [
+   "モン"
+  ],
+  "kun": [
+   "と.う",
+   "と.い"
+  ],
+  "s": 11,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A mouth (口) at a gate (門): asking a question.",
+  "w": [
+   {
+    "w": "問題",
+    "r": "もんだい",
+    "m": "problem"
+   },
+   {
+    "w": "質問",
+    "r": "しつもん",
+    "m": "question"
+   },
+   {
+    "w": "問い",
+    "r": "とい",
+    "m": "question"
+   }
+  ]
+ },
+ {
+  "k": "字",
+  "m": "character",
+  "on": [
+   "ジ"
+  ],
+  "kun": [
+   "あざ"
+  ],
+  "s": 6,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A child (子) under a roof (宀): characters nurtured at home.",
+  "w": [
+   {
+    "w": "文字",
+    "r": "もじ",
+    "m": "letter"
+   },
+   {
+    "w": "漢字",
+    "r": "かんじ",
+    "m": "kanji"
+   },
+   {
+    "w": "名字",
+    "r": "みょうじ",
+    "m": "family name"
+   }
+  ]
+ },
+ {
+  "k": "文",
+  "m": "sentence, writing",
+  "on": [
+   "ブン",
+   "モン"
+  ],
+  "kun": [
+   "ふみ"
+  ],
+  "s": 4,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A cross of strokes like a decorative pattern: writing.",
+  "w": [
+   {
+    "w": "文",
+    "r": "ぶん",
+    "m": "sentence"
+   },
+   {
+    "w": "作文",
+    "r": "さくぶん",
+    "m": "composition"
+   },
+   {
+    "w": "文化",
+    "r": "ぶんか",
+    "m": "culture"
+   }
+  ]
+ },
+ {
+  "k": "英",
+  "m": "English, excellent",
+  "on": [
+   "エイ"
+  ],
+  "kun": [],
+  "s": 8,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "Grass (艹) with a center (央): outstanding, also England.",
+  "w": [
+   {
+    "w": "英語",
+    "r": "えいご",
+    "m": "English"
+   },
+   {
+    "w": "英国",
+    "r": "えいこく",
+    "m": "Britain"
+   },
+   {
+    "w": "英雄",
+    "r": "えいゆう",
+    "m": "hero"
+   }
+  ]
+ },
+ {
+  "k": "漢",
+  "m": "Chinese, Han",
+  "on": [
+   "カン"
+  ],
+  "kun": [],
+  "s": 13,
+  "lv": 7,
+  "jlpt": 3,
+  "hint": "Water (氵) by the Han river, hence Chinese characters.",
+  "w": [
+   {
+    "w": "漢字",
+    "r": "かんじ",
+    "m": "kanji"
+   },
+   {
+    "w": "漢文",
+    "r": "かんぶん",
+    "m": "classical Chinese"
+   },
+   {
+    "w": "漢方",
+    "r": "かんぽう",
+    "m": "herbal medicine"
+   }
+  ]
+ },
+ {
+  "k": "質",
+  "m": "quality, substance",
+  "on": [
+   "シツ",
+   "シチ"
+  ],
+  "kun": [],
+  "s": 15,
+  "lv": 7,
+  "jlpt": 3,
+  "hint": "Two axes (斤斤) over a shell (貝): trading goods by quality.",
+  "w": [
+   {
+    "w": "質問",
+    "r": "しつもん",
+    "m": "question"
+   },
+   {
+    "w": "品質",
+    "r": "ひんしつ",
+    "m": "quality"
+   },
+   {
+    "w": "質",
+    "r": "しつ",
+    "m": "quality"
+   }
+  ]
+ },
+ {
+  "k": "虫",
+  "m": "insect",
+  "on": [
+   "チュウ"
+  ],
+  "kun": [
+   "むし"
+  ],
+  "s": 6,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "A bug with a body and a wiggly tail.",
+  "w": [
+   {
+    "w": "虫",
+    "r": "むし",
+    "m": "insect"
+   },
+   {
+    "w": "昆虫",
+    "r": "こんちゅう",
+    "m": "insect"
+   },
+   {
+    "w": "虫歯",
+    "r": "むしば",
+    "m": "cavity"
+   }
+  ]
+ },
+ {
+  "k": "肉",
+  "m": "meat",
+  "on": [
+   "ニク"
+  ],
+  "kun": [],
+  "s": 6,
+  "lv": 7,
+  "jlpt": 4,
+  "hint": "Slabs of meat with marbled lines inside.",
+  "w": [
+   {
+    "w": "肉",
+    "r": "にく",
+    "m": "meat"
+   },
+   {
+    "w": "牛肉",
+    "r": "ぎゅうにく",
+    "m": "beef"
+   },
+   {
+    "w": "焼肉",
+    "r": "やきにく",
+    "m": "grilled meat"
+   }
+  ]
+ },
+ {
+  "k": "米",
+  "m": "rice",
+  "on": [
+   "ベイ",
+   "マイ"
+  ],
+  "kun": [
+   "こめ"
+  ],
+  "s": 6,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Rice grains scattered in four directions around a cross.",
+  "w": [
+   {
+    "w": "米",
+    "r": "こめ",
+    "m": "rice"
+   },
+   {
+    "w": "お米",
+    "r": "おこめ",
+    "m": "rice"
+   },
+   {
+    "w": "米国",
+    "r": "べいこく",
+    "m": "USA"
+   }
+  ]
+ },
+ {
+  "k": "茶",
+  "m": "tea",
+  "on": [
+   "チャ",
+   "サ"
+  ],
+  "kun": [],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Grass (艹) and a person under a tree: tea leaves.",
+  "w": [
+   {
+    "w": "お茶",
+    "r": "おちゃ",
+    "m": "tea"
+   },
+   {
+    "w": "紅茶",
+    "r": "こうちゃ",
+    "m": "black tea"
+   },
+   {
+    "w": "茶色",
+    "r": "ちゃいろ",
+    "m": "brown"
+   }
+  ]
+ },
+ {
+  "k": "牛",
+  "m": "cow",
+  "on": [
+   "ギュウ"
+  ],
+  "kun": [
+   "うし"
+  ],
+  "s": 4,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A cow's head with two horns on top.",
+  "w": [
+   {
+    "w": "牛",
+    "r": "うし",
+    "m": "cow"
+   },
+   {
+    "w": "牛肉",
+    "r": "ぎゅうにく",
+    "m": "beef"
+   },
+   {
+    "w": "牛乳",
+    "r": "ぎゅうにゅう",
+    "m": "milk"
+   }
+  ]
+ },
+ {
+  "k": "馬",
+  "m": "horse",
+  "on": [
+   "バ"
+  ],
+  "kun": [
+   "うま"
+  ],
+  "s": 10,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A horse with mane flowing and four legs as dots.",
+  "w": [
+   {
+    "w": "馬",
+    "r": "うま",
+    "m": "horse"
+   },
+   {
+    "w": "競馬",
+    "r": "けいば",
+    "m": "horse racing"
+   },
+   {
+    "w": "乗馬",
+    "r": "じょうば",
+    "m": "horse riding"
+   }
+  ]
+ },
+ {
+  "k": "鳥",
+  "m": "bird",
+  "on": [
+   "チョウ"
+  ],
+  "kun": [
+   "とり"
+  ],
+  "s": 11,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A bird with beak, eye, body and tail feathers.",
+  "w": [
+   {
+    "w": "鳥",
+    "r": "とり",
+    "m": "bird"
+   },
+   {
+    "w": "小鳥",
+    "r": "ことり",
+    "m": "small bird"
+   },
+   {
+    "w": "白鳥",
+    "r": "はくちょう",
+    "m": "swan"
+   }
+  ]
+ },
+ {
+  "k": "海",
+  "m": "sea",
+  "on": [
+   "カイ"
+  ],
+  "kun": [
+   "うみ"
+  ],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Water (氵) mother (毎) of all: the sea.",
+  "w": [
+   {
+    "w": "海",
+    "r": "うみ",
+    "m": "sea"
+   },
+   {
+    "w": "海外",
+    "r": "かいがい",
+    "m": "overseas"
+   },
+   {
+    "w": "日本海",
+    "r": "にほんかい",
+    "m": "Sea of Japan"
+   }
+  ]
+ },
+ {
+  "k": "池",
+  "m": "pond",
+  "on": [
+   "チ"
+  ],
+  "kun": [
+   "いけ"
+  ],
+  "s": 6,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Water (氵) in a winding shape: a pond.",
+  "w": [
+   {
+    "w": "池",
+    "r": "いけ",
+    "m": "pond"
+   },
+   {
+    "w": "電池",
+    "r": "でんち",
+    "m": "battery"
+   },
+   {
+    "w": "池袋",
+    "r": "いけぶくろ",
+    "m": "Ikebukuro"
+   }
+  ]
+ },
+ {
+  "k": "星",
+  "m": "star",
+  "on": [
+   "セイ",
+   "ショウ"
+  ],
+  "kun": [
+   "ほし"
+  ],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "The sun (日) born (生) at night: a star.",
+  "w": [
+   {
+    "w": "星",
+    "r": "ほし",
+    "m": "star"
+   },
+   {
+    "w": "星空",
+    "r": "ほしぞら",
+    "m": "starry sky"
+   },
+   {
+    "w": "流れ星",
+    "r": "ながれぼし",
+    "m": "shooting star"
+   }
+  ]
+ },
+ {
+  "k": "雪",
+  "m": "snow",
+  "on": [
+   "セツ"
+  ],
+  "kun": [
+   "ゆき"
+  ],
+  "s": 11,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Rain (雨) swept up by a broom (ヨ): snow.",
+  "w": [
+   {
+    "w": "雪",
+    "r": "ゆき",
+    "m": "snow"
+   },
+   {
+    "w": "大雪",
+    "r": "おおゆき",
+    "m": "heavy snow"
+   },
+   {
+    "w": "雪だるま",
+    "r": "ゆきだるま",
+    "m": "snowman"
+   }
+  ]
+ },
+ {
+  "k": "風",
+  "m": "wind",
+  "on": [
+   "フウ"
+  ],
+  "kun": [
+   "かぜ",
+   "かざ"
+  ],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Insects (虫) carried by wind inside a sail.",
+  "w": [
+   {
+    "w": "風",
+    "r": "かぜ",
+    "m": "wind"
+   },
+   {
+    "w": "台風",
+    "r": "たいふう",
+    "m": "typhoon"
+   },
+   {
+    "w": "風呂",
+    "r": "ふろ",
+    "m": "bath"
+   }
+  ]
+ },
+ {
+  "k": "色",
+  "m": "color",
+  "on": [
+   "ショク",
+   "シキ"
+  ],
+  "kun": [
+   "いろ"
+  ],
+  "s": 6,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A person bending over another: the color of love.",
+  "w": [
+   {
+    "w": "色",
+    "r": "いろ",
+    "m": "color"
+   },
+   {
+    "w": "景色",
+    "r": "けしき",
+    "m": "scenery"
+   },
+   {
+    "w": "茶色",
+    "r": "ちゃいろ",
+    "m": "brown"
+   }
+  ]
+ },
+ {
+  "k": "音",
+  "m": "sound",
+  "on": [
+   "オン",
+   "イン"
+  ],
+  "kun": [
+   "おと",
+   "ね"
+  ],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Standing (立) in the sun (日): the sound heard.",
+  "w": [
+   {
+    "w": "音",
+    "r": "おと",
+    "m": "sound"
+   },
+   {
+    "w": "音楽",
+    "r": "おんがく",
+    "m": "music"
+   },
+   {
+    "w": "発音",
+    "r": "はつおん",
+    "m": "pronunciation"
+   }
+  ]
+ },
+ {
+  "k": "画",
+  "m": "picture, stroke",
+  "on": [
+   "ガ",
+   "カク"
+  ],
+  "kun": [],
+  "s": 8,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A field (田) framed in a painting.",
+  "w": [
+   {
+    "w": "映画",
+    "r": "えいが",
+    "m": "movie"
+   },
+   {
+    "w": "漫画",
+    "r": "まんが",
+    "m": "comics"
+   },
+   {
+    "w": "画面",
+    "r": "がめん",
+    "m": "screen"
+   }
+  ]
+ },
+ {
+  "k": "歌",
+  "m": "song, sing",
+  "on": [
+   "カ"
+  ],
+  "kun": [
+   "うた",
+   "うた.う"
+  ],
+  "s": 14,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Someone opening wide (欠) to sing a song.",
+  "w": [
+   {
+    "w": "歌",
+    "r": "うた",
+    "m": "song"
+   },
+   {
+    "w": "歌う",
+    "r": "うたう",
+    "m": "to sing"
+   },
+   {
+    "w": "歌手",
+    "r": "かしゅ",
+    "m": "singer"
+   }
+  ]
+ },
+ {
+  "k": "声",
+  "m": "voice",
+  "on": [
+   "セイ",
+   "ショウ"
+  ],
+  "kun": [
+   "こえ"
+  ],
+  "s": 7,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A samurai (士) with a voice sounding out like a bell.",
+  "w": [
+   {
+    "w": "声",
+    "r": "こえ",
+    "m": "voice"
+   },
+   {
+    "w": "大声",
+    "r": "おおごえ",
+    "m": "loud voice"
+   },
+   {
+    "w": "声優",
+    "r": "せいゆう",
+    "m": "voice actor"
+   }
+  ]
+ },
+ {
+  "k": "世",
+  "m": "world, generation",
+  "on": [
+   "セ",
+   "セイ"
+  ],
+  "kun": [
+   "よ"
+  ],
+  "s": 5,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Three tens (十) joined: thirty years makes a generation.",
+  "w": [
+   {
+    "w": "世界",
+    "r": "せかい",
+    "m": "world"
+   },
+   {
+    "w": "世の中",
+    "r": "よのなか",
+    "m": "society"
+   },
+   {
+    "w": "お世話",
+    "r": "おせわ",
+    "m": "care"
+   }
+  ]
+ },
+ {
+  "k": "界",
+  "m": "world, boundary",
+  "on": [
+   "カイ"
+  ],
+  "kun": [],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A field (田) divided between (介) boundaries: the world.",
+  "w": [
+   {
+    "w": "世界",
+    "r": "せかい",
+    "m": "world"
+   },
+   {
+    "w": "世界中",
+    "r": "せかいじゅう",
+    "m": "all over the world"
+   },
+   {
+    "w": "限界",
+    "r": "げんかい",
+    "m": "limit"
+   }
+  ]
+ },
+ {
+  "k": "台",
+  "m": "stand, platform",
+  "on": [
+   "ダイ",
+   "タイ"
+  ],
+  "kun": [],
+  "s": 5,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A mouth (口) on a raised platform (厶).",
+  "w": [
+   {
+    "w": "台所",
+    "r": "だいどころ",
+    "m": "kitchen"
+   },
+   {
+    "w": "台風",
+    "r": "たいふう",
+    "m": "typhoon"
+   },
+   {
+    "w": "一台",
+    "r": "いちだい",
+    "m": "one machine"
+   }
+  ]
+ },
+ {
+  "k": "点",
+  "m": "point, dot",
+  "on": [
+   "テン"
+  ],
+  "kun": [],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Fire (灬) below a mark: a dot of light.",
+  "w": [
+   {
+    "w": "点",
+    "r": "てん",
+    "m": "point"
+   },
+   {
+    "w": "点数",
+    "r": "てんすう",
+    "m": "score"
+   },
+   {
+    "w": "百点",
+    "r": "ひゃくてん",
+    "m": "100 points"
+   }
+  ]
+ },
+ {
+  "k": "場",
+  "m": "place",
+  "on": [
+   "ジョウ"
+  ],
+  "kun": [
+   "ば"
+  ],
+  "s": 12,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "Earth (土) lit by sun and the sun: a place.",
+  "w": [
+   {
+    "w": "場所",
+    "r": "ばしょ",
+    "m": "place"
+   },
+   {
+    "w": "場合",
+    "r": "ばあい",
+    "m": "case"
+   },
+   {
+    "w": "会場",
+    "r": "かいじょう",
+    "m": "venue"
+   }
+  ]
+ },
+ {
+  "k": "所",
+  "m": "place",
+  "on": [
+   "ショ"
+  ],
+  "kun": [
+   "ところ"
+  ],
+  "s": 8,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A door (戸) with an axe (斤): a spot or place.",
+  "w": [
+   {
+    "w": "所",
+    "r": "ところ",
+    "m": "place"
+   },
+   {
+    "w": "場所",
+    "r": "ばしょ",
+    "m": "place"
+   },
+   {
+    "w": "住所",
+    "r": "じゅうしょ",
+    "m": "address"
+   }
+  ]
+ },
+ {
+  "k": "度",
+  "m": "degree, times",
+  "on": [
+   "ド",
+   "タク"
+  ],
+  "kun": [
+   "たび"
+  ],
+  "s": 9,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A shed (广) measuring things by hand: degree, times.",
+  "w": [
+   {
+    "w": "今度",
+    "r": "こんど",
+    "m": "this time"
+   },
+   {
+    "w": "温度",
+    "r": "おんど",
+    "m": "temperature"
+   },
+   {
+    "w": "一度",
+    "r": "いちど",
+    "m": "once"
+   }
+  ]
+ },
+ {
+  "k": "体",
+  "m": "body",
+  "on": [
+   "タイ",
+   "テイ"
+  ],
+  "kun": [
+   "からだ"
+  ],
+  "s": 7,
+  "lv": 8,
+  "jlpt": 4,
+  "hint": "A person (亻) with a root (本): the body.",
+  "w": [
+   {
+    "w": "体",
+    "r": "からだ",
+    "m": "body"
+   },
+   {
+    "w": "体育",
+    "r": "たいいく",
+    "m": "physical education"
+   },
+   {
+    "w": "身体",
+    "r": "しんたい",
+    "m": "body"
+   }
+  ]
+ },
+ {
+  "k": "頭",
+  "m": "head",
+  "on": [
+   "トウ",
+   "ズ",
+   "ト"
+  ],
+  "kun": [
+   "あたま",
+   "かしら"
+  ],
+  "s": 16,
+  "lv": 8,
+  "jlpt": 3,
+  "hint": "A bean (豆) on top of a page (頁): the head.",
+  "w": [
+   {
+    "w": "頭",
+    "r": "あたま",
+    "m": "head"
+   },
+   {
+    "w": "頭痛",
+    "r": "ずつう",
+    "m": "headache"
+   },
+   {
+    "w": "先頭",
+    "r": "せんとう",
+    "m": "the lead"
+   }
+  ]
+ },
+ {
+  "k": "顔",
+  "m": "face",
+  "on": [
+   "ガン"
+  ],
+  "kun": [
+   "かお"
+  ],
+  "s": 18,
+  "lv": 8,
+  "jlpt": 3,
+  "hint": "A face (頁) with a cliff-like brow and standing person.",
+  "w": [
+   {
+    "w": "顔",
+    "r": "かお",
+    "m": "face"
+   },
+   {
+    "w": "笑顔",
+    "r": "えがお",
+    "m": "smile"
+   },
+   {
+    "w": "顔色",
+    "r": "かおいろ",
+    "m": "complexion"
+   }
+  ]
+ },
+ {
+  "k": "首",
+  "m": "neck",
+  "on": [
+   "シュ"
+  ],
+  "kun": [
+   "くび"
+  ],
+  "s": 9,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A head with hair and eyes on top of a neck.",
+  "w": [
+   {
+    "w": "首",
+    "r": "くび",
+    "m": "neck"
+   },
+   {
+    "w": "首都",
+    "r": "しゅと",
+    "m": "capital"
+   },
+   {
+    "w": "手首",
+    "r": "てくび",
+    "m": "wrist"
+   }
+  ]
+ },
+ {
+  "k": "動",
+  "m": "move",
+  "on": [
+   "ドウ"
+  ],
+  "kun": [
+   "うご.く",
+   "うご.かす"
+  ],
+  "s": 11,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Heavy (重) strength (力) makes things move.",
+  "w": [
+   {
+    "w": "動く",
+    "r": "うごく",
+    "m": "to move"
+   },
+   {
+    "w": "動物",
+    "r": "どうぶつ",
+    "m": "animal"
+   },
+   {
+    "w": "自動車",
+    "r": "じどうしゃ",
+    "m": "automobile"
+   }
+  ]
+ },
+ {
+  "k": "働",
+  "m": "work",
+  "on": [
+   "ドウ"
+  ],
+  "kun": [
+   "はたら.く"
+  ],
+  "s": 13,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "A person (亻) who moves (動): working.",
+  "w": [
+   {
+    "w": "働く",
+    "r": "はたらく",
+    "m": "to work"
+   },
+   {
+    "w": "労働",
+    "r": "ろうどう",
+    "m": "labor"
+   },
+   {
+    "w": "働き者",
+    "r": "はたらきもの",
+    "m": "hard worker"
+   }
+  ]
+ },
+ {
+  "k": "運",
+  "m": "carry, luck",
+  "on": [
+   "ウン"
+  ],
+  "kun": [
+   "はこ.ぶ"
+  ],
+  "s": 12,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Walking (辶) along with an army (軍): carrying and luck.",
+  "w": [
+   {
+    "w": "運ぶ",
+    "r": "はこぶ",
+    "m": "to carry"
+   },
+   {
+    "w": "運動",
+    "r": "うんどう",
+    "m": "exercise"
+   },
+   {
+    "w": "運転",
+    "r": "うんてん",
+    "m": "driving"
+   }
+  ]
+ },
+ {
+  "k": "送",
+  "m": "send",
+  "on": [
+   "ソウ"
+  ],
+  "kun": [
+   "おく.る"
+  ],
+  "s": 9,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Walking (辶) off with a gift: sending.",
+  "w": [
+   {
+    "w": "送る",
+    "r": "おくる",
+    "m": "to send"
+   },
+   {
+    "w": "放送",
+    "r": "ほうそう",
+    "m": "broadcast"
+   },
+   {
+    "w": "送料",
+    "r": "そうりょう",
+    "m": "shipping fee"
+   }
+  ]
+ },
+ {
+  "k": "通",
+  "m": "pass, commute",
+  "on": [
+   "ツウ",
+   "ツ"
+  ],
+  "kun": [
+   "とお.る",
+   "かよ.う"
+  ],
+  "s": 10,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Walking (辶) along a path to pass through.",
+  "w": [
+   {
+    "w": "通る",
+    "r": "とおる",
+    "m": "to pass"
+   },
+   {
+    "w": "通う",
+    "r": "かよう",
+    "m": "to commute"
+   },
+   {
+    "w": "交通",
+    "r": "こうつう",
+    "m": "traffic"
+   }
+  ]
+ },
+ {
+  "k": "定",
+  "m": "decide, fixed",
+  "on": [
+   "テイ",
+   "ジョウ"
+  ],
+  "kun": [
+   "さだ.める"
+  ],
+  "s": 8,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Feet properly (正) under a roof (宀): settled and fixed.",
+  "w": [
+   {
+    "w": "予定",
+    "r": "よてい",
+    "m": "plan"
+   },
+   {
+    "w": "定食",
+    "r": "ていしょく",
+    "m": "set meal"
+   },
+   {
+    "w": "定期",
+    "r": "ていき",
+    "m": "regular"
+   }
+  ]
+ },
+ {
+  "k": "決",
+  "m": "decide",
+  "on": [
+   "ケツ"
+  ],
+  "kun": [
+   "き.める",
+   "き.まる"
+  ],
+  "s": 7,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Water (氵) breaking a dam: decided.",
+  "w": [
+   {
+    "w": "決める",
+    "r": "きめる",
+    "m": "to decide"
+   },
+   {
+    "w": "決まる",
+    "r": "きまる",
+    "m": "to be decided"
+   },
+   {
+    "w": "決心",
+    "r": "けっしん",
+    "m": "resolution"
+   }
+  ]
+ },
+ {
+  "k": "業",
+  "m": "business, work",
+  "on": [
+   "ギョウ",
+   "ゴウ"
+  ],
+  "kun": [
+   "わざ"
+  ],
+  "s": 13,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A row of tools on a stand: a trade.",
+  "w": [
+   {
+    "w": "授業",
+    "r": "じゅぎょう",
+    "m": "class"
+   },
+   {
+    "w": "卒業",
+    "r": "そつぎょう",
+    "m": "graduation"
+   },
+   {
+    "w": "企業",
+    "r": "きぎょう",
+    "m": "company"
+   }
+  ]
+ },
+ {
+  "k": "病",
+  "m": "illness",
+  "on": [
+   "ビョウ",
+   "ヘイ"
+  ],
+  "kun": [
+   "や.む",
+   "やまい"
+  ],
+  "s": 10,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "A sickbed (疒) with a fire (丙) fever.",
+  "w": [
+   {
+    "w": "病気",
+    "r": "びょうき",
+    "m": "illness"
+   },
+   {
+    "w": "病院",
+    "r": "びょういん",
+    "m": "hospital"
+   },
+   {
+    "w": "病人",
+    "r": "びょうにん",
+    "m": "sick person"
+   }
+  ]
+ },
+ {
+  "k": "院",
+  "m": "institution",
+  "on": [
+   "イン"
+  ],
+  "kun": [],
+  "s": 10,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "A building by a hill (阝) that is complete (完): an institution.",
+  "w": [
+   {
+    "w": "病院",
+    "r": "びょういん",
+    "m": "hospital"
+   },
+   {
+    "w": "大学院",
+    "r": "だいがくいん",
+    "m": "graduate school"
+   },
+   {
+    "w": "美容院",
+    "r": "びよういん",
+    "m": "hair salon"
+   }
+  ]
+ },
+ {
+  "k": "医",
+  "m": "medicine, doctor",
+  "on": [
+   "イ"
+  ],
+  "kun": [],
+  "s": 7,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Arrows kept in a box, healing: medicine.",
+  "w": [
+   {
+    "w": "医者",
+    "r": "いしゃ",
+    "m": "doctor"
+   },
+   {
+    "w": "医学",
+    "r": "いがく",
+    "m": "medicine"
+   },
+   {
+    "w": "医院",
+    "r": "いいん",
+    "m": "clinic"
+   }
+  ]
+ },
+ {
+  "k": "薬",
+  "m": "medicine",
+  "on": [
+   "ヤク"
+  ],
+  "kun": [
+   "くすり"
+  ],
+  "s": 16,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "Grass (艹) that makes you happy (楽): medicine.",
+  "w": [
+   {
+    "w": "薬",
+    "r": "くすり",
+    "m": "medicine"
+   },
+   {
+    "w": "薬局",
+    "r": "やっきょく",
+    "m": "pharmacy"
+   },
+   {
+    "w": "目薬",
+    "r": "めぐすり",
+    "m": "eye drops"
+   }
+  ]
+ },
+ {
+  "k": "不",
+  "m": "not, un-",
+  "on": [
+   "フ",
+   "ブ"
+  ],
+  "kun": [],
+  "s": 4,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A bird flying up and never coming down: not.",
+  "w": [
+   {
+    "w": "不安",
+    "r": "ふあん",
+    "m": "anxiety"
+   },
+   {
+    "w": "不思議",
+    "r": "ふしぎ",
+    "m": "mysterious"
+   },
+   {
+    "w": "不便",
+    "r": "ふべん",
+    "m": "inconvenient"
+   }
+  ]
+ },
+ {
+  "k": "無",
+  "m": "nothing, without",
+  "on": [
+   "ム",
+   "ブ"
+  ],
+  "kun": [
+   "な.い"
+  ],
+  "s": 12,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A dancer with fire below leaving nothing behind.",
+  "w": [
+   {
+    "w": "無理",
+    "r": "むり",
+    "m": "impossible"
+   },
+   {
+    "w": "無料",
+    "r": "むりょう",
+    "m": "free"
+   },
+   {
+    "w": "無事",
+    "r": "ぶじ",
+    "m": "safe"
+   }
+  ]
+ },
+ {
+  "k": "有",
+  "m": "have, exist",
+  "on": [
+   "ユウ",
+   "ウ"
+  ],
+  "kun": [
+   "あ.る"
+  ],
+  "s": 6,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A hand holding meat (月): you have it.",
+  "w": [
+   {
+    "w": "有名",
+    "r": "ゆうめい",
+    "m": "famous"
+   },
+   {
+    "w": "有料",
+    "r": "ゆうりょう",
+    "m": "paid"
+   },
+   {
+    "w": "有力",
+    "r": "ゆうりょく",
+    "m": "influential"
+   }
+  ]
+ },
+ {
+  "k": "化",
+  "m": "change",
+  "on": [
+   "カ",
+   "ケ"
+  ],
+  "kun": [
+   "ば.ける"
+  ],
+  "s": 4,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A person (亻) turning upside down (ヒ): change.",
+  "w": [
+   {
+    "w": "文化",
+    "r": "ぶんか",
+    "m": "culture"
+   },
+   {
+    "w": "化学",
+    "r": "かがく",
+    "m": "chemistry"
+   },
+   {
+    "w": "変化",
+    "r": "へんか",
+    "m": "change"
+   }
+  ]
+ },
+ {
+  "k": "全",
+  "m": "whole, all",
+  "on": [
+   "ゼン"
+  ],
+  "kun": [
+   "まった.く",
+   "すべ.て"
+  ],
+  "s": 6,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A king (王) under a roof: everything is complete.",
+  "w": [
+   {
+    "w": "全部",
+    "r": "ぜんぶ",
+    "m": "all"
+   },
+   {
+    "w": "安全",
+    "r": "あんぜん",
+    "m": "safety"
+   },
+   {
+    "w": "全く",
+    "r": "まったく",
+    "m": "completely"
+   }
+  ]
+ },
+ {
+  "k": "別",
+  "m": "separate, different",
+  "on": [
+   "ベツ"
+  ],
+  "kun": [
+   "わか.れる"
+  ],
+  "s": 7,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A knife (刂) separating a bone: separate.",
+  "w": [
+   {
+    "w": "別",
+    "r": "べつ",
+    "m": "different"
+   },
+   {
+    "w": "特別",
+    "r": "とくべつ",
+    "m": "special"
+   },
+   {
+    "w": "別れる",
+    "r": "わかれる",
+    "m": "to part"
+   }
+  ]
+ },
+ {
+  "k": "発",
+  "m": "emit, depart",
+  "on": [
+   "ハツ",
+   "ホツ"
+  ],
+  "kun": [],
+  "s": 9,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "Feet and a bow shooting off: departure.",
+  "w": [
+   {
+    "w": "出発",
+    "r": "しゅっぱつ",
+    "m": "departure"
+   },
+   {
+    "w": "発音",
+    "r": "はつおん",
+    "m": "pronunciation"
+   },
+   {
+    "w": "発見",
+    "r": "はっけん",
+    "m": "discovery"
+   }
+  ]
+ },
+ {
+  "k": "変",
+  "m": "strange, change",
+  "on": [
+   "ヘン"
+  ],
+  "kun": [
+   "か.わる",
+   "か.える"
+  ],
+  "s": 9,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "Threads (糸) tangled up: strange and changing.",
+  "w": [
+   {
+    "w": "変",
+    "r": "へん",
+    "m": "strange"
+   },
+   {
+    "w": "変わる",
+    "r": "かわる",
+    "m": "to change"
+   },
+   {
+    "w": "大変",
+    "r": "たいへん",
+    "m": "serious"
+   }
+  ]
+ },
+ {
+  "k": "感",
+  "m": "feeling",
+  "on": [
+   "カン"
+  ],
+  "kun": [],
+  "s": 13,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A heart (心) responding to all (咸): feeling.",
+  "w": [
+   {
+    "w": "感じ",
+    "r": "かんじ",
+    "m": "feeling"
+   },
+   {
+    "w": "感謝",
+    "r": "かんしゃ",
+    "m": "gratitude"
+   },
+   {
+    "w": "感動",
+    "r": "かんどう",
+    "m": "emotion"
+   }
+  ]
+ },
+ {
+  "k": "情",
+  "m": "emotion, circumstances",
+  "on": [
+   "ジョウ"
+  ],
+  "kun": [
+   "なさ.け"
+  ],
+  "s": 11,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "A heart (忄) with a blue (青) spring of feeling.",
+  "w": [
+   {
+    "w": "感情",
+    "r": "かんじょう",
+    "m": "emotion"
+   },
+   {
+    "w": "愛情",
+    "r": "あいじょう",
+    "m": "affection"
+   },
+   {
+    "w": "事情",
+    "r": "じじょう",
+    "m": "circumstances"
+   }
+  ]
+ },
+ {
+  "k": "現",
+  "m": "appear, present",
+  "on": [
+   "ゲン"
+  ],
+  "kun": [
+   "あらわ.れる"
+  ],
+  "s": 11,
+  "lv": 9,
+  "jlpt": 3,
+  "hint": "Jade (王) coming into view (見): appearing now.",
+  "w": [
+   {
+    "w": "現在",
+    "r": "げんざい",
+    "m": "present"
+   },
+   {
+    "w": "現代",
+    "r": "げんだい",
+    "m": "modern times"
+   },
+   {
+    "w": "現実",
+    "r": "げんじつ",
+    "m": "reality"
+   }
+  ]
+ },
+ {
+  "k": "代",
+  "m": "generation, substitute",
+  "on": [
+   "ダイ",
+   "タイ"
+  ],
+  "kun": [
+   "か.わる",
+   "よ",
+   "しろ"
+  ],
+  "s": 5,
+  "lv": 9,
+  "jlpt": 4,
+  "hint": "A person (亻) with a stake (弋): a substitute.",
+  "w": [
+   {
+    "w": "時代",
+    "r": "じだい",
+    "m": "era"
+   },
+   {
+    "w": "現代",
+    "r": "げんだい",
+    "m": "modern times"
+   },
+   {
+    "w": "代わり",
+    "r": "かわり",
+    "m": "substitute"
+   }
+  ]
+ },
+ {
+  "k": "戦",
+  "m": "war, fight",
+  "on": [
+   "セン"
+  ],
+  "kun": [
+   "たたか.う",
+   "いくさ"
+  ],
+  "s": 13,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "A shield and a spear (戈): fighting.",
+  "w": [
+   {
+    "w": "戦う",
+    "r": "たたかう",
+    "m": "to fight"
+   },
+   {
+    "w": "戦争",
+    "r": "せんそう",
+    "m": "war"
+   },
+   {
+    "w": "戦い",
+    "r": "たたかい",
+    "m": "battle"
+   }
+  ]
+ },
+ {
+  "k": "王",
+  "m": "king",
+  "on": [
+   "オウ"
+  ],
+  "kun": [],
+  "s": 4,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "Three levels (heaven, man, earth) joined by a king.",
+  "w": [
+   {
+    "w": "王様",
+    "r": "おうさま",
+    "m": "king"
+   },
+   {
+    "w": "王子",
+    "r": "おうじ",
+    "m": "prince"
+   },
+   {
+    "w": "女王",
+    "r": "じょおう",
+    "m": "queen"
+   }
+  ]
+ },
+ {
+  "k": "光",
+  "m": "light",
+  "on": [
+   "コウ"
+  ],
+  "kun": [
+   "ひか.る",
+   "ひかり"
+  ],
+  "s": 6,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "A person under a flame of light.",
+  "w": [
+   {
+    "w": "光",
+    "r": "ひかり",
+    "m": "light"
+   },
+   {
+    "w": "光る",
+    "r": "ひかる",
+    "m": "to shine"
+   },
+   {
+    "w": "観光",
+    "r": "かんこう",
+    "m": "sightseeing"
+   }
+  ]
+ },
+ {
+  "k": "地",
+  "m": "ground",
+  "on": [
+   "チ",
+   "ジ"
+  ],
+  "kun": [],
+  "s": 6,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Earth (土) that is also (也) the ground.",
+  "w": [
+   {
+    "w": "地図",
+    "r": "ちず",
+    "m": "map"
+   },
+   {
+    "w": "地下鉄",
+    "r": "ちかてつ",
+    "m": "subway"
+   },
+   {
+    "w": "地球",
+    "r": "ちきゅう",
+    "m": "Earth"
+   }
+  ]
+ },
+ {
+  "k": "球",
+  "m": "ball, sphere",
+  "on": [
+   "キュウ"
+  ],
+  "kun": [
+   "たま"
+  ],
+  "s": 11,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Jade (王) shaped into a round ball.",
+  "w": [
+   {
+    "w": "地球",
+    "r": "ちきゅう",
+    "m": "Earth"
+   },
+   {
+    "w": "野球",
+    "r": "やきゅう",
+    "m": "baseball"
+   },
+   {
+    "w": "球",
+    "r": "たま",
+    "m": "ball"
+   }
+  ]
+ },
+ {
+  "k": "紙",
+  "m": "paper",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "かみ"
+  ],
+  "s": 10,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Threads (糸) pressed into a clan's (氏) paper.",
+  "w": [
+   {
+    "w": "紙",
+    "r": "かみ",
+    "m": "paper"
+   },
+   {
+    "w": "手紙",
+    "r": "てがみ",
+    "m": "letter"
+   },
+   {
+    "w": "用紙",
+    "r": "ようし",
+    "m": "form"
+   }
+  ]
+ },
+ {
+  "k": "銀",
+  "m": "silver",
+  "on": [
+   "ギン"
+  ],
+  "kun": [],
+  "s": 14,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Metal (金) that stops (艮) at silver.",
+  "w": [
+   {
+    "w": "銀行",
+    "r": "ぎんこう",
+    "m": "bank"
+   },
+   {
+    "w": "銀色",
+    "r": "ぎんいろ",
+    "m": "silver color"
+   },
+   {
+    "w": "銀",
+    "r": "ぎん",
+    "m": "silver"
+   }
+  ]
+ },
+ {
+  "k": "悲",
+  "m": "sad",
+  "on": [
+   "ヒ"
+  ],
+  "kun": [
+   "かな.しい"
+  ],
+  "s": 12,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "A heart (心) torn apart (非): sadness.",
+  "w": [
+   {
+    "w": "悲しい",
+    "r": "かなしい",
+    "m": "sad"
+   },
+   {
+    "w": "悲劇",
+    "r": "ひげき",
+    "m": "tragedy"
+   },
+   {
+    "w": "悲鳴",
+    "r": "ひめい",
+    "m": "scream"
+   }
+  ]
+ },
+ {
+  "k": "笑",
+  "m": "laugh, smile",
+  "on": [
+   "ショウ"
+  ],
+  "kun": [
+   "わら.う",
+   "え.む"
+  ],
+  "s": 10,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "Bamboo (竹) leaves bending like a laughing face.",
+  "w": [
+   {
+    "w": "笑う",
+    "r": "わらう",
+    "m": "to laugh"
+   },
+   {
+    "w": "笑顔",
+    "r": "えがお",
+    "m": "smile"
+   },
+   {
+    "w": "笑い",
+    "r": "わらい",
+    "m": "laughter"
+   }
+  ]
+ },
+ {
+  "k": "泣",
+  "m": "cry",
+  "on": [
+   "キュウ"
+  ],
+  "kun": [
+   "な.く"
+  ],
+  "s": 8,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "Water (氵) dripping while standing (立): crying.",
+  "w": [
+   {
+    "w": "泣く",
+    "r": "なく",
+    "m": "to cry"
+   },
+   {
+    "w": "泣き虫",
+    "r": "なきむし",
+    "m": "crybaby"
+   },
+   {
+    "w": "泣き顔",
+    "r": "なきがお",
+    "m": "tearful face"
+   }
+  ]
+ },
+ {
+  "k": "怒",
+  "m": "anger",
+  "on": [
+   "ド"
+  ],
+  "kun": [
+   "おこ.る",
+   "いか.る"
+  ],
+  "s": 9,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "A servant (奴) with a heart (心) boiling: anger.",
+  "w": [
+   {
+    "w": "怒る",
+    "r": "おこる",
+    "m": "to get angry"
+   },
+   {
+    "w": "怒り",
+    "r": "いかり",
+    "m": "anger"
+   },
+   {
+    "w": "怒鳴る",
+    "r": "どなる",
+    "m": "to shout"
+   }
+  ]
+ },
+ {
+  "k": "君",
+  "m": "you (casual), lord",
+  "on": [
+   "クン"
+  ],
+  "kun": [
+   "きみ"
+  ],
+  "s": 7,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "A mouth (口) giving orders: a lord, now a casual you.",
+  "w": [
+   {
+    "w": "君",
+    "r": "きみ",
+    "m": "you"
+   },
+   {
+    "w": "君たち",
+    "r": "きみたち",
+    "m": "you all"
+   },
+   {
+    "w": "山田君",
+    "r": "やまだくん",
+    "m": "Yamada-kun"
+   }
+  ]
+ },
+ {
+  "k": "彼",
+  "m": "he, that",
+  "on": [
+   "ヒ"
+  ],
+  "kun": [
+   "かれ",
+   "かの"
+  ],
+  "s": 8,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "Walking (彳) over there (皮): that person, he.",
+  "w": [
+   {
+    "w": "彼",
+    "r": "かれ",
+    "m": "he"
+   },
+   {
+    "w": "彼女",
+    "r": "かのじょ",
+    "m": "she"
+   },
+   {
+    "w": "彼ら",
+    "r": "かれら",
+    "m": "they"
+   }
+  ]
+ },
+ {
+  "k": "僕",
+  "m": "I (male)",
+  "on": [
+   "ボク"
+  ],
+  "kun": [
+   "しもべ"
+  ],
+  "s": 14,
+  "lv": 10,
+  "jlpt": 3,
+  "hint": "A person (亻) humble as a servant: the male I.",
+  "w": [
+   {
+    "w": "僕",
+    "r": "ぼく",
+    "m": "I"
+   },
+   {
+    "w": "僕たち",
+    "r": "ぼくたち",
+    "m": "we"
+   },
+   {
+    "w": "僕ら",
+    "r": "ぼくら",
+    "m": "we"
+   }
+  ]
+ },
+ {
+  "k": "始",
+  "m": "begin",
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "はじ.める",
+   "はじ.まる"
+  ],
+  "s": 8,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "A woman (女) at the platform (台): a new beginning.",
+  "w": [
+   {
+    "w": "始める",
+    "r": "はじめる",
+    "m": "to begin"
+   },
+   {
+    "w": "始まる",
+    "r": "はじまる",
+    "m": "to start"
+   },
+   {
+    "w": "開始",
+    "r": "かいし",
+    "m": "start"
+   }
+  ]
+ },
+ {
+  "k": "終",
+  "m": "end",
+  "on": [
+   "シュウ"
+  ],
+  "kun": [
+   "お.わる",
+   "お.える"
+  ],
+  "s": 11,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Thread (糸) knotted at winter's (冬) end.",
+  "w": [
+   {
+    "w": "終わる",
+    "r": "おわる",
+    "m": "to finish"
+   },
+   {
+    "w": "終わり",
+    "r": "おわり",
+    "m": "the end"
+   },
+   {
+    "w": "最終",
+    "r": "さいしゅう",
+    "m": "final"
+   }
+  ]
+ },
+ {
+  "k": "起",
+  "m": "rise, wake",
+  "on": [
+   "キ"
+  ],
+  "kun": [
+   "お.きる",
+   "お.こる",
+   "お.こす"
+  ],
+  "s": 10,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Running (走) after oneself (己): getting up.",
+  "w": [
+   {
+    "w": "起きる",
+    "r": "おきる",
+    "m": "to wake up"
+   },
+   {
+    "w": "早起き",
+    "r": "はやおき",
+    "m": "early rising"
+   },
+   {
+    "w": "起こる",
+    "r": "おこる",
+    "m": "to occur"
+   }
+  ]
+ },
+ {
+  "k": "着",
+  "m": "wear, arrive",
+  "on": [
+   "チャク",
+   "ジャク"
+  ],
+  "kun": [
+   "き.る",
+   "つ.く"
+  ],
+  "s": 12,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "A sheep (羊) with eyes (目): putting on clothes and arriving.",
+  "w": [
+   {
+    "w": "着る",
+    "r": "きる",
+    "m": "to wear"
+   },
+   {
+    "w": "着く",
+    "r": "つく",
+    "m": "to arrive"
+   },
+   {
+    "w": "到着",
+    "r": "とうちゃく",
+    "m": "arrival"
+   }
+  ]
+ },
+ {
+  "k": "切",
+  "m": "cut",
+  "on": [
+   "セツ",
+   "サイ"
+  ],
+  "kun": [
+   "き.る"
+  ],
+  "s": 4,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "A knife (刀) with seven (七) cuts.",
+  "w": [
+   {
+    "w": "切る",
+    "r": "きる",
+    "m": "to cut"
+   },
+   {
+    "w": "大切",
+    "r": "たいせつ",
+    "m": "important"
+   },
+   {
+    "w": "切符",
+    "r": "きっぷ",
+    "m": "ticket"
+   }
+  ]
+ },
+ {
+  "k": "取",
+  "m": "take",
+  "on": [
+   "シュ"
+  ],
+  "kun": [
+   "と.る"
+  ],
+  "s": 8,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "A hand (又) grabbing an ear (耳): taking.",
+  "w": [
+   {
+    "w": "取る",
+    "r": "とる",
+    "m": "to take"
+   },
+   {
+    "w": "受け取る",
+    "r": "うけとる",
+    "m": "to receive"
+   },
+   {
+    "w": "取り出す",
+    "r": "とりだす",
+    "m": "to take out"
+   }
+  ]
+ },
+ {
+  "k": "受",
+  "m": "receive",
+  "on": [
+   "ジュ"
+  ],
+  "kun": [
+   "う.ける",
+   "う.かる"
+  ],
+  "s": 8,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "One hand giving, a hand receiving over a roof.",
+  "w": [
+   {
+    "w": "受ける",
+    "r": "うける",
+    "m": "to receive"
+   },
+   {
+    "w": "受付",
+    "r": "うけつけ",
+    "m": "reception"
+   },
+   {
+    "w": "受験",
+    "r": "じゅけん",
+    "m": "exam"
+   }
+  ]
+ },
+ {
+  "k": "返",
+  "m": "return",
+  "on": [
+   "ヘン"
+  ],
+  "kun": [
+   "かえ.す",
+   "かえ.る"
+  ],
+  "s": 7,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Walking (辶) back against (反): returning.",
+  "w": [
+   {
+    "w": "返す",
+    "r": "かえす",
+    "m": "to return"
+   },
+   {
+    "w": "返事",
+    "r": "へんじ",
+    "m": "reply"
+   },
+   {
+    "w": "繰り返す",
+    "r": "くりかえす",
+    "m": "to repeat"
+   }
+  ]
+ },
+ {
+  "k": "同",
+  "m": "same",
+  "on": [
+   "ドウ"
+  ],
+  "kun": [
+   "おな.じ"
+  ],
+  "s": 6,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Everyone's mouth (口) under one roof: the same.",
+  "w": [
+   {
+    "w": "同じ",
+    "r": "おなじ",
+    "m": "same"
+   },
+   {
+    "w": "同時",
+    "r": "どうじ",
+    "m": "simultaneous"
+   },
+   {
+    "w": "同意",
+    "r": "どうい",
+    "m": "agreement"
+   }
+  ]
+ },
+ {
+  "k": "特",
+  "m": "special",
+  "on": [
+   "トク"
+  ],
+  "kun": [],
+  "s": 10,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "An ox (牛) at the temple (寺): a special offering.",
+  "w": [
+   {
+    "w": "特別",
+    "r": "とくべつ",
+    "m": "special"
+   },
+   {
+    "w": "特に",
+    "r": "とくに",
+    "m": "especially"
+   },
+   {
+    "w": "特急",
+    "r": "とっきゅう",
+    "m": "limited express"
+   }
+  ]
+ },
+ {
+  "k": "続",
+  "m": "continue",
+  "on": [
+   "ゾク"
+  ],
+  "kun": [
+   "つづ.く",
+   "つづ.ける"
+  ],
+  "s": 13,
+  "lv": 10,
+  "jlpt": 4,
+  "hint": "Thread (糸) sold (売) in a long line: it continues.",
+  "w": [
+   {
+    "w": "続く",
+    "r": "つづく",
+    "m": "to continue"
+   },
+   {
+    "w": "続き",
+    "r": "つづき",
+    "m": "continuation"
+   },
+   {
+    "w": "連続",
+    "r": "れんぞく",
+    "m": "in a row"
+   }
+  ]
+ }
+]

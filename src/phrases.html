@@ -1,0 +1,208 @@
+<title>Everyday Japanese Phrasebook</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/*@CORE_CSS*/
+.filters{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:720px){.grid{grid-template-columns:minmax(0,1fr)}}
+.ph{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.ph .jp{font-size:22px;font-weight:500;line-height:1.4;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.ph .rd{font-size:14px;color:var(--ink-2)}
+.ph .ro{font-family:var(--f-mono);font-size:12.5px;color:var(--ink-3)}
+.ph .en{font-size:16px;font-weight:700}
+.ph .lit{font-size:13px;color:var(--ink-2);background:var(--paper);border-radius:6px;padding:5px 9px}
+.ph .use{font-size:13.5px;color:var(--ink-2)}
+.ph .alt{display:flex;flex-wrap:wrap;gap:5px}
+.ph .alt span{font-size:12.5px;border:1px dashed var(--line);border-radius:6px;padding:1px 7px}
+.ph .tags{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.lvl-casual{color:var(--yamabuki);border-color:var(--yamabuki)}
+.lvl-polite{color:var(--ai);border-color:var(--ai)}
+.lvl-formal{color:var(--matcha);border-color:var(--matcha)}
+.core{color:var(--shu);border-color:var(--shu)}
+.secthead{display:flex;align-items:baseline;gap:10px;margin:22px 0 10px}
+.secthead h2{font-size:17px}
+/* patterns */
+.steps{display:flex;flex-direction:column;gap:26px}
+.pat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:9px;min-width:0}
+.pat .p{font-size:22px;font-weight:500;line-height:1.5}
+.slot{display:inline-block;font-size:.62em;font-weight:700;color:var(--ai);background:var(--ai-soft);border:1px dashed var(--ai);border-radius:5px;padding:0 6px;vertical-align:.25em;margin:0 2px;font-family:var(--f-body)}
+.pat .m{font-size:15.5px;font-weight:700}
+.pat .how{font-size:14px;color:var(--ink-2)}
+.pat .casual{font-size:13.5px;background:var(--yamabuki-soft);border-radius:6px;padding:6px 10px}
+.stepintro{font-size:14px;color:var(--ink-2);margin:2px 0 10px;max-width:68ch}
+/* practice */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:18px;align-items:start}
+@media (max-width:820px){.layout{grid-template-columns:minmax(0,1fr)}}
+.side{display:flex;flex-direction:column;gap:14px}
+.side .panel{display:flex;flex-direction:column;gap:9px}
+.side label{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13.5px}
+.card{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:280px;justify-content:center}
+.card .big{font-size:min(34px,8vw);font-weight:700;line-height:1.35}
+.card .bigjp{font-size:min(36px,8vw);font-weight:500;line-height:1.4}
+.card .ph{text-align:left;width:100%;max-width:560px}
+.counts{display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2);margin-bottom:10px}
+.counts b{color:var(--ink);font-variant-numeric:tabular-nums;font-size:15px}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="seal" aria-hidden="true">話</div>
+    <div class="brand"><h1>Everyday Japanese Phrasebook</h1><span class="sub">Ready-made phrases you'll hear constantly, and patterns to build your own sentences.</span></div>
+    <div class="sync"><i></i><span>Loading progress…</span></div>
+    <nav class="suite" id="suite"></nav>
+  </header>
+  <nav class="tabs">
+    <a href="#phrases">Phrases<span class="jp">フレーズ</span></a>
+    <a href="#patterns">Sentence patterns<span class="jp">文型</span></a>
+    <a href="#practice">Practice<span class="jp">練習</span></a>
+  </nav>
+
+  <section id="view-phrases">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search phrases in Japanese, romaji or English…" aria-label="Search phrases">
+      <div class="chips" id="catChips"></div>
+      <div class="chips" id="lvlChips"></div>
+    </div>
+    <div id="plist"></div>
+  </section>
+
+  <section id="view-patterns" hidden>
+    <p class="stepintro">Each pattern is a frame: drop a word from your 1000-word list into the dashed slot and you have a sentence. Start with Step 1; with those alone you can already say what you want, what you like, and ask where things are.</p>
+    <div class="steps" id="pats"></div>
+  </section>
+
+  <section id="view-practice" class="layout" hidden>
+    <div>
+      <div class="counts" id="counts"></div>
+      <div class="stage"><div class="card" id="card"></div></div>
+    </div>
+    <aside class="side">
+      <div class="panel">
+        <span class="label">Practice</span>
+        <label for="pDir">Prompt <select id="pDir"><option value="en">English → say it in Japanese</option><option value="jp">Japanese → meaning</option></select></label>
+        <label for="pNew">New per day <select id="pNew"><option>5</option><option>10</option><option>15</option><option>20</option></select></label>
+        <label for="pCore">Phrases <select id="pCore"><option value="core">Must-know first</option><option value="all">All</option></select></label>
+      </div>
+      <div class="panel">
+        <span class="label">Situations</span>
+        <div class="chips" id="pCats"></div>
+      </div>
+      <p class="faint" style="font-size:13px;margin:0">Say your answer out loud before revealing. Keys: space reveals, 1–4 rate.</p>
+    </aside>
+  </section>
+</div>
+
+<script>
+/*@CORE_JS*/
+const PHRASES = /*@DATA:phrases*/[];
+const PATTERNS = /*@DATA:patterns*/[];
+/*@SUITE*/
+const CATS = { greetings: "Greetings", politeness: "Thanks & sorry", responses: "Reactions", "getting-by": "Getting by", questions: "Questions", feelings: "Feelings", "shopping-food": "Shopping & food", "directions-travel": "Directions & travel", social: "Meeting people", media: "Heard in anime & dramas" };
+const LVL = { casual: "Casual", polite: "Polite", formal: "Formal" };
+const STEP = { 1: ["Step 1", "The core frames. Enough to state facts, wants and likes, and ask basic questions."], 2: ["Step 2", "Verb forms that unlock requests, permission, plans and ongoing actions."], 3: ["Step 3", "Nuance: guesses, conditions, comparisons and the casual endings you hear in shows."] };
+PHRASES.forEach((p, i) => p.id = i);
+const pkey = p => p.jp;
+const store = makeStore("phrases", () => rerender());
+const C = () => (store.data.cards ||= {});
+const cfg = () => { const c = (store.data.cfg ||= {}); c.dir ??= "en"; c.newPerDay ??= 10; c.core ??= "core"; c.cats ??= Object.keys(CATS); return c; };
+const log = () => (store.data.log ||= {});
+
+function phraseCard(p, { compact = false } = {}) {
+  return `<article class="ph">
+    <div class="tags"><span class="pill lvl-${p.lvl}">${LVL[p.lvl] || p.lvl}</span>${p.core ? `<span class="pill core">Must-know</span>` : ""}${compact ? "" : `<span class="pill">${esc(CATS[p.c] || p.c)}</span>`}</div>
+    <div class="jp">${esc(p.jp)} ${sayBtn(p.rd.replace(/\s+/g, ""))}</div>
+    <div class="rd">${esc(p.rd)}</div>
+    <div class="ro">${esc(p.ro)}</div>
+    <div class="en">${esc(p.en)}</div>
+    ${p.lit ? `<div class="lit">${esc(p.lit)}</div>` : ""}
+    ${p.use ? `<div class="use">${esc(p.use)}</div>` : ""}
+    ${p.alt && p.alt.length ? `<div class="alt">${p.alt.map(a => `<span>${esc(a)}</span>`).join("")}</div>` : ""}
+  </article>`;
+}
+
+/* ---------- phrasebook ---------- */
+let fCat = null, fLvl = null, fCore = false;
+function renderPhrases() {
+  const q = $("#q").value.trim().toLowerCase();
+  const n = {}; PHRASES.forEach(p => n[p.c] = (n[p.c] || 0) + 1);
+  $("#catChips").innerHTML = `<button type="button" class="chip ${!fCat ? "on" : ""}" data-c="">All situations<span class="n">${PHRASES.length}</span></button>` + Object.entries(CATS).filter(([c]) => n[c]).map(([c, name]) => `<button type="button" class="chip ${fCat === c ? "on" : ""}" data-c="${c}">${name}<span class="n">${n[c]}</span></button>`).join("");
+  $("#lvlChips").innerHTML = `<button type="button" class="chip ${fCore ? "on" : ""}" data-core="1">Must-know only<span class="n">${PHRASES.filter(p => p.core).length}</span></button>` + Object.entries(LVL).map(([l, name]) => `<button type="button" class="chip ${fLvl === l ? "on" : ""}" data-l="${l}">${name}</button>`).join("");
+  let list = PHRASES;
+  if (q) list = list.filter(p => [p.jp, p.rd.replace(/\s/g, ""), p.ro.toLowerCase(), p.en.toLowerCase(), (p.use || "").toLowerCase()].some(s => s.includes(q.replace(/\s/g, "")) || s.includes(q)));
+  if (fCat) list = list.filter(p => p.c === fCat);
+  if (fLvl) list = list.filter(p => p.lvl === fLvl);
+  if (fCore) list = list.filter(p => p.core);
+  if (!list.length) { $("#plist").innerHTML = `<div class="empty">No phrases match. Try another word or clear the filters.</div>`; return; }
+  const groups = {}; list.forEach(p => (groups[p.c] ||= []).push(p));
+  $("#plist").innerHTML = Object.keys(CATS).filter(c => groups[c]).map(c => `<div class="secthead"><h2>${CATS[c]}</h2><span class="faint">${groups[c].length}</span></div><div class="grid">${groups[c].sort((a, b) => (b.core ? 1 : 0) - (a.core ? 1 : 0)).map(p => phraseCard(p, { compact: true })).join("")}</div>`).join("");
+}
+$("#q").addEventListener("input", renderPhrases);
+$("#catChips").addEventListener("click", e => { const c = e.target.closest("[data-c]"); if (c) { fCat = c.dataset.c || null; renderPhrases(); } });
+$("#lvlChips").addEventListener("click", e => {
+  const c = e.target.closest("[data-l]"), k = e.target.closest("[data-core]");
+  if (c) fLvl = fLvl === c.dataset.l ? null : c.dataset.l; if (k) fCore = !fCore; if (c || k) renderPhrases();
+});
+
+/* ---------- patterns ---------- */
+const slot = s => esc(s).replace(/\[([^\]]+)\]/g, '<span class="slot">$1</span>');
+function renderPatterns() {
+  const by = {}; PATTERNS.forEach(p => (by[p.lvl] ||= []).push(p));
+  $("#pats").innerHTML = Object.keys(by).sort().map(l => `<section><div class="secthead" style="margin-top:0"><h2>${STEP[l] ? STEP[l][0] : "Step " + l}</h2><span class="faint">${by[l].length} patterns</span></div>${STEP[l] ? `<p class="stepintro">${STEP[l][1]}</p>` : ""}<div class="grid">${by[l].map(p => `<article class="pat">
+    <div class="p">${slot(p.p)}</div><div class="mono faint" style="font-size:12.5px">${esc(p.ro)}</div>
+    <div class="m">${esc(p.m)}</div><div class="how">${esc(p.how)}</div>
+    ${(p.ex || []).map(x => `<div class="ex"><span class="jp">${esc(x.jp)} ${sayBtn(x.rd.replace(/\s+/g, ""))}</span><span class="rd">${esc(x.rd)}</span><span class="en">${esc(x.en)}</span></div>`).join("")}
+    ${p.casual ? `<div class="casual"><b>Casual:</b> ${esc(p.casual)}</div>` : ""}
+  </article>`).join("")}</div></section>`).join("");
+}
+
+/* ---------- practice ---------- */
+let cur = null, revealed = false, lastKey = null;
+function pool() {
+  const cats = new Set(cfg().cats); let l = PHRASES.filter(p => cats.has(p.c));
+  if (cfg().core === "core") l = [...l.filter(p => p.core), ...l.filter(p => !p.core)];
+  return l;
+}
+const newLeft = () => Math.max(0, cfg().newPerDay - ((log()[todayKey()] || {}).n || 0));
+function renderPractice() {
+  const P = pool(); const c = srsCounts(P, C(), pkey);
+  $("#counts").innerHTML = `<span><b>${c.due}</b> due</span><span><b>${Math.min(c.fresh, newLeft())}</b> new left today</span><span><b>${c.learning}</b> learning</span><span class="spacer"></span><span><b>${P.length - c.fresh}</b> / ${P.length} started</span>`;
+  $("#pCats").innerHTML = Object.entries(CATS).map(([k, n]) => `<button type="button" class="chip ${cfg().cats.includes(k) ? "on" : ""}" data-pc="${k}">${n}</button>`).join("");
+  if (!revealed) cur = pickNext(P, C(), { id: pkey, newLeft: newLeft(), lastId: lastKey });
+  const el = $("#card");
+  if (!cur) { el.innerHTML = `<div class="empty"><h2 style="font-size:20px;margin-bottom:6px">Done for now</h2>Come back later for reviews, or raise the daily limit.</div>`; return; }
+  const p = cur.it, st = C()[pkey(p)], en = cfg().dir === "en";
+  let h = cur.kind === "new" ? `<span class="pill new">New phrase</span>` : `<span class="pill ${SRS.status(st)}">${SRS.status(st) === "learning" ? "Learning" : "Review"}</span>`;
+  h += `<span class="faint" style="font-size:13px">${esc(CATS[p.c] || p.c)}</span>`;
+  if (!revealed) {
+    h += en ? `<div class="big">${esc(p.en)}</div><div class="muted">How would you say this in Japanese?</div>` : `<div class="bigjp">${esc(p.jp)}</div><div class="muted">${esc(p.rd)}</div>`;
+    h += `<button class="btn primary" id="reveal" type="button">Show answer <kbd class="mono" style="font-size:11px;opacity:.7">space</kbd></button>`;
+  } else {
+    h += phraseCard(p, { compact: true }) + `<div class="grades" style="width:100%;max-width:560px">${["Again", "Hard", "Good", "Easy"].map((n, g) => `<button class="grade g${g}" data-g="${g}" type="button">${n}<small>${SRS.preview(st, g)}</small><kbd>${g + 1}</kbd></button>`).join("")}</div>`;
+  }
+  el.innerHTML = h;
+}
+function reveal() { if (!cur || revealed) return; revealed = true; renderPractice(); Speech.speak(cur.it.rd.replace(/\s+/g, "")); }
+function grade(g) {
+  if (!cur || !revealed) return; const k = pkey(cur.it), L = (log()[todayKey()] ||= { n: 0, r: 0 });
+  if (!C()[k]) L.n++; L.r++; C()[k] = SRS.grade(C()[k], g); store.save(); lastKey = k; revealed = false; renderPractice();
+}
+$("#card").addEventListener("click", e => { if (e.target.closest("#reveal")) return reveal(); const g = e.target.closest("[data-g]"); if (g) grade(+g.dataset.g); });
+$("#pCats").addEventListener("click", e => { const c = e.target.closest("[data-pc]"); if (!c) return; const a = cfg().cats; const i = a.indexOf(c.dataset.pc); i >= 0 ? (a.length > 1 && a.splice(i, 1)) : a.push(c.dataset.pc); store.save(); revealed = false; renderPractice(); });
+$("#pDir").onchange = e => { cfg().dir = e.target.value; store.save(); revealed = false; renderPractice(); };
+$("#pNew").onchange = e => { cfg().newPerDay = +e.target.value; store.save(); if (!revealed) renderPractice(); };
+$("#pCore").onchange = e => { cfg().core = e.target.value; store.save(); revealed = false; renderPractice(); };
+
+let view = "phrases";
+function rerender() {
+  $("#pDir").value = cfg().dir; $("#pNew").value = String(cfg().newPerDay); $("#pCore").value = cfg().core;
+  if (view === "phrases") renderPhrases(); else if (view === "patterns") renderPatterns(); else { revealed = false; renderPractice(); }
+}
+hashTabs(["phrases", "patterns", "practice"], "phrases", v => { view = v; rerender(); });
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input,select,textarea") || view !== "practice") return;
+  if (e.key === " " && !revealed && cur) { e.preventDefault(); reveal(); }
+  else if (revealed && "1234".includes(e.key)) grade(+e.key - 1);
+});
+</script>

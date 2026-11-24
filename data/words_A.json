@@ -1,0 +1,5736 @@
+[
+ {
+  "w": "は",
+  "r": "は",
+  "ro": "wa",
+  "m": "topic marker: 'as for X' (written は, pronounced \"wa\")",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "私は学生です。",
+    "rd": "わたし は がくせい です。",
+    "en": "I am a student."
+   },
+   {
+    "jp": "これは何ですか。",
+    "rd": "これ は なん です か。",
+    "en": "What is this?"
+   }
+  ],
+  "n": "Marks what the sentence is about, not always the grammatical subject. Never pronounced \"ha\" as a particle."
+ },
+ {
+  "w": "が",
+  "r": "が",
+  "ro": "ga",
+  "m": "subject marker; highlights new/specific info; marks the thing liked/wanted/understood",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "猫が好きです。",
+    "rd": "ねこ が すき です。",
+    "en": "I like cats."
+   },
+   {
+    "jp": "誰が来ましたか。",
+    "rd": "だれ が きました か。",
+    "en": "Who came?"
+   }
+  ],
+  "n": "Use が with question words (誰が) and with 好き/分かる/できる/ほしい. Also means 'but' at the end of a polite clause (ですが)."
+ },
+ {
+  "w": "を",
+  "r": "を",
+  "ro": "o",
+  "m": "object marker: the thing the action is done to (written を, pronounced \"o\")",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "水を飲む。",
+    "rd": "みず を のむ。",
+    "en": "I drink water."
+   },
+   {
+    "jp": "アニメを見ます。",
+    "rd": "アニメ を みます。",
+    "en": "I watch anime."
+   }
+  ],
+  "n": "Used only as a particle."
+ },
+ {
+  "w": "に",
+  "r": "に",
+  "ro": "ni",
+  "m": "at (a time), to (destination), in/at (where something exists), to (a person), for (purpose)",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "七時に起きます。",
+    "rd": "しちじ に おきます。",
+    "en": "I wake up at seven."
+   },
+   {
+    "jp": "学校に行く。",
+    "rd": "がっこう に いく。",
+    "en": "I go to school."
+   }
+  ],
+  "n": "Core uses: time (7時に), destination (学校に), existence (ここにいる), recipient (友達に)."
+ },
+ {
+  "w": "で",
+  "r": "で",
+  "ro": "de",
+  "m": "at/in (where an action happens), by/with (means or tool), because of",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "駅で会おう。",
+    "rd": "えき で あおう。",
+    "en": "Let's meet at the station."
+   },
+   {
+    "jp": "バスで行きます。",
+    "rd": "バス で いきます。",
+    "en": "I go by bus."
+   }
+  ],
+  "n": "で = place of action; に = place of existence. Also the te-form of だ."
+ },
+ {
+  "w": "へ",
+  "r": "へ",
+  "ro": "e",
+  "m": "toward, to (direction; written へ, pronounced \"e\")",
+  "pos": "particle",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本へ行きたい。",
+    "rd": "にほん へ いきたい。",
+    "en": "I want to go to Japan."
+   },
+   {
+    "jp": "どこへ行くの？",
+    "rd": "どこ へ いく の？",
+    "en": "Where are you going?"
+   }
+  ],
+  "n": "Nearly interchangeable with に for destinations; へ stresses direction."
+ },
+ {
+  "w": "と",
+  "r": "と",
+  "ro": "to",
+  "m": "and (complete list); with (someone); quote marker",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "友達と話す。",
+    "rd": "ともだち と はなす。",
+    "en": "I talk with a friend."
+   },
+   {
+    "jp": "犬と猫がいます。",
+    "rd": "いぬ と ねこ が います。",
+    "en": "There are a dog and a cat."
+   }
+  ],
+  "n": "Quote: 「行く」と言った = said 'I'm going'. Also 'if/when' after a plain verb."
+ },
+ {
+  "w": "も",
+  "r": "も",
+  "ro": "mo",
+  "m": "also, too; (with negative) not even, neither",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "私も行く。",
+    "rd": "わたし も いく。",
+    "en": "I'm going too."
+   },
+   {
+    "jp": "何も食べていない。",
+    "rd": "なにも たべて いない。",
+    "en": "I haven't eaten anything."
+   }
+  ],
+  "n": "Replaces は/が/を. 何も / 誰も + negative = nothing / no one."
+ },
+ {
+  "w": "の",
+  "r": "の",
+  "ro": "no",
+  "m": "possessive/linking: 'X's Y', 'Y of X'",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "私の本です。",
+    "rd": "わたし の ほん です。",
+    "en": "It's my book."
+   },
+   {
+    "jp": "日本語の先生",
+    "rd": "にほんご の せんせい",
+    "en": "a Japanese teacher"
+   }
+  ],
+  "n": "Links two nouns. Also a casual question ending (行くの？) and a noun-maker (see んです)."
+ },
+ {
+  "w": "から",
+  "r": "から",
+  "ro": "kara",
+  "m": "from; because",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "九時から始まる。",
+    "rd": "くじ から はじまる。",
+    "en": "It starts from nine o'clock."
+   },
+   {
+    "jp": "眠いから寝る。",
+    "rd": "ねむい から ねる。",
+    "en": "I'm sleepy, so I'm going to sleep."
+   }
+  ],
+  "n": "After a clause = 'because' (the reason comes first). Pairs with まで."
+ },
+ {
+  "w": "まで",
+  "r": "まで",
+  "ro": "made",
+  "m": "until, up to, as far as",
+  "pos": "particle",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "五時まで働く。",
+    "rd": "ごじ まで はたらく。",
+    "en": "I work until five."
+   },
+   {
+    "jp": "駅まで歩く。",
+    "rd": "えき まで あるく。",
+    "en": "I walk as far as the station."
+   }
+  ],
+  "n": "Often paired: 九時から五時まで (from 9 to 5)."
+ },
+ {
+  "w": "より",
+  "r": "より",
+  "ro": "yori",
+  "m": "than (comparison); from/other than (formal)",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "犬より猫が好き。",
+    "rd": "いぬ より ねこ が すき。",
+    "en": "I like cats more than dogs."
+   },
+   {
+    "jp": "昨日より暑い。",
+    "rd": "きのう より あつい。",
+    "en": "It's hotter than yesterday."
+   }
+  ],
+  "n": "A より B = A than B ... pattern: B は A より adj."
+ },
+ {
+  "w": "や",
+  "r": "や",
+  "ro": "ya",
+  "m": "and (a partial list: 'X, Y, and so on')",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "りんごやバナナを買う。",
+    "rd": "りんご や バナナ を かう。",
+    "en": "I buy apples, bananas and such."
+   },
+   {
+    "jp": "本や雑誌がある。",
+    "rd": "ほん や ざっし が ある。",
+    "en": "There are books, magazines, and so on."
+   }
+  ],
+  "n": "Implies there are more items; と is a complete list."
+ },
+ {
+  "w": "か",
+  "r": "か",
+  "ro": "ka",
+  "m": "question marker; 'or'",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "行きますか。",
+    "rd": "いきます か。",
+    "en": "Will you go?"
+   },
+   {
+    "jp": "犬か猫がほしい。",
+    "rd": "いぬ か ねこ が ほしい。",
+    "en": "I want a dog or a cat."
+   }
+  ],
+  "n": "Adding か to the end of a polite sentence makes it a question. Casual speech often just uses rising intonation."
+ },
+ {
+  "w": "ね",
+  "r": "ね",
+  "ro": "ne",
+  "m": "sentence-final: 'right?', 'isn't it?' (seeking agreement)",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "いい天気ですね。",
+    "rd": "いい てんき です ね。",
+    "en": "Nice weather, isn't it?"
+   },
+   {
+    "jp": "これ、おいしいね。",
+    "rd": "これ、おいしい ね。",
+    "en": "This is tasty, huh."
+   }
+  ],
+  "n": "Softens statements and invites agreement. ねえ at the start of a sentence = 'hey'."
+ },
+ {
+  "w": "よ",
+  "r": "よ",
+  "ro": "yo",
+  "m": "sentence-final: 'you know', 'I'm telling you' (giving new info)",
+  "pos": "particle",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "もう行くよ。",
+    "rd": "もう いく よ。",
+    "en": "I'm leaving now, you know."
+   },
+   {
+    "jp": "大丈夫だよ。",
+    "rd": "だいじょうぶ だ よ。",
+    "en": "It's okay, I tell you."
+   }
+  ],
+  "n": "Asserts information the listener may not know. Can sound pushy in the wrong tone."
+ },
+ {
+  "w": "な",
+  "r": "な",
+  "ro": "na",
+  "m": "sentence-final: don't! (after a dictionary-form verb); casual 'huh/I wonder'",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "行くな！",
+    "rd": "いく な！",
+    "en": "Don't go!"
+   },
+   {
+    "jp": "これ、いいな。",
+    "rd": "これ、いい な。",
+    "en": "This is nice, huh."
+   }
+  ],
+  "n": "Verb + な = rough prohibition (masculine, anime). Sentence-final な is also casual self-talk, male-leaning."
+ },
+ {
+  "w": "ぞ",
+  "r": "ぞ",
+  "ro": "zo",
+  "m": "sentence-final: emphatic, masculine 'I'm telling you!'",
+  "pos": "particle",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "行くぞ！",
+    "rd": "いく ぞ！",
+    "en": "Here I go! / Let's go!"
+   },
+   {
+    "jp": "気をつけろ、危ないぞ。",
+    "rd": "きを つけろ、あぶない ぞ。",
+    "en": "Be careful, it's dangerous!"
+   }
+  ],
+  "n": "Rough and masculine; common in anime battle scenes. Not for polite speech."
+ },
+ {
+  "w": "ぜ",
+  "r": "ぜ",
+  "ro": "ze",
+  "m": "sentence-final: casual masculine emphasis, 'let's!'",
+  "pos": "particle",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "行こうぜ。",
+    "rd": "いこう ぜ。",
+    "en": "Let's go!"
+   },
+   {
+    "jp": "やるぜ！",
+    "rd": "やる ぜ！",
+    "en": "I'm gonna do it!"
+   }
+  ],
+  "n": "Very masculine and rough; friends and fiction."
+ },
+ {
+  "w": "さ",
+  "r": "さ",
+  "ro": "sa",
+  "m": "casual filler/assertion, 'you see', 'like'",
+  "pos": "particle",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "それでさ、聞いてよ。",
+    "rd": "それ で さ、きいて よ。",
+    "en": "So, like, listen to me."
+   },
+   {
+    "jp": "そんなの知らないさ。",
+    "rd": "そんな の しらない さ。",
+    "en": "I don't know about that, y'know."
+   }
+  ],
+  "n": "Often used mid-sentence as a casual filler. Not for polite speech."
+ },
+ {
+  "w": "わ",
+  "r": "わ",
+  "ro": "wa",
+  "m": "sentence-final: softening; traditionally feminine speech",
+  "pos": "particle",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "もう帰るわ。",
+    "rd": "もう かえる わ。",
+    "en": "I'm heading home now."
+   },
+   {
+    "jp": "きれいだわ。",
+    "rd": "きれい だ わ。",
+    "en": "How pretty."
+   }
+  ],
+  "n": "Feminine in standard Japanese (especially in fiction); casual for anyone in Kansai. Not the topic は."
+ },
+ {
+  "w": "かな",
+  "r": "かな",
+  "ro": "kana",
+  "m": "I wonder... (casual self-talk)",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "雨が降るかな。",
+    "rd": "あめ が ふる かな。",
+    "en": "I wonder if it'll rain."
+   },
+   {
+    "jp": "これでいいかな。",
+    "rd": "これ で いい かな。",
+    "en": "I wonder if this is okay."
+   }
+  ],
+  "n": "か + な. Feminine counterpart: かしら."
+ },
+ {
+  "w": "だけ",
+  "r": "だけ",
+  "ro": "dake",
+  "m": "only, just",
+  "pos": "particle",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "これだけです。",
+    "rd": "これ だけ です。",
+    "en": "That's all (just this)."
+   },
+   {
+    "jp": "一人だけ来た。",
+    "rd": "ひとり だけ きた。",
+    "en": "Only one person came."
+   }
+  ],
+  "n": "Neutral 'only'. Compare しか (always negative)."
+ },
+ {
+  "w": "しか",
+  "r": "しか",
+  "ro": "shika",
+  "m": "nothing but, only (always used with a negative)",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "百円しかない。",
+    "rd": "ひゃくえん しか ない。",
+    "en": "I only have 100 yen."
+   },
+   {
+    "jp": "水しか飲まない。",
+    "rd": "みず しか のまない。",
+    "en": "I drink nothing but water."
+   }
+  ],
+  "n": "Must be followed by a negative verb; implies 'too little'."
+ },
+ {
+  "w": "ばかり",
+  "r": "ばかり",
+  "ro": "bakari",
+  "m": "nothing but; just (done)",
+  "pos": "particle",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "遊んでばかりいる。",
+    "rd": "あそんで ばかり いる。",
+    "en": "He does nothing but play."
+   },
+   {
+    "jp": "食べたばかりです。",
+    "rd": "たべた ばかり です。",
+    "en": "I just ate."
+   }
+  ],
+  "n": "て-form + ばかり = nothing but; た-form + ばかり = just did."
+ },
+ {
+  "w": "ほど",
+  "r": "ほど",
+  "ro": "hodo",
+  "m": "about, to the extent of; (not) as ... as",
+  "pos": "particle",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "死ぬほど眠い。",
+    "rd": "しぬ ほど ねむい。",
+    "en": "I'm sleepy to death."
+   },
+   {
+    "jp": "昨日ほど寒くない。",
+    "rd": "きのう ほど さむくない。",
+    "en": "It's not as cold as yesterday."
+   }
+  ],
+  "n": "With a negative: 'not as ... as'."
+ },
+ {
+  "w": "くらい",
+  "r": "くらい",
+  "ro": "kurai",
+  "m": "about, approximately; at least; as much as (also ぐらい)",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "十分くらいかかる。",
+    "rd": "じゅっぷん くらい かかる。",
+    "en": "It takes about ten minutes."
+   },
+   {
+    "jp": "これくらい簡単だ。",
+    "rd": "これ くらい かんたん だ。",
+    "en": "It's this easy."
+   }
+  ],
+  "n": "Written くらい or ぐらい; same meaning."
+ },
+ {
+  "w": "など",
+  "r": "など",
+  "ro": "nado",
+  "m": "and so on, such as, things like",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "本や雑誌などを読む。",
+    "rd": "ほん や ざっし など を よむ。",
+    "en": "I read books, magazines and so on."
+   },
+   {
+    "jp": "私などにはできない。",
+    "rd": "わたし など には できない。",
+    "en": "Someone like me can't do it."
+   }
+  ],
+  "n": "Casual equivalents: なんか / とか."
+ },
+ {
+  "w": "って",
+  "r": "って",
+  "ro": "tte",
+  "m": "casual quotation/topic: 'that...', 'called'; 'I heard'",
+  "pos": "particle",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "明日行くって言った。",
+    "rd": "あした いく って いった。",
+    "en": "I said I'd go tomorrow."
+   },
+   {
+    "jp": "先生って優しいね。",
+    "rd": "せんせい って やさしい ね。",
+    "en": "Teachers are kind, huh."
+   }
+  ],
+  "n": "Casual version of と (quote) and は (topic). Very common in speech."
+ },
+ {
+  "w": "し",
+  "r": "し",
+  "ro": "shi",
+  "m": "and what's more (listing reasons)",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "安いしおいしい。",
+    "rd": "やすい し おいしい。",
+    "en": "It's cheap, and it's tasty too."
+   },
+   {
+    "jp": "眠いし、疲れたし、帰る。",
+    "rd": "ねむい し、つかれた し、かえる。",
+    "en": "I'm sleepy and tired, so I'm going home."
+   }
+  ],
+  "n": "Lists reasons while implying more exist."
+ },
+ {
+  "w": "とか",
+  "r": "とか",
+  "ro": "toka",
+  "m": "things like X and Y; or something",
+  "pos": "particle",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "犬とか猫とかが好き。",
+    "rd": "いぬ とか ねこ とか が すき。",
+    "en": "I like things like dogs and cats."
+   },
+   {
+    "jp": "映画とか見る？",
+    "rd": "えいが とか みる？",
+    "en": "Do you watch, like, movies or something?"
+   }
+  ],
+  "n": "Casual version of や / など; also softens a statement."
+ },
+ {
+  "w": "ずつ",
+  "r": "ずつ",
+  "ro": "zutsu",
+  "m": "each, ... at a time",
+  "pos": "particle",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "一つずつ食べる。",
+    "rd": "ひとつ ずつ たべる。",
+    "en": "I eat them one at a time."
+   },
+   {
+    "jp": "少しずつ上手になる。",
+    "rd": "すこし ずつ じょうず に なる。",
+    "en": "You get better little by little."
+   }
+  ]
+ },
+ {
+  "w": "私",
+  "r": "わたし",
+  "ro": "watashi",
+  "m": "I, me (neutral/polite)",
+  "pos": "pronoun",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "私は日本人です。",
+    "rd": "わたし は にほんじん です。",
+    "en": "I am Japanese."
+   },
+   {
+    "jp": "これは私のです。",
+    "rd": "これ は わたし の です。",
+    "en": "This is mine."
+   }
+  ],
+  "n": "Gender-neutral and safe in any situation. Very formal: わたくし. Often dropped entirely."
+ },
+ {
+  "w": "僕",
+  "r": "ぼく",
+  "ro": "boku",
+  "m": "I, me (male, soft/casual)",
+  "pos": "pronoun",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "僕も行くよ。",
+    "rd": "ぼく も いく よ。",
+    "en": "I'm going too."
+   },
+   {
+    "jp": "僕の名前は太郎です。",
+    "rd": "ぼく の なまえ は たろう です。",
+    "en": "My name is Taro."
+   }
+  ],
+  "n": "Mostly boys and men; gentle tone. Some girls use it in fiction."
+ },
+ {
+  "w": "俺",
+  "r": "おれ",
+  "ro": "ore",
+  "m": "I, me (male, rough/casual)",
+  "pos": "pronoun",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "俺がやる。",
+    "rd": "おれ が やる。",
+    "en": "I'll do it."
+   },
+   {
+    "jp": "俺に任せろ。",
+    "rd": "おれ に まかせろ。",
+    "en": "Leave it to me."
+   }
+  ],
+  "n": "Masculine, blunt; avoid with superiors. Very common in anime."
+ },
+ {
+  "w": "あたし",
+  "r": "あたし",
+  "ro": "atashi",
+  "m": "I, me (feminine casual)",
+  "pos": "pronoun",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "あたしも行く！",
+    "rd": "あたし も いく！",
+    "en": "I'm going too!"
+   },
+   {
+    "jp": "あたしの負けだよ。",
+    "rd": "あたし の まけ だ よ。",
+    "en": "I lose."
+   }
+  ],
+  "n": "Casual, feminine variant of わたし."
+ },
+ {
+  "w": "うち",
+  "r": "うち",
+  "ro": "uchi",
+  "m": "I/me (casual, girls/Kansai); also 'my home', 'our group'",
+  "pos": "pronoun",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "うちも行きたい。",
+    "rd": "うち も いきたい。",
+    "en": "I want to go too."
+   },
+   {
+    "jp": "うちの犬はかわいい。",
+    "rd": "うち の いぬ は かわいい。",
+    "en": "Our dog is cute."
+   }
+  ],
+  "n": "Much more common as 'home / my family / our side' than as 'I'."
+ },
+ {
+  "w": "あなた",
+  "r": "あなた",
+  "ro": "anata",
+  "m": "you; also 'dear' (wife to husband)",
+  "pos": "pronoun",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あなたは誰ですか。",
+    "rd": "あなた は だれ です か。",
+    "en": "Who are you?"
+   },
+   {
+    "jp": "あなたの名前は？",
+    "rd": "あなた の なまえ は？",
+    "en": "What's your name?"
+   }
+  ],
+  "n": "Avoid it with people you know: use their name + さん. Can sound cold, or intimate between couples."
+ },
+ {
+  "w": "君",
+  "r": "きみ",
+  "ro": "kimi",
+  "m": "you (friendly, casual; men, songs)",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "君が好きだ。",
+    "rd": "きみ が すき だ。",
+    "en": "I like you."
+   },
+   {
+    "jp": "君の名前は？",
+    "rd": "きみ の なまえ は？",
+    "en": "What's your name?"
+   }
+  ],
+  "n": "Soft; used by men to equals/juniors and all over song lyrics."
+ },
+ {
+  "w": "お前",
+  "r": "おまえ",
+  "ro": "omae",
+  "m": "you (rough, masculine; close friends/inferiors)",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お前、何してるんだ。",
+    "rd": "おまえ、なに してる ん だ。",
+    "en": "Hey you, what are you doing?"
+   },
+   {
+    "jp": "お前は誰だ。",
+    "rd": "おまえ は だれ だ。",
+    "en": "Who are you?"
+   }
+  ],
+  "n": "Rude to strangers, but used among close guy friends. Anime staple."
+ },
+ {
+  "w": "貴様",
+  "r": "きさま",
+  "ro": "kisama",
+  "m": "you (very rude/hostile, old-fashioned)",
+  "pos": "pronoun",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "貴様、許さない！",
+    "rd": "きさま、ゆるさない！",
+    "en": "You... I won't forgive you!"
+   },
+   {
+    "jp": "貴様は何者だ。",
+    "rd": "きさま は なにもの だ。",
+    "en": "Who the hell are you?"
+   }
+  ],
+  "n": "Insulting; villains and soldiers in fiction. Originally an honorific."
+ },
+ {
+  "w": "彼",
+  "r": "かれ",
+  "ro": "kare",
+  "m": "he, him; boyfriend",
+  "pos": "pronoun",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "彼は先生です。",
+    "rd": "かれ は せんせい です。",
+    "en": "He is a teacher."
+   },
+   {
+    "jp": "彼に会った。",
+    "rd": "かれ に あった。",
+    "en": "I met him."
+   }
+  ],
+  "n": "Can mean 'boyfriend' (彼氏 is clearer). Japanese often just drops the pronoun."
+ },
+ {
+  "w": "彼女",
+  "r": "かのじょ",
+  "ro": "kanojo",
+  "m": "she, her; girlfriend",
+  "pos": "pronoun",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "彼女は学生です。",
+    "rd": "かのじょ は がくせい です。",
+    "en": "She is a student."
+   },
+   {
+    "jp": "彼女がいる。",
+    "rd": "かのじょ が いる。",
+    "en": "I have a girlfriend."
+   }
+  ],
+  "n": "Often means 'girlfriend' depending on context."
+ },
+ {
+  "w": "彼ら",
+  "r": "かれら",
+  "ro": "karera",
+  "m": "they, them",
+  "pos": "pronoun",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "彼らは友達だ。",
+    "rd": "かれら は ともだち だ。",
+    "en": "They are friends."
+   },
+   {
+    "jp": "彼らを待つ。",
+    "rd": "かれら を まつ。",
+    "en": "I wait for them."
+   }
+  ],
+  "n": "Used sparingly; Japanese often leaves 'they' unsaid."
+ },
+ {
+  "w": "私たち",
+  "r": "わたしたち",
+  "ro": "watashitachi",
+  "m": "we, us",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "私たちは友達です。",
+    "rd": "わたしたち は ともだち です。",
+    "en": "We are friends."
+   },
+   {
+    "jp": "私たちも行きます。",
+    "rd": "わたしたち も いきます。",
+    "en": "We will go too."
+   }
+  ],
+  "n": "Casual: 僕たち, 俺たち. Also written 私達."
+ },
+ {
+  "w": "我々",
+  "r": "われわれ",
+  "ro": "wareware",
+  "m": "we, us (formal, speech-like)",
+  "pos": "pronoun",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "我々は勝つ！",
+    "rd": "われわれ は かつ！",
+    "en": "We will win!"
+   },
+   {
+    "jp": "我々の目的は平和だ。",
+    "rd": "われわれ の もくてき は へいわ だ。",
+    "en": "Our goal is peace."
+   }
+  ],
+  "n": "Stiff: speeches, news, villains."
+ },
+ {
+  "w": "みんな",
+  "r": "みんな",
+  "ro": "minna",
+  "m": "everyone, all",
+  "pos": "pronoun",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "みんな来た？",
+    "rd": "みんな きた？",
+    "en": "Did everyone come?"
+   },
+   {
+    "jp": "みんなで食べよう。",
+    "rd": "みんな で たべよう。",
+    "en": "Let's eat together, everyone."
+   }
+  ],
+  "n": "Polite form when addressing a group: 皆さん."
+ },
+ {
+  "w": "皆さん",
+  "r": "みなさん",
+  "ro": "minasan",
+  "m": "everyone (polite, addressing a group)",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "皆さん、こんにちは。",
+    "rd": "みなさん、こんにちは。",
+    "en": "Hello, everyone."
+   },
+   {
+    "jp": "皆さん、ありがとう。",
+    "rd": "みなさん、ありがとう。",
+    "en": "Thank you, everyone."
+   }
+  ]
+ },
+ {
+  "w": "自分",
+  "r": "じぶん",
+  "ro": "jibun",
+  "m": "oneself; myself",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "自分でやる。",
+    "rd": "じぶん で やる。",
+    "en": "I'll do it myself."
+   },
+   {
+    "jp": "自分の部屋がある。",
+    "rd": "じぶん の へや が ある。",
+    "en": "I have my own room."
+   }
+  ],
+  "n": "Refers back to the subject. In Kansai it can also mean 'you'."
+ },
+ {
+  "w": "あいつ",
+  "r": "あいつ",
+  "ro": "aitsu",
+  "m": "that guy/that person (casual, can be rude)",
+  "pos": "pronoun",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "あいつは誰？",
+    "rd": "あいつ は だれ？",
+    "en": "Who's that guy?"
+   },
+   {
+    "jp": "あいつが悪い。",
+    "rd": "あいつ が わるい。",
+    "en": "It's his fault."
+   }
+  ],
+  "n": "Casual, can be disrespectful. Variants: こいつ, そいつ."
+ },
+ {
+  "w": "こいつ",
+  "r": "こいつ",
+  "ro": "koitsu",
+  "m": "this guy (rough); this thing",
+  "pos": "pronoun",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "こいつ、強いぞ。",
+    "rd": "こいつ、つよい ぞ。",
+    "en": "This guy is strong!"
+   },
+   {
+    "jp": "こいつは面白い。",
+    "rd": "こいつ は おもしろい。",
+    "en": "This one's interesting."
+   }
+  ]
+ },
+ {
+  "w": "誰か",
+  "r": "だれか",
+  "ro": "dareka",
+  "m": "someone, somebody",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "誰かいますか。",
+    "rd": "だれか います か。",
+    "en": "Is anyone there?"
+   },
+   {
+    "jp": "誰かに聞こう。",
+    "rd": "だれか に きこう。",
+    "en": "Let's ask someone."
+   }
+  ],
+  "n": "Question word + か = 'some-'."
+ },
+ {
+  "w": "誰も",
+  "r": "だれも",
+  "ro": "daremo",
+  "m": "no one (with negative); everyone (with positive)",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "誰もいない。",
+    "rd": "だれも いない。",
+    "en": "Nobody is here."
+   },
+   {
+    "jp": "誰も知らない。",
+    "rd": "だれも しらない。",
+    "en": "No one knows."
+   }
+  ]
+ },
+ {
+  "w": "何か",
+  "r": "なにか",
+  "ro": "nanika",
+  "m": "something, anything",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "何か食べたい。",
+    "rd": "なにか たべたい。",
+    "en": "I want to eat something."
+   },
+   {
+    "jp": "何かありましたか。",
+    "rd": "なにか ありました か。",
+    "en": "Did something happen?"
+   }
+  ]
+ },
+ {
+  "w": "何も",
+  "r": "なにも",
+  "ro": "nanimo",
+  "m": "nothing, not anything (with negative)",
+  "pos": "pronoun",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "何も見えない。",
+    "rd": "なにも みえない。",
+    "en": "I can't see anything."
+   },
+   {
+    "jp": "何もない。",
+    "rd": "なにも ない。",
+    "en": "There's nothing."
+   }
+  ]
+ },
+ {
+  "w": "どこか",
+  "r": "どこか",
+  "ro": "dokoka",
+  "m": "somewhere",
+  "pos": "demonstrative",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "どこか行きたい。",
+    "rd": "どこか いきたい。",
+    "en": "I want to go somewhere."
+   },
+   {
+    "jp": "どこかで会った？",
+    "rd": "どこか で あった？",
+    "en": "Have we met somewhere?"
+   }
+  ]
+ },
+ {
+  "w": "これ",
+  "r": "これ",
+  "ro": "kore",
+  "m": "this (thing near me)",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "これは何？",
+    "rd": "これ は なに？",
+    "en": "What is this?"
+   },
+   {
+    "jp": "これをください。",
+    "rd": "これ を ください。",
+    "en": "Please give me this."
+   }
+  ],
+  "n": "Series: これ/それ/あれ/どれ (ko-so-a-do)."
+ },
+ {
+  "w": "それ",
+  "r": "それ",
+  "ro": "sore",
+  "m": "that (near you / just mentioned)",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "それは私の本です。",
+    "rd": "それ は わたし の ほん です。",
+    "en": "That is my book."
+   },
+   {
+    "jp": "それ、いいね。",
+    "rd": "それ、いい ね。",
+    "en": "That's nice."
+   }
+  ],
+  "n": "Also refers back to what was just said."
+ },
+ {
+  "w": "あれ",
+  "r": "あれ",
+  "ro": "are",
+  "m": "that (over there, far from both)",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あれは何ですか。",
+    "rd": "あれ は なん です か。",
+    "en": "What is that over there?"
+   },
+   {
+    "jp": "あれを見て！",
+    "rd": "あれ を みて！",
+    "en": "Look at that!"
+   }
+  ],
+  "n": "Also a surprised 'Huh?' (あれ？) and refers to shared knowledge."
+ },
+ {
+  "w": "どれ",
+  "r": "どれ",
+  "ro": "dore",
+  "m": "which one (of three or more)",
+  "pos": "demonstrative",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "どれがいい？",
+    "rd": "どれ が いい？",
+    "en": "Which one is good?"
+   },
+   {
+    "jp": "どれを買う？",
+    "rd": "どれ を かう？",
+    "en": "Which will you buy?"
+   }
+  ]
+ },
+ {
+  "w": "この",
+  "r": "この",
+  "ro": "kono",
+  "m": "this ... (before a noun)",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "この本は面白い。",
+    "rd": "この ほん は おもしろい。",
+    "en": "This book is interesting."
+   },
+   {
+    "jp": "この人は誰？",
+    "rd": "この ひと は だれ？",
+    "en": "Who is this person?"
+   }
+  ]
+ },
+ {
+  "w": "その",
+  "r": "その",
+  "ro": "sono",
+  "m": "that ... (before a noun)",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "その話は本当？",
+    "rd": "その はなし は ほんとう？",
+    "en": "Is that story true?"
+   },
+   {
+    "jp": "その人を知っている。",
+    "rd": "その ひと を しって いる。",
+    "en": "I know that person."
+   }
+  ]
+ },
+ {
+  "w": "あの",
+  "r": "あの",
+  "ro": "ano",
+  "m": "that ... over there (before a noun); also 'um...'",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あの人は先生です。",
+    "rd": "あの ひと は せんせい です。",
+    "en": "That person is a teacher."
+   },
+   {
+    "jp": "あの、すみません。",
+    "rd": "あの、すみません。",
+    "en": "Um, excuse me."
+   }
+  ],
+  "n": "Also a very common hesitation/attention-getting filler."
+ },
+ {
+  "w": "どの",
+  "r": "どの",
+  "ro": "dono",
+  "m": "which ... (before a noun)",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "どの本ですか。",
+    "rd": "どの ほん です か。",
+    "en": "Which book?"
+   },
+   {
+    "jp": "どの人が先生？",
+    "rd": "どの ひと が せんせい？",
+    "en": "Which person is the teacher?"
+   }
+  ]
+ },
+ {
+  "w": "ここ",
+  "r": "ここ",
+  "ro": "koko",
+  "m": "here",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "ここにいる。",
+    "rd": "ここ に いる。",
+    "en": "I'm here."
+   },
+   {
+    "jp": "ここは東京です。",
+    "rd": "ここ は とうきょう です。",
+    "en": "This is Tokyo."
+   }
+  ]
+ },
+ {
+  "w": "そこ",
+  "r": "そこ",
+  "ro": "soko",
+  "m": "there (near you)",
+  "pos": "demonstrative",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "そこに置いて。",
+    "rd": "そこ に おいて。",
+    "en": "Put it there."
+   },
+   {
+    "jp": "そこで待って。",
+    "rd": "そこ で まって。",
+    "en": "Wait there."
+   }
+  ]
+ },
+ {
+  "w": "あそこ",
+  "r": "あそこ",
+  "ro": "asoko",
+  "m": "over there",
+  "pos": "demonstrative",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "あそこに駅がある。",
+    "rd": "あそこ に えき が ある。",
+    "en": "There's a station over there."
+   },
+   {
+    "jp": "あそこを見て。",
+    "rd": "あそこ を みて。",
+    "en": "Look over there."
+   }
+  ]
+ },
+ {
+  "w": "どこ",
+  "r": "どこ",
+  "ro": "doko",
+  "m": "where",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "トイレはどこ？",
+    "rd": "トイレ は どこ？",
+    "en": "Where's the restroom?"
+   },
+   {
+    "jp": "どこに行くの？",
+    "rd": "どこ に いく の？",
+    "en": "Where are you going?"
+   }
+  ]
+ },
+ {
+  "w": "こう",
+  "r": "こう",
+  "ro": "kou",
+  "m": "like this, this way",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "こうやってやる。",
+    "rd": "こう やって やる。",
+    "en": "You do it like this."
+   },
+   {
+    "jp": "こうなるとは思わなかった。",
+    "rd": "こう なる とは おもわなかった。",
+    "en": "I didn't think it'd turn out like this."
+   }
+  ]
+ },
+ {
+  "w": "そう",
+  "r": "そう",
+  "ro": "sou",
+  "m": "so, that way; 'that's right'",
+  "pos": "demonstrative",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "そうですね。",
+    "rd": "そう です ね。",
+    "en": "That's right. / Let me see."
+   },
+   {
+    "jp": "そう思う。",
+    "rd": "そう おもう。",
+    "en": "I think so."
+   }
+  ],
+  "n": "Short reply そう？ = 'Really?'; そうだ = 'That's right'."
+ },
+ {
+  "w": "ああ",
+  "r": "ああ",
+  "ro": "aa",
+  "m": "like that, that way; also 'ah/yeah'",
+  "pos": "demonstrative",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ああいう人は苦手だ。",
+    "rd": "ああ いう ひと は にがて だ。",
+    "en": "I'm not good with people like that."
+   },
+   {
+    "jp": "ああ、そうか。",
+    "rd": "ああ、そう か。",
+    "en": "Ah, I see."
+   }
+  ],
+  "n": "Also a casual 'yeah' (masculine) and 'ah' of realization."
+ },
+ {
+  "w": "どう",
+  "r": "どう",
+  "ro": "dou",
+  "m": "how, in what way",
+  "pos": "demonstrative",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "どうですか。",
+    "rd": "どう です か。",
+    "en": "How is it?"
+   },
+   {
+    "jp": "どう思う？",
+    "rd": "どう おもう？",
+    "en": "What do you think?"
+   }
+  ]
+ },
+ {
+  "w": "こんな",
+  "r": "こんな",
+  "ro": "konna",
+  "m": "this kind of, such (like this)",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "こんなに大きい。",
+    "rd": "こんな に おおきい。",
+    "en": "It's this big."
+   },
+   {
+    "jp": "こんな本が好き。",
+    "rd": "こんな ほん が すき。",
+    "en": "I like books like this."
+   }
+  ]
+ },
+ {
+  "w": "そんな",
+  "r": "そんな",
+  "ro": "sonna",
+  "m": "that kind of, such (like that)",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "そんなことない。",
+    "rd": "そんな こと ない。",
+    "en": "That's not true."
+   },
+   {
+    "jp": "そんなに高いの？",
+    "rd": "そんな に たかい の？",
+    "en": "It's that expensive?"
+   }
+  ]
+ },
+ {
+  "w": "あんな",
+  "r": "あんな",
+  "ro": "anna",
+  "m": "that kind of (like that over there)",
+  "pos": "demonstrative",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "あんな家に住みたい。",
+    "rd": "あんな いえ に すみたい。",
+    "en": "I want to live in a house like that."
+   },
+   {
+    "jp": "あんなに食べたの？",
+    "rd": "あんな に たべた の？",
+    "en": "You ate that much?"
+   }
+  ]
+ },
+ {
+  "w": "どんな",
+  "r": "どんな",
+  "ro": "donna",
+  "m": "what kind of",
+  "pos": "demonstrative",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "どんな音楽が好き？",
+    "rd": "どんな おんがく が すき？",
+    "en": "What kind of music do you like?"
+   },
+   {
+    "jp": "どんな人ですか。",
+    "rd": "どんな ひと です か。",
+    "en": "What kind of person is he?"
+   }
+  ]
+ },
+ {
+  "w": "そういう",
+  "r": "そういう",
+  "ro": "souiu",
+  "m": "that kind of, like that",
+  "pos": "demonstrative",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "そういう意味じゃない。",
+    "rd": "そういう いみ じゃ ない。",
+    "en": "That's not what I meant."
+   },
+   {
+    "jp": "そういうことか。",
+    "rd": "そういう こと か。",
+    "en": "So that's how it is."
+   }
+  ],
+  "n": "Also こういう, ああいう, どういう."
+ },
+ {
+  "w": "どういう",
+  "r": "どういう",
+  "ro": "douiu",
+  "m": "what kind of; what (sort of)",
+  "pos": "demonstrative",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "どういう意味ですか。",
+    "rd": "どういう いみ です か。",
+    "en": "What does that mean?"
+   },
+   {
+    "jp": "どういうこと？",
+    "rd": "どういう こと？",
+    "en": "What do you mean?"
+   }
+  ]
+ },
+ {
+  "w": "こっち",
+  "r": "こっち",
+  "ro": "kocchi",
+  "m": "this way, here; this one (casual)",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "こっちに来て。",
+    "rd": "こっち に きて。",
+    "en": "Come over here."
+   },
+   {
+    "jp": "こっちがいい。",
+    "rd": "こっち が いい。",
+    "en": "I like this one better."
+   }
+  ],
+  "n": "Polite: こちら. Series: こっち/そっち/あっち/どっち."
+ },
+ {
+  "w": "そっち",
+  "r": "そっち",
+  "ro": "socchi",
+  "m": "that way, over there near you (casual)",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "そっちはどう？",
+    "rd": "そっち は どう？",
+    "en": "How is it over there?"
+   },
+   {
+    "jp": "そっちに行くよ。",
+    "rd": "そっち に いく よ。",
+    "en": "I'm coming over to you."
+   }
+  ]
+ },
+ {
+  "w": "あっち",
+  "r": "あっち",
+  "ro": "acchi",
+  "m": "that way, over there (casual)",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "あっちへ行け！",
+    "rd": "あっち へ いけ！",
+    "en": "Go away!"
+   },
+   {
+    "jp": "あっちにある。",
+    "rd": "あっち に ある。",
+    "en": "It's over there."
+   }
+  ]
+ },
+ {
+  "w": "どっち",
+  "r": "どっち",
+  "ro": "docchi",
+  "m": "which one (of two); which way",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "どっちが好き？",
+    "rd": "どっち が すき？",
+    "en": "Which do you like?"
+   },
+   {
+    "jp": "どっちに行く？",
+    "rd": "どっち に いく？",
+    "en": "Which way shall we go?"
+   }
+  ]
+ },
+ {
+  "w": "こちら",
+  "r": "こちら",
+  "ro": "kochira",
+  "m": "this way/here/this person (polite)",
+  "pos": "demonstrative",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "こちらへどうぞ。",
+    "rd": "こちら へ どうぞ。",
+    "en": "This way, please."
+   },
+   {
+    "jp": "こちらは田中さんです。",
+    "rd": "こちら は たなか さん です。",
+    "en": "This is Mr. Tanaka."
+   }
+  ],
+  "n": "Used for introducing people."
+ },
+ {
+  "w": "そちら",
+  "r": "そちら",
+  "ro": "sochira",
+  "m": "that way/there (polite); your side",
+  "pos": "demonstrative",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "そちらはどうですか。",
+    "rd": "そちら は どう です か。",
+    "en": "How is it on your end?"
+   },
+   {
+    "jp": "そちらにお座りください。",
+    "rd": "そちら に おすわり ください。",
+    "en": "Please sit over there."
+   }
+  ]
+ },
+ {
+  "w": "あちら",
+  "r": "あちら",
+  "ro": "achira",
+  "m": "over there (polite); that person (polite)",
+  "pos": "demonstrative",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "トイレはあちらです。",
+    "rd": "トイレ は あちら です。",
+    "en": "The restroom is over there."
+   },
+   {
+    "jp": "あちらは社長です。",
+    "rd": "あちら は しゃちょう です。",
+    "en": "That person is the president."
+   }
+  ]
+ },
+ {
+  "w": "どちら",
+  "r": "どちら",
+  "ro": "dochira",
+  "m": "which (polite); where (polite); who (polite)",
+  "pos": "question",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "どちらがいいですか。",
+    "rd": "どちら が いい です か。",
+    "en": "Which is better?"
+   },
+   {
+    "jp": "お国はどちらですか。",
+    "rd": "おくに は どちら です か。",
+    "en": "Where are you from?"
+   }
+  ]
+ },
+ {
+  "w": "何",
+  "r": "なに",
+  "ro": "nani",
+  "m": "what (read なん before です/だ/の and counters)",
+  "pos": "question",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "何を食べる？",
+    "rd": "なに を たべる？",
+    "en": "What will you eat?"
+   },
+   {
+    "jp": "これは何ですか。",
+    "rd": "これ は なん です か。",
+    "en": "What is this?"
+   }
+  ],
+  "n": "Reads なに normally, but なん before です/だ/の and before counters (何時, 何人)."
+ },
+ {
+  "w": "誰",
+  "r": "だれ",
+  "ro": "dare",
+  "m": "who",
+  "pos": "question",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あの人は誰？",
+    "rd": "あの ひと は だれ？",
+    "en": "Who is that person?"
+   },
+   {
+    "jp": "誰が来たの？",
+    "rd": "だれ が きた の？",
+    "en": "Who came?"
+   }
+  ],
+  "n": "Polite: どなた."
+ },
+ {
+  "w": "どなた",
+  "r": "どなた",
+  "ro": "donata",
+  "m": "who (polite)",
+  "pos": "question",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "どなたですか。",
+    "rd": "どなた です か。",
+    "en": "Who is it, please?"
+   },
+   {
+    "jp": "どなたがいらっしゃいますか。",
+    "rd": "どなた が いらっしゃいます か。",
+    "en": "Who is coming?"
+   }
+  ]
+ },
+ {
+  "w": "いつ",
+  "r": "いつ",
+  "ro": "itsu",
+  "m": "when",
+  "pos": "question",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "いつ行く？",
+    "rd": "いつ いく？",
+    "en": "When will you go?"
+   },
+   {
+    "jp": "誕生日はいつですか。",
+    "rd": "たんじょうび は いつ です か。",
+    "en": "When is your birthday?"
+   }
+  ]
+ },
+ {
+  "w": "なぜ",
+  "r": "なぜ",
+  "ro": "naze",
+  "m": "why (somewhat formal)",
+  "pos": "question",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "なぜ泣いているの？",
+    "rd": "なぜ ないて いる の？",
+    "en": "Why are you crying?"
+   },
+   {
+    "jp": "なぜですか。",
+    "rd": "なぜ です か。",
+    "en": "Why?"
+   }
+  ],
+  "n": "More formal than どうして / なんで."
+ },
+ {
+  "w": "どうして",
+  "r": "どうして",
+  "ro": "doushite",
+  "m": "why; how come",
+  "pos": "question",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "どうして来なかったの？",
+    "rd": "どうして こなかった の？",
+    "en": "Why didn't you come?"
+   },
+   {
+    "jp": "どうして知っているの？",
+    "rd": "どうして しって いる の？",
+    "en": "How do you know?"
+   }
+  ]
+ },
+ {
+  "w": "なんで",
+  "r": "なんで",
+  "ro": "nande",
+  "m": "why (casual)",
+  "pos": "question",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "なんで怒ってるの？",
+    "rd": "なんで おこってる の？",
+    "en": "Why are you angry?"
+   },
+   {
+    "jp": "なんでそうなるの？",
+    "rd": "なんで そう なる の？",
+    "en": "Why does it turn out that way?"
+   }
+  ],
+  "n": "Casual of なぜ/どうして. Also can mean 'by what means'."
+ },
+ {
+  "w": "いくら",
+  "r": "いくら",
+  "ro": "ikura",
+  "m": "how much (price); no matter how",
+  "pos": "question",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "これはいくらですか。",
+    "rd": "これ は いくら です か。",
+    "en": "How much is this?"
+   },
+   {
+    "jp": "いくら食べても太らない。",
+    "rd": "いくら たべても ふとらない。",
+    "en": "No matter how much I eat, I don't gain weight."
+   }
+  ]
+ },
+ {
+  "w": "いくつ",
+  "r": "いくつ",
+  "ro": "ikutsu",
+  "m": "how many; how old",
+  "pos": "question",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "りんごはいくつ？",
+    "rd": "りんご は いくつ？",
+    "en": "How many apples?"
+   },
+   {
+    "jp": "おいくつですか。",
+    "rd": "おいくつ です か。",
+    "en": "How old are you? (polite)"
+   }
+  ]
+ },
+ {
+  "w": "何人",
+  "r": "なんにん",
+  "ro": "nannin",
+  "m": "how many people",
+  "pos": "question",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "何人いますか。",
+    "rd": "なんにん います か。",
+    "en": "How many people are there?"
+   },
+   {
+    "jp": "何人で行くの？",
+    "rd": "なんにん で いく の？",
+    "en": "How many people are going?"
+   }
+  ]
+ },
+ {
+  "w": "何時",
+  "r": "なんじ",
+  "ro": "nanji",
+  "m": "what time",
+  "pos": "question",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今何時ですか。",
+    "rd": "いま なんじ です か。",
+    "en": "What time is it now?"
+   },
+   {
+    "jp": "何時に起きる？",
+    "rd": "なんじ に おきる？",
+    "en": "What time do you get up?"
+   }
+  ]
+ },
+ {
+  "w": "何歳",
+  "r": "なんさい",
+  "ro": "nansai",
+  "m": "how old (age)",
+  "pos": "question",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "何歳ですか。",
+    "rd": "なんさい です か。",
+    "en": "How old are you?"
+   },
+   {
+    "jp": "あの子は何歳？",
+    "rd": "あの こ は なんさい？",
+    "en": "How old is that kid?"
+   }
+  ]
+ },
+ {
+  "w": "どのくらい",
+  "r": "どのくらい",
+  "ro": "donokurai",
+  "m": "how much, how long, how far",
+  "pos": "question",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "どのくらいかかる？",
+    "rd": "どの くらい かかる？",
+    "en": "How long does it take?"
+   },
+   {
+    "jp": "どのくらい待った？",
+    "rd": "どの くらい まった？",
+    "en": "How long did you wait?"
+   }
+  ],
+  "n": "Also どれくらい / どのぐらい."
+ },
+ {
+  "w": "そして",
+  "r": "そして",
+  "ro": "soshite",
+  "m": "and then; and",
+  "pos": "conjunction",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "朝起きて、そして学校へ行った。",
+    "rd": "あさ おきて、そして がっこう へ いった。",
+    "en": "I got up in the morning and then went to school."
+   },
+   {
+    "jp": "彼は優しい。そして強い。",
+    "rd": "かれ は やさしい。そして つよい。",
+    "en": "He's kind. And he's strong."
+   }
+  ]
+ },
+ {
+  "w": "でも",
+  "r": "でも",
+  "ro": "demo",
+  "m": "but, however (casual); even; or something",
+  "pos": "conjunction",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "行きたい。でも、お金がない。",
+    "rd": "いきたい。でも、おかね が ない。",
+    "en": "I want to go. But I have no money."
+   },
+   {
+    "jp": "でも、本当だよ。",
+    "rd": "でも、ほんとう だ よ。",
+    "en": "But it's true!"
+   }
+  ],
+  "n": "Also a particle: お茶でも飲む？ = 'Want some tea or something?'"
+ },
+ {
+  "w": "しかし",
+  "r": "しかし",
+  "ro": "shikashi",
+  "m": "however, but (formal/written)",
+  "pos": "conjunction",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "しかし、時間がない。",
+    "rd": "しかし、じかん が ない。",
+    "en": "However, there's no time."
+   },
+   {
+    "jp": "高い。しかし、おいしい。",
+    "rd": "たかい。しかし、おいしい。",
+    "en": "It's expensive. However, it's tasty."
+   }
+  ],
+  "n": "Stiffer than でも."
+ },
+ {
+  "w": "だから",
+  "r": "だから",
+  "ro": "dakara",
+  "m": "so, therefore; that's why",
+  "pos": "conjunction",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "雨だ。だから行かない。",
+    "rd": "あめ だ。だから いかない。",
+    "en": "It's raining. So I'm not going."
+   },
+   {
+    "jp": "だから言ったでしょ。",
+    "rd": "だから いった でしょ。",
+    "en": "That's why I told you!"
+   }
+  ],
+  "n": "Can sound exasperated ('I told you so')."
+ },
+ {
+  "w": "ですから",
+  "r": "ですから",
+  "ro": "desukara",
+  "m": "so, therefore (polite)",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ですから、心配ありません。",
+    "rd": "ですから、しんぱい ありません。",
+    "en": "Therefore, there's no need to worry."
+   },
+   {
+    "jp": "ですから無理です。",
+    "rd": "ですから むり です。",
+    "en": "That's why it's impossible."
+   }
+  ]
+ },
+ {
+  "w": "それから",
+  "r": "それから",
+  "ro": "sorekara",
+  "m": "and then, after that",
+  "pos": "conjunction",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ご飯を食べて、それから寝る。",
+    "rd": "ごはん を たべて、それから ねる。",
+    "en": "I eat, and then sleep."
+   },
+   {
+    "jp": "それから、どうなったの？",
+    "rd": "それから、どう なった の？",
+    "en": "And then what happened?"
+   }
+  ]
+ },
+ {
+  "w": "それで",
+  "r": "それで",
+  "ro": "sorede",
+  "m": "and so; and then (in conversation)",
+  "pos": "conjunction",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "それで、どうしたの？",
+    "rd": "それで、どう したの？",
+    "en": "So, what did you do?"
+   },
+   {
+    "jp": "雨でした。それで遅れたんです。",
+    "rd": "あめ でした。それで おくれた ん です。",
+    "en": "It rained. That's why I was late."
+   }
+  ]
+ },
+ {
+  "w": "すると",
+  "r": "すると",
+  "ro": "suruto",
+  "m": "and then, whereupon",
+  "pos": "conjunction",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "ドアを開けた。すると猫がいた。",
+    "rd": "ドア を あけた。すると ねこ が いた。",
+    "en": "I opened the door. Then there was a cat."
+   },
+   {
+    "jp": "すると、彼が笑った。",
+    "rd": "すると、かれ が わらった。",
+    "en": "Then he laughed."
+   }
+  ]
+ },
+ {
+  "w": "じゃ",
+  "r": "じゃ",
+  "ro": "ja",
+  "m": "well then (casual)",
+  "pos": "conjunction",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "じゃ、行こう。",
+    "rd": "じゃ、いこう。",
+    "en": "Well then, let's go."
+   },
+   {
+    "jp": "じゃ、また。",
+    "rd": "じゃ、また。",
+    "en": "Well, see you."
+   }
+  ],
+  "n": "Short for では. Also the じゃ in じゃない."
+ },
+ {
+  "w": "じゃあ",
+  "r": "じゃあ",
+  "ro": "jaa",
+  "m": "well then; so; bye (casual)",
+  "pos": "conjunction",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "じゃあ、これにする。",
+    "rd": "じゃあ、これ に する。",
+    "en": "Well then, I'll take this."
+   },
+   {
+    "jp": "じゃあね。",
+    "rd": "じゃあ ね。",
+    "en": "See ya."
+   }
+  ]
+ },
+ {
+  "w": "では",
+  "r": "では",
+  "ro": "dewa",
+  "m": "well then (slightly formal)",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "では、始めましょう。",
+    "rd": "では、はじめましょう。",
+    "en": "Well then, let's begin."
+   },
+   {
+    "jp": "では、失礼します。",
+    "rd": "では、しつれい します。",
+    "en": "Well, I'll be going now."
+   }
+  ],
+  "n": "Formal version of じゃ / じゃあ."
+ },
+ {
+  "w": "けど",
+  "r": "けど",
+  "ro": "kedo",
+  "m": "but, although (casual)",
+  "pos": "conjunction",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "行きたいけど、忙しい。",
+    "rd": "いきたい けど、いそがしい。",
+    "en": "I want to go, but I'm busy."
+   },
+   {
+    "jp": "高いけど、買う。",
+    "rd": "たかい けど、かう。",
+    "en": "It's expensive, but I'll buy it."
+   }
+  ],
+  "n": "Casual of けれども. Often ends a sentence, trailing off."
+ },
+ {
+  "w": "けれども",
+  "r": "けれども",
+  "ro": "keredomo",
+  "m": "but, although (more formal)",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "疲れたけれども、楽しかった。",
+    "rd": "つかれた けれども、たのしかった。",
+    "en": "I was tired, but it was fun."
+   },
+   {
+    "jp": "けれども、諦めない。",
+    "rd": "けれども、あきらめない。",
+    "en": "Still, I won't give up."
+   }
+  ]
+ },
+ {
+  "w": "のに",
+  "r": "のに",
+  "ro": "noni",
+  "m": "even though, despite",
+  "pos": "conjunction",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "勉強したのに、できなかった。",
+    "rd": "べんきょう した のに、できなかった。",
+    "en": "Even though I studied, I couldn't do it."
+   },
+   {
+    "jp": "寝たのに、まだ眠い。",
+    "rd": "ねた のに、まだ ねむい。",
+    "en": "Even though I slept, I'm still sleepy."
+   }
+  ],
+  "n": "Carries surprise or dissatisfaction."
+ },
+ {
+  "w": "ので",
+  "r": "ので",
+  "ro": "node",
+  "m": "because, since (softer than から)",
+  "pos": "conjunction",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "雨なので、行かない。",
+    "rd": "あめ な ので、いかない。",
+    "en": "Since it's raining, I won't go."
+   },
+   {
+    "jp": "眠いので、寝ます。",
+    "rd": "ねむい ので、ねます。",
+    "en": "I'm sleepy, so I'll sleep."
+   }
+  ],
+  "n": "Noun/na-adj + な + ので. More polite and objective than から."
+ },
+ {
+  "w": "それとも",
+  "r": "それとも",
+  "ro": "soretomo",
+  "m": "or (choosing between)",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "コーヒー、それとも紅茶？",
+    "rd": "コーヒー、それとも こうちゃ？",
+    "en": "Coffee, or tea?"
+   },
+   {
+    "jp": "行く？それとも行かない？",
+    "rd": "いく？それとも いかない？",
+    "en": "Going? Or not going?"
+   }
+  ]
+ },
+ {
+  "w": "つまり",
+  "r": "つまり",
+  "ro": "tsumari",
+  "m": "in other words, that is",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "つまり、行かないの？",
+    "rd": "つまり、いかない の？",
+    "en": "So, in other words, you're not going?"
+   },
+   {
+    "jp": "つまり、そういうことだ。",
+    "rd": "つまり、そういう こと だ。",
+    "en": "In short, that's how it is."
+   }
+  ]
+ },
+ {
+  "w": "だって",
+  "r": "だって",
+  "ro": "datte",
+  "m": "but, because (excuse); even",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "だって、知らなかったんだもん。",
+    "rd": "だって、しらなかった ん だ もん。",
+    "en": "But I didn't know!"
+   },
+   {
+    "jp": "子供だって知っている。",
+    "rd": "こども だって しって いる。",
+    "en": "Even a child knows."
+   }
+  ],
+  "n": "Casual, childlike excuse at sentence start; also 'even'."
+ },
+ {
+  "w": "それに",
+  "r": "それに",
+  "ro": "soreni",
+  "m": "besides, moreover",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "安いし、それにおいしい。",
+    "rd": "やすい し、それに おいしい。",
+    "en": "It's cheap, and besides, it's tasty."
+   },
+   {
+    "jp": "それに、時間もない。",
+    "rd": "それに、じかん も ない。",
+    "en": "Besides, there's no time either."
+   }
+  ]
+ },
+ {
+  "w": "ところで",
+  "r": "ところで",
+  "ro": "tokorode",
+  "m": "by the way",
+  "pos": "conjunction",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ところで、名前は？",
+    "rd": "ところで、なまえ は？",
+    "en": "By the way, what's your name?"
+   },
+   {
+    "jp": "ところで、明日は暇？",
+    "rd": "ところで、あした は ひま？",
+    "en": "By the way, are you free tomorrow?"
+   }
+  ]
+ },
+ {
+  "w": "また",
+  "r": "また",
+  "ro": "mata",
+  "m": "again; also; and",
+  "pos": "conjunction",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "また明日。",
+    "rd": "また あした。",
+    "en": "See you tomorrow."
+   },
+   {
+    "jp": "また会おう。",
+    "rd": "また あおう。",
+    "en": "Let's meet again."
+   }
+  ]
+ },
+ {
+  "w": "または",
+  "r": "または",
+  "ro": "mataha",
+  "m": "or (formal)",
+  "pos": "conjunction",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "電話またはメールで連絡する。",
+    "rd": "でんわ または メール で れんらく する。",
+    "en": "I'll contact you by phone or email."
+   },
+   {
+    "jp": "鉛筆またはペンを使う。",
+    "rd": "えんぴつ または ペン を つかう。",
+    "en": "Use a pencil or a pen."
+   }
+  ]
+ },
+ {
+  "w": "もし",
+  "r": "もし",
+  "ro": "moshi",
+  "m": "if (supposing)",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "もし雨なら、行かない。",
+    "rd": "もし あめ なら、いかない。",
+    "en": "If it rains, I won't go."
+   },
+   {
+    "jp": "もし私が鳥なら…",
+    "rd": "もし わたし が とり なら…",
+    "en": "If I were a bird..."
+   }
+  ],
+  "n": "Stronger: もしも (common in songs)."
+ },
+ {
+  "w": "なら",
+  "r": "なら",
+  "ro": "nara",
+  "m": "if (that's the case); as for",
+  "pos": "conjunction",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "行くなら、早く行こう。",
+    "rd": "いく なら、はやく いこう。",
+    "en": "If you're going, let's go early."
+   },
+   {
+    "jp": "日本語なら大丈夫。",
+    "rd": "にほんご なら だいじょうぶ。",
+    "en": "If it's Japanese, I'm fine."
+   }
+  ]
+ },
+ {
+  "w": "さて",
+  "r": "さて",
+  "ro": "sate",
+  "m": "now then; well",
+  "pos": "conjunction",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "さて、始めよう。",
+    "rd": "さて、はじめよう。",
+    "en": "Now then, let's begin."
+   },
+   {
+    "jp": "さて、どうしよう。",
+    "rd": "さて、どう しよう。",
+    "en": "Well, what should I do?"
+   }
+  ]
+ },
+ {
+  "w": "ただ",
+  "r": "ただ",
+  "ro": "tada",
+  "m": "just, only; however",
+  "pos": "conjunction",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ただ、心配なんだ。",
+    "rd": "ただ、しんぱい な ん だ。",
+    "en": "It's just that I'm worried."
+   },
+   {
+    "jp": "ただ見ているだけ。",
+    "rd": "ただ みて いる だけ。",
+    "en": "I'm just looking."
+   }
+  ]
+ },
+ {
+  "w": "だが",
+  "r": "だが",
+  "ro": "daga",
+  "m": "but, however (stiff, masculine)",
+  "pos": "conjunction",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "だが、断る。",
+    "rd": "だが、ことわる。",
+    "en": "But I refuse."
+   },
+   {
+    "jp": "強い。だが、遅い。",
+    "rd": "つよい。だが、おそい。",
+    "en": "He's strong. But slow."
+   }
+  ]
+ },
+ {
+  "w": "です",
+  "r": "です",
+  "ro": "desu",
+  "m": "is/am/are (polite copula)",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "私は学生です。",
+    "rd": "わたし は がくせい です。",
+    "en": "I am a student."
+   },
+   {
+    "jp": "これは本です。",
+    "rd": "これ は ほん です。",
+    "en": "This is a book."
+   }
+  ],
+  "n": "Polite 'to be' for nouns and adjectives. The final u is often barely pronounced."
+ },
+ {
+  "w": "だ",
+  "r": "だ",
+  "ro": "da",
+  "m": "is/am/are (plain/casual copula)",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "これは猫だ。",
+    "rd": "これ は ねこ だ。",
+    "en": "This is a cat."
+   },
+   {
+    "jp": "彼は先生だ。",
+    "rd": "かれ は せんせい だ。",
+    "en": "He is a teacher."
+   }
+  ],
+  "n": "Plain form of です. Often dropped in casual questions; can sound blunt."
+ },
+ {
+  "w": "でした",
+  "r": "でした",
+  "ro": "deshita",
+  "m": "was/were (polite past)",
+  "pos": "grammar",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "昨日は雨でした。",
+    "rd": "きのう は あめ でした。",
+    "en": "Yesterday was rainy."
+   },
+   {
+    "jp": "私は学生でした。",
+    "rd": "わたし は がくせい でした。",
+    "en": "I was a student."
+   }
+  ],
+  "n": "Past of です. For i-adjectives: おいしかったです."
+ },
+ {
+  "w": "だった",
+  "r": "だった",
+  "ro": "datta",
+  "m": "was/were (plain past)",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "昨日は暇だった。",
+    "rd": "きのう は ひま だった。",
+    "en": "I was free yesterday."
+   },
+   {
+    "jp": "あれは夢だった。",
+    "rd": "あれ は ゆめ だった。",
+    "en": "That was a dream."
+   }
+  ]
+ },
+ {
+  "w": "じゃない",
+  "r": "じゃない",
+  "ro": "janai",
+  "m": "is not (casual); isn't it?",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "これは猫じゃない。",
+    "rd": "これ は ねこ じゃ ない。",
+    "en": "This isn't a cat."
+   },
+   {
+    "jp": "そうじゃない？",
+    "rd": "そう じゃ ない？",
+    "en": "Isn't that so?"
+   }
+  ],
+  "n": "Polite: じゃありません / ではありません. With rising intonation it means 'right?'."
+ },
+ {
+  "w": "ではありません",
+  "r": "ではありません",
+  "ro": "dewa arimasen",
+  "m": "is not (polite)",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "私は先生ではありません。",
+    "rd": "わたし は せんせい では ありません。",
+    "en": "I am not a teacher."
+   },
+   {
+    "jp": "これは水ではありません。",
+    "rd": "これ は みず では ありません。",
+    "en": "This is not water."
+   }
+  ],
+  "n": "Spoken: じゃありません."
+ },
+ {
+  "w": "ます",
+  "r": "ます",
+  "ro": "masu",
+  "m": "polite verb ending (present/future)",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "毎日勉強します。",
+    "rd": "まいにち べんきょう します。",
+    "en": "I study every day."
+   },
+   {
+    "jp": "明日行きます。",
+    "rd": "あした いきます。",
+    "en": "I'll go tomorrow."
+   }
+  ],
+  "n": "Attaches to the verb stem to make it polite."
+ },
+ {
+  "w": "ません",
+  "r": "ません",
+  "ro": "masen",
+  "m": "polite negative verb ending",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "私は行きません。",
+    "rd": "わたし は いきません。",
+    "en": "I won't go."
+   },
+   {
+    "jp": "分かりません。",
+    "rd": "わかりません。",
+    "en": "I don't understand."
+   }
+  ]
+ },
+ {
+  "w": "ました",
+  "r": "ました",
+  "ro": "mashita",
+  "m": "polite past verb ending",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "昨日映画を見ました。",
+    "rd": "きのう えいが を みました。",
+    "en": "I watched a movie yesterday."
+   },
+   {
+    "jp": "ご飯を食べました。",
+    "rd": "ごはん を たべました。",
+    "en": "I ate a meal."
+   }
+  ]
+ },
+ {
+  "w": "〜ない",
+  "r": "ない",
+  "ro": "nai",
+  "m": "not (plain negative verb ending)",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "食べない。",
+    "rd": "たべない。",
+    "en": "I won't eat."
+   },
+   {
+    "jp": "分からない。",
+    "rd": "わからない。",
+    "en": "I don't understand."
+   }
+  ],
+  "n": "Verb stem + ない. Polite: ません. Also the adjective ない = 'there isn't'."
+ },
+ {
+  "w": "〜たい",
+  "r": "たい",
+  "ro": "tai",
+  "m": "want to (do)",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "日本に行きたい。",
+    "rd": "にほん に いきたい。",
+    "en": "I want to go to Japan."
+   },
+   {
+    "jp": "何が食べたい？",
+    "rd": "なに が たべたい？",
+    "en": "What do you want to eat?"
+   }
+  ],
+  "n": "Verb stem + たい; behaves like an i-adjective (たくない = don't want to). Mostly for your own wishes."
+ },
+ {
+  "w": "〜て",
+  "r": "て",
+  "ro": "te",
+  "m": "te-form: 'and (then)', requests, base of many patterns",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "起きて、顔を洗う。",
+    "rd": "おきて、かお を あらう。",
+    "en": "I get up and wash my face."
+   },
+   {
+    "jp": "待って！",
+    "rd": "まって！",
+    "en": "Wait!"
+   }
+  ],
+  "n": "Connects actions in sequence; alone it's a casual request."
+ },
+ {
+  "w": "〜ている",
+  "r": "ている",
+  "ro": "teiru",
+  "m": "is doing; is in a state of",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "今、食べている。",
+    "rd": "いま、たべて いる。",
+    "en": "I'm eating now."
+   },
+   {
+    "jp": "結婚している。",
+    "rd": "けっこん して いる。",
+    "en": "I'm married."
+   }
+  ],
+  "n": "Spoken contraction: 〜てる."
+ },
+ {
+  "w": "〜た",
+  "r": "た",
+  "ro": "ta",
+  "m": "past tense (plain)",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "昨日見た。",
+    "rd": "きのう みた。",
+    "en": "I saw it yesterday."
+   },
+   {
+    "jp": "もう食べた？",
+    "rd": "もう たべた？",
+    "en": "Have you eaten already?"
+   }
+  ],
+  "n": "Becomes だ after some verbs (飲んだ)."
+ },
+ {
+  "w": "〜ましょう",
+  "r": "ましょう",
+  "ro": "mashou",
+  "m": "let's (do) (polite)",
+  "pos": "grammar",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "一緒に行きましょう。",
+    "rd": "いっしょ に いきましょう。",
+    "en": "Let's go together."
+   },
+   {
+    "jp": "始めましょう。",
+    "rd": "はじめましょう。",
+    "en": "Let's begin."
+   }
+  ],
+  "n": "Casual: 〜よう / 〜おう (行こう)."
+ },
+ {
+  "w": "〜(よ)う",
+  "r": "よう",
+  "ro": "you",
+  "m": "let's / I will (casual volitional)",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一緒に食べよう。",
+    "rd": "いっしょ に たべよう。",
+    "en": "Let's eat together."
+   },
+   {
+    "jp": "もう帰ろう。",
+    "rd": "もう かえろう。",
+    "en": "Let's go home now."
+   }
+  ],
+  "n": "Ru-verbs add よう (食べよう); u-verbs change to お-sound + う (行こう)."
+ },
+ {
+  "w": "〜ませんか",
+  "r": "ませんか",
+  "ro": "masen ka",
+  "m": "won't you...? (polite invitation)",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一緒に行きませんか。",
+    "rd": "いっしょ に いきませんか。",
+    "en": "Would you like to go together?"
+   },
+   {
+    "jp": "コーヒーを飲みませんか。",
+    "rd": "コーヒー を のみませんか。",
+    "en": "Would you like some coffee?"
+   }
+  ],
+  "n": "Negative question = softer invitation than ましょう."
+ },
+ {
+  "w": "〜でしょう",
+  "r": "でしょう",
+  "ro": "deshou",
+  "m": "probably; right? (polite)",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "明日は雨でしょう。",
+    "rd": "あした は あめ でしょう。",
+    "en": "It will probably rain tomorrow."
+   },
+   {
+    "jp": "おいしいでしょう？",
+    "rd": "おいしい でしょう？",
+    "en": "Delicious, right?"
+   }
+  ],
+  "n": "Casual: だろう / でしょ."
+ },
+ {
+  "w": "〜だろう",
+  "r": "だろう",
+  "ro": "darou",
+  "m": "probably, I guess (plain)",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "彼は来るだろう。",
+    "rd": "かれ は くる だろう。",
+    "en": "He'll probably come."
+   },
+   {
+    "jp": "大丈夫だろう。",
+    "rd": "だいじょうぶ だろう。",
+    "en": "It'll probably be fine."
+   }
+  ]
+ },
+ {
+  "w": "〜かもしれない",
+  "r": "かもしれない",
+  "ro": "kamoshirenai",
+  "m": "might, maybe, perhaps",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "雨が降るかもしれない。",
+    "rd": "あめ が ふる かも しれない。",
+    "en": "It might rain."
+   },
+   {
+    "jp": "彼は知らないかもしれない。",
+    "rd": "かれ は しらない かも しれない。",
+    "en": "He might not know."
+   }
+  ],
+  "n": "Casual: かも. Polite: かもしれません."
+ },
+ {
+  "w": "〜なければならない",
+  "r": "なければならない",
+  "ro": "nakereba naranai",
+  "m": "must, have to",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "勉強しなければならない。",
+    "rd": "べんきょう しなければ ならない。",
+    "en": "I have to study."
+   },
+   {
+    "jp": "もう帰らなければならない。",
+    "rd": "もう かえらなければ ならない。",
+    "en": "I have to go home now."
+   }
+  ],
+  "n": "Casual: なきゃ / なきゃいけない."
+ },
+ {
+  "w": "〜ことができる",
+  "r": "ことができる",
+  "ro": "koto ga dekiru",
+  "m": "can (do), be able to",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本語を話すことができる。",
+    "rd": "にほんご を はなす こと が できる。",
+    "en": "I can speak Japanese."
+   },
+   {
+    "jp": "泳ぐことができません。",
+    "rd": "およぐ こと が できません。",
+    "en": "I can't swim."
+   }
+  ],
+  "n": "In speech, potential verbs (話せる) are more common."
+ },
+ {
+  "w": "こと",
+  "r": "こと",
+  "ro": "koto",
+  "m": "thing (abstract), matter; makes a verb into a noun",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "大切なことを言う。",
+    "rd": "たいせつ な こと を いう。",
+    "en": "I say something important."
+   },
+   {
+    "jp": "日本語を勉強することが好き。",
+    "rd": "にほんご を べんきょう する こと が すき。",
+    "en": "I like studying Japanese."
+   }
+  ],
+  "n": "Intangible 'things/matters'. Compare もの (tangible things)."
+ },
+ {
+  "w": "もの",
+  "r": "もの",
+  "ro": "mono",
+  "m": "thing (tangible); casual 'because'",
+  "pos": "grammar",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "食べるものがない。",
+    "rd": "たべる もの が ない。",
+    "en": "There's nothing to eat."
+   },
+   {
+    "jp": "だって、嫌なんだもん。",
+    "rd": "だって、いや な ん だ もん。",
+    "en": "But I just don't like it!"
+   }
+  ],
+  "n": "Concrete things. Sentence-final もん/もの = childish or feminine 'because'."
+ },
+ {
+  "w": "〜んです",
+  "r": "んです",
+  "ro": "n desu",
+  "m": "explanatory 'the thing is...' (のです); の also turns clauses into nouns",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "どうして来なかったんですか。",
+    "rd": "どうして こなかった ん です か。",
+    "en": "Why didn't you come (I'd like to know)?"
+   },
+   {
+    "jp": "雨が降っているんです。",
+    "rd": "あめ が ふって いる ん です。",
+    "en": "It's that it's raining."
+   }
+  ],
+  "n": "Casual: んだ / の. 行くの？ = 'Are you going?' Also の as a noun-maker: 食べるのが好き = I like eating."
+ },
+ {
+  "w": "〜ください",
+  "r": "ください",
+  "ro": "kudasai",
+  "m": "please give me; please (do)",
+  "pos": "grammar",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "水をください。",
+    "rd": "みず を ください。",
+    "en": "Please give me water."
+   },
+   {
+    "jp": "ちょっと待ってください。",
+    "rd": "ちょっと まって ください。",
+    "en": "Please wait a moment."
+   }
+  ],
+  "n": "Noun + を + ください = give me; て-form + ください = please do."
+ },
+ {
+  "w": "〜ないでください",
+  "r": "ないでください",
+  "ro": "naide kudasai",
+  "m": "please don't",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "行かないでください。",
+    "rd": "いかないで ください。",
+    "en": "Please don't go."
+   },
+   {
+    "jp": "触らないでください。",
+    "rd": "さわらないで ください。",
+    "en": "Please don't touch."
+   }
+  ]
+ },
+ {
+  "w": "〜てもいい",
+  "r": "てもいい",
+  "ro": "te mo ii",
+  "m": "may, it's okay to",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "入ってもいいですか。",
+    "rd": "はいっても いい です か。",
+    "en": "May I come in?"
+   },
+   {
+    "jp": "食べてもいいよ。",
+    "rd": "たべても いい よ。",
+    "en": "You can eat it."
+   }
+  ]
+ },
+ {
+  "w": "〜てはいけない",
+  "r": "てはいけない",
+  "ro": "te wa ikenai",
+  "m": "must not",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ここで食べてはいけない。",
+    "rd": "ここ で たべては いけない。",
+    "en": "You must not eat here."
+   },
+   {
+    "jp": "遅れてはいけません。",
+    "rd": "おくれては いけません。",
+    "en": "You must not be late."
+   }
+  ],
+  "n": "Casual: ちゃだめ / ちゃいけない."
+ },
+ {
+  "w": "〜ば",
+  "r": "ば",
+  "ro": "ba",
+  "m": "if (conditional)",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "安ければ買う。",
+    "rd": "やすければ かう。",
+    "en": "If it's cheap, I'll buy it."
+   },
+   {
+    "jp": "押せば開く。",
+    "rd": "おせば あく。",
+    "en": "If you push, it opens."
+   }
+  ]
+ },
+ {
+  "w": "〜たら",
+  "r": "たら",
+  "ro": "tara",
+  "m": "if/when (conditional)",
+  "pos": "grammar",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "雨が降ったら行かない。",
+    "rd": "あめ が ふったら いかない。",
+    "en": "If it rains, I won't go."
+   },
+   {
+    "jp": "着いたら電話して。",
+    "rd": "ついたら でんわ して。",
+    "en": "Call me when you arrive."
+   }
+  ],
+  "n": "Plain past + ら. The most flexible 'if/when'."
+ },
+ {
+  "w": "〜そう",
+  "r": "そう",
+  "ro": "sou",
+  "m": "looks like; about to; I heard that",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "おいしそう！",
+    "rd": "おいしそう！",
+    "en": "That looks delicious!"
+   },
+   {
+    "jp": "雨が降りそうだ。",
+    "rd": "あめ が ふりそう だ。",
+    "en": "It looks like it's going to rain."
+   }
+  ],
+  "n": "Stem + そう = looks like; plain form + そうだ = hearsay."
+ },
+ {
+  "w": "〜らしい",
+  "r": "らしい",
+  "ro": "rashii",
+  "m": "seems, apparently; typical of",
+  "pos": "grammar",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "彼は来ないらしい。",
+    "rd": "かれ は こない らしい。",
+    "en": "Apparently he's not coming."
+   },
+   {
+    "jp": "男らしい人。",
+    "rd": "おとこ らしい ひと。",
+    "en": "A manly person."
+   }
+  ]
+ },
+ {
+  "w": "〜ようだ",
+  "r": "ようだ",
+  "ro": "youda",
+  "m": "seems like; as if",
+  "pos": "grammar",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "誰もいないようだ。",
+    "rd": "だれも いない よう だ。",
+    "en": "It seems no one is here."
+   },
+   {
+    "jp": "夢のようだ。",
+    "rd": "ゆめ の よう だ。",
+    "en": "It's like a dream."
+   }
+  ]
+ },
+ {
+  "w": "〜ながら",
+  "r": "ながら",
+  "ro": "nagara",
+  "m": "while (doing)",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "歩きながら食べる。",
+    "rd": "あるき ながら たべる。",
+    "en": "I eat while walking."
+   },
+   {
+    "jp": "音楽を聞きながら勉強する。",
+    "rd": "おんがく を きき ながら べんきょう する。",
+    "en": "I study while listening to music."
+   }
+  ],
+  "n": "Verb stem + ながら."
+ },
+ {
+  "w": "〜すぎる",
+  "r": "すぎる",
+  "ro": "sugiru",
+  "m": "too much, overly",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "食べすぎた。",
+    "rd": "たべ すぎた。",
+    "en": "I ate too much."
+   },
+   {
+    "jp": "この部屋は暑すぎる。",
+    "rd": "この へや は あつ すぎる。",
+    "en": "This room is too hot."
+   }
+  ]
+ },
+ {
+  "w": "〜たことがある",
+  "r": "たことがある",
+  "ro": "ta koto ga aru",
+  "m": "have done (experience)",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "日本に行ったことがある。",
+    "rd": "にほん に いった こと が ある。",
+    "en": "I've been to Japan."
+   },
+   {
+    "jp": "寿司を食べたことがない。",
+    "rd": "すし を たべた こと が ない。",
+    "en": "I've never eaten sushi."
+   }
+  ]
+ },
+ {
+  "w": "〜つもり",
+  "r": "つもり",
+  "ro": "tsumori",
+  "m": "intend to, plan to",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "明日行くつもりだ。",
+    "rd": "あした いく つもり だ。",
+    "en": "I intend to go tomorrow."
+   },
+   {
+    "jp": "やめるつもりはない。",
+    "rd": "やめる つもり は ない。",
+    "en": "I have no intention of quitting."
+   }
+  ]
+ },
+ {
+  "w": "〜はず",
+  "r": "はず",
+  "ro": "hazu",
+  "m": "should be, expected to",
+  "pos": "grammar",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "もう着いているはずだ。",
+    "rd": "もう ついて いる はず だ。",
+    "en": "He should have arrived already."
+   },
+   {
+    "jp": "そんなはずはない。",
+    "rd": "そんな はず は ない。",
+    "en": "That can't be."
+   }
+  ]
+ },
+ {
+  "w": "〜てしまう",
+  "r": "てしまう",
+  "ro": "teshimau",
+  "m": "end up doing; do completely",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "忘れてしまった。",
+    "rd": "わすれて しまった。",
+    "en": "I ended up forgetting."
+   },
+   {
+    "jp": "全部食べてしまった。",
+    "rd": "ぜんぶ たべて しまった。",
+    "en": "I ate it all."
+   }
+  ],
+  "n": "Casual contraction: ちゃう / ちゃった (忘れちゃった). Often implies regret."
+ },
+ {
+  "w": "〜てみる",
+  "r": "てみる",
+  "ro": "temiru",
+  "m": "try doing",
+  "pos": "grammar",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "食べてみる。",
+    "rd": "たべて みる。",
+    "en": "I'll try eating it."
+   },
+   {
+    "jp": "着てみてもいい？",
+    "rd": "きて みても いい？",
+    "en": "Can I try it on?"
+   }
+  ]
+ },
+ {
+  "w": "〜さん",
+  "r": "さん",
+  "ro": "san",
+  "m": "Mr./Ms./Mrs. (polite name suffix)",
+  "pos": "suffix",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "田中さんは先生です。",
+    "rd": "たなか さん は せんせい です。",
+    "en": "Mr. Tanaka is a teacher."
+   },
+   {
+    "jp": "山田さん、こんにちは。",
+    "rd": "やまだ さん、こんにちは。",
+    "en": "Hello, Ms. Yamada."
+   }
+  ],
+  "n": "Never use it for yourself. Also used after jobs and shops (お医者さん, 本屋さん)."
+ },
+ {
+  "w": "〜ちゃん",
+  "r": "ちゃん",
+  "ro": "chan",
+  "m": "affectionate suffix (kids, girls, pets, close friends)",
+  "pos": "suffix",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ゆきちゃん、かわいい！",
+    "rd": "ゆき ちゃん、かわいい！",
+    "en": "Yuki-chan, so cute!"
+   },
+   {
+    "jp": "お母ちゃんが呼んでるよ。",
+    "rd": "おかあちゃん が よんで る よ。",
+    "en": "Mom is calling you."
+   }
+  ],
+  "n": "Cute and intimate; not for strangers or superiors."
+ },
+ {
+  "w": "〜くん",
+  "r": "くん",
+  "ro": "kun",
+  "m": "suffix for boys/younger males (or used by seniors)",
+  "pos": "suffix",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "太郎くん、おはよう。",
+    "rd": "たろう くん、おはよう。",
+    "en": "Good morning, Taro."
+   },
+   {
+    "jp": "田中くんは優しい。",
+    "rd": "たなか くん は やさしい。",
+    "en": "Tanaka-kun is kind."
+   }
+  ]
+ },
+ {
+  "w": "〜様",
+  "r": "さま",
+  "ro": "sama",
+  "m": "very respectful suffix",
+  "pos": "suffix",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お客様、こちらへどうぞ。",
+    "rd": "おきゃくさま、こちら へ どうぞ。",
+    "en": "Customer, this way please."
+   },
+   {
+    "jp": "神様に祈る。",
+    "rd": "かみさま に いのる。",
+    "en": "I pray to God."
+   }
+  ],
+  "n": "Used for customers, deities, and royalty in fantasy."
+ },
+ {
+  "w": "〜たち",
+  "r": "たち",
+  "ro": "tachi",
+  "m": "plural suffix for people/animals",
+  "pos": "suffix",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "子供たちが遊ぶ。",
+    "rd": "こども たち が あそぶ。",
+    "en": "The children play."
+   },
+   {
+    "jp": "先生たちは優しい。",
+    "rd": "せんせい たち は やさしい。",
+    "en": "The teachers are kind."
+   }
+  ]
+ },
+ {
+  "w": "〜先生",
+  "r": "せんせい",
+  "ro": "sensei",
+  "m": "teacher/doctor/master (title after a name)",
+  "pos": "suffix",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "田中先生はどこ？",
+    "rd": "たなか せんせい は どこ？",
+    "en": "Where is Teacher Tanaka?"
+   },
+   {
+    "jp": "先生、質問があります。",
+    "rd": "せんせい、しつもん が あります。",
+    "en": "Teacher, I have a question."
+   }
+  ],
+  "n": "Also used for doctors, lawyers, manga artists."
+ },
+ {
+  "w": "〜先輩",
+  "r": "せんぱい",
+  "ro": "senpai",
+  "m": "senior (at school/work); title",
+  "pos": "suffix",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "先輩、助けてください。",
+    "rd": "せんぱい、たすけて ください。",
+    "en": "Senpai, please help me."
+   },
+   {
+    "jp": "田中先輩は優しい。",
+    "rd": "たなか せんぱい は やさしい。",
+    "en": "Senior Tanaka is kind."
+   }
+  ],
+  "n": "Opposite: 後輩 (kouhai). Anime staple."
+ },
+ {
+  "w": "〜語",
+  "r": "ご",
+  "ro": "go",
+  "m": "language (日本語, 英語)",
+  "pos": "suffix",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本語を勉強する。",
+    "rd": "にほんご を べんきょう する。",
+    "en": "I study Japanese."
+   },
+   {
+    "jp": "英語が話せる。",
+    "rd": "えいご が はなせる。",
+    "en": "I can speak English."
+   }
+  ]
+ },
+ {
+  "w": "ゼロ",
+  "r": "ゼロ",
+  "ro": "zero",
+  "m": "zero",
+  "pos": "number",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ゼロから始める。",
+    "rd": "ゼロ から はじめる。",
+    "en": "I start from zero."
+   },
+   {
+    "jp": "答えはゼロだ。",
+    "rd": "こたえ は ゼロ だ。",
+    "en": "The answer is zero."
+   }
+  ],
+  "n": "Also 零 (れい, formal) and 〇; maru is used for phone numbers."
+ },
+ {
+  "w": "一",
+  "r": "いち",
+  "ro": "ichi",
+  "m": "one",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "一から十まで数える。",
+    "rd": "いち から じゅう まで かぞえる。",
+    "en": "I count from one to ten."
+   },
+   {
+    "jp": "一月は寒い。",
+    "rd": "いちがつ は さむい。",
+    "en": "January is cold."
+   }
+  ],
+  "n": "Counting objects uses ひとつ; one person = ひとり."
+ },
+ {
+  "w": "二",
+  "r": "に",
+  "ro": "ni",
+  "m": "two",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "二月に生まれた。",
+    "rd": "にがつ に うまれた。",
+    "en": "I was born in February."
+   },
+   {
+    "jp": "二時に会う。",
+    "rd": "にじ に あう。",
+    "en": "We'll meet at two o'clock."
+   }
+  ],
+  "n": "Two people = ふたり; two things = ふたつ."
+ },
+ {
+  "w": "三",
+  "r": "さん",
+  "ro": "san",
+  "m": "three",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "三月は春です。",
+    "rd": "さんがつ は はる です。",
+    "en": "March is spring."
+   },
+   {
+    "jp": "三人家族です。",
+    "rd": "さんにん かぞく です。",
+    "en": "My family has three people."
+   }
+  ]
+ },
+ {
+  "w": "四",
+  "r": "よん",
+  "ro": "yon",
+  "m": "four (also し, よ)",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "四時に起きる。",
+    "rd": "よじ に おきる。",
+    "en": "I get up at four."
+   },
+   {
+    "jp": "四月に始まる。",
+    "rd": "しがつ に はじまる。",
+    "en": "It starts in April."
+   }
+  ],
+  "n": "Usually よん; よ before 時/人/円 (四時, 四円); し in 四月. Avoid し (sounds like 'death')."
+ },
+ {
+  "w": "五",
+  "r": "ご",
+  "ro": "go",
+  "m": "five",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "五時に帰る。",
+    "rd": "ごじ に かえる。",
+    "en": "I go home at five."
+   },
+   {
+    "jp": "五人います。",
+    "rd": "ごにん います。",
+    "en": "There are five people."
+   }
+  ]
+ },
+ {
+  "w": "六",
+  "r": "ろく",
+  "ro": "roku",
+  "m": "six",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "六時に食べる。",
+    "rd": "ろくじ に たべる。",
+    "en": "We eat at six."
+   },
+   {
+    "jp": "六月は雨が多い。",
+    "rd": "ろくがつ は あめ が おおい。",
+    "en": "June has a lot of rain."
+   }
+  ]
+ },
+ {
+  "w": "七",
+  "r": "なな",
+  "ro": "nana",
+  "m": "seven (also しち)",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "七時に起きる。",
+    "rd": "しちじ に おきる。",
+    "en": "I wake up at seven."
+   },
+   {
+    "jp": "七月は暑い。",
+    "rd": "しちがつ は あつい。",
+    "en": "July is hot."
+   }
+  ],
+  "n": "Both なな and しち are used; しち in 七時/七月."
+ },
+ {
+  "w": "八",
+  "r": "はち",
+  "ro": "hachi",
+  "m": "eight",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "八時に寝る。",
+    "rd": "はちじ に ねる。",
+    "en": "I go to sleep at eight."
+   },
+   {
+    "jp": "八月は夏休みだ。",
+    "rd": "はちがつ は なつやすみ だ。",
+    "en": "August is summer vacation."
+   }
+  ]
+ },
+ {
+  "w": "九",
+  "r": "きゅう",
+  "ro": "kyuu",
+  "m": "nine (also く)",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "九時に始まる。",
+    "rd": "くじ に はじまる。",
+    "en": "It starts at nine."
+   },
+   {
+    "jp": "九月に会おう。",
+    "rd": "くがつ に あおう。",
+    "en": "Let's meet in September."
+   }
+  ],
+  "n": "Usually きゅう; く in 九時/九月."
+ },
+ {
+  "w": "十",
+  "r": "じゅう",
+  "ro": "juu",
+  "m": "ten",
+  "pos": "number",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "十人来た。",
+    "rd": "じゅうにん きた。",
+    "en": "Ten people came."
+   },
+   {
+    "jp": "十分待った。",
+    "rd": "じゅっぷん まった。",
+    "en": "I waited ten minutes."
+   }
+  ],
+  "n": "Teens: 十一 = 11, 二十 = 20, 三十 = 30."
+ },
+ {
+  "w": "百",
+  "r": "ひゃく",
+  "ro": "hyaku",
+  "m": "hundred",
+  "pos": "number",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "百円です。",
+    "rd": "ひゃくえん です。",
+    "en": "It's 100 yen."
+   },
+   {
+    "jp": "百人いる。",
+    "rd": "ひゃくにん いる。",
+    "en": "There are 100 people."
+   }
+  ],
+  "n": "300 = さんびゃく, 600 = ろっぴゃく, 800 = はっぴゃく."
+ },
+ {
+  "w": "千",
+  "r": "せん",
+  "ro": "sen",
+  "m": "thousand",
+  "pos": "number",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "千円ください。",
+    "rd": "せんえん ください。",
+    "en": "1,000 yen, please."
+   },
+   {
+    "jp": "三千人が来た。",
+    "rd": "さんぜんにん が きた。",
+    "en": "3,000 people came."
+   }
+  ],
+  "n": "3,000 = さんぜん, 8,000 = はっせん."
+ },
+ {
+  "w": "万",
+  "r": "まん",
+  "ro": "man",
+  "m": "ten thousand",
+  "pos": "number",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一万円です。",
+    "rd": "いちまんえん です。",
+    "en": "It's 10,000 yen."
+   },
+   {
+    "jp": "十万人が見た。",
+    "rd": "じゅうまんにん が みた。",
+    "en": "100,000 people watched."
+   }
+  ],
+  "n": "Japanese counts in 10,000s: 100,000 = 十万. Say 一万 with いち."
+ },
+ {
+  "w": "半",
+  "r": "はん",
+  "ro": "han",
+  "m": "half; half past",
+  "pos": "number",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "三時半に会う。",
+    "rd": "さんじはん に あう。",
+    "en": "We'll meet at 3:30."
+   },
+   {
+    "jp": "半分食べた。",
+    "rd": "はんぶん たべた。",
+    "en": "I ate half."
+   }
+  ]
+ },
+ {
+  "w": "〜つ",
+  "r": "つ",
+  "ro": "tsu",
+  "m": "general counter (ひとつ ふたつ ...)",
+  "pos": "counter",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "りんごを三つください。",
+    "rd": "りんご を みっつ ください。",
+    "en": "Three apples, please."
+   },
+   {
+    "jp": "一つだけ。",
+    "rd": "ひとつ だけ。",
+    "en": "Just one."
+   }
+  ],
+  "n": "ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお (10)."
+ },
+ {
+  "w": "〜人",
+  "r": "にん",
+  "ro": "nin",
+  "m": "counter for people",
+  "pos": "counter",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "三人で行く。",
+    "rd": "さんにん で いく。",
+    "en": "Three of us go."
+   },
+   {
+    "jp": "何人いますか。",
+    "rd": "なんにん います か。",
+    "en": "How many people are there?"
+   }
+  ],
+  "n": "Exceptions: 一人 ひとり, 二人 ふたり. 四人 = よにん."
+ },
+ {
+  "w": "一人",
+  "r": "ひとり",
+  "ro": "hitori",
+  "m": "one person; alone",
+  "pos": "counter",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "一人で行く。",
+    "rd": "ひとり で いく。",
+    "en": "I'll go alone."
+   },
+   {
+    "jp": "一人ですか。",
+    "rd": "ひとり です か。",
+    "en": "Just one person?"
+   }
+  ]
+ },
+ {
+  "w": "二人",
+  "r": "ふたり",
+  "ro": "futari",
+  "m": "two people; a pair",
+  "pos": "counter",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "二人で食べる。",
+    "rd": "ふたり で たべる。",
+    "en": "The two of us eat."
+   },
+   {
+    "jp": "二人は友達だ。",
+    "rd": "ふたり は ともだち だ。",
+    "en": "The two are friends."
+   }
+  ]
+ },
+ {
+  "w": "〜個",
+  "r": "こ",
+  "ro": "ko",
+  "m": "counter for small objects",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "りんごを二個買う。",
+    "rd": "りんご を にこ かう。",
+    "en": "I buy two apples."
+   },
+   {
+    "jp": "五個ください。",
+    "rd": "ごこ ください。",
+    "en": "Five, please."
+   }
+  ]
+ },
+ {
+  "w": "〜本",
+  "r": "ほん",
+  "ro": "hon",
+  "m": "counter for long thin things (pens, bottles)",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ペンが二本ある。",
+    "rd": "ペン が にほん ある。",
+    "en": "There are two pens."
+   },
+   {
+    "jp": "ビールを三本飲んだ。",
+    "rd": "ビール を さんぼん のんだ。",
+    "en": "I drank three bottles of beer."
+   }
+  ],
+  "n": "Sound shifts: 1 いっぽん, 3 さんぼん, 6 ろっぽん, 10 じゅっぽん."
+ },
+ {
+  "w": "〜枚",
+  "r": "まい",
+  "ro": "mai",
+  "m": "counter for flat things (paper, shirts)",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "紙を三枚ください。",
+    "rd": "かみ を さんまい ください。",
+    "en": "Three sheets of paper, please."
+   },
+   {
+    "jp": "シャツを二枚買った。",
+    "rd": "シャツ を にまい かった。",
+    "en": "I bought two shirts."
+   }
+  ]
+ },
+ {
+  "w": "〜回",
+  "r": "かい",
+  "ro": "kai",
+  "m": "counter for times/occurrences",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一日に三回食べる。",
+    "rd": "いちにち に さんかい たべる。",
+    "en": "I eat three times a day."
+   },
+   {
+    "jp": "もう一回言って。",
+    "rd": "もう いっかい いって。",
+    "en": "Say it once more."
+   }
+  ]
+ },
+ {
+  "w": "〜円",
+  "r": "えん",
+  "ro": "en",
+  "m": "yen",
+  "pos": "counter",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "これは千円です。",
+    "rd": "これ は せんえん です。",
+    "en": "This is 1,000 yen."
+   },
+   {
+    "jp": "百円しかない。",
+    "rd": "ひゃくえん しか ない。",
+    "en": "I only have 100 yen."
+   }
+  ]
+ },
+ {
+  "w": "〜歳",
+  "r": "さい",
+  "ro": "sai",
+  "m": "years old",
+  "pos": "counter",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "十八歳です。",
+    "rd": "じゅうはっさい です。",
+    "en": "I'm 18 years old."
+   },
+   {
+    "jp": "二十歳になる。",
+    "rd": "はたち に なる。",
+    "en": "I'm turning twenty."
+   }
+  ],
+  "n": "1 = いっさい, 8 = はっさい, 20 = はたち (irregular)."
+ },
+ {
+  "w": "〜時",
+  "r": "じ",
+  "ro": "ji",
+  "m": "o'clock",
+  "pos": "counter",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "三時に会う。",
+    "rd": "さんじ に あう。",
+    "en": "We'll meet at 3."
+   },
+   {
+    "jp": "今、七時です。",
+    "rd": "いま、しちじ です。",
+    "en": "It's seven o'clock now."
+   }
+  ],
+  "n": "4 o'clock = よじ, 7 = しちじ, 9 = くじ."
+ },
+ {
+  "w": "〜分",
+  "r": "ふん",
+  "ro": "fun",
+  "m": "minutes (ふん/ぷん)",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "五分待って。",
+    "rd": "ごふん まって。",
+    "en": "Wait five minutes."
+   },
+   {
+    "jp": "十分かかる。",
+    "rd": "じゅっぷん かかる。",
+    "en": "It takes ten minutes."
+   }
+  ],
+  "n": "Sound shifts: 1 いっぷん, 3 さんぷん, 4 よんぷん, 6 ろっぷん, 8 はっぷん, 10 じゅっぷん."
+ },
+ {
+  "w": "〜匹",
+  "r": "ひき",
+  "ro": "hiki",
+  "m": "counter for small animals",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "猫が二匹いる。",
+    "rd": "ねこ が にひき いる。",
+    "en": "There are two cats."
+   },
+   {
+    "jp": "犬を三匹飼っている。",
+    "rd": "いぬ を さんびき かって いる。",
+    "en": "I keep three dogs."
+   }
+  ],
+  "n": "1 いっぴき, 3 さんびき, 6 ろっぴき."
+ },
+ {
+  "w": "〜台",
+  "r": "だい",
+  "ro": "dai",
+  "m": "counter for machines and vehicles",
+  "pos": "counter",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "車が二台ある。",
+    "rd": "くるま が にだい ある。",
+    "en": "There are two cars."
+   },
+   {
+    "jp": "パソコンを一台買った。",
+    "rd": "パソコン を いちだい かった。",
+    "en": "I bought one computer."
+   }
+  ]
+ },
+ {
+  "w": "〜冊",
+  "r": "さつ",
+  "ro": "satsu",
+  "m": "counter for books",
+  "pos": "counter",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "本を三冊読んだ。",
+    "rd": "ほん を さんさつ よんだ。",
+    "en": "I read three books."
+   },
+   {
+    "jp": "ノートを二冊買う。",
+    "rd": "ノート を にさつ かう。",
+    "en": "I buy two notebooks."
+   }
+  ]
+ },
+ {
+  "w": "〜杯",
+  "r": "はい",
+  "ro": "hai",
+  "m": "counter for cups/glassfuls",
+  "pos": "counter",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "水を一杯ください。",
+    "rd": "みず を いっぱい ください。",
+    "en": "A glass of water, please."
+   },
+   {
+    "jp": "ビールを二杯飲んだ。",
+    "rd": "ビール を にはい のんだ。",
+    "en": "I drank two beers."
+   }
+  ],
+  "n": "1 いっぱい, 3 さんばい, 6 ろっぱい."
+ },
+ {
+  "w": "〜階",
+  "r": "かい",
+  "ro": "kai",
+  "m": "floor of a building",
+  "pos": "counter",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "三階にある。",
+    "rd": "さんがい に ある。",
+    "en": "It's on the third floor."
+   },
+   {
+    "jp": "何階ですか。",
+    "rd": "なんがい です か。",
+    "en": "Which floor is it?"
+   }
+  ],
+  "n": "3 = さんがい, 何階 = なんがい."
+ },
+ {
+  "w": "〜番",
+  "r": "ばん",
+  "ro": "ban",
+  "m": "number ... / No. X; -th",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一番好き。",
+    "rd": "いちばん すき。",
+    "en": "I like it the most."
+   },
+   {
+    "jp": "何番ですか。",
+    "rd": "なんばん です か。",
+    "en": "What number is it?"
+   }
+  ],
+  "n": "一番 = number one / the most."
+ },
+ {
+  "w": "〜ヶ月",
+  "r": "かげつ",
+  "ro": "kagetsu",
+  "m": "months (duration)",
+  "pos": "counter",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "三ヶ月かかる。",
+    "rd": "さんかげつ かかる。",
+    "en": "It takes three months."
+   },
+   {
+    "jp": "二ヶ月待った。",
+    "rd": "にかげつ まった。",
+    "en": "I waited two months."
+   }
+  ],
+  "n": "Also written か月 or カ月."
+ },
+ {
+  "w": "今",
+  "r": "いま",
+  "ro": "ima",
+  "m": "now",
+  "pos": "time",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "今、何時？",
+    "rd": "いま、なんじ？",
+    "en": "What time is it now?"
+   },
+   {
+    "jp": "今行くよ。",
+    "rd": "いま いく よ。",
+    "en": "I'm coming now."
+   }
+  ]
+ },
+ {
+  "w": "今日",
+  "r": "きょう",
+  "ro": "kyou",
+  "m": "today",
+  "pos": "time",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "今日は暑い。",
+    "rd": "きょう は あつい。",
+    "en": "It's hot today."
+   },
+   {
+    "jp": "今日、暇？",
+    "rd": "きょう、ひま？",
+    "en": "Are you free today?"
+   }
+  ]
+ },
+ {
+  "w": "明日",
+  "r": "あした",
+  "ro": "ashita",
+  "m": "tomorrow",
+  "pos": "time",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "明日会おう。",
+    "rd": "あした あおう。",
+    "en": "Let's meet tomorrow."
+   },
+   {
+    "jp": "明日は休みです。",
+    "rd": "あした は やすみ です。",
+    "en": "Tomorrow is a day off."
+   }
+  ],
+  "n": "Also あす (formal) and みょうにち (very formal)."
+ },
+ {
+  "w": "昨日",
+  "r": "きのう",
+  "ro": "kinou",
+  "m": "yesterday",
+  "pos": "time",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "昨日は雨だった。",
+    "rd": "きのう は あめ だった。",
+    "en": "It rained yesterday."
+   },
+   {
+    "jp": "昨日、映画を見た。",
+    "rd": "きのう、えいが を みた。",
+    "en": "I saw a movie yesterday."
+   }
+  ]
+ },
+ {
+  "w": "一昨日",
+  "r": "おととい",
+  "ro": "ototoi",
+  "m": "the day before yesterday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一昨日会った。",
+    "rd": "おととい あった。",
+    "en": "We met the day before yesterday."
+   },
+   {
+    "jp": "一昨日は雨だった。",
+    "rd": "おととい は あめ だった。",
+    "en": "It rained the day before yesterday."
+   }
+  ]
+ },
+ {
+  "w": "明後日",
+  "r": "あさって",
+  "ro": "asatte",
+  "m": "the day after tomorrow",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "明後日行く。",
+    "rd": "あさって いく。",
+    "en": "I'm going the day after tomorrow."
+   },
+   {
+    "jp": "明後日は休みだ。",
+    "rd": "あさって は やすみ だ。",
+    "en": "The day after tomorrow is off."
+   }
+  ]
+ },
+ {
+  "w": "毎日",
+  "r": "まいにち",
+  "ro": "mainichi",
+  "m": "every day",
+  "pos": "time",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "毎日勉強する。",
+    "rd": "まいにち べんきょう する。",
+    "en": "I study every day."
+   },
+   {
+    "jp": "毎日暑いね。",
+    "rd": "まいにち あつい ね。",
+    "en": "It's hot every day, huh."
+   }
+  ]
+ },
+ {
+  "w": "朝",
+  "r": "あさ",
+  "ro": "asa",
+  "m": "morning",
+  "pos": "time",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "朝六時に起きる。",
+    "rd": "あさ ろくじ に おきる。",
+    "en": "I get up at 6 a.m."
+   },
+   {
+    "jp": "朝は忙しい。",
+    "rd": "あさ は いそがしい。",
+    "en": "Mornings are busy."
+   }
+  ]
+ },
+ {
+  "w": "昼",
+  "r": "ひる",
+  "ro": "hiru",
+  "m": "noon; daytime",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "昼に食べる。",
+    "rd": "ひる に たべる。",
+    "en": "I eat at noon."
+   },
+   {
+    "jp": "昼は暑い。",
+    "rd": "ひる は あつい。",
+    "en": "The daytime is hot."
+   }
+  ],
+  "n": "昼ご飯 = lunch."
+ },
+ {
+  "w": "夜",
+  "r": "よる",
+  "ro": "yoru",
+  "m": "night",
+  "pos": "time",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "夜は静かだ。",
+    "rd": "よる は しずか だ。",
+    "en": "The night is quiet."
+   },
+   {
+    "jp": "夜に電話する。",
+    "rd": "よる に でんわ する。",
+    "en": "I'll call at night."
+   }
+  ]
+ },
+ {
+  "w": "今朝",
+  "r": "けさ",
+  "ro": "kesa",
+  "m": "this morning",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今朝は寒かった。",
+    "rd": "けさ は さむかった。",
+    "en": "It was cold this morning."
+   },
+   {
+    "jp": "今朝、早く起きた。",
+    "rd": "けさ、はやく おきた。",
+    "en": "I woke up early this morning."
+   }
+  ],
+  "n": "Irregular reading."
+ },
+ {
+  "w": "今夜",
+  "r": "こんや",
+  "ro": "konya",
+  "m": "tonight",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今夜、会おう。",
+    "rd": "こんや、あおう。",
+    "en": "Let's meet tonight."
+   },
+   {
+    "jp": "今夜は何を食べる？",
+    "rd": "こんや は なに を たべる？",
+    "en": "What shall we eat tonight?"
+   }
+  ],
+  "n": "Also 今晩 (こんばん)."
+ },
+ {
+  "w": "毎朝",
+  "r": "まいあさ",
+  "ro": "maiasa",
+  "m": "every morning",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "毎朝走る。",
+    "rd": "まいあさ はしる。",
+    "en": "I run every morning."
+   },
+   {
+    "jp": "毎朝コーヒーを飲む。",
+    "rd": "まいあさ コーヒー を のむ。",
+    "en": "I drink coffee every morning."
+   }
+  ]
+ },
+ {
+  "w": "毎晩",
+  "r": "まいばん",
+  "ro": "maiban",
+  "m": "every evening/night",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "毎晩アニメを見る。",
+    "rd": "まいばん アニメ を みる。",
+    "en": "I watch anime every night."
+   },
+   {
+    "jp": "毎晩寝るのが遅い。",
+    "rd": "まいばん ねる の が おそい。",
+    "en": "I go to bed late every night."
+   }
+  ]
+ },
+ {
+  "w": "夕方",
+  "r": "ゆうがた",
+  "ro": "yuugata",
+  "m": "evening (late afternoon)",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "夕方に帰る。",
+    "rd": "ゆうがた に かえる。",
+    "en": "I go home in the evening."
+   },
+   {
+    "jp": "夕方は涼しい。",
+    "rd": "ゆうがた は すずしい。",
+    "en": "The evening is cool."
+   }
+  ]
+ },
+ {
+  "w": "午前",
+  "r": "ごぜん",
+  "ro": "gozen",
+  "m": "morning, a.m.",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "午前九時に始まる。",
+    "rd": "ごぜん くじ に はじまる。",
+    "en": "It starts at 9 a.m."
+   },
+   {
+    "jp": "午前は忙しい。",
+    "rd": "ごぜん は いそがしい。",
+    "en": "The morning is busy."
+   }
+  ]
+ },
+ {
+  "w": "午後",
+  "r": "ごご",
+  "ro": "gogo",
+  "m": "afternoon, p.m.",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "午後三時に会う。",
+    "rd": "ごご さんじ に あう。",
+    "en": "We'll meet at 3 p.m."
+   },
+   {
+    "jp": "午後は暇です。",
+    "rd": "ごご は ひま です。",
+    "en": "I'm free in the afternoon."
+   }
+  ]
+ },
+ {
+  "w": "今年",
+  "r": "ことし",
+  "ro": "kotoshi",
+  "m": "this year",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今年は日本に行く。",
+    "rd": "ことし は にほん に いく。",
+    "en": "I'm going to Japan this year."
+   },
+   {
+    "jp": "今年、二十歳になる。",
+    "rd": "ことし、はたち に なる。",
+    "en": "I turn twenty this year."
+   }
+  ]
+ },
+ {
+  "w": "来年",
+  "r": "らいねん",
+  "ro": "rainen",
+  "m": "next year",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "来年、結婚する。",
+    "rd": "らいねん、けっこん する。",
+    "en": "I'm getting married next year."
+   },
+   {
+    "jp": "来年また会おう。",
+    "rd": "らいねん また あおう。",
+    "en": "Let's meet again next year."
+   }
+  ]
+ },
+ {
+  "w": "去年",
+  "r": "きょねん",
+  "ro": "kyonen",
+  "m": "last year",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "去年、日本に来た。",
+    "rd": "きょねん、にほん に きた。",
+    "en": "I came to Japan last year."
+   },
+   {
+    "jp": "去年は忙しかった。",
+    "rd": "きょねん は いそがしかった。",
+    "en": "Last year was busy."
+   }
+  ]
+ },
+ {
+  "w": "今週",
+  "r": "こんしゅう",
+  "ro": "konshuu",
+  "m": "this week",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今週は忙しい。",
+    "rd": "こんしゅう は いそがしい。",
+    "en": "This week is busy."
+   },
+   {
+    "jp": "今週の土曜日。",
+    "rd": "こんしゅう の どようび。",
+    "en": "This Saturday."
+   }
+  ]
+ },
+ {
+  "w": "来週",
+  "r": "らいしゅう",
+  "ro": "raishuu",
+  "m": "next week",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "来週会おう。",
+    "rd": "らいしゅう あおう。",
+    "en": "Let's meet next week."
+   },
+   {
+    "jp": "来週は休みです。",
+    "rd": "らいしゅう は やすみ です。",
+    "en": "Next week is off."
+   }
+  ]
+ },
+ {
+  "w": "先週",
+  "r": "せんしゅう",
+  "ro": "senshuu",
+  "m": "last week",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "先週、映画を見た。",
+    "rd": "せんしゅう、えいが を みた。",
+    "en": "I saw a movie last week."
+   },
+   {
+    "jp": "先週は雨だった。",
+    "rd": "せんしゅう は あめ だった。",
+    "en": "It rained last week."
+   }
+  ]
+ },
+ {
+  "w": "週",
+  "r": "しゅう",
+  "ro": "shuu",
+  "m": "week",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "週に二回走る。",
+    "rd": "しゅう に にかい はしる。",
+    "en": "I run twice a week."
+   },
+   {
+    "jp": "一週間待った。",
+    "rd": "いっしゅうかん まった。",
+    "en": "I waited a week."
+   }
+  ],
+  "n": "一週間 (いっしゅうかん) = one week (duration)."
+ },
+ {
+  "w": "毎週",
+  "r": "まいしゅう",
+  "ro": "maishuu",
+  "m": "every week",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "毎週日曜日に会う。",
+    "rd": "まいしゅう にちようび に あう。",
+    "en": "We meet every Sunday."
+   },
+   {
+    "jp": "毎週アニメを見る。",
+    "rd": "まいしゅう アニメ を みる。",
+    "en": "I watch anime every week."
+   }
+  ]
+ },
+ {
+  "w": "週末",
+  "r": "しゅうまつ",
+  "ro": "shuumatsu",
+  "m": "weekend",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "週末は何をする？",
+    "rd": "しゅうまつ は なに を する？",
+    "en": "What are you doing this weekend?"
+   },
+   {
+    "jp": "週末は家にいる。",
+    "rd": "しゅうまつ は いえ に いる。",
+    "en": "I stay home on the weekend."
+   }
+  ]
+ },
+ {
+  "w": "今月",
+  "r": "こんげつ",
+  "ro": "kongetsu",
+  "m": "this month",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今月は忙しい。",
+    "rd": "こんげつ は いそがしい。",
+    "en": "This month is busy."
+   },
+   {
+    "jp": "今月、引っ越す。",
+    "rd": "こんげつ、ひっこす。",
+    "en": "I'm moving this month."
+   }
+  ]
+ },
+ {
+  "w": "来月",
+  "r": "らいげつ",
+  "ro": "raigetsu",
+  "m": "next month",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "来月、日本へ行く。",
+    "rd": "らいげつ、にほん へ いく。",
+    "en": "I'm going to Japan next month."
+   },
+   {
+    "jp": "来月は誕生日だ。",
+    "rd": "らいげつ は たんじょうび だ。",
+    "en": "Next month is my birthday."
+   }
+  ]
+ },
+ {
+  "w": "先月",
+  "r": "せんげつ",
+  "ro": "sengetsu",
+  "m": "last month",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "先月、引っ越した。",
+    "rd": "せんげつ、ひっこした。",
+    "en": "I moved last month."
+   },
+   {
+    "jp": "先月は暇だった。",
+    "rd": "せんげつ は ひま だった。",
+    "en": "I was free last month."
+   }
+  ]
+ },
+ {
+  "w": "月曜日",
+  "r": "げつようび",
+  "ro": "getsuyoubi",
+  "m": "Monday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "月曜日は仕事だ。",
+    "rd": "げつようび は しごと だ。",
+    "en": "Monday is work."
+   },
+   {
+    "jp": "月曜日に会おう。",
+    "rd": "げつようび に あおう。",
+    "en": "Let's meet on Monday."
+   }
+  ],
+  "n": "月 = moon. Days are named for the moon, fire, water, tree, gold, earth, sun."
+ },
+ {
+  "w": "火曜日",
+  "r": "かようび",
+  "ro": "kayoubi",
+  "m": "Tuesday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "火曜日は休みです。",
+    "rd": "かようび は やすみ です。",
+    "en": "Tuesday is a day off."
+   },
+   {
+    "jp": "火曜日に会う。",
+    "rd": "かようび に あう。",
+    "en": "We meet on Tuesday."
+   }
+  ],
+  "n": "火 = fire."
+ },
+ {
+  "w": "水曜日",
+  "r": "すいようび",
+  "ro": "suiyoubi",
+  "m": "Wednesday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "水曜日は雨だった。",
+    "rd": "すいようび は あめ だった。",
+    "en": "It rained on Wednesday."
+   },
+   {
+    "jp": "水曜日に行く。",
+    "rd": "すいようび に いく。",
+    "en": "I go on Wednesday."
+   }
+  ],
+  "n": "水 = water."
+ },
+ {
+  "w": "木曜日",
+  "r": "もくようび",
+  "ro": "mokuyoubi",
+  "m": "Thursday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "木曜日は忙しい。",
+    "rd": "もくようび は いそがしい。",
+    "en": "Thursday is busy."
+   },
+   {
+    "jp": "木曜日に試験がある。",
+    "rd": "もくようび に しけん が ある。",
+    "en": "There's an exam on Thursday."
+   }
+  ],
+  "n": "木 = tree."
+ },
+ {
+  "w": "金曜日",
+  "r": "きんようび",
+  "ro": "kinyoubi",
+  "m": "Friday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "金曜日は楽しみだ。",
+    "rd": "きんようび は たのしみ だ。",
+    "en": "I look forward to Friday."
+   },
+   {
+    "jp": "金曜日の夜に会おう。",
+    "rd": "きんようび の よる に あおう。",
+    "en": "Let's meet Friday night."
+   }
+  ],
+  "n": "金 = gold/money."
+ },
+ {
+  "w": "土曜日",
+  "r": "どようび",
+  "ro": "doyoubi",
+  "m": "Saturday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "土曜日は休みだ。",
+    "rd": "どようび は やすみ だ。",
+    "en": "Saturday is off."
+   },
+   {
+    "jp": "土曜日に映画を見る。",
+    "rd": "どようび に えいが を みる。",
+    "en": "I watch a movie on Saturday."
+   }
+  ],
+  "n": "土 = earth."
+ },
+ {
+  "w": "日曜日",
+  "r": "にちようび",
+  "ro": "nichiyoubi",
+  "m": "Sunday",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日曜日は何をする？",
+    "rd": "にちようび は なに を する？",
+    "en": "What do you do on Sunday?"
+   },
+   {
+    "jp": "日曜日は寝ている。",
+    "rd": "にちようび は ねて いる。",
+    "en": "I sleep on Sundays."
+   }
+  ],
+  "n": "日 = sun/day."
+ },
+ {
+  "w": "〜月",
+  "r": "がつ",
+  "ro": "gatsu",
+  "m": "month name (一月 = January ...)",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "三月に会う。",
+    "rd": "さんがつ に あう。",
+    "en": "We'll meet in March."
+   },
+   {
+    "jp": "何月ですか。",
+    "rd": "なんがつ です か。",
+    "en": "What month is it?"
+   }
+  ],
+  "n": "四月 = しがつ, 七月 = しちがつ, 九月 = くがつ. 月 alone = つき (moon)."
+ },
+ {
+  "w": "〜年",
+  "r": "ねん",
+  "ro": "nen",
+  "m": "year(s)",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "二〇二六年です。",
+    "rd": "にせんにじゅうろくねん です。",
+    "en": "It's 2026."
+   },
+   {
+    "jp": "三年かかった。",
+    "rd": "さんねん かかった。",
+    "en": "It took three years."
+   }
+  ],
+  "n": "四年 = よねん."
+ },
+ {
+  "w": "〜日",
+  "r": "にち",
+  "ro": "nichi",
+  "m": "day; day of the month",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今日は何日ですか。",
+    "rd": "きょう は なんにち です か。",
+    "en": "What's today's date?"
+   },
+   {
+    "jp": "五日に会おう。",
+    "rd": "いつか に あおう。",
+    "en": "Let's meet on the 5th."
+   }
+  ],
+  "n": "1st ついたち, 2nd ふつか, 3rd みっか, 4th よっか, 5th いつか, 6th むいか, 7th なのか, 8th ようか, 9th ここのか, 10th とおか, 20th はつか; the rest use にち."
+ },
+ {
+  "w": "前",
+  "r": "まえ",
+  "ro": "mae",
+  "m": "before; in front; ago",
+  "pos": "time",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "三年前に来た。",
+    "rd": "さんねんまえ に きた。",
+    "en": "I came three years ago."
+   },
+   {
+    "jp": "駅の前で会う。",
+    "rd": "えき の まえ で あう。",
+    "en": "We'll meet in front of the station."
+   }
+  ]
+ },
+ {
+  "w": "後",
+  "r": "あと",
+  "ro": "ato",
+  "m": "after; later; behind",
+  "pos": "time",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "食べた後で寝る。",
+    "rd": "たべた あと で ねる。",
+    "en": "I sleep after eating."
+   },
+   {
+    "jp": "後で電話する。",
+    "rd": "あとで でんわ する。",
+    "en": "I'll call later."
+   }
+  ],
+  "n": "Reads ご in 午後 and in 〜後 (三日後 = three days later)."
+ },
+ {
+  "w": "時間",
+  "r": "じかん",
+  "ro": "jikan",
+  "m": "time; hour(s)",
+  "pos": "time",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "時間がない。",
+    "rd": "じかん が ない。",
+    "en": "I have no time."
+   },
+   {
+    "jp": "二時間かかる。",
+    "rd": "にじかん かかる。",
+    "en": "It takes two hours."
+   }
+  ]
+ },
+ {
+  "w": "時",
+  "r": "とき",
+  "ro": "toki",
+  "m": "time; when",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "子供の時、犬を飼っていた。",
+    "rd": "こども の とき、いぬ を かって いた。",
+    "en": "When I was a kid, I had a dog."
+   },
+   {
+    "jp": "暇な時に来て。",
+    "rd": "ひま な とき に きて。",
+    "en": "Come when you're free."
+   }
+  ]
+ },
+ {
+  "w": "今度",
+  "r": "こんど",
+  "ro": "kondo",
+  "m": "this time; next time; soon",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今度、一緒に行こう。",
+    "rd": "こんど、いっしょ に いこう。",
+    "en": "Let's go together next time."
+   },
+   {
+    "jp": "今度は負けない。",
+    "rd": "こんど は まけない。",
+    "en": "I won't lose this time."
+   }
+  ]
+ },
+ {
+  "w": "昔",
+  "r": "むかし",
+  "ro": "mukashi",
+  "m": "long ago, the past",
+  "pos": "time",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "昔、ここに家があった。",
+    "rd": "むかし、ここ に いえ が あった。",
+    "en": "Long ago there was a house here."
+   },
+   {
+    "jp": "昔々あるところに…",
+    "rd": "むかしむかし あるところ に…",
+    "en": "Once upon a time..."
+   }
+  ]
+ },
+ {
+  "w": "はい",
+  "r": "はい",
+  "ro": "hai",
+  "m": "yes; here (handing something); present (roll call)",
+  "pos": "interjection",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "はい、そうです。",
+    "rd": "はい、そう です。",
+    "en": "Yes, that's right."
+   },
+   {
+    "jp": "はい、どうぞ。",
+    "rd": "はい、どうぞ。",
+    "en": "Here you go."
+   }
+  ],
+  "n": "Also means 'I'm listening', not always agreement."
+ },
+ {
+  "w": "いいえ",
+  "r": "いいえ",
+  "ro": "iie",
+  "m": "no; not at all",
+  "pos": "interjection",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "いいえ、違います。",
+    "rd": "いいえ、ちがいます。",
+    "en": "No, that's not right."
+   },
+   {
+    "jp": "いいえ、どういたしまして。",
+    "rd": "いいえ、どういたしまして。",
+    "en": "No, you're welcome."
+   }
+  ],
+  "n": "Casual 'no': ううん / いや."
+ },
+ {
+  "w": "うん",
+  "r": "うん",
+  "ro": "un",
+  "m": "yeah, uh-huh (casual yes)",
+  "pos": "interjection",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "うん、行くよ。",
+    "rd": "うん、いく よ。",
+    "en": "Yeah, I'll go."
+   },
+   {
+    "jp": "うん、分かった。",
+    "rd": "うん、わかった。",
+    "en": "Yeah, got it."
+   }
+  ]
+ },
+ {
+  "w": "ううん",
+  "r": "ううん",
+  "ro": "uun",
+  "m": "nah, no (casual)",
+  "pos": "interjection",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ううん、違うよ。",
+    "rd": "ううん、ちがう よ。",
+    "en": "No, that's not it."
+   },
+   {
+    "jp": "ううん、大丈夫。",
+    "rd": "ううん、だいじょうぶ。",
+    "en": "No, I'm fine."
+   }
+  ],
+  "n": "Falling tone = 'no'; うん with rising tone = 'huh?'."
+ },
+ {
+  "w": "ええ",
+  "r": "ええ",
+  "ro": "ee",
+  "m": "yes (polite, softer than はい)",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ええ、そうですね。",
+    "rd": "ええ、そう です ね。",
+    "en": "Yes, indeed."
+   },
+   {
+    "jp": "ええ、大丈夫です。",
+    "rd": "ええ、だいじょうぶ です。",
+    "en": "Yes, it's fine."
+   }
+  ],
+  "n": "Long ええー with a rising tone = surprised 'Eh?!'."
+ },
+ {
+  "w": "いや",
+  "r": "いや",
+  "ro": "iya",
+  "m": "no; nope; hold on",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "いや、違うよ。",
+    "rd": "いや、ちがう よ。",
+    "en": "No, that's not it."
+   },
+   {
+    "jp": "いや、まだだ。",
+    "rd": "いや、まだ だ。",
+    "en": "No, not yet."
+   }
+  ],
+  "n": "Casual 'no'; also begins a correction or hesitation. 嫌 (いや) = disliked."
+ },
+ {
+  "w": "えっと",
+  "r": "えっと",
+  "ro": "etto",
+  "m": "um..., let me see (filler)",
+  "pos": "interjection",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "えっと、何だっけ？",
+    "rd": "えっと、なん だっけ？",
+    "en": "Um, what was it?"
+   },
+   {
+    "jp": "えっと、三時です。",
+    "rd": "えっと、さんじ です。",
+    "en": "Um, it's three o'clock."
+   }
+  ],
+  "n": "Also えーと / ええと."
+ },
+ {
+  "w": "ほら",
+  "r": "ほら",
+  "ro": "hora",
+  "m": "look!, see?, here you go",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ほら、見て！",
+    "rd": "ほら、みて！",
+    "en": "Look, see!"
+   },
+   {
+    "jp": "ほら、言った通りでしょ。",
+    "rd": "ほら、いった とおり でしょ。",
+    "en": "See, just like I said."
+   }
+  ]
+ },
+ {
+  "w": "さあ",
+  "r": "さあ",
+  "ro": "saa",
+  "m": "come on, well then; I wonder",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "さあ、行こう。",
+    "rd": "さあ、いこう。",
+    "en": "Come on, let's go."
+   },
+   {
+    "jp": "さあ、どうかな。",
+    "rd": "さあ、どう かな。",
+    "en": "Hmm, I wonder."
+   }
+  ]
+ },
+ {
+  "w": "まあ",
+  "r": "まあ",
+  "ro": "maa",
+  "m": "well, so-so; now now; (feminine) oh my",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "まあ、いいか。",
+    "rd": "まあ、いい か。",
+    "en": "Well, I guess that's fine."
+   },
+   {
+    "jp": "まあまあです。",
+    "rd": "まあまあ です。",
+    "en": "It's so-so."
+   }
+  ]
+ },
+ {
+  "w": "おい",
+  "r": "おい",
+  "ro": "oi",
+  "m": "hey! (rough, masculine)",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "おい、待て！",
+    "rd": "おい、まて！",
+    "en": "Hey, wait!"
+   },
+   {
+    "jp": "おい、聞いてるのか。",
+    "rd": "おい、きいてる の か。",
+    "en": "Hey, are you listening?"
+   }
+  ],
+  "n": "Not for superiors or strangers."
+ },
+ {
+  "w": "ねえ",
+  "r": "ねえ",
+  "ro": "nee",
+  "m": "hey, say (getting attention, casual)",
+  "pos": "interjection",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ねえ、聞いて。",
+    "rd": "ねえ、きいて。",
+    "en": "Hey, listen."
+   },
+   {
+    "jp": "ねえ、これ見て。",
+    "rd": "ねえ、これ みて。",
+    "en": "Hey, look at this."
+   }
+  ],
+  "n": "Also written ねぇ."
+ },
+ {
+  "w": "あっ",
+  "r": "あっ",
+  "ro": "a",
+  "m": "oh! (sudden realization)",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "あっ、忘れた！",
+    "rd": "あっ、わすれた！",
+    "en": "Oh no, I forgot!"
+   },
+   {
+    "jp": "あっ、ごめん。",
+    "rd": "あっ、ごめん。",
+    "en": "Oh, sorry."
+   }
+  ]
+ },
+ {
+  "w": "えっ",
+  "r": "えっ",
+  "ro": "e",
+  "m": "eh?! what? (surprise)",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "えっ、本当？",
+    "rd": "えっ、ほんとう？",
+    "en": "Eh? Really?"
+   },
+   {
+    "jp": "えっ、もう終わり？",
+    "rd": "えっ、もう おわり？",
+    "en": "What, it's over already?"
+   }
+  ]
+ },
+ {
+  "w": "へえ",
+  "r": "へえ",
+  "ro": "hee",
+  "m": "wow, oh really (mild surprise)",
+  "pos": "interjection",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "へえ、すごいね。",
+    "rd": "へえ、すごい ね。",
+    "en": "Wow, that's amazing."
+   },
+   {
+    "jp": "へえ、そうなんだ。",
+    "rd": "へえ、そう な ん だ。",
+    "en": "Oh, is that so."
+   }
+  ]
+ },
+ {
+  "w": "なるほど",
+  "r": "なるほど",
+  "ro": "naruhodo",
+  "m": "I see; that makes sense",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "なるほど、分かった。",
+    "rd": "なるほど、わかった。",
+    "en": "I see, I get it."
+   },
+   {
+    "jp": "なるほど、そういうことか。",
+    "rd": "なるほど、そういう こと か。",
+    "en": "Ah, so that's what it is."
+   }
+  ]
+ },
+ {
+  "w": "そうですか",
+  "r": "そうですか",
+  "ro": "sou desu ka",
+  "m": "is that so? / I see",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "そうですか、ありがとう。",
+    "rd": "そう です か、ありがとう。",
+    "en": "I see, thank you."
+   },
+   {
+    "jp": "そうですか。大変ですね。",
+    "rd": "そう です か。たいへん です ね。",
+    "en": "Is that so. That must be tough."
+   }
+  ],
+  "n": "Casual: そうか / そうなんだ."
+ },
+ {
+  "w": "よし",
+  "r": "よし",
+  "ro": "yoshi",
+  "m": "alright!, good! (resolve)",
+  "pos": "interjection",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "よし、やるぞ！",
+    "rd": "よし、やる ぞ！",
+    "en": "Alright, let's do it!"
+   },
+   {
+    "jp": "よし、行こう。",
+    "rd": "よし、いこう。",
+    "en": "Okay, let's go."
+   }
+  ]
+ },
+ {
+  "w": "やった",
+  "r": "やった",
+  "ro": "yatta",
+  "m": "I did it! yay!",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "やった、勝った！",
+    "rd": "やった、かった！",
+    "en": "Yay, I won!"
+   },
+   {
+    "jp": "やった！合格だ！",
+    "rd": "やった！ごうかく だ！",
+    "en": "Yes! I passed!"
+   }
+  ]
+ },
+ {
+  "w": "うわ",
+  "r": "うわ",
+  "ro": "uwa",
+  "m": "whoa!, ugh! (shock, disgust)",
+  "pos": "interjection",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "うわ、すごい！",
+    "rd": "うわ、すごい！",
+    "en": "Whoa, amazing!"
+   },
+   {
+    "jp": "うわ、びっくりした。",
+    "rd": "うわ、びっくり した。",
+    "en": "Whoa, you surprised me."
+   }
+  ],
+  "n": "Also うわあ."
+ },
+ {
+  "w": "もしもし",
+  "r": "もしもし",
+  "ro": "moshimoshi",
+  "m": "hello (on the phone)",
+  "pos": "interjection",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "もしもし、田中です。",
+    "rd": "もしもし、たなか です。",
+    "en": "Hello, this is Tanaka."
+   },
+   {
+    "jp": "もしもし、聞こえる？",
+    "rd": "もしもし、きこえる？",
+    "en": "Hello, can you hear me?"
+   }
+  ],
+  "n": "Used on the phone."
+ },
+ {
+  "w": "うーん",
+  "r": "うーん",
+  "ro": "uun",
+  "m": "hmm... (thinking)",
+  "pos": "interjection",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "うーん、難しいな。",
+    "rd": "うーん、むずかしい な。",
+    "en": "Hmm, that's difficult."
+   },
+   {
+    "jp": "うーん、どうしよう。",
+    "rd": "うーん、どう しよう。",
+    "en": "Hmm, what should I do?"
+   }
+  ]
+ },
+ {
+  "w": "あら",
+  "r": "あら",
+  "ro": "ara",
+  "m": "oh my (feminine)",
+  "pos": "interjection",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "あら、かわいい。",
+    "rd": "あら、かわいい。",
+    "en": "Oh, how cute."
+   },
+   {
+    "jp": "あら、そう？",
+    "rd": "あら、そう？",
+    "en": "Oh, is that so?"
+   }
+  ]
+ },
+ {
+  "w": "おっ",
+  "r": "おっ",
+  "ro": "o",
+  "m": "oh!, hey! (mild surprise)",
+  "pos": "interjection",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "おっ、いいね。",
+    "rd": "おっ、いい ね。",
+    "en": "Oh, nice."
+   },
+   {
+    "jp": "おっ、来たか。",
+    "rd": "おっ、きた か。",
+    "en": "Oh, you're here."
+   }
+  ]
+ },
+ {
+  "w": "ちくしょう",
+  "r": "ちくしょう",
+  "ro": "chikushou",
+  "m": "damn it!",
+  "pos": "interjection",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "ちくしょう、負けた！",
+    "rd": "ちくしょう、まけた！",
+    "en": "Damn, I lost!"
+   },
+   {
+    "jp": "ちくしょう、覚えてろ。",
+    "rd": "ちくしょう、おぼえてろ。",
+    "en": "Damn you, remember this!"
+   }
+  ],
+  "n": "Rough; anime staple."
+ }
+]

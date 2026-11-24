@@ -1,0 +1,4859 @@
+[
+ {
+  "w": "人",
+  "r": "ひと",
+  "ro": "hito",
+  "m": "person; people",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あの人は誰ですか。",
+    "rd": "あの ひと は だれ です か。",
+    "en": "Who is that person?"
+   },
+   {
+    "jp": "優しい人が好きです。",
+    "rd": "やさしい ひと が すき です。",
+    "en": "I like kind people."
+   }
+  ],
+  "n": "Also read ニン/ジン in compounds, e.g. 日本人 (にほんじん)."
+ },
+ {
+  "w": "男",
+  "r": "おとこ",
+  "ro": "otoko",
+  "m": "man; male",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あの男は怪しい。",
+    "rd": "あの おとこ は あやしい。",
+    "en": "That man is suspicious."
+   },
+   {
+    "jp": "男と女は違う。",
+    "rd": "おとこ と おんな は ちがう。",
+    "en": "Men and women are different."
+   }
+  ]
+ },
+ {
+  "w": "女",
+  "r": "おんな",
+  "ro": "onna",
+  "m": "woman; female",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "女の人が歩いている。",
+    "rd": "おんな の ひと が あるいて いる。",
+    "en": "A woman is walking."
+   },
+   {
+    "jp": "彼女は強い女だ。",
+    "rd": "かのじょ は つよい おんな だ。",
+    "en": "She is a strong woman."
+   }
+  ],
+  "n": "Can sound blunt on its own; 女の人 or 女性 is politer."
+ },
+ {
+  "w": "男の子",
+  "r": "おとこのこ",
+  "ro": "otokonoko",
+  "m": "boy",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "男の子が泣いている。",
+    "rd": "おとこのこ が ないて いる。",
+    "en": "A boy is crying."
+   },
+   {
+    "jp": "うちは男の子が二人いる。",
+    "rd": "うち は おとこのこ が ふたり いる。",
+    "en": "We have two boys."
+   }
+  ]
+ },
+ {
+  "w": "女の子",
+  "r": "おんなのこ",
+  "ro": "onnanoko",
+  "m": "girl",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "かわいい女の子ですね。",
+    "rd": "かわいい おんなのこ です ね。",
+    "en": "What a cute girl."
+   },
+   {
+    "jp": "あの女の子は私の妹です。",
+    "rd": "あの おんなのこ は わたし の いもうと です。",
+    "en": "That girl is my little sister."
+   }
+  ]
+ },
+ {
+  "w": "子供",
+  "r": "こども",
+  "ro": "kodomo",
+  "m": "child; children",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "子供が公園で遊んでいる。",
+    "rd": "こども が こうえん で あそんで いる。",
+    "en": "The kids are playing in the park."
+   },
+   {
+    "jp": "子供の頃、猫が好きだった。",
+    "rd": "こども の ころ、 ねこ が すき だった。",
+    "en": "I liked cats as a kid."
+   }
+  ]
+ },
+ {
+  "w": "大人",
+  "r": "おとな",
+  "ro": "otona",
+  "m": "adult",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "早く大人になりたい。",
+    "rd": "はやく おとな に なりたい。",
+    "en": "I want to become an adult soon."
+   },
+   {
+    "jp": "大人は忙しい。",
+    "rd": "おとな は いそがしい。",
+    "en": "Adults are busy."
+   }
+  ]
+ },
+ {
+  "w": "赤ちゃん",
+  "r": "あかちゃん",
+  "ro": "akachan",
+  "m": "baby",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "赤ちゃんが寝ている。",
+    "rd": "あかちゃん が ねて いる。",
+    "en": "The baby is sleeping."
+   },
+   {
+    "jp": "赤ちゃんはかわいいね。",
+    "rd": "あかちゃん は かわいい ね。",
+    "en": "Babies are cute, aren't they?"
+   }
+  ]
+ },
+ {
+  "w": "友達",
+  "r": "ともだち",
+  "ro": "tomodachi",
+  "m": "friend",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "友達と映画を見る。",
+    "rd": "ともだち と えいが を みる。",
+    "en": "I watch a movie with a friend."
+   },
+   {
+    "jp": "彼は私の友達です。",
+    "rd": "かれ は わたし の ともだち です。",
+    "en": "He is my friend."
+   }
+  ]
+ },
+ {
+  "w": "先生",
+  "r": "せんせい",
+  "ro": "sensei",
+  "m": "teacher; doctor (as a title)",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "先生、質問があります。",
+    "rd": "せんせい、 しつもん が あります。",
+    "en": "Teacher, I have a question."
+   },
+   {
+    "jp": "田中先生は優しいです。",
+    "rd": "たなか せんせい は やさしい です。",
+    "en": "Mr./Ms. Tanaka is kind."
+   }
+  ],
+  "n": "Also used to address doctors, lawyers, and other masters of a craft."
+ },
+ {
+  "w": "学生",
+  "r": "がくせい",
+  "ro": "gakusei",
+  "m": "student",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "私は大学の学生です。",
+    "rd": "わたし は だいがく の がくせい です。",
+    "en": "I am a university student."
+   },
+   {
+    "jp": "学生は安くなります。",
+    "rd": "がくせい は やすく なります。",
+    "en": "It's cheaper for students."
+   }
+  ]
+ },
+ {
+  "w": "医者",
+  "r": "いしゃ",
+  "ro": "isha",
+  "m": "doctor",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "医者になりたい。",
+    "rd": "いしゃ に なりたい。",
+    "en": "I want to become a doctor."
+   },
+   {
+    "jp": "早く医者を呼んで！",
+    "rd": "はやく いしゃ を よんで！",
+    "en": "Call a doctor quickly!"
+   }
+  ]
+ },
+ {
+  "w": "警察",
+  "r": "けいさつ",
+  "ro": "keisatsu",
+  "m": "police",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "警察を呼びます。",
+    "rd": "けいさつ を よびます。",
+    "en": "I'll call the police."
+   },
+   {
+    "jp": "警察が来た！",
+    "rd": "けいさつ が きた！",
+    "en": "The police are here!"
+   }
+  ]
+ },
+ {
+  "w": "客",
+  "r": "きゃく",
+  "ro": "kyaku",
+  "m": "customer; guest",
+  "pos": "noun",
+  "c": "people",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "店に客が多い。",
+    "rd": "みせ に きゃく が おおい。",
+    "en": "The shop has many customers."
+   },
+   {
+    "jp": "お客様、こちらへどうぞ。",
+    "rd": "おきゃくさま、 こちら へ どうぞ。",
+    "en": "This way, please, dear customer."
+   }
+  ],
+  "n": "お客さん / お客様 is the usual polite form."
+ },
+ {
+  "w": "社長",
+  "r": "しゃちょう",
+  "ro": "shachou",
+  "m": "company president; boss",
+  "pos": "noun",
+  "c": "people",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "社長は今いません。",
+    "rd": "しゃちょう は いま いません。",
+    "en": "The president isn't here right now."
+   },
+   {
+    "jp": "あの人は会社の社長です。",
+    "rd": "あの ひと は かいしゃ の しゃちょう です。",
+    "en": "That person is the company president."
+   }
+  ]
+ },
+ {
+  "w": "先輩",
+  "r": "せんぱい",
+  "ro": "senpai",
+  "m": "senior (at school/work)",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "先輩、助けてください。",
+    "rd": "せんぱい、 たすけて ください。",
+    "en": "Senpai, please help me."
+   },
+   {
+    "jp": "彼は部活の先輩です。",
+    "rd": "かれ は ぶかつ の せんぱい です。",
+    "en": "He is my senior in the club."
+   }
+  ],
+  "n": "Anime staple. The opposite is 後輩 (こうはい), a junior."
+ },
+ {
+  "w": "神様",
+  "r": "かみさま",
+  "ro": "kamisama",
+  "m": "god; deity",
+  "pos": "noun",
+  "c": "people",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "神様、お願いします！",
+    "rd": "かみさま、 おねがい します！",
+    "en": "God, please!"
+   },
+   {
+    "jp": "神様はいると思う？",
+    "rd": "かみさま は いる と おもう？",
+    "en": "Do you think gods exist?"
+   }
+  ]
+ },
+ {
+  "w": "王様",
+  "r": "おうさま",
+  "ro": "ousama",
+  "m": "king",
+  "pos": "noun",
+  "c": "people",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "王様は城に住んでいる。",
+    "rd": "おうさま は しろ に すんで いる。",
+    "en": "The king lives in a castle."
+   },
+   {
+    "jp": "王様になりたい。",
+    "rd": "おうさま に なりたい。",
+    "en": "I want to be king."
+   }
+  ]
+ },
+ {
+  "w": "母",
+  "r": "はは",
+  "ro": "haha",
+  "m": "(my) mother",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "母は料理が上手です。",
+    "rd": "はは は りょうり が じょうず です。",
+    "en": "My mother is good at cooking."
+   },
+   {
+    "jp": "母に電話する。",
+    "rd": "はは に でんわ する。",
+    "en": "I'll call my mom."
+   }
+  ],
+  "n": "Humble: used for your own mother when talking to others. Use お母さん for someone else's."
+ },
+ {
+  "w": "父",
+  "r": "ちち",
+  "ro": "chichi",
+  "m": "(my) father",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "父は会社で働いています。",
+    "rd": "ちち は かいしゃ で はたらいて います。",
+    "en": "My father works at a company."
+   },
+   {
+    "jp": "父は車が好きだ。",
+    "rd": "ちち は くるま が すき だ。",
+    "en": "My dad likes cars."
+   }
+  ],
+  "n": "Humble: used for your own father when talking to others. Use お父さん for someone else's."
+ },
+ {
+  "w": "お母さん",
+  "r": "おかあさん",
+  "ro": "okaasan",
+  "m": "mother (respectful; also used to address your own)",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "お母さん、お腹すいた！",
+    "rd": "おかあさん、 おなか すいた！",
+    "en": "Mom, I'm hungry!"
+   },
+   {
+    "jp": "田中さんのお母さんは先生です。",
+    "rd": "たなか さん の おかあさん は せんせい です。",
+    "en": "Tanaka's mother is a teacher."
+   }
+  ],
+  "n": "Used for others' mothers, and to call your own mom directly. Say 母 about your own mom to outsiders."
+ },
+ {
+  "w": "お父さん",
+  "r": "おとうさん",
+  "ro": "otousan",
+  "m": "father (respectful; also used to address your own)",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "お父さんは家にいる。",
+    "rd": "おとうさん は いえ に いる。",
+    "en": "Dad is at home."
+   },
+   {
+    "jp": "お父さん、ありがとう。",
+    "rd": "おとうさん、 ありがとう。",
+    "en": "Thanks, Dad."
+   }
+  ],
+  "n": "Used for others' fathers, and to call your own dad directly. Say 父 about your own dad to outsiders."
+ },
+ {
+  "w": "兄",
+  "r": "あに",
+  "ro": "ani",
+  "m": "(my) older brother",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "兄は大学生です。",
+    "rd": "あに は だいがくせい です。",
+    "en": "My older brother is a university student."
+   },
+   {
+    "jp": "兄と二人で住んでいる。",
+    "rd": "あに と ふたり で すんで いる。",
+    "en": "I live with my older brother."
+   }
+  ],
+  "n": "Humble form. For someone else's older brother or to address your own, use お兄さん."
+ },
+ {
+  "w": "姉",
+  "r": "あね",
+  "ro": "ane",
+  "m": "(my) older sister",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "姉は先生です。",
+    "rd": "あね は せんせい です。",
+    "en": "My older sister is a teacher."
+   },
+   {
+    "jp": "姉に電話した。",
+    "rd": "あね に でんわ した。",
+    "en": "I called my older sister."
+   }
+  ],
+  "n": "Humble form. For someone else's older sister or to address your own, use お姉さん."
+ },
+ {
+  "w": "弟",
+  "r": "おとうと",
+  "ro": "otouto",
+  "m": "younger brother",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "弟はゲームが好きだ。",
+    "rd": "おとうと は ゲーム が すき だ。",
+    "en": "My little brother likes games."
+   },
+   {
+    "jp": "弟がいます。",
+    "rd": "おとうと が います。",
+    "en": "I have a younger brother."
+   }
+  ]
+ },
+ {
+  "w": "妹",
+  "r": "いもうと",
+  "ro": "imouto",
+  "m": "younger sister",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "妹はまだ学生です。",
+    "rd": "いもうと は まだ がくせい です。",
+    "en": "My little sister is still a student."
+   },
+   {
+    "jp": "妹はかわいい。",
+    "rd": "いもうと は かわいい。",
+    "en": "My little sister is cute."
+   }
+  ]
+ },
+ {
+  "w": "お兄さん",
+  "r": "おにいさん",
+  "ro": "oniisan",
+  "m": "older brother (respectful); young man",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "お兄さんは何をしていますか。",
+    "rd": "おにいさん は なに を して います か。",
+    "en": "What does your older brother do?"
+   },
+   {
+    "jp": "お兄ちゃん、助けて！",
+    "rd": "おにいちゃん、 たすけて！",
+    "en": "Big bro, help me!"
+   }
+  ],
+  "n": "お兄ちゃん is the casual/affectionate form used by siblings and anime."
+ },
+ {
+  "w": "お姉さん",
+  "r": "おねえさん",
+  "ro": "oneesan",
+  "m": "older sister (respectful); young woman",
+  "pos": "noun",
+  "c": "people",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "お姉さんは優しいですね。",
+    "rd": "おねえさん は やさしい です ね。",
+    "en": "Your older sister is kind."
+   },
+   {
+    "jp": "お姉ちゃん、見て！",
+    "rd": "おねえちゃん、 みて！",
+    "en": "Big sis, look!"
+   }
+  ],
+  "n": "お姉ちゃん is the casual/affectionate form."
+ },
+ {
+  "w": "おじいさん",
+  "r": "おじいさん",
+  "ro": "ojiisan",
+  "m": "grandfather; old man",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "おじいさんは山に住んでいる。",
+    "rd": "おじいさん は やま に すんで いる。",
+    "en": "Grandpa lives in the mountains."
+   },
+   {
+    "jp": "あのおじいさんは元気ですね。",
+    "rd": "あの おじいさん は げんき です ね。",
+    "en": "That old man is energetic."
+   }
+  ],
+  "n": "Casual: おじいちゃん."
+ },
+ {
+  "w": "おばあさん",
+  "r": "おばあさん",
+  "ro": "obaasan",
+  "m": "grandmother; old woman",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "おばあさんの料理が好きだ。",
+    "rd": "おばあさん の りょうり が すき だ。",
+    "en": "I like Grandma's cooking."
+   },
+   {
+    "jp": "おばあさんが歩いている。",
+    "rd": "おばあさん が あるいて いる。",
+    "en": "An old woman is walking."
+   }
+  ],
+  "n": "Casual: おばあちゃん."
+ },
+ {
+  "w": "家族",
+  "r": "かぞく",
+  "ro": "kazoku",
+  "m": "family",
+  "pos": "noun",
+  "c": "people",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "家族は四人です。",
+    "rd": "かぞく は よにん です。",
+    "en": "There are four people in my family."
+   },
+   {
+    "jp": "家族に会いたい。",
+    "rd": "かぞく に あいたい。",
+    "en": "I want to see my family."
+   }
+  ]
+ },
+ {
+  "w": "兄弟",
+  "r": "きょうだい",
+  "ro": "kyoudai",
+  "m": "siblings (brothers/sisters)",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "兄弟はいますか。",
+    "rd": "きょうだい は います か。",
+    "en": "Do you have siblings?"
+   },
+   {
+    "jp": "私たちは兄弟です。",
+    "rd": "わたしたち は きょうだい です。",
+    "en": "We are brothers/siblings."
+   }
+  ]
+ },
+ {
+  "w": "両親",
+  "r": "りょうしん",
+  "ro": "ryoushin",
+  "m": "parents",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "両親は元気です。",
+    "rd": "りょうしん は げんき です。",
+    "en": "My parents are doing well."
+   },
+   {
+    "jp": "両親と住んでいる。",
+    "rd": "りょうしん と すんで いる。",
+    "en": "I live with my parents."
+   }
+  ]
+ },
+ {
+  "w": "彼氏",
+  "r": "かれし",
+  "ro": "kareshi",
+  "m": "boyfriend",
+  "pos": "noun",
+  "c": "people",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "彼氏がほしい。",
+    "rd": "かれし が ほしい。",
+    "en": "I want a boyfriend."
+   },
+   {
+    "jp": "彼氏とデートする。",
+    "rd": "かれし と デート する。",
+    "en": "I'm going on a date with my boyfriend."
+   }
+  ]
+ },
+ {
+  "w": "手",
+  "r": "て",
+  "ro": "te",
+  "m": "hand; arm",
+  "pos": "noun",
+  "c": "body",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "手を洗って。",
+    "rd": "て を あらって。",
+    "en": "Wash your hands."
+   },
+   {
+    "jp": "彼女の手は冷たい。",
+    "rd": "かのじょ の て は つめたい。",
+    "en": "Her hands are cold."
+   }
+  ]
+ },
+ {
+  "w": "目",
+  "r": "め",
+  "ro": "me",
+  "m": "eye",
+  "pos": "noun",
+  "c": "body",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "目が痛い。",
+    "rd": "め が いたい。",
+    "en": "My eyes hurt."
+   },
+   {
+    "jp": "きれいな目ですね。",
+    "rd": "きれい な め です ね。",
+    "en": "You have beautiful eyes."
+   }
+  ]
+ },
+ {
+  "w": "頭",
+  "r": "あたま",
+  "ro": "atama",
+  "m": "head; brain",
+  "pos": "noun",
+  "c": "body",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "頭が痛いです。",
+    "rd": "あたま が いたい です。",
+    "en": "I have a headache."
+   },
+   {
+    "jp": "頭がいいね。",
+    "rd": "あたま が いい ね。",
+    "en": "You're smart."
+   }
+  ]
+ },
+ {
+  "w": "顔",
+  "r": "かお",
+  "ro": "kao",
+  "m": "face",
+  "pos": "noun",
+  "c": "body",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "顔を洗う。",
+    "rd": "かお を あらう。",
+    "en": "I wash my face."
+   },
+   {
+    "jp": "顔が赤いですよ。",
+    "rd": "かお が あかい です よ。",
+    "en": "Your face is red."
+   }
+  ]
+ },
+ {
+  "w": "口",
+  "r": "くち",
+  "ro": "kuchi",
+  "m": "mouth",
+  "pos": "noun",
+  "c": "body",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "口を開けて。",
+    "rd": "くち を あけて。",
+    "en": "Open your mouth."
+   },
+   {
+    "jp": "口が悪い人だ。",
+    "rd": "くち が わるい ひと だ。",
+    "en": "He is a foul-mouthed person."
+   }
+  ]
+ },
+ {
+  "w": "足",
+  "r": "あし",
+  "ro": "ashi",
+  "m": "foot; leg",
+  "pos": "noun",
+  "c": "body",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "足が痛い。",
+    "rd": "あし が いたい。",
+    "en": "My foot hurts."
+   },
+   {
+    "jp": "足が速いね。",
+    "rd": "あし が はやい ね。",
+    "en": "You're a fast runner."
+   }
+  ],
+  "n": "Covers both leg and foot."
+ },
+ {
+  "w": "体",
+  "r": "からだ",
+  "ro": "karada",
+  "m": "body",
+  "pos": "noun",
+  "c": "body",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "体は大丈夫ですか。",
+    "rd": "からだ は だいじょうぶ です か。",
+    "en": "Are you feeling alright?"
+   },
+   {
+    "jp": "体に気をつけてね。",
+    "rd": "からだ に き を つけて ね。",
+    "en": "Take care of yourself."
+   }
+  ]
+ },
+ {
+  "w": "耳",
+  "r": "みみ",
+  "ro": "mimi",
+  "m": "ear",
+  "pos": "noun",
+  "c": "body",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "耳が痛い。",
+    "rd": "みみ が いたい。",
+    "en": "My ear hurts."
+   },
+   {
+    "jp": "耳がいいですね。",
+    "rd": "みみ が いい です ね。",
+    "en": "You have good hearing."
+   }
+  ]
+ },
+ {
+  "w": "髪",
+  "r": "かみ",
+  "ro": "kami",
+  "m": "hair (on the head)",
+  "pos": "noun",
+  "c": "body",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "髪が長い。",
+    "rd": "かみ が ながい。",
+    "en": "Her hair is long."
+   },
+   {
+    "jp": "髪を切りました。",
+    "rd": "かみ を きりました。",
+    "en": "I got a haircut."
+   }
+  ]
+ },
+ {
+  "w": "鼻",
+  "r": "はな",
+  "ro": "hana",
+  "m": "nose",
+  "pos": "noun",
+  "c": "body",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "犬の鼻は冷たい。",
+    "rd": "いぬ の はな は つめたい。",
+    "en": "A dog's nose is cold."
+   },
+   {
+    "jp": "鼻が大きいね。",
+    "rd": "はな が おおきい ね。",
+    "en": "You have a big nose."
+   }
+  ],
+  "n": "Same sound as 花 (flower); context tells them apart."
+ },
+ {
+  "w": "腕",
+  "r": "うで",
+  "ro": "ude",
+  "m": "arm",
+  "pos": "noun",
+  "c": "body",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "腕が痛い。",
+    "rd": "うで が いたい。",
+    "en": "My arm hurts."
+   },
+   {
+    "jp": "腕を上げて。",
+    "rd": "うで を あげて。",
+    "en": "Raise your arm."
+   }
+  ]
+ },
+ {
+  "w": "指",
+  "r": "ゆび",
+  "ro": "yubi",
+  "m": "finger",
+  "pos": "noun",
+  "c": "body",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "指が長いね。",
+    "rd": "ゆび が ながい ね。",
+    "en": "You have long fingers."
+   },
+   {
+    "jp": "指を切った。",
+    "rd": "ゆび を きった。",
+    "en": "I cut my finger."
+   }
+  ]
+ },
+ {
+  "w": "歯",
+  "r": "は",
+  "ro": "ha",
+  "m": "tooth",
+  "pos": "noun",
+  "c": "body",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "歯が痛い。",
+    "rd": "は が いたい。",
+    "en": "I have a toothache."
+   },
+   {
+    "jp": "毎日歯を磨く。",
+    "rd": "まいにち は を みがく。",
+    "en": "I brush my teeth every day."
+   }
+  ]
+ },
+ {
+  "w": "お腹",
+  "r": "おなか",
+  "ro": "onaka",
+  "m": "stomach; belly",
+  "pos": "noun",
+  "c": "body",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "お腹が空いた。",
+    "rd": "おなか が すいた。",
+    "en": "I'm hungry."
+   },
+   {
+    "jp": "お腹が痛いです。",
+    "rd": "おなか が いたい です。",
+    "en": "My stomach hurts."
+   }
+  ]
+ },
+ {
+  "w": "首",
+  "r": "くび",
+  "ro": "kubi",
+  "m": "neck",
+  "pos": "noun",
+  "c": "body",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "首が痛い。",
+    "rd": "くび が いたい。",
+    "en": "My neck hurts."
+   },
+   {
+    "jp": "首を振る。",
+    "rd": "くび を ふる。",
+    "en": "I shake my head."
+   }
+  ]
+ },
+ {
+  "w": "胸",
+  "r": "むね",
+  "ro": "mune",
+  "m": "chest; breast",
+  "pos": "noun",
+  "c": "body",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "胸が痛い。",
+    "rd": "むね が いたい。",
+    "en": "My chest hurts."
+   },
+   {
+    "jp": "胸がどきどきする。",
+    "rd": "むね が どきどき する。",
+    "en": "My heart is pounding."
+   }
+  ]
+ },
+ {
+  "w": "背中",
+  "r": "せなか",
+  "ro": "senaka",
+  "m": "back (of the body)",
+  "pos": "noun",
+  "c": "body",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "背中が痛い。",
+    "rd": "せなか が いたい。",
+    "en": "My back hurts."
+   },
+   {
+    "jp": "背中を見せて。",
+    "rd": "せなか を みせて。",
+    "en": "Show me your back."
+   }
+  ]
+ },
+ {
+  "w": "血",
+  "r": "ち",
+  "ro": "chi",
+  "m": "blood",
+  "pos": "noun",
+  "c": "body",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "血が出ている！",
+    "rd": "ち が でて いる！",
+    "en": "You're bleeding!"
+   },
+   {
+    "jp": "血は赤い。",
+    "rd": "ち は あかい。",
+    "en": "Blood is red."
+   }
+  ]
+ },
+ {
+  "w": "声",
+  "r": "こえ",
+  "ro": "koe",
+  "m": "voice",
+  "pos": "noun",
+  "c": "body",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "声が大きい。",
+    "rd": "こえ が おおきい。",
+    "en": "Your voice is loud."
+   },
+   {
+    "jp": "いい声ですね。",
+    "rd": "いい こえ です ね。",
+    "en": "You have a nice voice."
+   }
+  ]
+ },
+ {
+  "w": "家",
+  "r": "いえ",
+  "ro": "ie",
+  "m": "house; home",
+  "pos": "noun",
+  "c": "home",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "大きい家に住みたい。",
+    "rd": "おおきい いえ に すみたい。",
+    "en": "I want to live in a big house."
+   },
+   {
+    "jp": "家に帰る。",
+    "rd": "いえ に かえる。",
+    "en": "I go home."
+   }
+  ],
+  "n": "いえ = the building; うち = one's home or household. Both are written 家."
+ },
+ {
+  "w": "部屋",
+  "r": "へや",
+  "ro": "heya",
+  "m": "room",
+  "pos": "noun",
+  "c": "home",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "部屋が汚い。",
+    "rd": "へや が きたない。",
+    "en": "The room is dirty."
+   },
+   {
+    "jp": "私の部屋に来て。",
+    "rd": "わたし の へや に きて。",
+    "en": "Come to my room."
+   }
+  ]
+ },
+ {
+  "w": "ドア",
+  "r": "ドア",
+  "ro": "doa",
+  "m": "door",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ドアを開けて。",
+    "rd": "ドア を あけて。",
+    "en": "Open the door."
+   },
+   {
+    "jp": "ドアが閉まっている。",
+    "rd": "ドア が しまって いる。",
+    "en": "The door is closed."
+   }
+  ]
+ },
+ {
+  "w": "窓",
+  "r": "まど",
+  "ro": "mado",
+  "m": "window",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "窓を開けてもいい？",
+    "rd": "まど を あけて も いい？",
+    "en": "May I open the window?"
+   },
+   {
+    "jp": "窓の外は雨だ。",
+    "rd": "まど の そと は あめ だ。",
+    "en": "It's raining outside the window."
+   }
+  ]
+ },
+ {
+  "w": "机",
+  "r": "つくえ",
+  "ro": "tsukue",
+  "m": "desk",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "机の上に本がある。",
+    "rd": "つくえ の うえ に ほん が ある。",
+    "en": "There is a book on the desk."
+   },
+   {
+    "jp": "机を片付けて。",
+    "rd": "つくえ を かたづけて。",
+    "en": "Clean up your desk."
+   }
+  ]
+ },
+ {
+  "w": "椅子",
+  "r": "いす",
+  "ro": "isu",
+  "m": "chair",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "椅子に座って。",
+    "rd": "いす に すわって。",
+    "en": "Sit on the chair."
+   },
+   {
+    "jp": "この椅子は古い。",
+    "rd": "この いす は ふるい。",
+    "en": "This chair is old."
+   }
+  ]
+ },
+ {
+  "w": "ベッド",
+  "r": "ベッド",
+  "ro": "beddo",
+  "m": "bed",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ベッドで寝る。",
+    "rd": "ベッド で ねる。",
+    "en": "I sleep in a bed."
+   },
+   {
+    "jp": "ベッドが大きい。",
+    "rd": "ベッド が おおきい。",
+    "en": "The bed is big."
+   }
+  ]
+ },
+ {
+  "w": "風呂",
+  "r": "ふろ",
+  "ro": "furo",
+  "m": "bath",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お風呂に入る。",
+    "rd": "おふろ に はいる。",
+    "en": "I take a bath."
+   },
+   {
+    "jp": "お風呂が好きです。",
+    "rd": "おふろ が すき です。",
+    "en": "I like baths."
+   }
+  ],
+  "n": "Usually said as お風呂 (おふろ)."
+ },
+ {
+  "w": "台所",
+  "r": "だいどころ",
+  "ro": "daidokoro",
+  "m": "kitchen",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "母は台所にいる。",
+    "rd": "はは は だいどころ に いる。",
+    "en": "My mother is in the kitchen."
+   },
+   {
+    "jp": "台所は広い。",
+    "rd": "だいどころ は ひろい。",
+    "en": "The kitchen is spacious."
+   }
+  ]
+ },
+ {
+  "w": "玄関",
+  "r": "げんかん",
+  "ro": "genkan",
+  "m": "entrance hall (of a house)",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "玄関で靴を脱ぐ。",
+    "rd": "げんかん で くつ を ぬぐ。",
+    "en": "I take off my shoes at the entrance."
+   },
+   {
+    "jp": "玄関に誰かいる。",
+    "rd": "げんかん に だれか いる。",
+    "en": "Someone is at the door."
+   }
+  ]
+ },
+ {
+  "w": "庭",
+  "r": "にわ",
+  "ro": "niwa",
+  "m": "garden; yard",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "庭に花がある。",
+    "rd": "にわ に はな が ある。",
+    "en": "There are flowers in the garden."
+   },
+   {
+    "jp": "庭で犬が遊んでいる。",
+    "rd": "にわ で いぬ が あそんで いる。",
+    "en": "A dog is playing in the yard."
+   }
+  ]
+ },
+ {
+  "w": "壁",
+  "r": "かべ",
+  "ro": "kabe",
+  "m": "wall",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "壁に写真がある。",
+    "rd": "かべ に しゃしん が ある。",
+    "en": "There is a photo on the wall."
+   },
+   {
+    "jp": "壁が薄い。",
+    "rd": "かべ が うすい。",
+    "en": "The walls are thin."
+   }
+  ]
+ },
+ {
+  "w": "電気",
+  "r": "でんき",
+  "ro": "denki",
+  "m": "electricity; (electric) light",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "電気をつけて。",
+    "rd": "でんき を つけて。",
+    "en": "Turn on the light."
+   },
+   {
+    "jp": "電気を消してください。",
+    "rd": "でんき を けして ください。",
+    "en": "Please turn off the light."
+   }
+  ]
+ },
+ {
+  "w": "鍵",
+  "r": "かぎ",
+  "ro": "kagi",
+  "m": "key; lock",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "鍵がない！",
+    "rd": "かぎ が ない！",
+    "en": "I can't find my key!"
+   },
+   {
+    "jp": "鍵をかけた？",
+    "rd": "かぎ を かけた？",
+    "en": "Did you lock up?"
+   }
+  ]
+ },
+ {
+  "w": "本",
+  "r": "ほん",
+  "ro": "hon",
+  "m": "book",
+  "pos": "noun",
+  "c": "home",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "この本は面白い。",
+    "rd": "この ほん は おもしろい。",
+    "en": "This book is interesting."
+   },
+   {
+    "jp": "本を読むのが好きです。",
+    "rd": "ほん を よむ の が すき です。",
+    "en": "I like reading books."
+   }
+  ]
+ },
+ {
+  "w": "電話",
+  "r": "でんわ",
+  "ro": "denwa",
+  "m": "telephone; phone call",
+  "pos": "noun",
+  "c": "home",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "電話してもいい？",
+    "rd": "でんわ して も いい？",
+    "en": "Can I call you?"
+   },
+   {
+    "jp": "電話が鳴っている。",
+    "rd": "でんわ が なって いる。",
+    "en": "The phone is ringing."
+   }
+  ]
+ },
+ {
+  "w": "スマホ",
+  "r": "スマホ",
+  "ro": "sumaho",
+  "m": "smartphone",
+  "pos": "noun",
+  "c": "home",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "スマホを忘れた。",
+    "rd": "スマホ を わすれた。",
+    "en": "I forgot my phone."
+   },
+   {
+    "jp": "スマホで写真を撮る。",
+    "rd": "スマホ で しゃしん を とる。",
+    "en": "I take photos with my phone."
+   }
+  ],
+  "n": "Short for スマートフォン."
+ },
+ {
+  "w": "お金",
+  "r": "おかね",
+  "ro": "okane",
+  "m": "money",
+  "pos": "noun",
+  "c": "home",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "お金がない。",
+    "rd": "おかね が ない。",
+    "en": "I have no money."
+   },
+   {
+    "jp": "お金を貸して。",
+    "rd": "おかね を かして。",
+    "en": "Lend me some money."
+   }
+  ]
+ },
+ {
+  "w": "服",
+  "r": "ふく",
+  "ro": "fuku",
+  "m": "clothes",
+  "pos": "noun",
+  "c": "home",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "新しい服を買った。",
+    "rd": "あたらしい ふく を かった。",
+    "en": "I bought new clothes."
+   },
+   {
+    "jp": "この服はかわいい。",
+    "rd": "この ふく は かわいい。",
+    "en": "These clothes are cute."
+   }
+  ]
+ },
+ {
+  "w": "靴",
+  "r": "くつ",
+  "ro": "kutsu",
+  "m": "shoes",
+  "pos": "noun",
+  "c": "home",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "靴を脱いでください。",
+    "rd": "くつ を ぬいで ください。",
+    "en": "Please take off your shoes."
+   },
+   {
+    "jp": "新しい靴がほしい。",
+    "rd": "あたらしい くつ が ほしい。",
+    "en": "I want new shoes."
+   }
+  ]
+ },
+ {
+  "w": "傘",
+  "r": "かさ",
+  "ro": "kasa",
+  "m": "umbrella",
+  "pos": "noun",
+  "c": "home",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "傘を持っている？",
+    "rd": "かさ を もって いる？",
+    "en": "Do you have an umbrella?"
+   },
+   {
+    "jp": "傘を忘れた。",
+    "rd": "かさ を わすれた。",
+    "en": "I forgot my umbrella."
+   }
+  ]
+ },
+ {
+  "w": "写真",
+  "r": "しゃしん",
+  "ro": "shashin",
+  "m": "photo",
+  "pos": "noun",
+  "c": "home",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "写真を撮ってもいいですか。",
+    "rd": "しゃしん を とって も いい です か。",
+    "en": "May I take a photo?"
+   },
+   {
+    "jp": "この写真はきれいだ。",
+    "rd": "この しゃしん は きれい だ。",
+    "en": "This photo is beautiful."
+   }
+  ]
+ },
+ {
+  "w": "かばん",
+  "r": "かばん",
+  "ro": "kaban",
+  "m": "bag; briefcase",
+  "pos": "noun",
+  "c": "home",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "かばんの中に本がある。",
+    "rd": "かばん の なか に ほん が ある。",
+    "en": "There is a book in the bag."
+   },
+   {
+    "jp": "このかばんは重い。",
+    "rd": "この かばん は おもい。",
+    "en": "This bag is heavy."
+   }
+  ],
+  "n": "Also written 鞄."
+ },
+ {
+  "w": "財布",
+  "r": "さいふ",
+  "ro": "saifu",
+  "m": "wallet",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "財布を落とした。",
+    "rd": "さいふ を おとした。",
+    "en": "I dropped my wallet."
+   },
+   {
+    "jp": "財布の中にお金がない。",
+    "rd": "さいふ の なか に おかね が ない。",
+    "en": "There's no money in my wallet."
+   }
+  ]
+ },
+ {
+  "w": "時計",
+  "r": "とけい",
+  "ro": "tokei",
+  "m": "clock; watch",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "この時計は高い。",
+    "rd": "この とけい は たかい。",
+    "en": "This watch is expensive."
+   },
+   {
+    "jp": "時計が止まっている。",
+    "rd": "とけい が とまって いる。",
+    "en": "The clock has stopped."
+   }
+  ]
+ },
+ {
+  "w": "眼鏡",
+  "r": "めがね",
+  "ro": "megane",
+  "m": "glasses",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "眼鏡をかけている。",
+    "rd": "めがね を かけて いる。",
+    "en": "I wear glasses."
+   },
+   {
+    "jp": "眼鏡がない！",
+    "rd": "めがね が ない！",
+    "en": "I can't find my glasses!"
+   }
+  ]
+ },
+ {
+  "w": "帽子",
+  "r": "ぼうし",
+  "ro": "boushi",
+  "m": "hat; cap",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "帽子をかぶる。",
+    "rd": "ぼうし を かぶる。",
+    "en": "I put on a hat."
+   },
+   {
+    "jp": "赤い帽子が好きだ。",
+    "rd": "あかい ぼうし が すき だ。",
+    "en": "I like red hats."
+   }
+  ]
+ },
+ {
+  "w": "手紙",
+  "r": "てがみ",
+  "ro": "tegami",
+  "m": "letter",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "手紙を書いた。",
+    "rd": "てがみ を かいた。",
+    "en": "I wrote a letter."
+   },
+   {
+    "jp": "友達から手紙が来た。",
+    "rd": "ともだち から てがみ が きた。",
+    "en": "A letter came from a friend."
+   }
+  ]
+ },
+ {
+  "w": "紙",
+  "r": "かみ",
+  "ro": "kami",
+  "m": "paper",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "紙に名前を書いて。",
+    "rd": "かみ に なまえ を かいて。",
+    "en": "Write your name on the paper."
+   },
+   {
+    "jp": "紙がない。",
+    "rd": "かみ が ない。",
+    "en": "There's no paper."
+   }
+  ],
+  "n": "Same sound as 髪 (hair) and 神 (god)."
+ },
+ {
+  "w": "箱",
+  "r": "はこ",
+  "ro": "hako",
+  "m": "box",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "箱を開けてみて。",
+    "rd": "はこ を あけて みて。",
+    "en": "Try opening the box."
+   },
+   {
+    "jp": "この箱は重い。",
+    "rd": "この はこ は おもい。",
+    "en": "This box is heavy."
+   }
+  ]
+ },
+ {
+  "w": "地図",
+  "r": "ちず",
+  "ro": "chizu",
+  "m": "map",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "地図を見て。",
+    "rd": "ちず を みて。",
+    "en": "Look at the map."
+   },
+   {
+    "jp": "地図がないと困る。",
+    "rd": "ちず が ない と こまる。",
+    "en": "I'm in trouble without a map."
+   }
+  ]
+ },
+ {
+  "w": "切符",
+  "r": "きっぷ",
+  "ro": "kippu",
+  "m": "ticket (for transport)",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "切符を買う。",
+    "rd": "きっぷ を かう。",
+    "en": "I buy a ticket."
+   },
+   {
+    "jp": "切符をなくした。",
+    "rd": "きっぷ を なくした。",
+    "en": "I lost my ticket."
+   }
+  ]
+ },
+ {
+  "w": "薬",
+  "r": "くすり",
+  "ro": "kusuri",
+  "m": "medicine",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "薬を飲んだ？",
+    "rd": "くすり を のんだ？",
+    "en": "Did you take your medicine?"
+   },
+   {
+    "jp": "この薬は苦い。",
+    "rd": "この くすり は にがい。",
+    "en": "This medicine is bitter."
+   }
+  ]
+ },
+ {
+  "w": "絵",
+  "r": "え",
+  "ro": "e",
+  "m": "picture; drawing",
+  "pos": "noun",
+  "c": "home",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "絵を描くのが好きだ。",
+    "rd": "え を かく の が すき だ。",
+    "en": "I like drawing pictures."
+   },
+   {
+    "jp": "きれいな絵ですね。",
+    "rd": "きれい な え です ね。",
+    "en": "That's a beautiful picture."
+   }
+  ]
+ },
+ {
+  "w": "荷物",
+  "r": "にもつ",
+  "ro": "nimotsu",
+  "m": "luggage; baggage",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "荷物が多い。",
+    "rd": "にもつ が おおい。",
+    "en": "I have a lot of luggage."
+   },
+   {
+    "jp": "荷物を持ちましょうか。",
+    "rd": "にもつ を もちましょう か。",
+    "en": "Shall I carry your luggage?"
+   }
+  ]
+ },
+ {
+  "w": "刀",
+  "r": "かたな",
+  "ro": "katana",
+  "m": "sword (Japanese-style)",
+  "pos": "noun",
+  "c": "home",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "侍は刀を持っている。",
+    "rd": "さむらい は かたな を もって いる。",
+    "en": "The samurai carries a sword."
+   },
+   {
+    "jp": "この刀は強い。",
+    "rd": "この かたな は つよい。",
+    "en": "This sword is strong."
+   }
+  ],
+  "n": "Common in anime and period dramas."
+ },
+ {
+  "w": "ご飯",
+  "r": "ごはん",
+  "ro": "gohan",
+  "m": "cooked rice; meal",
+  "pos": "noun",
+  "c": "food",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "ご飯を食べよう。",
+    "rd": "ごはん を たべよう。",
+    "en": "Let's eat."
+   },
+   {
+    "jp": "ご飯ができたよ。",
+    "rd": "ごはん が できた よ。",
+    "en": "The meal is ready."
+   }
+  ],
+  "n": "Also means 'a meal' in general, e.g. 晩ご飯 (dinner)."
+ },
+ {
+  "w": "水",
+  "r": "みず",
+  "ro": "mizu",
+  "m": "water",
+  "pos": "noun",
+  "c": "food",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "水をください。",
+    "rd": "みず を ください。",
+    "en": "Water, please."
+   },
+   {
+    "jp": "冷たい水が飲みたい。",
+    "rd": "つめたい みず が のみたい。",
+    "en": "I want to drink cold water."
+   }
+  ]
+ },
+ {
+  "w": "お茶",
+  "r": "おちゃ",
+  "ro": "ocha",
+  "m": "tea (esp. green tea)",
+  "pos": "noun",
+  "c": "food",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "お茶を飲みますか。",
+    "rd": "おちゃ を のみます か。",
+    "en": "Would you like some tea?"
+   },
+   {
+    "jp": "熱いお茶をください。",
+    "rd": "あつい おちゃ を ください。",
+    "en": "Hot tea, please."
+   }
+  ]
+ },
+ {
+  "w": "肉",
+  "r": "にく",
+  "ro": "niku",
+  "m": "meat",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "肉が好きです。",
+    "rd": "にく が すき です。",
+    "en": "I like meat."
+   },
+   {
+    "jp": "この肉は柔らかい。",
+    "rd": "この にく は やわらかい。",
+    "en": "This meat is tender."
+   }
+  ]
+ },
+ {
+  "w": "魚",
+  "r": "さかな",
+  "ro": "sakana",
+  "m": "fish",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "魚を食べる。",
+    "rd": "さかな を たべる。",
+    "en": "I eat fish."
+   },
+   {
+    "jp": "魚が泳いでいる。",
+    "rd": "さかな が およいで いる。",
+    "en": "Fish are swimming."
+   }
+  ]
+ },
+ {
+  "w": "野菜",
+  "r": "やさい",
+  "ro": "yasai",
+  "m": "vegetables",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "野菜を食べて。",
+    "rd": "やさい を たべて。",
+    "en": "Eat your vegetables."
+   },
+   {
+    "jp": "野菜は安い。",
+    "rd": "やさい は やすい。",
+    "en": "Vegetables are cheap."
+   }
+  ]
+ },
+ {
+  "w": "パン",
+  "r": "パン",
+  "ro": "pan",
+  "m": "bread",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "朝はパンを食べる。",
+    "rd": "あさ は パン を たべる。",
+    "en": "I eat bread in the morning."
+   },
+   {
+    "jp": "パンを買ってくる。",
+    "rd": "パン を かって くる。",
+    "en": "I'll go buy some bread."
+   }
+  ]
+ },
+ {
+  "w": "卵",
+  "r": "たまご",
+  "ro": "tamago",
+  "m": "egg",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "卵を二つください。",
+    "rd": "たまご を ふたつ ください。",
+    "en": "Two eggs, please."
+   },
+   {
+    "jp": "卵が好きです。",
+    "rd": "たまご が すき です。",
+    "en": "I like eggs."
+   }
+  ]
+ },
+ {
+  "w": "ラーメン",
+  "r": "ラーメン",
+  "ro": "raamen",
+  "m": "ramen",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ラーメンを食べに行こう。",
+    "rd": "ラーメン を たべ に いこう。",
+    "en": "Let's go eat ramen."
+   },
+   {
+    "jp": "このラーメンはおいしい！",
+    "rd": "この ラーメン は おいしい！",
+    "en": "This ramen is delicious!"
+   }
+  ]
+ },
+ {
+  "w": "牛乳",
+  "r": "ぎゅうにゅう",
+  "ro": "gyuunyuu",
+  "m": "milk",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "牛乳を飲む。",
+    "rd": "ぎゅうにゅう を のむ。",
+    "en": "I drink milk."
+   },
+   {
+    "jp": "牛乳がない。",
+    "rd": "ぎゅうにゅう が ない。",
+    "en": "There's no milk."
+   }
+  ]
+ },
+ {
+  "w": "お酒",
+  "r": "おさけ",
+  "ro": "osake",
+  "m": "alcohol; sake",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お酒は飲みません。",
+    "rd": "おさけ は のみません。",
+    "en": "I don't drink alcohol."
+   },
+   {
+    "jp": "お酒が好きですか。",
+    "rd": "おさけ が すき です か。",
+    "en": "Do you like alcohol?"
+   }
+  ]
+ },
+ {
+  "w": "寿司",
+  "r": "すし",
+  "ro": "sushi",
+  "m": "sushi",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "寿司が食べたい。",
+    "rd": "すし が たべたい。",
+    "en": "I want to eat sushi."
+   },
+   {
+    "jp": "寿司を食べに行こう。",
+    "rd": "すし を たべ に いこう。",
+    "en": "Let's go eat sushi."
+   }
+  ]
+ },
+ {
+  "w": "果物",
+  "r": "くだもの",
+  "ro": "kudamono",
+  "m": "fruit",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "果物が好きです。",
+    "rd": "くだもの が すき です。",
+    "en": "I like fruit."
+   },
+   {
+    "jp": "どんな果物が好き？",
+    "rd": "どんな くだもの が すき？",
+    "en": "What kind of fruit do you like?"
+   }
+  ]
+ },
+ {
+  "w": "りんご",
+  "r": "りんご",
+  "ro": "ringo",
+  "m": "apple",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "りんごを食べる。",
+    "rd": "りんご を たべる。",
+    "en": "I eat an apple."
+   },
+   {
+    "jp": "このりんごは甘い。",
+    "rd": "この りんご は あまい。",
+    "en": "This apple is sweet."
+   }
+  ],
+  "n": "Also written 林檎."
+ },
+ {
+  "w": "塩",
+  "r": "しお",
+  "ro": "shio",
+  "m": "salt",
+  "pos": "noun",
+  "c": "food",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "塩を取って。",
+    "rd": "しお を とって。",
+    "en": "Pass me the salt."
+   },
+   {
+    "jp": "塩が足りない。",
+    "rd": "しお が たりない。",
+    "en": "It needs more salt."
+   }
+  ]
+ },
+ {
+  "w": "砂糖",
+  "r": "さとう",
+  "ro": "satou",
+  "m": "sugar",
+  "pos": "noun",
+  "c": "food",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "砂糖はいりません。",
+    "rd": "さとう は いりません。",
+    "en": "I don't need sugar."
+   },
+   {
+    "jp": "お茶に砂糖を入れる。",
+    "rd": "おちゃ に さとう を いれる。",
+    "en": "I put sugar in my tea."
+   }
+  ]
+ },
+ {
+  "w": "料理",
+  "r": "りょうり",
+  "ro": "ryouri",
+  "m": "cooking; dish",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "母の料理が好きだ。",
+    "rd": "はは の りょうり が すき だ。",
+    "en": "I like my mother's cooking."
+   },
+   {
+    "jp": "料理を作るのは楽しい。",
+    "rd": "りょうり を つくる の は たのしい。",
+    "en": "Cooking is fun."
+   }
+  ]
+ },
+ {
+  "w": "食べ物",
+  "r": "たべもの",
+  "ro": "tabemono",
+  "m": "food",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "好きな食べ物は何ですか。",
+    "rd": "すき な たべもの は なん です か。",
+    "en": "What's your favorite food?"
+   },
+   {
+    "jp": "食べ物が足りない。",
+    "rd": "たべもの が たりない。",
+    "en": "There isn't enough food."
+   }
+  ]
+ },
+ {
+  "w": "飲み物",
+  "r": "のみもの",
+  "ro": "nomimono",
+  "m": "drink; beverage",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "飲み物は何がいい？",
+    "rd": "のみもの は なに が いい？",
+    "en": "What would you like to drink?"
+   },
+   {
+    "jp": "飲み物を買ってくる。",
+    "rd": "のみもの を かって くる。",
+    "en": "I'll go buy drinks."
+   }
+  ]
+ },
+ {
+  "w": "カレー",
+  "r": "カレー",
+  "ro": "karee",
+  "m": "curry",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今日はカレーだよ。",
+    "rd": "きょう は カレー だ よ。",
+    "en": "It's curry today."
+   },
+   {
+    "jp": "カレーが大好きです。",
+    "rd": "カレー が だいすき です。",
+    "en": "I love curry."
+   }
+  ]
+ },
+ {
+  "w": "ケーキ",
+  "r": "ケーキ",
+  "ro": "keeki",
+  "m": "cake",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ケーキを作った。",
+    "rd": "ケーキ を つくった。",
+    "en": "I made a cake."
+   },
+   {
+    "jp": "誕生日のケーキを買う。",
+    "rd": "たんじょうび の ケーキ を かう。",
+    "en": "I'll buy a birthday cake."
+   }
+  ]
+ },
+ {
+  "w": "ジュース",
+  "r": "ジュース",
+  "ro": "juusu",
+  "m": "juice; soft drink",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ジュースを飲む？",
+    "rd": "ジュース を のむ？",
+    "en": "Want some juice?"
+   },
+   {
+    "jp": "オレンジジュースをください。",
+    "rd": "オレンジ ジュース を ください。",
+    "en": "An orange juice, please."
+   }
+  ]
+ },
+ {
+  "w": "コーヒー",
+  "r": "コーヒー",
+  "ro": "koohii",
+  "m": "coffee",
+  "pos": "noun",
+  "c": "food",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "コーヒーをお願いします。",
+    "rd": "コーヒー を おねがい します。",
+    "en": "A coffee, please."
+   },
+   {
+    "jp": "コーヒーは苦い。",
+    "rd": "コーヒー は にがい。",
+    "en": "Coffee is bitter."
+   }
+  ]
+ },
+ {
+  "w": "ビール",
+  "r": "ビール",
+  "ro": "biiru",
+  "m": "beer",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ビールを一つください。",
+    "rd": "ビール を ひとつ ください。",
+    "en": "One beer, please."
+   },
+   {
+    "jp": "冷たいビールが飲みたい。",
+    "rd": "つめたい ビール が のみたい。",
+    "en": "I want a cold beer."
+   }
+  ]
+ },
+ {
+  "w": "チョコレート",
+  "r": "チョコレート",
+  "ro": "chokoreeto",
+  "m": "chocolate",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "チョコレートが大好き。",
+    "rd": "チョコレート が だいすき。",
+    "en": "I love chocolate."
+   },
+   {
+    "jp": "彼にチョコレートをあげた。",
+    "rd": "かれ に チョコレート を あげた。",
+    "en": "I gave him chocolate."
+   }
+  ],
+  "n": "Often shortened to チョコ."
+ },
+ {
+  "w": "お菓子",
+  "r": "おかし",
+  "ro": "okashi",
+  "m": "sweets; snacks",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お菓子を食べすぎた。",
+    "rd": "おかし を たべすぎた。",
+    "en": "I ate too many sweets."
+   },
+   {
+    "jp": "お菓子を買って帰る。",
+    "rd": "おかし を かって かえる。",
+    "en": "I'll buy snacks on the way home."
+   }
+  ]
+ },
+ {
+  "w": "味噌",
+  "r": "みそ",
+  "ro": "miso",
+  "m": "miso",
+  "pos": "noun",
+  "c": "food",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "味噌汁を飲む。",
+    "rd": "みそしる を のむ。",
+    "en": "I drink miso soup."
+   },
+   {
+    "jp": "味噌ラーメンが好きだ。",
+    "rd": "みそ ラーメン が すき だ。",
+    "en": "I like miso ramen."
+   }
+  ]
+ },
+ {
+  "w": "豆腐",
+  "r": "とうふ",
+  "ro": "toufu",
+  "m": "tofu",
+  "pos": "noun",
+  "c": "food",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "豆腐は体にいい。",
+    "rd": "とうふ は からだ に いい。",
+    "en": "Tofu is good for the body."
+   },
+   {
+    "jp": "豆腐を買った。",
+    "rd": "とうふ を かった。",
+    "en": "I bought tofu."
+   }
+  ]
+ },
+ {
+  "w": "うどん",
+  "r": "うどん",
+  "ro": "udon",
+  "m": "udon noodles",
+  "pos": "noun",
+  "c": "food",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "うどんを食べる。",
+    "rd": "うどん を たべる。",
+    "en": "I eat udon."
+   },
+   {
+    "jp": "温かいうどんがいい。",
+    "rd": "あたたかい うどん が いい。",
+    "en": "Warm udon sounds good."
+   }
+  ]
+ },
+ {
+  "w": "米",
+  "r": "こめ",
+  "ro": "kome",
+  "m": "(uncooked) rice",
+  "pos": "noun",
+  "c": "food",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "日本の米はおいしい。",
+    "rd": "にほん の こめ は おいしい。",
+    "en": "Japanese rice is delicious."
+   },
+   {
+    "jp": "米がなくなった。",
+    "rd": "こめ が なくなった。",
+    "en": "We ran out of rice."
+   }
+  ],
+  "n": "Cooked rice is ご飯."
+ },
+ {
+  "w": "アイス",
+  "r": "アイス",
+  "ro": "aisu",
+  "m": "ice cream",
+  "pos": "noun",
+  "c": "food",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "アイスが食べたい。",
+    "rd": "アイス が たべたい。",
+    "en": "I want ice cream."
+   },
+   {
+    "jp": "アイスを買ってきて。",
+    "rd": "アイス を かって きて。",
+    "en": "Buy me some ice cream."
+   }
+  ],
+  "n": "Short for アイスクリーム."
+ },
+ {
+  "w": "お弁当",
+  "r": "おべんとう",
+  "ro": "obentou",
+  "m": "boxed lunch (bento)",
+  "pos": "noun",
+  "c": "food",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お弁当を作った。",
+    "rd": "おべんとう を つくった。",
+    "en": "I made a bento lunch."
+   },
+   {
+    "jp": "お弁当を持っていく。",
+    "rd": "おべんとう を もって いく。",
+    "en": "I'll take a bento with me."
+   }
+  ]
+ },
+ {
+  "w": "学校",
+  "r": "がっこう",
+  "ro": "gakkou",
+  "m": "school",
+  "pos": "noun",
+  "c": "places",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "学校に行く。",
+    "rd": "がっこう に いく。",
+    "en": "I go to school."
+   },
+   {
+    "jp": "学校は楽しいです。",
+    "rd": "がっこう は たのしい です。",
+    "en": "School is fun."
+   }
+  ]
+ },
+ {
+  "w": "駅",
+  "r": "えき",
+  "ro": "eki",
+  "m": "station",
+  "pos": "noun",
+  "c": "places",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "駅はどこですか。",
+    "rd": "えき は どこ です か。",
+    "en": "Where is the station?"
+   },
+   {
+    "jp": "駅で友達を待つ。",
+    "rd": "えき で ともだち を まつ。",
+    "en": "I wait for my friend at the station."
+   }
+  ]
+ },
+ {
+  "w": "店",
+  "r": "みせ",
+  "ro": "mise",
+  "m": "shop; store",
+  "pos": "noun",
+  "c": "places",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あの店はおいしい。",
+    "rd": "あの みせ は おいしい。",
+    "en": "That restaurant/shop is good."
+   },
+   {
+    "jp": "店は何時に開きますか。",
+    "rd": "みせ は なんじ に あきます か。",
+    "en": "What time does the shop open?"
+   }
+  ]
+ },
+ {
+  "w": "病院",
+  "r": "びょういん",
+  "ro": "byouin",
+  "m": "hospital",
+  "pos": "noun",
+  "c": "places",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "病院に行く。",
+    "rd": "びょういん に いく。",
+    "en": "I go to the hospital."
+   },
+   {
+    "jp": "病院はどこですか。",
+    "rd": "びょういん は どこ です か。",
+    "en": "Where is the hospital?"
+   }
+  ]
+ },
+ {
+  "w": "会社",
+  "r": "かいしゃ",
+  "ro": "kaisha",
+  "m": "company; workplace",
+  "pos": "noun",
+  "c": "places",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "会社に行ってくる。",
+    "rd": "かいしゃ に いって くる。",
+    "en": "I'm heading off to work."
+   },
+   {
+    "jp": "父は会社員です。",
+    "rd": "ちち は かいしゃいん です。",
+    "en": "My father is a company employee."
+   }
+  ]
+ },
+ {
+  "w": "町",
+  "r": "まち",
+  "ro": "machi",
+  "m": "town; city",
+  "pos": "noun",
+  "c": "places",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "小さい町に住んでいる。",
+    "rd": "ちいさい まち に すんで いる。",
+    "en": "I live in a small town."
+   },
+   {
+    "jp": "この町は静かだ。",
+    "rd": "この まち は しずか だ。",
+    "en": "This town is quiet."
+   }
+  ],
+  "n": "Also written 街 (shopping/urban streets)."
+ },
+ {
+  "w": "国",
+  "r": "くに",
+  "ro": "kuni",
+  "m": "country; home region",
+  "pos": "noun",
+  "c": "places",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "どこの国から来ましたか。",
+    "rd": "どこ の くに から きました か。",
+    "en": "Which country are you from?"
+   },
+   {
+    "jp": "私の国は暑い。",
+    "rd": "わたし の くに は あつい。",
+    "en": "My country is hot."
+   }
+  ]
+ },
+ {
+  "w": "日本",
+  "r": "にほん",
+  "ro": "nihon",
+  "m": "Japan",
+  "pos": "noun",
+  "c": "places",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "日本に行きたい。",
+    "rd": "にほん に いきたい。",
+    "en": "I want to go to Japan."
+   },
+   {
+    "jp": "日本の食べ物が好きです。",
+    "rd": "にほん の たべもの が すき です。",
+    "en": "I like Japanese food."
+   }
+  ],
+  "n": "Also read にっぽん, e.g. on sports jerseys and stamps."
+ },
+ {
+  "w": "東京",
+  "r": "とうきょう",
+  "ro": "toukyou",
+  "m": "Tokyo",
+  "pos": "noun",
+  "c": "places",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "東京は大きい町だ。",
+    "rd": "とうきょう は おおきい まち だ。",
+    "en": "Tokyo is a big city."
+   },
+   {
+    "jp": "東京に住んでいます。",
+    "rd": "とうきょう に すんで います。",
+    "en": "I live in Tokyo."
+   }
+  ]
+ },
+ {
+  "w": "トイレ",
+  "r": "トイレ",
+  "ro": "toire",
+  "m": "toilet; restroom",
+  "pos": "noun",
+  "c": "places",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "トイレはどこですか。",
+    "rd": "トイレ は どこ です か。",
+    "en": "Where is the restroom?"
+   },
+   {
+    "jp": "ちょっとトイレに行く。",
+    "rd": "ちょっと トイレ に いく。",
+    "en": "I'm going to the restroom for a moment."
+   }
+  ]
+ },
+ {
+  "w": "公園",
+  "r": "こうえん",
+  "ro": "kouen",
+  "m": "park",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "公園で遊ぼう。",
+    "rd": "こうえん で あそぼう。",
+    "en": "Let's play in the park."
+   },
+   {
+    "jp": "公園に犬がいる。",
+    "rd": "こうえん に いぬ が いる。",
+    "en": "There's a dog in the park."
+   }
+  ]
+ },
+ {
+  "w": "道",
+  "r": "みち",
+  "ro": "michi",
+  "m": "road; way",
+  "pos": "noun",
+  "c": "places",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "道がわからない。",
+    "rd": "みち が わからない。",
+    "en": "I don't know the way."
+   },
+   {
+    "jp": "この道をまっすぐ行く。",
+    "rd": "この みち を まっすぐ いく。",
+    "en": "Go straight along this road."
+   }
+  ]
+ },
+ {
+  "w": "銀行",
+  "r": "ぎんこう",
+  "ro": "ginkou",
+  "m": "bank",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "銀行はどこですか。",
+    "rd": "ぎんこう は どこ です か。",
+    "en": "Where is the bank?"
+   },
+   {
+    "jp": "銀行でお金を下ろす。",
+    "rd": "ぎんこう で おかね を おろす。",
+    "en": "I withdraw money at the bank."
+   }
+  ]
+ },
+ {
+  "w": "空港",
+  "r": "くうこう",
+  "ro": "kuukou",
+  "m": "airport",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "空港に着いた。",
+    "rd": "くうこう に ついた。",
+    "en": "I arrived at the airport."
+   },
+   {
+    "jp": "空港まで電車で行く。",
+    "rd": "くうこう まで でんしゃ で いく。",
+    "en": "I go to the airport by train."
+   }
+  ]
+ },
+ {
+  "w": "図書館",
+  "r": "としょかん",
+  "ro": "toshokan",
+  "m": "library",
+  "pos": "noun",
+  "c": "places",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "図書館で本を借りる。",
+    "rd": "としょかん で ほん を かりる。",
+    "en": "I borrow books at the library."
+   },
+   {
+    "jp": "図書館は静かだ。",
+    "rd": "としょかん は しずか だ。",
+    "en": "The library is quiet."
+   }
+  ]
+ },
+ {
+  "w": "教室",
+  "r": "きょうしつ",
+  "ro": "kyoushitsu",
+  "m": "classroom",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "教室に誰もいない。",
+    "rd": "きょうしつ に だれ も いない。",
+    "en": "There's no one in the classroom."
+   },
+   {
+    "jp": "教室はあそこです。",
+    "rd": "きょうしつ は あそこ です。",
+    "en": "The classroom is over there."
+   }
+  ]
+ },
+ {
+  "w": "大学",
+  "r": "だいがく",
+  "ro": "daigaku",
+  "m": "university",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "大学に行っています。",
+    "rd": "だいがく に いって います。",
+    "en": "I attend university."
+   },
+   {
+    "jp": "大学は東京にある。",
+    "rd": "だいがく は とうきょう に ある。",
+    "en": "The university is in Tokyo."
+   }
+  ]
+ },
+ {
+  "w": "外国",
+  "r": "がいこく",
+  "ro": "gaikoku",
+  "m": "foreign country",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "外国に行ってみたい。",
+    "rd": "がいこく に いって みたい。",
+    "en": "I'd like to go abroad."
+   },
+   {
+    "jp": "外国の友達がいる。",
+    "rd": "がいこく の ともだち が いる。",
+    "en": "I have friends from abroad."
+   }
+  ]
+ },
+ {
+  "w": "橋",
+  "r": "はし",
+  "ro": "hashi",
+  "m": "bridge",
+  "pos": "noun",
+  "c": "places",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "橋を渡る。",
+    "rd": "はし を わたる。",
+    "en": "I cross the bridge."
+   },
+   {
+    "jp": "この橋は長い。",
+    "rd": "この はし は ながい。",
+    "en": "This bridge is long."
+   }
+  ],
+  "n": "Same sound as 箸 (chopsticks)."
+ },
+ {
+  "w": "城",
+  "r": "しろ",
+  "ro": "shiro",
+  "m": "castle",
+  "pos": "noun",
+  "c": "places",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "大きい城がある。",
+    "rd": "おおきい しろ が ある。",
+    "en": "There's a big castle."
+   },
+   {
+    "jp": "城を見に行きたい。",
+    "rd": "しろ を み に いきたい。",
+    "en": "I want to go see a castle."
+   }
+  ]
+ },
+ {
+  "w": "神社",
+  "r": "じんじゃ",
+  "ro": "jinja",
+  "m": "Shinto shrine",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "神社に行く。",
+    "rd": "じんじゃ に いく。",
+    "en": "I go to a shrine."
+   },
+   {
+    "jp": "神社でお願いをした。",
+    "rd": "じんじゃ で おねがい を した。",
+    "en": "I made a wish at the shrine."
+   }
+  ]
+ },
+ {
+  "w": "寺",
+  "r": "てら",
+  "ro": "tera",
+  "m": "Buddhist temple",
+  "pos": "noun",
+  "c": "places",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "京都のお寺は有名だ。",
+    "rd": "きょうと の おてら は ゆうめい だ。",
+    "en": "Kyoto's temples are famous."
+   },
+   {
+    "jp": "寺で鐘を聞いた。",
+    "rd": "てら で かね を きいた。",
+    "en": "I heard a bell at the temple."
+   }
+  ],
+  "n": "Often said お寺."
+ },
+ {
+  "w": "村",
+  "r": "むら",
+  "ro": "mura",
+  "m": "village",
+  "pos": "noun",
+  "c": "places",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "小さい村に住んでいる。",
+    "rd": "ちいさい むら に すんで いる。",
+    "en": "I live in a small village."
+   },
+   {
+    "jp": "村の人は優しい。",
+    "rd": "むら の ひと は やさしい。",
+    "en": "The villagers are kind."
+   }
+  ]
+ },
+ {
+  "w": "田舎",
+  "r": "いなか",
+  "ro": "inaka",
+  "m": "countryside",
+  "pos": "noun",
+  "c": "places",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "田舎は静かだ。",
+    "rd": "いなか は しずか だ。",
+    "en": "The countryside is quiet."
+   },
+   {
+    "jp": "田舎に帰りたい。",
+    "rd": "いなか に かえりたい。",
+    "en": "I want to go back to my hometown."
+   }
+  ]
+ },
+ {
+  "w": "ホテル",
+  "r": "ホテル",
+  "ro": "hoteru",
+  "m": "hotel",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ホテルに泊まる。",
+    "rd": "ホテル に とまる。",
+    "en": "I stay at a hotel."
+   },
+   {
+    "jp": "このホテルは高い。",
+    "rd": "この ホテル は たかい。",
+    "en": "This hotel is expensive."
+   }
+  ]
+ },
+ {
+  "w": "レストラン",
+  "r": "レストラン",
+  "ro": "resutoran",
+  "m": "restaurant",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "レストランで食べよう。",
+    "rd": "レストラン で たべよう。",
+    "en": "Let's eat at a restaurant."
+   },
+   {
+    "jp": "いいレストランを知っている。",
+    "rd": "いい レストラン を しって いる。",
+    "en": "I know a good restaurant."
+   }
+  ]
+ },
+ {
+  "w": "コンビニ",
+  "r": "コンビニ",
+  "ro": "konbini",
+  "m": "convenience store",
+  "pos": "noun",
+  "c": "places",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "コンビニに行ってくる。",
+    "rd": "コンビニ に いって くる。",
+    "en": "I'm going to the convenience store."
+   },
+   {
+    "jp": "コンビニでお茶を買う。",
+    "rd": "コンビニ で おちゃ を かう。",
+    "en": "I buy tea at the convenience store."
+   }
+  ]
+ },
+ {
+  "w": "スーパー",
+  "r": "スーパー",
+  "ro": "suupaa",
+  "m": "supermarket",
+  "pos": "noun",
+  "c": "places",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "スーパーで野菜を買う。",
+    "rd": "スーパー で やさい を かう。",
+    "en": "I buy vegetables at the supermarket."
+   },
+   {
+    "jp": "スーパーは近いです。",
+    "rd": "スーパー は ちかい です。",
+    "en": "The supermarket is close."
+   }
+  ]
+ },
+ {
+  "w": "車",
+  "r": "くるま",
+  "ro": "kuruma",
+  "m": "car",
+  "pos": "noun",
+  "c": "transport",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "車で行こう。",
+    "rd": "くるま で いこう。",
+    "en": "Let's go by car."
+   },
+   {
+    "jp": "新しい車がほしい。",
+    "rd": "あたらしい くるま が ほしい。",
+    "en": "I want a new car."
+   }
+  ]
+ },
+ {
+  "w": "電車",
+  "r": "でんしゃ",
+  "ro": "densha",
+  "m": "train",
+  "pos": "noun",
+  "c": "transport",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "電車で学校に行く。",
+    "rd": "でんしゃ で がっこう に いく。",
+    "en": "I go to school by train."
+   },
+   {
+    "jp": "電車が遅れている。",
+    "rd": "でんしゃ が おくれて いる。",
+    "en": "The train is delayed."
+   }
+  ]
+ },
+ {
+  "w": "バス",
+  "r": "バス",
+  "ro": "basu",
+  "m": "bus",
+  "pos": "noun",
+  "c": "transport",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "バスに乗る。",
+    "rd": "バス に のる。",
+    "en": "I take the bus."
+   },
+   {
+    "jp": "バスが来た。",
+    "rd": "バス が きた。",
+    "en": "The bus has come."
+   }
+  ]
+ },
+ {
+  "w": "自転車",
+  "r": "じてんしゃ",
+  "ro": "jitensha",
+  "m": "bicycle",
+  "pos": "noun",
+  "c": "transport",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "自転車で行く。",
+    "rd": "じてんしゃ で いく。",
+    "en": "I go by bicycle."
+   },
+   {
+    "jp": "自転車に乗れますか。",
+    "rd": "じてんしゃ に のれます か。",
+    "en": "Can you ride a bicycle?"
+   }
+  ]
+ },
+ {
+  "w": "飛行機",
+  "r": "ひこうき",
+  "ro": "hikouki",
+  "m": "airplane",
+  "pos": "noun",
+  "c": "transport",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "飛行機で日本に行く。",
+    "rd": "ひこうき で にほん に いく。",
+    "en": "I go to Japan by plane."
+   },
+   {
+    "jp": "飛行機が飛んでいる。",
+    "rd": "ひこうき が とんで いる。",
+    "en": "A plane is flying."
+   }
+  ]
+ },
+ {
+  "w": "船",
+  "r": "ふね",
+  "ro": "fune",
+  "m": "ship; boat",
+  "pos": "noun",
+  "c": "transport",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "船で島に行く。",
+    "rd": "ふね で しま に いく。",
+    "en": "I go to the island by boat."
+   },
+   {
+    "jp": "大きい船が見える。",
+    "rd": "おおきい ふね が みえる。",
+    "en": "I can see a big ship."
+   }
+  ]
+ },
+ {
+  "w": "タクシー",
+  "r": "タクシー",
+  "ro": "takushii",
+  "m": "taxi",
+  "pos": "noun",
+  "c": "transport",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "タクシーを呼ぶ。",
+    "rd": "タクシー を よぶ。",
+    "en": "I call a taxi."
+   },
+   {
+    "jp": "タクシーで帰ろう。",
+    "rd": "タクシー で かえろう。",
+    "en": "Let's go home by taxi."
+   }
+  ]
+ },
+ {
+  "w": "新幹線",
+  "r": "しんかんせん",
+  "ro": "shinkansen",
+  "m": "bullet train (Shinkansen)",
+  "pos": "noun",
+  "c": "transport",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "新幹線に乗りたい。",
+    "rd": "しんかんせん に のりたい。",
+    "en": "I want to ride the Shinkansen."
+   },
+   {
+    "jp": "新幹線は速い。",
+    "rd": "しんかんせん は はやい。",
+    "en": "The Shinkansen is fast."
+   }
+  ]
+ },
+ {
+  "w": "地下鉄",
+  "r": "ちかてつ",
+  "ro": "chikatetsu",
+  "m": "subway",
+  "pos": "noun",
+  "c": "transport",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "地下鉄で行く。",
+    "rd": "ちかてつ で いく。",
+    "en": "I go by subway."
+   },
+   {
+    "jp": "地下鉄の駅はあそこです。",
+    "rd": "ちかてつ の えき は あそこ です。",
+    "en": "The subway station is over there."
+   }
+  ]
+ },
+ {
+  "w": "バイク",
+  "r": "バイク",
+  "ro": "baiku",
+  "m": "motorcycle",
+  "pos": "noun",
+  "c": "transport",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "バイクに乗る。",
+    "rd": "バイク に のる。",
+    "en": "I ride a motorcycle."
+   },
+   {
+    "jp": "彼はバイクが好きだ。",
+    "rd": "かれ は バイク が すき だ。",
+    "en": "He likes motorcycles."
+   }
+  ]
+ },
+ {
+  "w": "天気",
+  "r": "てんき",
+  "ro": "tenki",
+  "m": "weather",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今日はいい天気ですね。",
+    "rd": "きょう は いい てんき です ね。",
+    "en": "Nice weather today, isn't it?"
+   },
+   {
+    "jp": "天気が悪い。",
+    "rd": "てんき が わるい。",
+    "en": "The weather is bad."
+   }
+  ]
+ },
+ {
+  "w": "雨",
+  "r": "あめ",
+  "ro": "ame",
+  "m": "rain",
+  "pos": "noun",
+  "c": "nature",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "雨が降っている。",
+    "rd": "あめ が ふって いる。",
+    "en": "It's raining."
+   },
+   {
+    "jp": "雨は嫌いです。",
+    "rd": "あめ は きらい です。",
+    "en": "I dislike rain."
+   }
+  ],
+  "n": "Same sound as 飴 (candy); the pitch differs."
+ },
+ {
+  "w": "雪",
+  "r": "ゆき",
+  "ro": "yuki",
+  "m": "snow",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "雪が降っている。",
+    "rd": "ゆき が ふって いる。",
+    "en": "It's snowing."
+   },
+   {
+    "jp": "雪が好きです。",
+    "rd": "ゆき が すき です。",
+    "en": "I like snow."
+   }
+  ]
+ },
+ {
+  "w": "空",
+  "r": "そら",
+  "ro": "sora",
+  "m": "sky",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "空が青い。",
+    "rd": "そら が あおい。",
+    "en": "The sky is blue."
+   },
+   {
+    "jp": "空を見て。",
+    "rd": "そら を みて。",
+    "en": "Look at the sky."
+   }
+  ],
+  "n": "Also read くう and から in other words, e.g. 空港 (くうこう), 空 (から) meaning empty."
+ },
+ {
+  "w": "海",
+  "r": "うみ",
+  "ro": "umi",
+  "m": "sea; ocean",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "海に行きたい。",
+    "rd": "うみ に いきたい。",
+    "en": "I want to go to the sea."
+   },
+   {
+    "jp": "海がきれいだ。",
+    "rd": "うみ が きれい だ。",
+    "en": "The sea is beautiful."
+   }
+  ]
+ },
+ {
+  "w": "山",
+  "r": "やま",
+  "ro": "yama",
+  "m": "mountain",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "山に登る。",
+    "rd": "やま に のぼる。",
+    "en": "I climb a mountain."
+   },
+   {
+    "jp": "あの山は高い。",
+    "rd": "あの やま は たかい。",
+    "en": "That mountain is tall."
+   }
+  ]
+ },
+ {
+  "w": "川",
+  "r": "かわ",
+  "ro": "kawa",
+  "m": "river",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "川で泳ぐ。",
+    "rd": "かわ で およぐ。",
+    "en": "I swim in the river."
+   },
+   {
+    "jp": "川がきれいだ。",
+    "rd": "かわ が きれい だ。",
+    "en": "The river is clean."
+   }
+  ]
+ },
+ {
+  "w": "花",
+  "r": "はな",
+  "ro": "hana",
+  "m": "flower",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "花がきれいですね。",
+    "rd": "はな が きれい です ね。",
+    "en": "The flowers are pretty."
+   },
+   {
+    "jp": "花を買った。",
+    "rd": "はな を かった。",
+    "en": "I bought flowers."
+   }
+  ],
+  "n": "Same sound as 鼻 (nose)."
+ },
+ {
+  "w": "木",
+  "r": "き",
+  "ro": "ki",
+  "m": "tree; wood",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "大きい木がある。",
+    "rd": "おおきい き が ある。",
+    "en": "There's a big tree."
+   },
+   {
+    "jp": "木の下で休む。",
+    "rd": "き の した で やすむ。",
+    "en": "I rest under the tree."
+   }
+  ]
+ },
+ {
+  "w": "犬",
+  "r": "いぬ",
+  "ro": "inu",
+  "m": "dog",
+  "pos": "noun",
+  "c": "nature",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "犬が好きです。",
+    "rd": "いぬ が すき です。",
+    "en": "I like dogs."
+   },
+   {
+    "jp": "犬と散歩する。",
+    "rd": "いぬ と さんぽ する。",
+    "en": "I take a walk with my dog."
+   }
+  ]
+ },
+ {
+  "w": "猫",
+  "r": "ねこ",
+  "ro": "neko",
+  "m": "cat",
+  "pos": "noun",
+  "c": "nature",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "猫がかわいい。",
+    "rd": "ねこ が かわいい。",
+    "en": "The cat is cute."
+   },
+   {
+    "jp": "うちには猫が二匹いる。",
+    "rd": "うち に は ねこ が にひき いる。",
+    "en": "We have two cats at home."
+   }
+  ]
+ },
+ {
+  "w": "太陽",
+  "r": "たいよう",
+  "ro": "taiyou",
+  "m": "sun",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "太陽が出ている。",
+    "rd": "たいよう が でて いる。",
+    "en": "The sun is out."
+   },
+   {
+    "jp": "太陽は熱い。",
+    "rd": "たいよう は あつい。",
+    "en": "The sun is hot."
+   }
+  ]
+ },
+ {
+  "w": "月",
+  "r": "つき",
+  "ro": "tsuki",
+  "m": "moon",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "月がきれいですね。",
+    "rd": "つき が きれい です ね。",
+    "en": "The moon is beautiful, isn't it?"
+   },
+   {
+    "jp": "今夜は月が見える。",
+    "rd": "こんや は つき が みえる。",
+    "en": "You can see the moon tonight."
+   }
+  ],
+  "n": "Also means 'month'. 月がきれいですね is a famous romantic line, a poetic way of saying 'I love you'."
+ },
+ {
+  "w": "星",
+  "r": "ほし",
+  "ro": "hoshi",
+  "m": "star",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "星がたくさん見える。",
+    "rd": "ほし が たくさん みえる。",
+    "en": "I can see lots of stars."
+   },
+   {
+    "jp": "夜空の星がきれいだ。",
+    "rd": "よぞら の ほし が きれい だ。",
+    "en": "The stars in the night sky are beautiful."
+   }
+  ]
+ },
+ {
+  "w": "風",
+  "r": "かぜ",
+  "ro": "kaze",
+  "m": "wind",
+  "pos": "noun",
+  "c": "nature",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "風が強い。",
+    "rd": "かぜ が つよい。",
+    "en": "The wind is strong."
+   },
+   {
+    "jp": "今日は風がない。",
+    "rd": "きょう は かぜ が ない。",
+    "en": "There's no wind today."
+   }
+  ],
+  "n": "Same sound as 風邪 (a cold)."
+ },
+ {
+  "w": "雲",
+  "r": "くも",
+  "ro": "kumo",
+  "m": "cloud",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "空に雲がある。",
+    "rd": "そら に くも が ある。",
+    "en": "There are clouds in the sky."
+   },
+   {
+    "jp": "雲が多い。",
+    "rd": "くも が おおい。",
+    "en": "There are many clouds."
+   }
+  ],
+  "n": "Same sound as 蜘蛛 (spider)."
+ },
+ {
+  "w": "火",
+  "r": "ひ",
+  "ro": "hi",
+  "m": "fire",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "火をつけて。",
+    "rd": "ひ を つけて。",
+    "en": "Light the fire."
+   },
+   {
+    "jp": "火が危ない。",
+    "rd": "ひ が あぶない。",
+    "en": "The fire is dangerous."
+   }
+  ],
+  "n": "Also means Tuesday in 火曜日."
+ },
+ {
+  "w": "石",
+  "r": "いし",
+  "ro": "ishi",
+  "m": "stone; rock",
+  "pos": "noun",
+  "c": "nature",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "石を投げないで。",
+    "rd": "いし を なげないで。",
+    "en": "Don't throw stones."
+   },
+   {
+    "jp": "大きい石がある。",
+    "rd": "おおきい いし が ある。",
+    "en": "There's a big stone."
+   }
+  ]
+ },
+ {
+  "w": "森",
+  "r": "もり",
+  "ro": "mori",
+  "m": "forest",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "森の中を歩く。",
+    "rd": "もり の なか を あるく。",
+    "en": "I walk through the forest."
+   },
+   {
+    "jp": "森に動物がいる。",
+    "rd": "もり に どうぶつ が いる。",
+    "en": "There are animals in the forest."
+   }
+  ]
+ },
+ {
+  "w": "島",
+  "r": "しま",
+  "ro": "shima",
+  "m": "island",
+  "pos": "noun",
+  "c": "nature",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "小さい島に住んでいる。",
+    "rd": "ちいさい しま に すんで いる。",
+    "en": "I live on a small island."
+   },
+   {
+    "jp": "島へ船で行く。",
+    "rd": "しま へ ふね で いく。",
+    "en": "I go to the island by boat."
+   }
+  ]
+ },
+ {
+  "w": "鳥",
+  "r": "とり",
+  "ro": "tori",
+  "m": "bird",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "鳥が飛んでいる。",
+    "rd": "とり が とんで いる。",
+    "en": "A bird is flying."
+   },
+   {
+    "jp": "鳥の声が聞こえる。",
+    "rd": "とり の こえ が きこえる。",
+    "en": "I can hear birds singing."
+   }
+  ]
+ },
+ {
+  "w": "虫",
+  "r": "むし",
+  "ro": "mushi",
+  "m": "insect; bug",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "虫が嫌いです。",
+    "rd": "むし が きらい です。",
+    "en": "I hate bugs."
+   },
+   {
+    "jp": "夏は虫が多い。",
+    "rd": "なつ は むし が おおい。",
+    "en": "There are lots of bugs in summer."
+   }
+  ]
+ },
+ {
+  "w": "馬",
+  "r": "うま",
+  "ro": "uma",
+  "m": "horse",
+  "pos": "noun",
+  "c": "nature",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "馬に乗りたい。",
+    "rd": "うま に のりたい。",
+    "en": "I want to ride a horse."
+   },
+   {
+    "jp": "馬は速い。",
+    "rd": "うま は はやい。",
+    "en": "Horses are fast."
+   }
+  ]
+ },
+ {
+  "w": "桜",
+  "r": "さくら",
+  "ro": "sakura",
+  "m": "cherry blossom",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "桜がきれいだ。",
+    "rd": "さくら が きれい だ。",
+    "en": "The cherry blossoms are beautiful."
+   },
+   {
+    "jp": "公園で桜を見る。",
+    "rd": "こうえん で さくら を みる。",
+    "en": "I view cherry blossoms in the park."
+   }
+  ]
+ },
+ {
+  "w": "雷",
+  "r": "かみなり",
+  "ro": "kaminari",
+  "m": "thunder; lightning",
+  "pos": "noun",
+  "c": "nature",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "雷が怖い。",
+    "rd": "かみなり が こわい。",
+    "en": "I'm scared of thunder."
+   },
+   {
+    "jp": "雷が鳴っている。",
+    "rd": "かみなり が なって いる。",
+    "en": "Thunder is rumbling."
+   }
+  ]
+ },
+ {
+  "w": "光",
+  "r": "ひかり",
+  "ro": "hikari",
+  "m": "light",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "光が見える。",
+    "rd": "ひかり が みえる。",
+    "en": "I can see a light."
+   },
+   {
+    "jp": "窓から光が入る。",
+    "rd": "まど から ひかり が はいる。",
+    "en": "Light comes in through the window."
+   }
+  ]
+ },
+ {
+  "w": "嵐",
+  "r": "あらし",
+  "ro": "arashi",
+  "m": "storm",
+  "pos": "noun",
+  "c": "nature",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "嵐が来る。",
+    "rd": "あらし が くる。",
+    "en": "A storm is coming."
+   },
+   {
+    "jp": "嵐の夜だった。",
+    "rd": "あらし の よる だった。",
+    "en": "It was a stormy night."
+   }
+  ]
+ },
+ {
+  "w": "動物",
+  "r": "どうぶつ",
+  "ro": "doubutsu",
+  "m": "animal",
+  "pos": "noun",
+  "c": "nature",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "動物が好きです。",
+    "rd": "どうぶつ が すき です。",
+    "en": "I like animals."
+   },
+   {
+    "jp": "動物園で動物を見る。",
+    "rd": "どうぶつえん で どうぶつ を みる。",
+    "en": "I see animals at the zoo."
+   }
+  ]
+ },
+ {
+  "w": "草",
+  "r": "くさ",
+  "ro": "kusa",
+  "m": "grass; weed",
+  "pos": "noun",
+  "c": "nature",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "草の上に座る。",
+    "rd": "くさ の うえ に すわる。",
+    "en": "I sit on the grass."
+   },
+   {
+    "jp": "庭の草を取る。",
+    "rd": "にわ の くさ を とる。",
+    "en": "I pull weeds in the garden."
+   }
+  ]
+ },
+ {
+  "w": "赤",
+  "r": "あか",
+  "ro": "aka",
+  "m": "red",
+  "pos": "noun",
+  "c": "colors",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "赤が好きです。",
+    "rd": "あか が すき です。",
+    "en": "I like red."
+   },
+   {
+    "jp": "赤い服を着ている。",
+    "rd": "あかい ふく を きて いる。",
+    "en": "She is wearing red clothes."
+   }
+  ],
+  "n": "Adjective form: 赤い (あかい)."
+ },
+ {
+  "w": "青",
+  "r": "あお",
+  "ro": "ao",
+  "m": "blue; green (traffic light)",
+  "pos": "noun",
+  "c": "colors",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "青い空がきれい。",
+    "rd": "あおい そら が きれい。",
+    "en": "The blue sky is beautiful."
+   },
+   {
+    "jp": "青は私の好きな色。",
+    "rd": "あお は わたし の すき な いろ。",
+    "en": "Blue is my favorite color."
+   }
+  ],
+  "n": "Adjective form: 青い. Japanese also calls green traffic lights 青."
+ },
+ {
+  "w": "白",
+  "r": "しろ",
+  "ro": "shiro",
+  "m": "white",
+  "pos": "noun",
+  "c": "colors",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "白い猫がいる。",
+    "rd": "しろい ねこ が いる。",
+    "en": "There's a white cat."
+   },
+   {
+    "jp": "白いシャツを着る。",
+    "rd": "しろい シャツ を きる。",
+    "en": "I wear a white shirt."
+   }
+  ],
+  "n": "Adjective form: 白い (しろい)."
+ },
+ {
+  "w": "黒",
+  "r": "くろ",
+  "ro": "kuro",
+  "m": "black",
+  "pos": "noun",
+  "c": "colors",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "黒い車が好きだ。",
+    "rd": "くろい くるま が すき だ。",
+    "en": "I like black cars."
+   },
+   {
+    "jp": "黒い猫がいる。",
+    "rd": "くろい ねこ が いる。",
+    "en": "There's a black cat."
+   }
+  ],
+  "n": "Adjective form: 黒い (くろい)."
+ },
+ {
+  "w": "黄色",
+  "r": "きいろ",
+  "ro": "kiiro",
+  "m": "yellow",
+  "pos": "noun",
+  "c": "colors",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "黄色い花が咲いている。",
+    "rd": "きいろい はな が さいて いる。",
+    "en": "Yellow flowers are blooming."
+   },
+   {
+    "jp": "黄色は明るい色だ。",
+    "rd": "きいろ は あかるい いろ だ。",
+    "en": "Yellow is a bright color."
+   }
+  ],
+  "n": "Adjective form: 黄色い (きいろい)."
+ },
+ {
+  "w": "緑",
+  "r": "みどり",
+  "ro": "midori",
+  "m": "green",
+  "pos": "noun",
+  "c": "colors",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "緑の木が多い。",
+    "rd": "みどり の き が おおい。",
+    "en": "There are many green trees."
+   },
+   {
+    "jp": "緑が好きです。",
+    "rd": "みどり が すき です。",
+    "en": "I like green."
+   }
+  ]
+ },
+ {
+  "w": "茶色",
+  "r": "ちゃいろ",
+  "ro": "chairo",
+  "m": "brown",
+  "pos": "noun",
+  "c": "colors",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "茶色の犬がいる。",
+    "rd": "ちゃいろ の いぬ が いる。",
+    "en": "There's a brown dog."
+   },
+   {
+    "jp": "茶色い靴を買った。",
+    "rd": "ちゃいろい くつ を かった。",
+    "en": "I bought brown shoes."
+   }
+  ]
+ },
+ {
+  "w": "ピンク",
+  "r": "ピンク",
+  "ro": "pinku",
+  "m": "pink",
+  "pos": "noun",
+  "c": "colors",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ピンクの服がかわいい。",
+    "rd": "ピンク の ふく が かわいい。",
+    "en": "The pink clothes are cute."
+   },
+   {
+    "jp": "ピンクが好きです。",
+    "rd": "ピンク が すき です。",
+    "en": "I like pink."
+   }
+  ]
+ },
+ {
+  "w": "オレンジ",
+  "r": "オレンジ",
+  "ro": "orenji",
+  "m": "orange (color/fruit)",
+  "pos": "noun",
+  "c": "colors",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "オレンジ色の花。",
+    "rd": "オレンジ いろ の はな。",
+    "en": "An orange-colored flower."
+   },
+   {
+    "jp": "オレンジジュースが好き。",
+    "rd": "オレンジ ジュース が すき。",
+    "en": "I like orange juice."
+   }
+  ]
+ },
+ {
+  "w": "色",
+  "r": "いろ",
+  "ro": "iro",
+  "m": "color",
+  "pos": "noun",
+  "c": "colors",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "好きな色は何ですか。",
+    "rd": "すき な いろ は なん です か。",
+    "en": "What's your favorite color?"
+   },
+   {
+    "jp": "いろいろな色がある。",
+    "rd": "いろいろ な いろ が ある。",
+    "en": "There are many colors."
+   }
+  ]
+ },
+ {
+  "w": "名前",
+  "r": "なまえ",
+  "ro": "namae",
+  "m": "name",
+  "pos": "noun",
+  "c": "things",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "お名前は何ですか。",
+    "rd": "おなまえ は なん です か。",
+    "en": "What is your name?"
+   },
+   {
+    "jp": "名前を書いてください。",
+    "rd": "なまえ を かいて ください。",
+    "en": "Please write your name."
+   }
+  ]
+ },
+ {
+  "w": "テレビ",
+  "r": "テレビ",
+  "ro": "terebi",
+  "m": "TV",
+  "pos": "noun",
+  "c": "things",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "テレビを見る。",
+    "rd": "テレビ を みる。",
+    "en": "I watch TV."
+   },
+   {
+    "jp": "テレビをつけて。",
+    "rd": "テレビ を つけて。",
+    "en": "Turn on the TV."
+   }
+  ]
+ },
+ {
+  "w": "ゲーム",
+  "r": "ゲーム",
+  "ro": "geemu",
+  "m": "game; video game",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ゲームをしよう。",
+    "rd": "ゲーム を しよう。",
+    "en": "Let's play a game."
+   },
+   {
+    "jp": "弟はゲームが好きだ。",
+    "rd": "おとうと は ゲーム が すき だ。",
+    "en": "My little brother likes video games."
+   }
+  ]
+ },
+ {
+  "w": "パソコン",
+  "r": "パソコン",
+  "ro": "pasokon",
+  "m": "personal computer",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "パソコンを使う。",
+    "rd": "パソコン を つかう。",
+    "en": "I use a computer."
+   },
+   {
+    "jp": "パソコンが壊れた。",
+    "rd": "パソコン が こわれた。",
+    "en": "My computer broke."
+   }
+  ],
+  "n": "Short for パーソナルコンピューター."
+ },
+ {
+  "w": "アニメ",
+  "r": "アニメ",
+  "ro": "anime",
+  "m": "anime",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "アニメが大好きです。",
+    "rd": "アニメ が だいすき です。",
+    "en": "I love anime."
+   },
+   {
+    "jp": "このアニメは面白い。",
+    "rd": "この アニメ は おもしろい。",
+    "en": "This anime is interesting."
+   }
+  ]
+ },
+ {
+  "w": "カメラ",
+  "r": "カメラ",
+  "ro": "kamera",
+  "m": "camera",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "カメラを持ってきた。",
+    "rd": "カメラ を もって きた。",
+    "en": "I brought a camera."
+   },
+   {
+    "jp": "新しいカメラがほしい。",
+    "rd": "あたらしい カメラ が ほしい。",
+    "en": "I want a new camera."
+   }
+  ]
+ },
+ {
+  "w": "ラジオ",
+  "r": "ラジオ",
+  "ro": "rajio",
+  "m": "radio",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ラジオを聞く。",
+    "rd": "ラジオ を きく。",
+    "en": "I listen to the radio."
+   },
+   {
+    "jp": "ラジオから音楽が流れる。",
+    "rd": "ラジオ から おんがく が ながれる。",
+    "en": "Music plays from the radio."
+   }
+  ]
+ },
+ {
+  "w": "音楽",
+  "r": "おんがく",
+  "ro": "ongaku",
+  "m": "music",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "音楽を聞く。",
+    "rd": "おんがく を きく。",
+    "en": "I listen to music."
+   },
+   {
+    "jp": "どんな音楽が好き？",
+    "rd": "どんな おんがく が すき？",
+    "en": "What kind of music do you like?"
+   }
+  ]
+ },
+ {
+  "w": "映画",
+  "r": "えいが",
+  "ro": "eiga",
+  "m": "movie",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "映画を見に行く。",
+    "rd": "えいが を み に いく。",
+    "en": "I go to see a movie."
+   },
+   {
+    "jp": "この映画は面白い。",
+    "rd": "この えいが は おもしろい。",
+    "en": "This movie is interesting."
+   }
+  ]
+ },
+ {
+  "w": "漫画",
+  "r": "まんが",
+  "ro": "manga",
+  "m": "manga; comic",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "漫画を読む。",
+    "rd": "まんが を よむ。",
+    "en": "I read manga."
+   },
+   {
+    "jp": "この漫画は面白い。",
+    "rd": "この まんが は おもしろい。",
+    "en": "This manga is interesting."
+   }
+  ],
+  "n": "Often written in katakana: マンガ."
+ },
+ {
+  "w": "歌",
+  "r": "うた",
+  "ro": "uta",
+  "m": "song",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "この歌が好きだ。",
+    "rd": "この うた が すき だ。",
+    "en": "I like this song."
+   },
+   {
+    "jp": "歌を歌おう。",
+    "rd": "うた を うたおう。",
+    "en": "Let's sing a song."
+   }
+  ]
+ },
+ {
+  "w": "ペン",
+  "r": "ペン",
+  "ro": "pen",
+  "m": "pen",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ペンを貸して。",
+    "rd": "ペン を かして。",
+    "en": "Lend me a pen."
+   },
+   {
+    "jp": "赤いペンで書く。",
+    "rd": "あかい ペン で かく。",
+    "en": "I write with a red pen."
+   }
+  ]
+ },
+ {
+  "w": "ノート",
+  "r": "ノート",
+  "ro": "nooto",
+  "m": "notebook",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ノートに書く。",
+    "rd": "ノート に かく。",
+    "en": "I write in my notebook."
+   },
+   {
+    "jp": "ノートを忘れた。",
+    "rd": "ノート を わすれた。",
+    "en": "I forgot my notebook."
+   }
+  ]
+ },
+ {
+  "w": "宿題",
+  "r": "しゅくだい",
+  "ro": "shukudai",
+  "m": "homework",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "宿題が多い。",
+    "rd": "しゅくだい が おおい。",
+    "en": "There's a lot of homework."
+   },
+   {
+    "jp": "宿題をやった？",
+    "rd": "しゅくだい を やった？",
+    "en": "Did you do your homework?"
+   }
+  ]
+ },
+ {
+  "w": "授業",
+  "r": "じゅぎょう",
+  "ro": "jugyou",
+  "m": "class; lesson",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "授業が始まる。",
+    "rd": "じゅぎょう が はじまる。",
+    "en": "Class is starting."
+   },
+   {
+    "jp": "日本語の授業は楽しい。",
+    "rd": "にほんご の じゅぎょう は たのしい。",
+    "en": "Japanese class is fun."
+   }
+  ]
+ },
+ {
+  "w": "試験",
+  "r": "しけん",
+  "ro": "shiken",
+  "m": "exam; test",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "明日は試験がある。",
+    "rd": "あした は しけん が ある。",
+    "en": "I have an exam tomorrow."
+   },
+   {
+    "jp": "試験が終わった。",
+    "rd": "しけん が おわった。",
+    "en": "The exam is over."
+   }
+  ]
+ },
+ {
+  "w": "メール",
+  "r": "メール",
+  "ro": "meeru",
+  "m": "email; message",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "メールを送る。",
+    "rd": "メール を おくる。",
+    "en": "I send an email."
+   },
+   {
+    "jp": "メールを見た？",
+    "rd": "メール を みた？",
+    "en": "Did you see the email?"
+   }
+  ]
+ },
+ {
+  "w": "ニュース",
+  "r": "ニュース",
+  "ro": "nyuusu",
+  "m": "news",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ニュースを見る。",
+    "rd": "ニュース を みる。",
+    "en": "I watch the news."
+   },
+   {
+    "jp": "いいニュースがある。",
+    "rd": "いい ニュース が ある。",
+    "en": "I have good news."
+   }
+  ]
+ },
+ {
+  "w": "日本語",
+  "r": "にほんご",
+  "ro": "nihongo",
+  "m": "Japanese (language)",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "日本語を勉強している。",
+    "rd": "にほんご を べんきょう して いる。",
+    "en": "I'm studying Japanese."
+   },
+   {
+    "jp": "日本語は難しい。",
+    "rd": "にほんご は むずかしい。",
+    "en": "Japanese is difficult."
+   }
+  ]
+ },
+ {
+  "w": "英語",
+  "r": "えいご",
+  "ro": "eigo",
+  "m": "English (language)",
+  "pos": "noun",
+  "c": "things",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "英語が話せますか。",
+    "rd": "えいご が はなせます か。",
+    "en": "Can you speak English?"
+   },
+   {
+    "jp": "英語は得意です。",
+    "rd": "えいご は とくい です。",
+    "en": "I'm good at English."
+   }
+  ]
+ },
+ {
+  "w": "ボール",
+  "r": "ボール",
+  "ro": "booru",
+  "m": "ball",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ボールを投げて。",
+    "rd": "ボール を なげて。",
+    "en": "Throw the ball."
+   },
+   {
+    "jp": "ボールが飛んできた。",
+    "rd": "ボール が とんで きた。",
+    "en": "The ball came flying."
+   }
+  ]
+ },
+ {
+  "w": "野球",
+  "r": "やきゅう",
+  "ro": "yakyuu",
+  "m": "baseball",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "野球が好きです。",
+    "rd": "やきゅう が すき です。",
+    "en": "I like baseball."
+   },
+   {
+    "jp": "野球を見に行く。",
+    "rd": "やきゅう を み に いく。",
+    "en": "I go to watch baseball."
+   }
+  ]
+ },
+ {
+  "w": "サッカー",
+  "r": "サッカー",
+  "ro": "sakkaa",
+  "m": "soccer",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "サッカーをする。",
+    "rd": "サッカー を する。",
+    "en": "I play soccer."
+   },
+   {
+    "jp": "弟はサッカーが上手だ。",
+    "rd": "おとうと は サッカー が じょうず だ。",
+    "en": "My little brother is good at soccer."
+   }
+  ]
+ },
+ {
+  "w": "スポーツ",
+  "r": "スポーツ",
+  "ro": "supootsu",
+  "m": "sports",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "スポーツが好きです。",
+    "rd": "スポーツ が すき です。",
+    "en": "I like sports."
+   },
+   {
+    "jp": "どんなスポーツをしますか。",
+    "rd": "どんな スポーツ を します か。",
+    "en": "What sports do you play?"
+   }
+  ]
+ },
+ {
+  "w": "祭り",
+  "r": "まつり",
+  "ro": "matsuri",
+  "m": "festival",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "夏祭りに行く。",
+    "rd": "なつまつり に いく。",
+    "en": "I go to the summer festival."
+   },
+   {
+    "jp": "祭りは楽しい。",
+    "rd": "まつり は たのしい。",
+    "en": "Festivals are fun."
+   }
+  ],
+  "n": "Often said お祭り."
+ },
+ {
+  "w": "花火",
+  "r": "はなび",
+  "ro": "hanabi",
+  "m": "fireworks",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "花火を見に行こう。",
+    "rd": "はなび を み に いこう。",
+    "en": "Let's go see the fireworks."
+   },
+   {
+    "jp": "花火がきれいだった。",
+    "rd": "はなび が きれい だった。",
+    "en": "The fireworks were beautiful."
+   }
+  ]
+ },
+ {
+  "w": "プレゼント",
+  "r": "プレゼント",
+  "ro": "purezento",
+  "m": "present; gift",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "プレゼントをあげる。",
+    "rd": "プレゼント を あげる。",
+    "en": "I give a present."
+   },
+   {
+    "jp": "誕生日のプレゼントがほしい。",
+    "rd": "たんじょうび の プレゼント が ほしい。",
+    "en": "I want a birthday present."
+   }
+  ]
+ },
+ {
+  "w": "パーティー",
+  "r": "パーティー",
+  "ro": "paatii",
+  "m": "party",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "パーティーに行く。",
+    "rd": "パーティー に いく。",
+    "en": "I go to a party."
+   },
+   {
+    "jp": "明日パーティーがある。",
+    "rd": "あした パーティー が ある。",
+    "en": "There's a party tomorrow."
+   }
+  ]
+ },
+ {
+  "w": "番号",
+  "r": "ばんごう",
+  "ro": "bangou",
+  "m": "number (ID, phone)",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "電話番号を教えて。",
+    "rd": "でんわ ばんごう を おしえて。",
+    "en": "Tell me your phone number."
+   },
+   {
+    "jp": "番号を間違えた。",
+    "rd": "ばんごう を まちがえた。",
+    "en": "I got the number wrong."
+   }
+  ]
+ },
+ {
+  "w": "音",
+  "r": "おと",
+  "ro": "oto",
+  "m": "sound; noise",
+  "pos": "noun",
+  "c": "things",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "変な音がする。",
+    "rd": "へんな おと が する。",
+    "en": "There's a strange sound."
+   },
+   {
+    "jp": "音が大きい。",
+    "rd": "おと が おおきい。",
+    "en": "The sound is loud."
+   }
+  ]
+ },
+ {
+  "w": "部活",
+  "r": "ぶかつ",
+  "ro": "bukatsu",
+  "m": "club activities (at school)",
+  "pos": "noun",
+  "c": "things",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "部活に入っている。",
+    "rd": "ぶかつ に はいって いる。",
+    "en": "I'm in a school club."
+   },
+   {
+    "jp": "今日は部活がある。",
+    "rd": "きょう は ぶかつ が ある。",
+    "en": "I have club activities today."
+   }
+  ],
+  "n": "Anime staple. Short for 部活動."
+ }
+]

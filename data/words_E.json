@@ -1,0 +1,4442 @@
+[
+ {
+  "w": "気",
+  "r": "き",
+  "ro": "ki",
+  "m": "spirit; mind; attention; feeling",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "気をつけてね。",
+    "rd": "きを つけてね。",
+    "en": "Take care."
+   },
+   {
+    "jp": "その話、気になる!",
+    "rd": "その はなし、きに なる!",
+    "en": "I'm curious about that story!"
+   }
+  ],
+  "n": "Many set phrases: 気をつけて (be careful), 気になる (it bothers/intrigues me), 気にしない (don't mind), 元気 (healthy)."
+ },
+ {
+  "w": "心",
+  "r": "こころ",
+  "ro": "kokoro",
+  "m": "heart; mind; spirit",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "心が痛い。",
+    "rd": "こころが いたい。",
+    "en": "My heart hurts."
+   },
+   {
+    "jp": "あの人は心が広い。",
+    "rd": "あの ひとは こころが ひろい。",
+    "en": "That person is big-hearted."
+   }
+  ],
+  "n": "Poetic 'heart' used a lot in songs; 心 is the inner self, not the organ (心臓)."
+ },
+ {
+  "w": "気持ち",
+  "r": "きもち",
+  "ro": "kimochi",
+  "m": "feeling; mood",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "気持ちはわかるよ。",
+    "rd": "きもちは わかるよ。",
+    "en": "I understand how you feel."
+   },
+   {
+    "jp": "この風、気持ちいいね。",
+    "rd": "この かぜ、きもち いいね。",
+    "en": "This breeze feels nice."
+   }
+  ],
+  "n": "気持ちいい = feels good; 気持ち悪い = feels gross/sick."
+ },
+ {
+  "w": "愛",
+  "r": "あい",
+  "ro": "ai",
+  "m": "love",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "愛してる。",
+    "rd": "あいしてる。",
+    "en": "I love you."
+   },
+   {
+    "jp": "愛は世界を救う。",
+    "rd": "あいは せかいを すくう。",
+    "en": "Love saves the world."
+   }
+  ],
+  "n": "Stronger and more solemn than 好き; 愛してる is rarely said in daily life."
+ },
+ {
+  "w": "恋",
+  "r": "こい",
+  "ro": "koi",
+  "m": "romantic love; crush",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "私は恋をしている。",
+    "rd": "わたしは こいを している。",
+    "en": "I am in love."
+   },
+   {
+    "jp": "これが初恋だった。",
+    "rd": "これが はつこいだった。",
+    "en": "This was my first love."
+   }
+  ],
+  "n": "恋 is the longing, falling-in-love kind; 恋人 = lover/partner."
+ },
+ {
+  "w": "夢",
+  "r": "ゆめ",
+  "ro": "yume",
+  "m": "dream",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "昨日、変な夢を見た。",
+    "rd": "きのう、へんな ゆめを みた。",
+    "en": "I had a strange dream yesterday."
+   },
+   {
+    "jp": "夢は医者になることです。",
+    "rd": "ゆめは いしゃに なる ことです。",
+    "en": "My dream is to become a doctor."
+   }
+  ],
+  "n": "Both sleeping dream and aspiration."
+ },
+ {
+  "w": "涙",
+  "r": "なみだ",
+  "ro": "namida",
+  "m": "tear; tears",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "涙が止まらない。",
+    "rd": "なみだが とまらない。",
+    "en": "I can't stop the tears."
+   },
+   {
+    "jp": "彼女の目に涙が光った。",
+    "rd": "かのじょの めに なみだが ひかった。",
+    "en": "Tears glistened in her eyes."
+   }
+  ]
+ },
+ {
+  "w": "笑顔",
+  "r": "えがお",
+  "ro": "egao",
+  "m": "smiling face; smile",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "その笑顔が好き。",
+    "rd": "その えがおが すき。",
+    "en": "I like that smile."
+   },
+   {
+    "jp": "みんな笑顔になった。",
+    "rd": "みんな えがおに なった。",
+    "en": "Everyone broke into smiles."
+   }
+  ]
+ },
+ {
+  "w": "声",
+  "r": "こえ",
+  "ro": "koe",
+  "m": "voice",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "声が大きいよ。",
+    "rd": "こえが おおきいよ。",
+    "en": "Your voice is loud."
+   },
+   {
+    "jp": "君の声が聞きたい。",
+    "rd": "きみの こえが ききたい。",
+    "en": "I want to hear your voice."
+   }
+  ],
+  "n": "Also used for the voice-actor 声優 (せいゆう)."
+ },
+ {
+  "w": "命",
+  "r": "いのち",
+  "ro": "inochi",
+  "m": "life; life force",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "命は大切です。",
+    "rd": "いのちは たいせつです。",
+    "en": "Life is precious."
+   },
+   {
+    "jp": "命をかけて守る!",
+    "rd": "いのちを かけて まもる!",
+    "en": "I'll protect it with my life!"
+   }
+  ],
+  "n": "Common in dramatic anime lines; 命がけ = at the risk of one's life."
+ },
+ {
+  "w": "力",
+  "r": "ちから",
+  "ro": "chikara",
+  "m": "power; strength",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "力を貸して!",
+    "rd": "ちからを かして!",
+    "en": "Lend me your strength!"
+   },
+   {
+    "jp": "みんなの力が必要だ。",
+    "rd": "みんなの ちからが ひつようだ。",
+    "en": "We need everyone's power."
+   }
+  ],
+  "n": "力 on its own is ちから; in compounds it is りょく/りき (e.g. 能力)."
+ },
+ {
+  "w": "勇気",
+  "r": "ゆうき",
+  "ro": "yuuki",
+  "m": "courage",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "勇気を出して!",
+    "rd": "ゆうきを だして!",
+    "en": "Gather your courage!"
+   },
+   {
+    "jp": "彼には勇気がある。",
+    "rd": "かれには ゆうきが ある。",
+    "en": "He has courage."
+   }
+  ]
+ },
+ {
+  "w": "希望",
+  "r": "きぼう",
+  "ro": "kibou",
+  "m": "hope; wish",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "まだ希望はある。",
+    "rd": "まだ きぼうは ある。",
+    "en": "There is still hope."
+   },
+   {
+    "jp": "希望を捨てないで。",
+    "rd": "きぼうを すてないで。",
+    "en": "Don't give up hope."
+   }
+  ]
+ },
+ {
+  "w": "不安",
+  "r": "ふあん",
+  "ro": "fuan",
+  "m": "anxiety; unease",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "試験の前は不安だ。",
+    "rd": "しけんの まえは ふあんだ。",
+    "en": "I feel anxious before exams."
+   },
+   {
+    "jp": "不安な気持ちになる。",
+    "rd": "ふあんな きもちに なる。",
+    "en": "I feel uneasy."
+   }
+  ],
+  "n": "Also works as a な-adjective (不安な)."
+ },
+ {
+  "w": "幸せ",
+  "r": "しあわせ",
+  "ro": "shiawase",
+  "m": "happiness",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今、とても幸せです。",
+    "rd": "いま、とても しあわせです。",
+    "en": "I'm very happy now."
+   },
+   {
+    "jp": "幸せになってね。",
+    "rd": "しあわせに なってね。",
+    "en": "Be happy."
+   }
+  ],
+  "n": "Also a な-adjective (幸せな)."
+ },
+ {
+  "w": "痛み",
+  "r": "いたみ",
+  "ro": "itami",
+  "m": "pain; ache",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "痛みはありますか。",
+    "rd": "いたみは ありますか。",
+    "en": "Do you have any pain?"
+   },
+   {
+    "jp": "心の痛みは消えない。",
+    "rd": "こころの いたみは きえない。",
+    "en": "The pain in my heart won't go away."
+   }
+  ],
+  "n": "痛い (adj.) is more common in speech."
+ },
+ {
+  "w": "悲しみ",
+  "r": "かなしみ",
+  "ro": "kanashimi",
+  "m": "sadness; sorrow",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "彼は悲しみに沈んだ。",
+    "rd": "かれは かなしみに しずんだ。",
+    "en": "He sank into sorrow."
+   },
+   {
+    "jp": "悲しみを乗り越える。",
+    "rd": "かなしみを のりこえる。",
+    "en": "Overcome sorrow."
+   }
+  ]
+ },
+ {
+  "w": "喜び",
+  "r": "よろこび",
+  "ro": "yorokobi",
+  "m": "joy; delight",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "喜びの声があがった。",
+    "rd": "よろこびの こえが あがった。",
+    "en": "Cries of joy rose up."
+   },
+   {
+    "jp": "みんなで喜びを分かち合う。",
+    "rd": "みんなで よろこびを わかちあう。",
+    "en": "Everyone shares the joy."
+   }
+  ]
+ },
+ {
+  "w": "怒り",
+  "r": "いかり",
+  "ro": "ikari",
+  "m": "anger",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "怒りが抑えられない。",
+    "rd": "いかりが おさえられない。",
+    "en": "I can't contain my anger."
+   },
+   {
+    "jp": "彼の怒りは大きかった。",
+    "rd": "かれの いかりは おおきかった。",
+    "en": "His anger was great."
+   }
+  ]
+ },
+ {
+  "w": "恐怖",
+  "r": "きょうふ",
+  "ro": "kyoufu",
+  "m": "fear; terror",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "恐怖で動けなかった。",
+    "rd": "きょうふで うごけなかった。",
+    "en": "I was frozen in fear."
+   },
+   {
+    "jp": "これはホラー映画の恐怖だ。",
+    "rd": "これは ホラー えいがの きょうふだ。",
+    "en": "This is horror-movie terror."
+   }
+  ]
+ },
+ {
+  "w": "孤独",
+  "r": "こどく",
+  "ro": "kodoku",
+  "m": "loneliness; solitude",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "孤独を感じる。",
+    "rd": "こどくを かんじる。",
+    "en": "I feel lonely."
+   },
+   {
+    "jp": "彼は孤独な戦いをしている。",
+    "rd": "かれは こどくな たたかいを している。",
+    "en": "He fights a lonely battle."
+   }
+  ]
+ },
+ {
+  "w": "思い出",
+  "r": "おもいで",
+  "ro": "omoide",
+  "m": "memory; recollection",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "いい思い出ができた。",
+    "rd": "いい おもいでが できた。",
+    "en": "I made good memories."
+   },
+   {
+    "jp": "この写真は大切な思い出です。",
+    "rd": "この しゃしんは たいせつな おもいでです。",
+    "en": "This photo is a precious memory."
+   }
+  ],
+  "n": "Very common in songs."
+ },
+ {
+  "w": "感情",
+  "r": "かんじょう",
+  "ro": "kanjou",
+  "m": "emotion",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "感情を隠さないで。",
+    "rd": "かんじょうを かくさないで。",
+    "en": "Don't hide your emotions."
+   },
+   {
+    "jp": "彼は感情が顔に出る。",
+    "rd": "かれは かんじょうが かおに でる。",
+    "en": "His emotions show on his face."
+   }
+  ]
+ },
+ {
+  "w": "笑い",
+  "r": "わらい",
+  "ro": "warai",
+  "m": "laughter; a laugh",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "部屋は笑いに包まれた。",
+    "rd": "へやは わらいに つつまれた。",
+    "en": "The room was filled with laughter."
+   },
+   {
+    "jp": "笑いが止まらない。",
+    "rd": "わらいが とまらない。",
+    "en": "I can't stop laughing."
+   }
+  ],
+  "n": "The verb is 笑う (わらう)."
+ },
+ {
+  "w": "本音",
+  "r": "ほんね",
+  "ro": "honne",
+  "m": "true feelings; honest opinion",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "本音を言うと、怖いです。",
+    "rd": "ほんねを いうと、こわいです。",
+    "en": "To be honest, I'm scared."
+   },
+   {
+    "jp": "やっと本音が聞けた。",
+    "rd": "やっと ほんねが きけた。",
+    "en": "I finally heard how you really feel."
+   }
+  ],
+  "n": "Opposite: 建前 (たてまえ), the public face."
+ },
+ {
+  "w": "感謝",
+  "r": "かんしゃ",
+  "ro": "kansha",
+  "m": "gratitude; thanks",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "心から感謝しています。",
+    "rd": "こころから かんしゃ しています。",
+    "en": "I am truly grateful."
+   },
+   {
+    "jp": "感謝の気持ちを伝えたい。",
+    "rd": "かんしゃの きもちを つたえたい。",
+    "en": "I want to express my gratitude."
+   }
+  ]
+ },
+ {
+  "w": "後悔",
+  "r": "こうかい",
+  "ro": "koukai",
+  "m": "regret",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "後悔はしていない。",
+    "rd": "こうかいは していない。",
+    "en": "I have no regrets."
+   },
+   {
+    "jp": "あとで後悔するよ。",
+    "rd": "あとで こうかい するよ。",
+    "en": "You'll regret it later."
+   }
+  ]
+ },
+ {
+  "w": "絶望",
+  "r": "ぜつぼう",
+  "ro": "zetsubou",
+  "m": "despair",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "彼は絶望した。",
+    "rd": "かれは ぜつぼう した。",
+    "en": "He despaired."
+   },
+   {
+    "jp": "絶望の中にも光はある。",
+    "rd": "ぜつぼうの なかにも ひかりは ある。",
+    "en": "Even in despair there is light."
+   }
+  ]
+ },
+ {
+  "w": "優しさ",
+  "r": "やさしさ",
+  "ro": "yasashisa",
+  "m": "kindness; gentleness",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "君の優しさに救われた。",
+    "rd": "きみの やさしさに すくわれた。",
+    "en": "I was saved by your kindness."
+   },
+   {
+    "jp": "人の優しさが嬉しい。",
+    "rd": "ひとの やさしさが うれしい。",
+    "en": "I'm glad for people's kindness."
+   }
+  ]
+ },
+ {
+  "w": "友情",
+  "r": "ゆうじょう",
+  "ro": "yuujou",
+  "m": "friendship",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "友情は大切だ。",
+    "rd": "ゆうじょうは たいせつだ。",
+    "en": "Friendship is important."
+   },
+   {
+    "jp": "二人の友情は永遠だ。",
+    "rd": "ふたりの ゆうじょうは えいえんだ。",
+    "en": "Their friendship is eternal."
+   }
+  ]
+ },
+ {
+  "w": "願い",
+  "r": "ねがい",
+  "ro": "negai",
+  "m": "wish; request",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "願いが叶った!",
+    "rd": "ねがいが かなった!",
+    "en": "My wish came true!"
+   },
+   {
+    "jp": "一つだけ願いを言って。",
+    "rd": "ひとつだけ ねがいを いって。",
+    "en": "Make just one wish."
+   }
+  ],
+  "n": "Verb: 願う (ねがう). お願い = please/a favor."
+ },
+ {
+  "w": "魂",
+  "r": "たましい",
+  "ro": "tamashii",
+  "m": "soul; spirit",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "魂を込めて歌う。",
+    "rd": "たましいを こめて うたう。",
+    "en": "Sing with all your soul."
+   },
+   {
+    "jp": "彼の魂は永遠に生きる。",
+    "rd": "かれの たましいは えいえんに いきる。",
+    "en": "His soul will live forever."
+   }
+  ]
+ },
+ {
+  "w": "絆",
+  "r": "きずな",
+  "ro": "kizuna",
+  "m": "bond; ties",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "私たちの絆は強い。",
+    "rd": "わたしたちの きずなは つよい。",
+    "en": "Our bond is strong."
+   },
+   {
+    "jp": "仲間との絆を信じる。",
+    "rd": "なかまとの きずなを しんじる。",
+    "en": "I believe in the bond with my friends."
+   }
+  ],
+  "n": "Very frequent in anime."
+ },
+ {
+  "w": "光",
+  "r": "ひかり",
+  "ro": "hikari",
+  "m": "light",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "光が見えてきた。",
+    "rd": "ひかりが みえてきた。",
+    "en": "I started to see light."
+   },
+   {
+    "jp": "君は私の光だ。",
+    "rd": "きみは わたしの ひかりだ。",
+    "en": "You are my light."
+   }
+  ],
+  "n": "Often figurative (hope) in songs."
+ },
+ {
+  "w": "闇",
+  "r": "やみ",
+  "ro": "yami",
+  "m": "darkness",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "闇の中を歩く。",
+    "rd": "やみの なかを あるく。",
+    "en": "Walk through the darkness."
+   },
+   {
+    "jp": "心の闇を見せたくない。",
+    "rd": "こころの やみを みせたくない。",
+    "en": "I don't want to show the darkness in my heart."
+   }
+  ]
+ },
+ {
+  "w": "運",
+  "r": "うん",
+  "ro": "un",
+  "m": "luck; fortune",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今日は運がいい。",
+    "rd": "きょうは うんが いい。",
+    "en": "I'm lucky today."
+   },
+   {
+    "jp": "運が悪かったね。",
+    "rd": "うんが わるかったね。",
+    "en": "That was bad luck."
+   }
+  ]
+ },
+ {
+  "w": "心配",
+  "r": "しんぱい",
+  "ro": "shinpai",
+  "m": "worry; concern",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "心配しないで。",
+    "rd": "しんぱい しないで。",
+    "en": "Don't worry."
+   },
+   {
+    "jp": "お母さんが心配している。",
+    "rd": "おかあさんが しんぱい している。",
+    "en": "Mom is worried."
+   }
+  ],
+  "n": "Noun + する verb."
+ },
+ {
+  "w": "興味",
+  "r": "きょうみ",
+  "ro": "kyoumi",
+  "m": "interest",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本の文化に興味がある。",
+    "rd": "にほんの ぶんかに きょうみが ある。",
+    "en": "I'm interested in Japanese culture."
+   },
+   {
+    "jp": "あまり興味がない。",
+    "rd": "あまり きょうみが ない。",
+    "en": "I'm not very interested."
+   }
+  ]
+ },
+ {
+  "w": "気分",
+  "r": "きぶん",
+  "ro": "kibun",
+  "m": "mood; feeling",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今日は気分がいい。",
+    "rd": "きょうは きぶんが いい。",
+    "en": "I feel good today."
+   },
+   {
+    "jp": "気分が悪いです。",
+    "rd": "きぶんが わるいです。",
+    "en": "I feel unwell."
+   }
+  ]
+ },
+ {
+  "w": "幸運",
+  "r": "こううん",
+  "ro": "kouun",
+  "m": "good luck",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "幸運を祈ります。",
+    "rd": "こううんを いのります。",
+    "en": "I wish you good luck."
+   },
+   {
+    "jp": "幸運な出会いだった。",
+    "rd": "こううんな であいだった。",
+    "en": "It was a fortunate encounter."
+   }
+  ]
+ },
+ {
+  "w": "出会い",
+  "r": "であい",
+  "ro": "deai",
+  "m": "encounter; meeting",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "運命の出会いだ。",
+    "rd": "うんめいの であいだ。",
+    "en": "It's a fateful encounter."
+   },
+   {
+    "jp": "あなたとの出会いに感謝。",
+    "rd": "あなたとの であいに かんしゃ。",
+    "en": "Thankful for meeting you."
+   }
+  ],
+  "n": "Verb: 出会う."
+ },
+ {
+  "w": "別れ",
+  "r": "わかれ",
+  "ro": "wakare",
+  "m": "parting; farewell",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "別れはつらい。",
+    "rd": "わかれは つらい。",
+    "en": "Partings are hard."
+   },
+   {
+    "jp": "別れの時が来た。",
+    "rd": "わかれの ときが きた。",
+    "en": "The time to part has come."
+   }
+  ],
+  "n": "Verb: 別れる. Common in songs."
+ },
+ {
+  "w": "独り言",
+  "r": "ひとりごと",
+  "ro": "hitorigoto",
+  "m": "talking to oneself",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "今のは独り言だよ。",
+    "rd": "いまのは ひとりごとだよ。",
+    "en": "That was just talking to myself."
+   },
+   {
+    "jp": "彼は独り言が多い。",
+    "rd": "かれは ひとりごとが おおい。",
+    "en": "He talks to himself a lot."
+   }
+  ]
+ },
+ {
+  "w": "本心",
+  "r": "ほんしん",
+  "ro": "honshin",
+  "m": "real intention; true heart",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "それが君の本心か?",
+    "rd": "それが きみの ほんしんか?",
+    "en": "Is that what you truly feel?"
+   },
+   {
+    "jp": "本心を隠している。",
+    "rd": "ほんしんを かくしている。",
+    "en": "She is hiding her true heart."
+   }
+  ]
+ },
+ {
+  "w": "期待",
+  "r": "きたい",
+  "ro": "kitai",
+  "m": "expectation; hope",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "期待しているよ。",
+    "rd": "きたい しているよ。",
+    "en": "I'm counting on you."
+   },
+   {
+    "jp": "期待に応えたい。",
+    "rd": "きたいに こたえたい。",
+    "en": "I want to live up to expectations."
+   }
+  ]
+ },
+ {
+  "w": "驚き",
+  "r": "おどろき",
+  "ro": "odoroki",
+  "m": "surprise; astonishment",
+  "pos": "noun",
+  "c": "feelings",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "驚きを隠せない。",
+    "rd": "おどろきを かくせない。",
+    "en": "I can't hide my surprise."
+   },
+   {
+    "jp": "それは驚きの結果だった。",
+    "rd": "それは おどろきの けっかだった。",
+    "en": "That was a surprising result."
+   }
+  ]
+ },
+ {
+  "w": "言葉",
+  "r": "ことば",
+  "ro": "kotoba",
+  "m": "word; language; speech",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "その言葉の意味は?",
+    "rd": "その ことばの いみは?",
+    "en": "What's the meaning of that word?"
+   },
+   {
+    "jp": "言葉が出ない。",
+    "rd": "ことばが でない。",
+    "en": "I'm at a loss for words."
+   }
+  ]
+ },
+ {
+  "w": "話",
+  "r": "はなし",
+  "ro": "hanashi",
+  "m": "talk; story; conversation",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "ちょっと話があるんだ。",
+    "rd": "ちょっと はなしが あるんだ。",
+    "en": "I have something to talk about."
+   },
+   {
+    "jp": "その話は本当ですか。",
+    "rd": "その はなしは ほんとうですか。",
+    "en": "Is that story true?"
+   }
+  ],
+  "n": "Noun form of 話す (はなす, to speak); 会話 = conversation."
+ },
+ {
+  "w": "名前",
+  "r": "なまえ",
+  "ro": "namae",
+  "m": "name",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "お名前は何ですか。",
+    "rd": "おなまえは なんですか。",
+    "en": "What is your name?"
+   },
+   {
+    "jp": "君の名前を教えて。",
+    "rd": "きみの なまえを おしえて。",
+    "en": "Tell me your name."
+   }
+  ],
+  "n": "お名前 is the polite form."
+ },
+ {
+  "w": "意味",
+  "r": "いみ",
+  "ro": "imi",
+  "m": "meaning",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "どういう意味ですか。",
+    "rd": "どういう いみですか。",
+    "en": "What does that mean?"
+   },
+   {
+    "jp": "意味がわからない。",
+    "rd": "いみが わからない。",
+    "en": "I don't get the meaning."
+   }
+  ],
+  "n": "意味ない = meaningless/pointless."
+ },
+ {
+  "w": "質問",
+  "r": "しつもん",
+  "ro": "shitsumon",
+  "m": "question (asking)",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "質問があります。",
+    "rd": "しつもんが あります。",
+    "en": "I have a question."
+   },
+   {
+    "jp": "何か質問はありますか。",
+    "rd": "なにか しつもんは ありますか。",
+    "en": "Are there any questions?"
+   }
+  ],
+  "n": "Noun + する verb (質問する = to ask a question)."
+ },
+ {
+  "w": "答え",
+  "r": "こたえ",
+  "ro": "kotae",
+  "m": "answer",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "答えを教えて。",
+    "rd": "こたえを おしえて。",
+    "en": "Tell me the answer."
+   },
+   {
+    "jp": "答えはまだ出ていない。",
+    "rd": "こたえは まだ でていない。",
+    "en": "No answer has come out yet."
+   }
+  ],
+  "n": "Verb: 答える."
+ },
+ {
+  "w": "約束",
+  "r": "やくそく",
+  "ro": "yakusoku",
+  "m": "promise; appointment",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "約束は守るよ。",
+    "rd": "やくそくは まもるよ。",
+    "en": "I'll keep my promise."
+   },
+   {
+    "jp": "今日は友達と約束がある。",
+    "rd": "きょうは ともだちと やくそくが ある。",
+    "en": "I have plans with a friend today."
+   }
+  ],
+  "n": "Anime classic: 約束だよ (it's a promise)."
+ },
+ {
+  "w": "嘘",
+  "r": "うそ",
+  "ro": "uso",
+  "m": "lie",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "嘘じゃないよ!",
+    "rd": "うそじゃないよ!",
+    "en": "It's not a lie!"
+   },
+   {
+    "jp": "嘘をつかないで。",
+    "rd": "うそを つかないで。",
+    "en": "Don't lie."
+   }
+  ],
+  "n": "嘘! alone means 'No way!' / 'You're kidding!'."
+ },
+ {
+  "w": "秘密",
+  "r": "ひみつ",
+  "ro": "himitsu",
+  "m": "secret",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "これは二人の秘密だよ。",
+    "rd": "これは ふたりの ひみつだよ。",
+    "en": "This is our secret."
+   },
+   {
+    "jp": "秘密にしておいて。",
+    "rd": "ひみつに しておいて。",
+    "en": "Keep it secret."
+   }
+  ]
+ },
+ {
+  "w": "日本語",
+  "r": "にほんご",
+  "ro": "nihongo",
+  "m": "Japanese language",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "日本語を勉強しています。",
+    "rd": "にほんごを べんきょう しています。",
+    "en": "I'm studying Japanese."
+   },
+   {
+    "jp": "日本語は難しいですか。",
+    "rd": "にほんごは むずかしいですか。",
+    "en": "Is Japanese difficult?"
+   }
+  ]
+ },
+ {
+  "w": "英語",
+  "r": "えいご",
+  "ro": "eigo",
+  "m": "English language",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "英語が話せますか。",
+    "rd": "えいごが はなせますか。",
+    "en": "Can you speak English?"
+   },
+   {
+    "jp": "英語で言ってください。",
+    "rd": "えいごで いってください。",
+    "en": "Please say it in English."
+   }
+  ]
+ },
+ {
+  "w": "返事",
+  "r": "へんじ",
+  "ro": "henji",
+  "m": "reply; response",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "返事を待っています。",
+    "rd": "へんじを まっています。",
+    "en": "I'm waiting for your reply."
+   },
+   {
+    "jp": "まだ返事が来ない。",
+    "rd": "まだ へんじが こない。",
+    "en": "No reply has come yet."
+   }
+  ]
+ },
+ {
+  "w": "電話",
+  "r": "でんわ",
+  "ro": "denwa",
+  "m": "telephone; phone call",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "後で電話するね。",
+    "rd": "あとで でんわするね。",
+    "en": "I'll call you later."
+   },
+   {
+    "jp": "電話が鳴っている。",
+    "rd": "でんわが なっている。",
+    "en": "The phone is ringing."
+   }
+  ],
+  "n": "Noun + する verb."
+ },
+ {
+  "w": "手紙",
+  "r": "てがみ",
+  "ro": "tegami",
+  "m": "letter (mail)",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "手紙を書きました。",
+    "rd": "てがみを かきました。",
+    "en": "I wrote a letter."
+   },
+   {
+    "jp": "彼から手紙が届いた。",
+    "rd": "かれから てがみが とどいた。",
+    "en": "A letter arrived from him."
+   }
+  ],
+  "n": "Careful: Japanese 手紙 is a letter, not toilet paper (that's トイレットペーパー)."
+ },
+ {
+  "w": "連絡",
+  "r": "れんらく",
+  "ro": "renraku",
+  "m": "contact; getting in touch",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "後で連絡します。",
+    "rd": "あとで れんらく します。",
+    "en": "I'll contact you later."
+   },
+   {
+    "jp": "連絡先を教えて。",
+    "rd": "れんらくさきを おしえて。",
+    "en": "Give me your contact info."
+   }
+  ]
+ },
+ {
+  "w": "説明",
+  "r": "せつめい",
+  "ro": "setsumei",
+  "m": "explanation",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "説明してください。",
+    "rd": "せつめい してください。",
+    "en": "Please explain."
+   },
+   {
+    "jp": "先生の説明はわかりやすい。",
+    "rd": "せんせいの せつめいは わかりやすい。",
+    "en": "The teacher's explanation is easy to understand."
+   }
+  ]
+ },
+ {
+  "w": "挨拶",
+  "r": "あいさつ",
+  "ro": "aisatsu",
+  "m": "greeting",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "朝の挨拶は大事です。",
+    "rd": "あさの あいさつは だいじです。",
+    "en": "Morning greetings are important."
+   },
+   {
+    "jp": "先生に挨拶をした。",
+    "rd": "せんせいに あいさつを した。",
+    "en": "I greeted the teacher."
+   }
+  ]
+ },
+ {
+  "w": "噂",
+  "r": "うわさ",
+  "ro": "uwasa",
+  "m": "rumor; gossip",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "変な噂を聞いたよ。",
+    "rd": "へんな うわさを きいたよ。",
+    "en": "I heard a weird rumor."
+   },
+   {
+    "jp": "噂をすれば、彼が来た。",
+    "rd": "うわさを すれば、かれが きた。",
+    "en": "Speak of the devil, he came."
+   }
+  ],
+  "n": "噂をすれば (影) = speak of the devil."
+ },
+ {
+  "w": "冗談",
+  "r": "じょうだん",
+  "ro": "joudan",
+  "m": "joke",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "冗談でしょ?",
+    "rd": "じょうだんでしょ?",
+    "en": "You're joking, right?"
+   },
+   {
+    "jp": "冗談はやめてよ。",
+    "rd": "じょうだんは やめてよ。",
+    "en": "Quit joking around."
+   }
+  ]
+ },
+ {
+  "w": "文字",
+  "r": "もじ",
+  "ro": "moji",
+  "m": "letter; character; written text",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "この文字は読めない。",
+    "rd": "この もじは よめない。",
+    "en": "I can't read this character."
+   },
+   {
+    "jp": "日本語には三つの文字がある。",
+    "rd": "にほんごには みっつの もじが ある。",
+    "en": "Japanese has three scripts."
+   }
+  ]
+ },
+ {
+  "w": "漢字",
+  "r": "かんじ",
+  "ro": "kanji",
+  "m": "kanji; Chinese character",
+  "pos": "noun",
+  "c": "communication",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "漢字は難しい。",
+    "rd": "かんじは むずかしい。",
+    "en": "Kanji are hard."
+   },
+   {
+    "jp": "この漢字の読み方は?",
+    "rd": "この かんじの よみかたは?",
+    "en": "How do you read this kanji?"
+   }
+  ]
+ },
+ {
+  "w": "会話",
+  "r": "かいわ",
+  "ro": "kaiwa",
+  "m": "conversation",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本語で会話をしたい。",
+    "rd": "にほんごで かいわを したい。",
+    "en": "I want to have conversations in Japanese."
+   },
+   {
+    "jp": "会話の練習をしよう。",
+    "rd": "かいわの れんしゅうを しよう。",
+    "en": "Let's practice conversation."
+   }
+  ]
+ },
+ {
+  "w": "意見",
+  "r": "いけん",
+  "ro": "iken",
+  "m": "opinion",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "あなたの意見を聞きたい。",
+    "rd": "あなたの いけんを ききたい。",
+    "en": "I'd like to hear your opinion."
+   },
+   {
+    "jp": "みんなの意見が分かれた。",
+    "rd": "みんなの いけんが わかれた。",
+    "en": "Opinions were divided."
+   }
+  ]
+ },
+ {
+  "w": "相談",
+  "r": "そうだん",
+  "ro": "soudan",
+  "m": "consultation; talking something over",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ちょっと相談があります。",
+    "rd": "ちょっと そうだんが あります。",
+    "en": "I'd like to ask your advice."
+   },
+   {
+    "jp": "先生に相談してみよう。",
+    "rd": "せんせいに そうだん してみよう。",
+    "en": "Let's try talking to the teacher."
+   }
+  ]
+ },
+ {
+  "w": "歌詞",
+  "r": "かし",
+  "ro": "kashi",
+  "m": "song lyrics",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "この歌の歌詞が好き。",
+    "rd": "この うたの かしが すき。",
+    "en": "I like the lyrics of this song."
+   },
+   {
+    "jp": "歌詞の意味を調べた。",
+    "rd": "かしの いみを しらべた。",
+    "en": "I looked up the meaning of the lyrics."
+   }
+  ]
+ },
+ {
+  "w": "命令",
+  "r": "めいれい",
+  "ro": "meirei",
+  "m": "order; command",
+  "pos": "noun",
+  "c": "communication",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "命令には従え。",
+    "rd": "めいれいには したがえ。",
+    "en": "Obey the orders."
+   },
+   {
+    "jp": "誰の命令だ?",
+    "rd": "だれの めいれいだ?",
+    "en": "Whose order is this?"
+   }
+  ]
+ },
+ {
+  "w": "お願い",
+  "r": "おねがい",
+  "ro": "onegai",
+  "m": "request; please",
+  "pos": "noun",
+  "c": "communication",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "お願い、助けて!",
+    "rd": "おねがい、たすけて!",
+    "en": "Please, help me!"
+   },
+   {
+    "jp": "一つお願いがあります。",
+    "rd": "ひとつ おねがいが あります。",
+    "en": "I have one favor to ask."
+   }
+  ],
+  "n": "お願いします = please (polite)."
+ },
+ {
+  "w": "お礼",
+  "r": "おれい",
+  "ro": "orei",
+  "m": "thanks; gratitude (gift/words)",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お礼を言いたい。",
+    "rd": "おれいを いいたい。",
+    "en": "I want to say thank you."
+   },
+   {
+    "jp": "お礼にご飯をおごるよ。",
+    "rd": "おれいに ごはんを おごるよ。",
+    "en": "I'll treat you to a meal as thanks."
+   }
+  ]
+ },
+ {
+  "w": "伝言",
+  "r": "でんごん",
+  "ro": "dengon",
+  "m": "message (passed on)",
+  "pos": "noun",
+  "c": "communication",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "伝言をお願いします。",
+    "rd": "でんごんを おねがいします。",
+    "en": "Please pass on a message."
+   },
+   {
+    "jp": "彼に伝言を残した。",
+    "rd": "かれに でんごんを のこした。",
+    "en": "I left a message for him."
+   }
+  ]
+ },
+ {
+  "w": "言い訳",
+  "r": "いいわけ",
+  "ro": "iiwake",
+  "m": "excuse",
+  "pos": "noun",
+  "c": "communication",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "言い訳はやめて。",
+    "rd": "いいわけは やめて。",
+    "en": "Stop making excuses."
+   },
+   {
+    "jp": "それは言い訳にならない。",
+    "rd": "それは いいわけに ならない。",
+    "en": "That's no excuse."
+   }
+  ]
+ },
+ {
+  "w": "注意",
+  "r": "ちゅうい",
+  "ro": "chuui",
+  "m": "caution; attention",
+  "pos": "noun",
+  "c": "communication",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "足元に注意してください。",
+    "rd": "あしもとに ちゅうい してください。",
+    "en": "Please watch your step."
+   },
+   {
+    "jp": "先生に注意された。",
+    "rd": "せんせいに ちゅうい された。",
+    "en": "I was warned by the teacher."
+   }
+  ]
+ },
+ {
+  "w": "知らせ",
+  "r": "しらせ",
+  "ro": "shirase",
+  "m": "notice; news",
+  "pos": "noun",
+  "c": "communication",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "いい知らせがあるよ。",
+    "rd": "いい しらせが あるよ。",
+    "en": "I have good news."
+   },
+   {
+    "jp": "悪い知らせだ。",
+    "rd": "わるい しらせだ。",
+    "en": "It's bad news."
+   }
+  ],
+  "n": "Verb: 知らせる."
+ },
+ {
+  "w": "話題",
+  "r": "わだい",
+  "ro": "wadai",
+  "m": "topic of conversation",
+  "pos": "noun",
+  "c": "communication",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "話題を変えよう。",
+    "rd": "わだいを かえよう。",
+    "en": "Let's change the topic."
+   },
+   {
+    "jp": "今、話題の映画です。",
+    "rd": "いま、わだいの えいがです。",
+    "en": "It's a movie everyone is talking about."
+   }
+  ]
+ },
+ {
+  "w": "悪口",
+  "r": "わるぐち",
+  "ro": "waruguchi",
+  "m": "bad-mouthing; insult",
+  "pos": "noun",
+  "c": "communication",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "人の悪口を言うな。",
+    "rd": "ひとの わるぐちを いうな。",
+    "en": "Don't speak ill of people."
+   },
+   {
+    "jp": "陰で悪口を言われた。",
+    "rd": "かげで わるぐちを いわれた。",
+    "en": "They talked badly about me behind my back."
+   }
+  ]
+ },
+ {
+  "w": "正体",
+  "r": "しょうたい",
+  "ro": "shoutai",
+  "m": "true identity",
+  "pos": "noun",
+  "c": "communication",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "彼の正体を知っている?",
+    "rd": "かれの しょうたいを しっている?",
+    "en": "Do you know his true identity?"
+   },
+   {
+    "jp": "ついに正体を現した。",
+    "rd": "ついに しょうたいを あらわした。",
+    "en": "He finally revealed his true form."
+   }
+  ],
+  "n": "Very common in mystery/anime."
+ },
+ {
+  "w": "返答",
+  "r": "へんとう",
+  "ro": "hentou",
+  "m": "reply (formal)",
+  "pos": "noun",
+  "c": "communication",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "返答を聞かせてください。",
+    "rd": "へんとうを きかせてください。",
+    "en": "Let me hear your answer."
+   },
+   {
+    "jp": "返答に困った。",
+    "rd": "へんとうに こまった。",
+    "en": "I didn't know how to answer."
+   }
+  ]
+ },
+ {
+  "w": "会議",
+  "r": "かいぎ",
+  "ro": "kaigi",
+  "m": "meeting; conference",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "明日は会議があります。",
+    "rd": "あしたは かいぎが あります。",
+    "en": "There's a meeting tomorrow."
+   },
+   {
+    "jp": "会議は三時からです。",
+    "rd": "かいぎは さんじからです。",
+    "en": "The meeting starts at three."
+   }
+  ]
+ },
+ {
+  "w": "仕事",
+  "r": "しごと",
+  "ro": "shigoto",
+  "m": "work; job",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "今日は仕事です。",
+    "rd": "きょうは しごとです。",
+    "en": "I have work today."
+   },
+   {
+    "jp": "仕事が忙しい。",
+    "rd": "しごとが いそがしい。",
+    "en": "Work is busy."
+   }
+  ],
+  "n": "仕事 = the work you do; 会社 = company."
+ },
+ {
+  "w": "勉強",
+  "r": "べんきょう",
+  "ro": "benkyou",
+  "m": "study",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "毎日日本語を勉強している。",
+    "rd": "まいにち にほんごを べんきょう している。",
+    "en": "I study Japanese every day."
+   },
+   {
+    "jp": "勉強は大変だ。",
+    "rd": "べんきょうは たいへんだ。",
+    "en": "Studying is tough."
+   }
+  ],
+  "n": "Noun + する verb."
+ },
+ {
+  "w": "宿題",
+  "r": "しゅくだい",
+  "ro": "shukudai",
+  "m": "homework",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "宿題を忘れた!",
+    "rd": "しゅくだいを わすれた!",
+    "en": "I forgot my homework!"
+   },
+   {
+    "jp": "もう宿題は終わった?",
+    "rd": "もう しゅくだいは おわった?",
+    "en": "Is your homework done yet?"
+   }
+  ]
+ },
+ {
+  "w": "試験",
+  "r": "しけん",
+  "ro": "shiken",
+  "m": "exam; test",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "来週、試験があります。",
+    "rd": "らいしゅう、しけんが あります。",
+    "en": "I have an exam next week."
+   },
+   {
+    "jp": "試験に合格した!",
+    "rd": "しけんに ごうかく した!",
+    "en": "I passed the exam!"
+   }
+  ]
+ },
+ {
+  "w": "問題",
+  "r": "もんだい",
+  "ro": "mondai",
+  "m": "problem; question (on a test)",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "問題ないよ。",
+    "rd": "もんだい ないよ。",
+    "en": "No problem."
+   },
+   {
+    "jp": "この問題は難しい。",
+    "rd": "この もんだいは むずかしい。",
+    "en": "This problem is hard."
+   }
+  ],
+  "n": "Both 'problem' and exam 'question'."
+ },
+ {
+  "w": "理由",
+  "r": "りゆう",
+  "ro": "riyuu",
+  "m": "reason",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "理由を教えてください。",
+    "rd": "りゆうを おしえてください。",
+    "en": "Please tell me the reason."
+   },
+   {
+    "jp": "理由は特にない。",
+    "rd": "りゆうは とくに ない。",
+    "en": "There's no particular reason."
+   }
+  ]
+ },
+ {
+  "w": "方法",
+  "r": "ほうほう",
+  "ro": "houhou",
+  "m": "method; way",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "いい方法を見つけた。",
+    "rd": "いい ほうほうを みつけた。",
+    "en": "I found a good method."
+   },
+   {
+    "jp": "他に方法はない。",
+    "rd": "ほかに ほうほうは ない。",
+    "en": "There's no other way."
+   }
+  ]
+ },
+ {
+  "w": "予定",
+  "r": "よてい",
+  "ro": "yotei",
+  "m": "plan; schedule",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "明日の予定は?",
+    "rd": "あしたの よていは?",
+    "en": "What are your plans for tomorrow?"
+   },
+   {
+    "jp": "今日は予定がある。",
+    "rd": "きょうは よていが ある。",
+    "en": "I have plans today."
+   }
+  ]
+ },
+ {
+  "w": "準備",
+  "r": "じゅんび",
+  "ro": "junbi",
+  "m": "preparation",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "準備はできた?",
+    "rd": "じゅんびは できた?",
+    "en": "Are you ready?"
+   },
+   {
+    "jp": "旅行の準備をする。",
+    "rd": "りょこうの じゅんびを する。",
+    "en": "I prepare for the trip."
+   }
+  ]
+ },
+ {
+  "w": "経験",
+  "r": "けいけん",
+  "ro": "keiken",
+  "m": "experience",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "いい経験になった。",
+    "rd": "いい けいけんに なった。",
+    "en": "It was a good experience."
+   },
+   {
+    "jp": "経験がありません。",
+    "rd": "けいけんが ありません。",
+    "en": "I have no experience."
+   }
+  ]
+ },
+ {
+  "w": "用事",
+  "r": "ようじ",
+  "ro": "youji",
+  "m": "errand; business to attend to",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ちょっと用事がある。",
+    "rd": "ちょっと ようじが ある。",
+    "en": "I have something to do."
+   },
+   {
+    "jp": "用事があるので帰ります。",
+    "rd": "ようじが あるので かえります。",
+    "en": "I have an errand, so I'm going home."
+   }
+  ],
+  "n": "Common polite excuse: 用事があって."
+ },
+ {
+  "w": "授業",
+  "r": "じゅぎょう",
+  "ro": "jugyou",
+  "m": "class; lesson",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "授業は八時からです。",
+    "rd": "じゅぎょうは はちじからです。",
+    "en": "Class starts at eight."
+   },
+   {
+    "jp": "授業中に寝ないで。",
+    "rd": "じゅぎょうちゅうに ねないで。",
+    "en": "Don't sleep during class."
+   }
+  ]
+ },
+ {
+  "w": "練習",
+  "r": "れんしゅう",
+  "ro": "renshuu",
+  "m": "practice",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "毎日練習している。",
+    "rd": "まいにち れんしゅう している。",
+    "en": "I practice every day."
+   },
+   {
+    "jp": "もっと練習が必要だ。",
+    "rd": "もっと れんしゅうが ひつようだ。",
+    "en": "More practice is needed."
+   }
+  ]
+ },
+ {
+  "w": "試合",
+  "r": "しあい",
+  "ro": "shiai",
+  "m": "match; game",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "明日は大事な試合だ。",
+    "rd": "あしたは だいじな しあいだ。",
+    "en": "Tomorrow is an important match."
+   },
+   {
+    "jp": "試合に勝った!",
+    "rd": "しあいに かった!",
+    "en": "We won the match!"
+   }
+  ]
+ },
+ {
+  "w": "成績",
+  "r": "せいせき",
+  "ro": "seiseki",
+  "m": "grades; results",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "成績が上がった。",
+    "rd": "せいせきが あがった。",
+    "en": "My grades went up."
+   },
+   {
+    "jp": "成績はどうだった?",
+    "rd": "せいせきは どうだった?",
+    "en": "How were your grades?"
+   }
+  ]
+ },
+ {
+  "w": "目的",
+  "r": "もくてき",
+  "ro": "mokuteki",
+  "m": "purpose; goal",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "旅行の目的は何ですか。",
+    "rd": "りょこうの もくてきは なんですか。",
+    "en": "What is the purpose of your trip?"
+   },
+   {
+    "jp": "目的を忘れるな。",
+    "rd": "もくてきを わすれるな。",
+    "en": "Don't forget the purpose."
+   }
+  ]
+ },
+ {
+  "w": "目標",
+  "r": "もくひょう",
+  "ro": "mokuhyou",
+  "m": "target; goal",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今年の目標は何?",
+    "rd": "ことしの もくひょうは なに?",
+    "en": "What's your goal this year?"
+   },
+   {
+    "jp": "目標に向かって頑張る。",
+    "rd": "もくひょうに むかって がんばる。",
+    "en": "I work hard toward my goal."
+   }
+  ]
+ },
+ {
+  "w": "結果",
+  "r": "けっか",
+  "ro": "kekka",
+  "m": "result",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "結果はどうだった?",
+    "rd": "けっかは どうだった?",
+    "en": "How did it turn out?"
+   },
+   {
+    "jp": "結果が楽しみだ。",
+    "rd": "けっかが たのしみだ。",
+    "en": "I'm looking forward to the result."
+   }
+  ]
+ },
+ {
+  "w": "計画",
+  "r": "けいかく",
+  "ro": "keikaku",
+  "m": "plan; project",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "計画通りに進んでいる。",
+    "rd": "けいかくどおりに すすんでいる。",
+    "en": "It's going according to plan."
+   },
+   {
+    "jp": "旅行の計画を立てた。",
+    "rd": "りょこうの けいかくを たてた。",
+    "en": "I made a travel plan."
+   }
+  ]
+ },
+ {
+  "w": "努力",
+  "r": "どりょく",
+  "ro": "doryoku",
+  "m": "effort",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "努力は裏切らない。",
+    "rd": "どりょくは うらぎらない。",
+    "en": "Effort doesn't betray you."
+   },
+   {
+    "jp": "毎日努力している。",
+    "rd": "まいにち どりょく している。",
+    "en": "I make an effort every day."
+   }
+  ]
+ },
+ {
+  "w": "才能",
+  "r": "さいのう",
+  "ro": "sainou",
+  "m": "talent",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "彼には才能がある。",
+    "rd": "かれには さいのうが ある。",
+    "en": "He has talent."
+   },
+   {
+    "jp": "才能より努力だ。",
+    "rd": "さいのうより どりょくだ。",
+    "en": "Effort beats talent."
+   }
+  ]
+ },
+ {
+  "w": "情報",
+  "r": "じょうほう",
+  "ro": "jouhou",
+  "m": "information",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "情報を集めよう。",
+    "rd": "じょうほうを あつめよう。",
+    "en": "Let's gather information."
+   },
+   {
+    "jp": "それは大事な情報だ。",
+    "rd": "それは だいじな じょうほうだ。",
+    "en": "That's important information."
+   }
+  ]
+ },
+ {
+  "w": "失敗",
+  "r": "しっぱい",
+  "ro": "shippai",
+  "m": "failure; mistake",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "失敗は成功のもと。",
+    "rd": "しっぱいは せいこうの もと。",
+    "en": "Failure is the mother of success."
+   },
+   {
+    "jp": "また失敗しちゃった。",
+    "rd": "また しっぱい しちゃった。",
+    "en": "I messed up again."
+   }
+  ],
+  "n": "Noun + する verb."
+ },
+ {
+  "w": "成功",
+  "r": "せいこう",
+  "ro": "seikou",
+  "m": "success",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "実験は成功した!",
+    "rd": "じっけんは せいこう した!",
+    "en": "The experiment succeeded!"
+   },
+   {
+    "jp": "成功を祈ってるよ。",
+    "rd": "せいこうを いのってるよ。",
+    "en": "I'm wishing you success."
+   }
+  ]
+ },
+ {
+  "w": "作戦",
+  "r": "さくせん",
+  "ro": "sakusen",
+  "m": "strategy; operation",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "作戦を立てよう。",
+    "rd": "さくせんを たてよう。",
+    "en": "Let's make a plan of action."
+   },
+   {
+    "jp": "作戦は成功だ!",
+    "rd": "さくせんは せいこうだ!",
+    "en": "The operation is a success!"
+   }
+  ],
+  "n": "Common in anime battles."
+ },
+ {
+  "w": "任務",
+  "r": "にんむ",
+  "ro": "ninmu",
+  "m": "mission; duty",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "任務を果たした。",
+    "rd": "にんむを はたした。",
+    "en": "I completed the mission."
+   },
+   {
+    "jp": "これは重要な任務だ。",
+    "rd": "これは じゅうような にんむだ。",
+    "en": "This is an important mission."
+   }
+  ]
+ },
+ {
+  "w": "実力",
+  "r": "じつりょく",
+  "ro": "jitsuryoku",
+  "m": "real ability; strength",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "実力を見せてやる。",
+    "rd": "じつりょくを みせてやる。",
+    "en": "I'll show you my real ability."
+   },
+   {
+    "jp": "実力で勝った。",
+    "rd": "じつりょくで かった。",
+    "en": "I won on pure skill."
+   }
+  ]
+ },
+ {
+  "w": "勝負",
+  "r": "しょうぶ",
+  "ro": "shoubu",
+  "m": "match; contest",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "勝負だ!",
+    "rd": "しょうぶだ!",
+    "en": "Let's have a showdown!"
+   },
+   {
+    "jp": "この勝負、負けない。",
+    "rd": "この しょうぶ、まけない。",
+    "en": "I won't lose this contest."
+   }
+  ]
+ },
+ {
+  "w": "勝利",
+  "r": "しょうり",
+  "ro": "shouri",
+  "m": "victory",
+  "pos": "noun",
+  "c": "work-school",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "勝利は目の前だ。",
+    "rd": "しょうりは めのまえだ。",
+    "en": "Victory is right before us."
+   },
+   {
+    "jp": "チームが勝利した。",
+    "rd": "チームが しょうり した。",
+    "en": "The team won."
+   }
+  ]
+ },
+ {
+  "w": "趣味",
+  "r": "しゅみ",
+  "ro": "shumi",
+  "m": "hobby",
+  "pos": "noun",
+  "c": "life",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "趣味は何ですか。",
+    "rd": "しゅみは なんですか。",
+    "en": "What's your hobby?"
+   },
+   {
+    "jp": "趣味は映画を見ることです。",
+    "rd": "しゅみは えいがを みる ことです。",
+    "en": "My hobby is watching movies."
+   }
+  ]
+ },
+ {
+  "w": "生活",
+  "r": "せいかつ",
+  "ro": "seikatsu",
+  "m": "daily life; living",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本の生活は楽しい。",
+    "rd": "にほんの せいかつは たのしい。",
+    "en": "Life in Japan is fun."
+   },
+   {
+    "jp": "生活に慣れてきた。",
+    "rd": "せいかつに なれてきた。",
+    "en": "I'm getting used to life here."
+   }
+  ]
+ },
+ {
+  "w": "人生",
+  "r": "じんせい",
+  "ro": "jinsei",
+  "m": "one's life; life",
+  "pos": "noun",
+  "c": "life",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "人生は一度きりだ。",
+    "rd": "じんせいは いちどきりだ。",
+    "en": "You only live once."
+   },
+   {
+    "jp": "これが私の人生だ。",
+    "rd": "これが わたしの じんせいだ。",
+    "en": "This is my life."
+   }
+  ]
+ },
+ {
+  "w": "歌",
+  "r": "うた",
+  "ro": "uta",
+  "m": "song",
+  "pos": "noun",
+  "c": "life",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "この歌、好き!",
+    "rd": "この うた、すき!",
+    "en": "I love this song!"
+   },
+   {
+    "jp": "日本語の歌を歌いたい。",
+    "rd": "にほんごの うたを うたいたい。",
+    "en": "I want to sing a Japanese song."
+   }
+  ],
+  "n": "Verb: 歌う (うたう)."
+ },
+ {
+  "w": "音楽",
+  "r": "おんがく",
+  "ro": "ongaku",
+  "m": "music",
+  "pos": "noun",
+  "c": "life",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "音楽を聞くのが好きです。",
+    "rd": "おんがくを きくのが すきです。",
+    "en": "I like listening to music."
+   },
+   {
+    "jp": "どんな音楽が好き?",
+    "rd": "どんな おんがくが すき?",
+    "en": "What kind of music do you like?"
+   }
+  ]
+ },
+ {
+  "w": "映画",
+  "r": "えいが",
+  "ro": "eiga",
+  "m": "movie",
+  "pos": "noun",
+  "c": "life",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "週末に映画を見た。",
+    "rd": "しゅうまつに えいがを みた。",
+    "en": "I watched a movie on the weekend."
+   },
+   {
+    "jp": "この映画、面白いよ。",
+    "rd": "この えいが、おもしろいよ。",
+    "en": "This movie is interesting."
+   }
+  ]
+ },
+ {
+  "w": "色",
+  "r": "いろ",
+  "ro": "iro",
+  "m": "color",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "好きな色は何ですか。",
+    "rd": "すきな いろは なんですか。",
+    "en": "What's your favorite color?"
+   },
+   {
+    "jp": "この色、きれいだね。",
+    "rd": "この いろ、きれいだね。",
+    "en": "This color is pretty."
+   }
+  ],
+  "n": "The color words themselves (赤, 青) are covered elsewhere."
+ },
+ {
+  "w": "形",
+  "r": "かたち",
+  "ro": "katachi",
+  "m": "shape; form",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "変な形だね。",
+    "rd": "へんな かたちだね。",
+    "en": "That's a strange shape."
+   },
+   {
+    "jp": "愛の形は人それぞれだ。",
+    "rd": "あいの かたちは ひとそれぞれだ。",
+    "en": "Love takes a different form for each person."
+   }
+  ]
+ },
+ {
+  "w": "音",
+  "r": "おと",
+  "ro": "oto",
+  "m": "sound; noise",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "変な音がする。",
+    "rd": "へんな おとが する。",
+    "en": "I hear a strange noise."
+   },
+   {
+    "jp": "雨の音が好き。",
+    "rd": "あめの おとが すき。",
+    "en": "I like the sound of rain."
+   }
+  ]
+ },
+ {
+  "w": "絵",
+  "r": "え",
+  "ro": "e",
+  "m": "picture; drawing",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "絵を描くのが好きです。",
+    "rd": "えを かくのが すきです。",
+    "en": "I like drawing pictures."
+   },
+   {
+    "jp": "この絵は有名です。",
+    "rd": "この えは ゆうめいです。",
+    "en": "This painting is famous."
+   }
+  ]
+ },
+ {
+  "w": "旅行",
+  "r": "りょこう",
+  "ro": "ryokou",
+  "m": "trip; travel",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本に旅行したい。",
+    "rd": "にほんに りょこう したい。",
+    "en": "I want to travel to Japan."
+   },
+   {
+    "jp": "来月、旅行に行く。",
+    "rd": "らいげつ、りょこうに いく。",
+    "en": "I'm going on a trip next month."
+   }
+  ]
+ },
+ {
+  "w": "誕生日",
+  "r": "たんじょうび",
+  "ro": "tanjoubi",
+  "m": "birthday",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "誕生日おめでとう!",
+    "rd": "たんじょうび おめでとう!",
+    "en": "Happy birthday!"
+   },
+   {
+    "jp": "私の誕生日は五月です。",
+    "rd": "わたしの たんじょうびは ごがつです。",
+    "en": "My birthday is in May."
+   }
+  ]
+ },
+ {
+  "w": "お祭り",
+  "r": "おまつり",
+  "ro": "omatsuri",
+  "m": "festival",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "夏のお祭りに行こう。",
+    "rd": "なつの おまつりに いこう。",
+    "en": "Let's go to the summer festival."
+   },
+   {
+    "jp": "お祭りは楽しかった。",
+    "rd": "おまつりは たのしかった。",
+    "en": "The festival was fun."
+   }
+  ]
+ },
+ {
+  "w": "休み",
+  "r": "やすみ",
+  "ro": "yasumi",
+  "m": "rest; day off; holiday",
+  "pos": "noun",
+  "c": "life",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "明日は休みです。",
+    "rd": "あしたは やすみです。",
+    "en": "Tomorrow is a day off."
+   },
+   {
+    "jp": "夏休みが待ち遠しい。",
+    "rd": "なつやすみが まちどおしい。",
+    "en": "I can't wait for summer vacation."
+   }
+  ],
+  "n": "Verb: 休む (to rest)."
+ },
+ {
+  "w": "病気",
+  "r": "びょうき",
+  "ro": "byouki",
+  "m": "illness; sickness",
+  "pos": "noun",
+  "c": "life",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "病気で学校を休んだ。",
+    "rd": "びょうきで がっこうを やすんだ。",
+    "en": "I was sick and missed school."
+   },
+   {
+    "jp": "病気が治った。",
+    "rd": "びょうきが なおった。",
+    "en": "I recovered from the illness."
+   }
+  ]
+ },
+ {
+  "w": "怪我",
+  "r": "けが",
+  "ro": "kega",
+  "m": "injury",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "怪我はない?",
+    "rd": "けがは ない?",
+    "en": "Are you hurt?"
+   },
+   {
+    "jp": "転んで怪我をした。",
+    "rd": "ころんで けがを した。",
+    "en": "I fell and got hurt."
+   }
+  ]
+ },
+ {
+  "w": "事故",
+  "r": "じこ",
+  "ro": "jiko",
+  "m": "accident",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "事故があったらしい。",
+    "rd": "じこが あったらしい。",
+    "en": "Apparently there was an accident."
+   },
+   {
+    "jp": "交通事故に気をつけて。",
+    "rd": "こうつうじこに きを つけて。",
+    "en": "Watch out for traffic accidents."
+   }
+  ]
+ },
+ {
+  "w": "危険",
+  "r": "きけん",
+  "ro": "kiken",
+  "m": "danger",
+  "pos": "noun",
+  "c": "life",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ここは危険だ。",
+    "rd": "ここは きけんだ。",
+    "en": "It's dangerous here."
+   },
+   {
+    "jp": "危険な目にあった。",
+    "rd": "きけんな めに あった。",
+    "en": "I had a dangerous experience."
+   }
+  ],
+  "n": "Also a な-adjective."
+ },
+ {
+  "w": "世界",
+  "r": "せかい",
+  "ro": "sekai",
+  "m": "world",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "世界は広いね。",
+    "rd": "せかいは ひろいね。",
+    "en": "The world is big."
+   },
+   {
+    "jp": "世界を救うんだ!",
+    "rd": "せかいを すくうんだ!",
+    "en": "I'm going to save the world!"
+   }
+  ]
+ },
+ {
+  "w": "社会",
+  "r": "しゃかい",
+  "ro": "shakai",
+  "m": "society",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "社会は厳しい。",
+    "rd": "しゃかいは きびしい。",
+    "en": "Society is harsh."
+   },
+   {
+    "jp": "社会に出て二年たった。",
+    "rd": "しゃかいに でて にねん たった。",
+    "en": "It's been two years since I entered the working world."
+   }
+  ]
+ },
+ {
+  "w": "未来",
+  "r": "みらい",
+  "ro": "mirai",
+  "m": "future",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "未来は変えられる。",
+    "rd": "みらいは かえられる。",
+    "en": "The future can be changed."
+   },
+   {
+    "jp": "明るい未来を信じる。",
+    "rd": "あかるい みらいを しんじる。",
+    "en": "I believe in a bright future."
+   }
+  ],
+  "n": "Poetic/anime; everyday 'in the future' is 将来 (しょうらい)."
+ },
+ {
+  "w": "過去",
+  "r": "かこ",
+  "ro": "kako",
+  "m": "past",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "過去は変えられない。",
+    "rd": "かこは かえられない。",
+    "en": "The past can't be changed."
+   },
+   {
+    "jp": "彼には暗い過去がある。",
+    "rd": "かれには くらい かこが ある。",
+    "en": "He has a dark past."
+   }
+  ]
+ },
+ {
+  "w": "運命",
+  "r": "うんめい",
+  "ro": "unmei",
+  "m": "fate; destiny",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "これは運命だ。",
+    "rd": "これは うんめいだ。",
+    "en": "This is destiny."
+   },
+   {
+    "jp": "運命の人に出会った。",
+    "rd": "うんめいの ひとに であった。",
+    "en": "I met the person destined for me."
+   }
+  ]
+ },
+ {
+  "w": "仲間",
+  "r": "なかま",
+  "ro": "nakama",
+  "m": "companion; comrade; friend",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "仲間を信じる。",
+    "rd": "なかまを しんじる。",
+    "en": "I trust my comrades."
+   },
+   {
+    "jp": "私たちは仲間だよ。",
+    "rd": "わたしたちは なかまだよ。",
+    "en": "We're companions."
+   }
+  ],
+  "n": "Core anime word: friends who share a goal."
+ },
+ {
+  "w": "敵",
+  "r": "てき",
+  "ro": "teki",
+  "m": "enemy",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "敵が来る!",
+    "rd": "てきが くる!",
+    "en": "The enemy is coming!"
+   },
+   {
+    "jp": "彼は敵じゃない。",
+    "rd": "かれは てきじゃない。",
+    "en": "He is not an enemy."
+   }
+  ]
+ },
+ {
+  "w": "味方",
+  "r": "みかた",
+  "ro": "mikata",
+  "m": "ally; one's side",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "私はあなたの味方だよ。",
+    "rd": "わたしは あなたの みかただよ。",
+    "en": "I'm on your side."
+   },
+   {
+    "jp": "味方が増えた。",
+    "rd": "みかたが ふえた。",
+    "en": "We gained allies."
+   }
+  ],
+  "n": "Opposite of 敵."
+ },
+ {
+  "w": "戦い",
+  "r": "たたかい",
+  "ro": "tatakai",
+  "m": "fight; battle",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "戦いが始まった。",
+    "rd": "たたかいが はじまった。",
+    "en": "The battle has begun."
+   },
+   {
+    "jp": "これが最後の戦いだ。",
+    "rd": "これが さいごの たたかいだ。",
+    "en": "This is the final battle."
+   }
+  ],
+  "n": "Verb: 戦う (たたかう)."
+ },
+ {
+  "w": "王",
+  "r": "おう",
+  "ro": "ou",
+  "m": "king",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "王様に会いたい。",
+    "rd": "おうさまに あいたい。",
+    "en": "I want to meet the king."
+   },
+   {
+    "jp": "彼は海賊王になる。",
+    "rd": "かれは かいぞくおうに なる。",
+    "en": "He will become the Pirate King."
+   }
+  ],
+  "n": "Usually 王様 (おうさま)."
+ },
+ {
+  "w": "神",
+  "r": "かみ",
+  "ro": "kami",
+  "m": "god",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "神様、お願いします。",
+    "rd": "かみさま、おねがいします。",
+    "en": "God, please."
+   },
+   {
+    "jp": "神は存在すると思う?",
+    "rd": "かみは そんざい すると おもう?",
+    "en": "Do you think god exists?"
+   }
+  ],
+  "n": "神様 (かみさま); also 神社 (shrine). Don't confuse with 髪 (hair), same reading."
+ },
+ {
+  "w": "魔法",
+  "r": "まほう",
+  "ro": "mahou",
+  "m": "magic",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "魔法を使えたらいいな。",
+    "rd": "まほうを つかえたら いいな。",
+    "en": "I wish I could use magic."
+   },
+   {
+    "jp": "魔法の世界へようこそ。",
+    "rd": "まほうの せかいへ ようこそ。",
+    "en": "Welcome to the world of magic."
+   }
+  ]
+ },
+ {
+  "w": "戦争",
+  "r": "せんそう",
+  "ro": "sensou",
+  "m": "war",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "戦争は嫌いだ。",
+    "rd": "せんそうは きらいだ。",
+    "en": "I hate war."
+   },
+   {
+    "jp": "戦争が終わった。",
+    "rd": "せんそうが おわった。",
+    "en": "The war ended."
+   }
+  ]
+ },
+ {
+  "w": "平和",
+  "r": "へいわ",
+  "ro": "heiwa",
+  "m": "peace",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "世界の平和を願う。",
+    "rd": "せかいの へいわを ねがう。",
+    "en": "I wish for world peace."
+   },
+   {
+    "jp": "平和な毎日が続く。",
+    "rd": "へいわな まいにちが つづく。",
+    "en": "Peaceful days continue."
+   }
+  ]
+ },
+ {
+  "w": "自由",
+  "r": "じゆう",
+  "ro": "jiyuu",
+  "m": "freedom",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "自由になりたい。",
+    "rd": "じゆうに なりたい。",
+    "en": "I want to be free."
+   },
+   {
+    "jp": "ここでは自由に話せる。",
+    "rd": "ここでは じゆうに はなせる。",
+    "en": "Here you can speak freely."
+   }
+  ],
+  "n": "Also a な-adjective."
+ },
+ {
+  "w": "正義",
+  "r": "せいぎ",
+  "ro": "seigi",
+  "m": "justice",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "正義は勝つ!",
+    "rd": "せいぎは かつ!",
+    "en": "Justice wins!"
+   },
+   {
+    "jp": "彼は正義の味方だ。",
+    "rd": "かれは せいぎの みかただ。",
+    "en": "He is a hero of justice."
+   }
+  ]
+ },
+ {
+  "w": "悪",
+  "r": "あく",
+  "ro": "aku",
+  "m": "evil",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "悪を倒す。",
+    "rd": "あくを たおす。",
+    "en": "Defeat evil."
+   },
+   {
+    "jp": "悪の組織と戦う。",
+    "rd": "あくの そしきと たたかう。",
+    "en": "Fight an evil organization."
+   }
+  ],
+  "n": "Adjective form: 悪い (わるい)."
+ },
+ {
+  "w": "歴史",
+  "r": "れきし",
+  "ro": "rekishi",
+  "m": "history",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本の歴史が好きです。",
+    "rd": "にほんの れきしが すきです。",
+    "en": "I like Japanese history."
+   },
+   {
+    "jp": "歴史を変える瞬間だ。",
+    "rd": "れきしを かえる しゅんかんだ。",
+    "en": "It's a history-changing moment."
+   }
+  ]
+ },
+ {
+  "w": "現実",
+  "r": "げんじつ",
+  "ro": "genjitsu",
+  "m": "reality",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "これが現実だ。",
+    "rd": "これが げんじつだ。",
+    "en": "This is reality."
+   },
+   {
+    "jp": "現実を見なさい。",
+    "rd": "げんじつを みなさい。",
+    "en": "Face reality."
+   }
+  ]
+ },
+ {
+  "w": "人間",
+  "r": "にんげん",
+  "ro": "ningen",
+  "m": "human being",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "人間は弱い。",
+    "rd": "にんげんは よわい。",
+    "en": "Humans are weak."
+   },
+   {
+    "jp": "彼は人間じゃない。",
+    "rd": "かれは にんげんじゃない。",
+    "en": "He isn't human."
+   }
+  ]
+ },
+ {
+  "w": "英雄",
+  "r": "えいゆう",
+  "ro": "eiyuu",
+  "m": "hero",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "彼は国の英雄だ。",
+    "rd": "かれは くにの えいゆうだ。",
+    "en": "He is a national hero."
+   },
+   {
+    "jp": "英雄になりたい。",
+    "rd": "えいゆうに なりたい。",
+    "en": "I want to become a hero."
+   }
+  ]
+ },
+ {
+  "w": "魔王",
+  "r": "まおう",
+  "ro": "maou",
+  "m": "demon king",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "魔王を倒しに行く。",
+    "rd": "まおうを たおしに いく。",
+    "en": "I'm going to defeat the Demon King."
+   },
+   {
+    "jp": "魔王の城に着いた。",
+    "rd": "まおうの しろに ついた。",
+    "en": "We arrived at the Demon King's castle."
+   }
+  ],
+  "n": "Fantasy/RPG staple."
+ },
+ {
+  "w": "姫",
+  "r": "ひめ",
+  "ro": "hime",
+  "m": "princess",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お姫様を助ける。",
+    "rd": "おひめさまを たすける。",
+    "en": "Rescue the princess."
+   },
+   {
+    "jp": "姫は塔にいる。",
+    "rd": "ひめは とうに いる。",
+    "en": "The princess is in the tower."
+   }
+  ],
+  "n": "Usually お姫様."
+ },
+ {
+  "w": "伝説",
+  "r": "でんせつ",
+  "ro": "densetsu",
+  "m": "legend",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "それは古い伝説だ。",
+    "rd": "それは ふるい でんせつだ。",
+    "en": "That's an old legend."
+   },
+   {
+    "jp": "伝説の剣を探す。",
+    "rd": "でんせつの けんを さがす。",
+    "en": "Search for the legendary sword."
+   }
+  ]
+ },
+ {
+  "w": "奇跡",
+  "r": "きせき",
+  "ro": "kiseki",
+  "m": "miracle",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "奇跡が起きた!",
+    "rd": "きせきが おきた!",
+    "en": "A miracle happened!"
+   },
+   {
+    "jp": "奇跡を信じる。",
+    "rd": "きせきを しんじる。",
+    "en": "I believe in miracles."
+   }
+  ]
+ },
+ {
+  "w": "罪",
+  "r": "つみ",
+  "ro": "tsumi",
+  "m": "sin; crime; guilt",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "罪を償う。",
+    "rd": "つみを つぐなう。",
+    "en": "Atone for the crime."
+   },
+   {
+    "jp": "それは私の罪だ。",
+    "rd": "それは わたしの つみだ。",
+    "en": "That is my sin."
+   }
+  ]
+ },
+ {
+  "w": "死",
+  "r": "し",
+  "ro": "shi",
+  "m": "death",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "死は怖くない。",
+    "rd": "しは こわくない。",
+    "en": "I'm not afraid of death."
+   },
+   {
+    "jp": "彼の死を悲しむ。",
+    "rd": "かれの しを かなしむ。",
+    "en": "We mourn his death."
+   }
+  ],
+  "n": "Verb: 死ぬ (しぬ). Strong word; avoid casually."
+ },
+ {
+  "w": "世の中",
+  "r": "よのなか",
+  "ro": "yononaka",
+  "m": "the world; society at large",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "世の中は不公平だ。",
+    "rd": "よのなかは ふこうへいだ。",
+    "en": "The world is unfair."
+   },
+   {
+    "jp": "世の中には色々な人がいる。",
+    "rd": "よのなかには いろいろな ひとが いる。",
+    "en": "There are all kinds of people in the world."
+   }
+  ]
+ },
+ {
+  "w": "悪魔",
+  "r": "あくま",
+  "ro": "akuma",
+  "m": "devil; demon",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "悪魔と契約した。",
+    "rd": "あくまと けいやくした。",
+    "en": "I made a contract with a devil."
+   },
+   {
+    "jp": "彼は悪魔のようだ。",
+    "rd": "かれは あくまの ようだ。",
+    "en": "He is like a devil."
+   }
+  ]
+ },
+ {
+  "w": "天使",
+  "r": "てんし",
+  "ro": "tenshi",
+  "m": "angel",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "君は天使みたいだ。",
+    "rd": "きみは てんしみたいだ。",
+    "en": "You're like an angel."
+   },
+   {
+    "jp": "天使が舞い降りた。",
+    "rd": "てんしが まいおりた。",
+    "en": "An angel descended."
+   }
+  ]
+ },
+ {
+  "w": "幽霊",
+  "r": "ゆうれい",
+  "ro": "yuurei",
+  "m": "ghost",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "幽霊を見た!",
+    "rd": "ゆうれいを みた!",
+    "en": "I saw a ghost!"
+   },
+   {
+    "jp": "幽霊は怖い。",
+    "rd": "ゆうれいは こわい。",
+    "en": "Ghosts are scary."
+   }
+  ]
+ },
+ {
+  "w": "物語",
+  "r": "ものがたり",
+  "ro": "monogatari",
+  "m": "story; tale",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "面白い物語を読んだ。",
+    "rd": "おもしろい ものがたりを よんだ。",
+    "en": "I read an interesting story."
+   },
+   {
+    "jp": "これは愛の物語だ。",
+    "rd": "これは あいの ものがたりだ。",
+    "en": "This is a love story."
+   }
+  ]
+ },
+ {
+  "w": "結婚",
+  "r": "けっこん",
+  "ro": "kekkon",
+  "m": "marriage",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "結婚してください。",
+    "rd": "けっこん してください。",
+    "en": "Please marry me."
+   },
+   {
+    "jp": "来年、結婚する。",
+    "rd": "らいねん、けっこん する。",
+    "en": "I'm getting married next year."
+   }
+  ]
+ },
+ {
+  "w": "ルール",
+  "r": "ルール",
+  "ro": "ruuru",
+  "m": "rule",
+  "pos": "noun",
+  "c": "society-story",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ルールを守ろう。",
+    "rd": "ルールを まもろう。",
+    "en": "Let's follow the rules."
+   },
+   {
+    "jp": "このゲームのルールは簡単だ。",
+    "rd": "この ゲームの ルールは かんたんだ。",
+    "en": "The rules of this game are simple."
+   }
+  ],
+  "n": "Loanword (rule)."
+ },
+ {
+  "w": "方",
+  "r": "かた",
+  "ro": "kata",
+  "m": "person (polite); direction; way of doing",
+  "pos": "noun",
+  "c": "position",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "あの方は先生です。",
+    "rd": "あの かたは せんせいです。",
+    "en": "That person is a teacher."
+   },
+   {
+    "jp": "やり方がわからない。",
+    "rd": "やりかたが わからない。",
+    "en": "I don't know how to do it."
+   }
+  ],
+  "n": "Read かた as polite 'person' or as -かた (way of) after verb stem; as ほう it means 'side/direction' (こっちの方 = this way)."
+ },
+ {
+  "w": "所",
+  "r": "ところ",
+  "ro": "tokoro",
+  "m": "place; spot; point",
+  "pos": "noun",
+  "c": "position",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "いい所ですね。",
+    "rd": "いい ところですね。",
+    "en": "It's a nice place."
+   },
+   {
+    "jp": "彼の優しい所が好き。",
+    "rd": "かれの やさしい ところが すき。",
+    "en": "I like his kind side."
+   }
+  ],
+  "n": "Also 所 as -しょ in compounds (場所 ばしょ)."
+ },
+ {
+  "w": "間",
+  "r": "あいだ",
+  "ro": "aida",
+  "m": "between; interval; while",
+  "pos": "noun",
+  "c": "position",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "二人の間に何かあった。",
+    "rd": "ふたりの あいだに なにか あった。",
+    "en": "Something happened between the two."
+   },
+   {
+    "jp": "夏休みの間、旅行した。",
+    "rd": "なつやすみの あいだ、りょこう した。",
+    "en": "I traveled during summer vacation."
+   }
+  ],
+  "n": "間 can also be ま (space/timing) or かん (period)."
+ },
+ {
+  "w": "中",
+  "r": "なか",
+  "ro": "naka",
+  "m": "inside; middle",
+  "pos": "noun",
+  "c": "position",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "かばんの中にある。",
+    "rd": "かばんの なかに ある。",
+    "en": "It's inside the bag."
+   },
+   {
+    "jp": "心の中で叫んだ。",
+    "rd": "こころの なかで さけんだ。",
+    "en": "I shouted in my heart."
+   }
+  ],
+  "n": "Also ちゅう (ongoing: 授業中) and じゅう (throughout: 一日中)."
+ },
+ {
+  "w": "上",
+  "r": "うえ",
+  "ro": "ue",
+  "m": "above; top; on",
+  "pos": "noun",
+  "c": "position",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "机の上に本がある。",
+    "rd": "つくえの うえに ほんが ある。",
+    "en": "There's a book on the desk."
+   },
+   {
+    "jp": "空の上は静かだ。",
+    "rd": "そらの うえは しずかだ。",
+    "en": "Above the sky it's quiet."
+   }
+  ]
+ },
+ {
+  "w": "下",
+  "r": "した",
+  "ro": "shita",
+  "m": "below; under; bottom",
+  "pos": "noun",
+  "c": "position",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "木の下で待つ。",
+    "rd": "きの したで まつ。",
+    "en": "I'll wait under the tree."
+   },
+   {
+    "jp": "猫がテーブルの下にいる。",
+    "rd": "ねこが テーブルの したに いる。",
+    "en": "The cat is under the table."
+   }
+  ]
+ },
+ {
+  "w": "外",
+  "r": "そと",
+  "ro": "soto",
+  "m": "outside",
+  "pos": "noun",
+  "c": "position",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "外は寒いよ。",
+    "rd": "そとは さむいよ。",
+    "en": "It's cold outside."
+   },
+   {
+    "jp": "外で遊ぼう。",
+    "rd": "そとで あそぼう。",
+    "en": "Let's play outside."
+   }
+  ],
+  "n": "Also がい in compounds (外国)."
+ },
+ {
+  "w": "隣",
+  "r": "となり",
+  "ro": "tonari",
+  "m": "next to; neighbor",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "隣に座っていい?",
+    "rd": "となりに すわって いい?",
+    "en": "May I sit next to you?"
+   },
+   {
+    "jp": "隣の部屋がうるさい。",
+    "rd": "となりの へやが うるさい。",
+    "en": "The next room is noisy."
+   }
+  ]
+ },
+ {
+  "w": "後ろ",
+  "r": "うしろ",
+  "ro": "ushiro",
+  "m": "behind; back",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "後ろを見て!",
+    "rd": "うしろを みて!",
+    "en": "Look behind you!"
+   },
+   {
+    "jp": "彼は私の後ろにいる。",
+    "rd": "かれは わたしの うしろに いる。",
+    "en": "He is behind me."
+   }
+  ]
+ },
+ {
+  "w": "横",
+  "r": "よこ",
+  "ro": "yoko",
+  "m": "side; beside; sideways",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "駅の横にある。",
+    "rd": "えきの よこに ある。",
+    "en": "It's beside the station."
+   },
+   {
+    "jp": "横になって休む。",
+    "rd": "よこに なって やすむ。",
+    "en": "Lie down and rest."
+   }
+  ]
+ },
+ {
+  "w": "右",
+  "r": "みぎ",
+  "ro": "migi",
+  "m": "right",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "右に曲がってください。",
+    "rd": "みぎに まがってください。",
+    "en": "Please turn right."
+   },
+   {
+    "jp": "右手を上げて。",
+    "rd": "みぎてを あげて。",
+    "en": "Raise your right hand."
+   }
+  ]
+ },
+ {
+  "w": "左",
+  "r": "ひだり",
+  "ro": "hidari",
+  "m": "left",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "左に行きます。",
+    "rd": "ひだりに いきます。",
+    "en": "I'll go left."
+   },
+   {
+    "jp": "左側を歩く。",
+    "rd": "ひだりがわを あるく。",
+    "en": "Walk on the left side."
+   }
+  ]
+ },
+ {
+  "w": "向こう",
+  "r": "むこう",
+  "ro": "mukou",
+  "m": "the other side; over there",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "川の向こうに家がある。",
+    "rd": "かわの むこうに いえが ある。",
+    "en": "There's a house across the river."
+   },
+   {
+    "jp": "向こうで待っているよ。",
+    "rd": "むこうで まっているよ。",
+    "en": "I'll be waiting over there."
+   }
+  ]
+ },
+ {
+  "w": "近く",
+  "r": "ちかく",
+  "ro": "chikaku",
+  "m": "vicinity; nearby",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "駅の近くに住んでいる。",
+    "rd": "えきの ちかくに すんでいる。",
+    "en": "I live near the station."
+   },
+   {
+    "jp": "近くに店はある?",
+    "rd": "ちかくに みせは ある?",
+    "en": "Is there a store nearby?"
+   }
+  ]
+ },
+ {
+  "w": "真ん中",
+  "r": "まんなか",
+  "ro": "mannaka",
+  "m": "middle; center",
+  "pos": "noun",
+  "c": "position",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "道の真ん中に立つな。",
+    "rd": "みちの まんなかに たつな。",
+    "en": "Don't stand in the middle of the road."
+   },
+   {
+    "jp": "真ん中の席がいい。",
+    "rd": "まんなかの せきが いい。",
+    "en": "I like the middle seat."
+   }
+  ]
+ },
+ {
+  "w": "奥",
+  "r": "おく",
+  "ro": "oku",
+  "m": "back; interior; depths",
+  "pos": "noun",
+  "c": "position",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "店の奥に部屋がある。",
+    "rd": "みせの おくに へやが ある。",
+    "en": "There's a room at the back of the shop."
+   },
+   {
+    "jp": "心の奥にしまっておく。",
+    "rd": "こころの おくに しまっておく。",
+    "en": "I keep it deep in my heart."
+   }
+  ]
+ },
+ {
+  "w": "側",
+  "r": "がわ",
+  "ro": "gawa",
+  "m": "side",
+  "pos": "noun",
+  "c": "position",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "右側を歩いてね。",
+    "rd": "みぎがわを あるいてね。",
+    "en": "Walk on the right side."
+   },
+   {
+    "jp": "反対側に渡った。",
+    "rd": "はんたいがわに わたった。",
+    "en": "I crossed to the opposite side."
+   }
+  ],
+  "n": "Also そば (beside: 側にいる)."
+ },
+ {
+  "w": "辺り",
+  "r": "あたり",
+  "ro": "atari",
+  "m": "vicinity; around here",
+  "pos": "noun",
+  "c": "position",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "この辺りは静かだ。",
+    "rd": "この あたりは しずかだ。",
+    "en": "It's quiet around here."
+   },
+   {
+    "jp": "辺りを見回した。",
+    "rd": "あたりを みまわした。",
+    "en": "I looked around."
+   }
+  ]
+ },
+ {
+  "w": "中心",
+  "r": "ちゅうしん",
+  "ro": "chuushin",
+  "m": "center; focus",
+  "pos": "noun",
+  "c": "position",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "町の中心に駅がある。",
+    "rd": "まちの ちゅうしんに えきが ある。",
+    "en": "The station is at the center of town."
+   },
+   {
+    "jp": "彼が話題の中心だ。",
+    "rd": "かれが わだいの ちゅうしんだ。",
+    "en": "He is the center of the conversation."
+   }
+  ]
+ },
+ {
+  "w": "内",
+  "r": "うち",
+  "ro": "uchi",
+  "m": "inside; within",
+  "pos": "noun",
+  "c": "position",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "三日以内に返事して。",
+    "rd": "みっか いないに へんじして。",
+    "en": "Reply within three days."
+   },
+   {
+    "jp": "心の内を話した。",
+    "rd": "こころの うちを はなした。",
+    "en": "I spoke what was in my heart."
+   }
+  ],
+  "n": "Read うち alone; ない in compounds (以内, 室内). Also 家 = うち (home)."
+ },
+ {
+  "w": "他",
+  "r": "ほか",
+  "ro": "hoka",
+  "m": "other; else",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "他に質問はありますか。",
+    "rd": "ほかに しつもんは ありますか。",
+    "en": "Do you have any other questions?"
+   },
+   {
+    "jp": "他の人にも聞いて。",
+    "rd": "ほかの ひとにも きいて。",
+    "en": "Ask other people too."
+   }
+  ]
+ },
+ {
+  "w": "全て",
+  "r": "すべて",
+  "ro": "subete",
+  "m": "all; everything",
+  "pos": "noun",
+  "c": "general",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "全てうまくいった。",
+    "rd": "すべて うまく いった。",
+    "en": "Everything went well."
+   },
+   {
+    "jp": "私の全てを君にあげる。",
+    "rd": "わたしの すべてを きみに あげる。",
+    "en": "I give you my everything."
+   }
+  ],
+  "n": "Also 全部 (ぜんぶ), more casual."
+ },
+ {
+  "w": "一人",
+  "r": "ひとり",
+  "ro": "hitori",
+  "m": "one person; alone",
+  "pos": "noun",
+  "c": "general",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "一人で行くの?",
+    "rd": "ひとりで いくの?",
+    "en": "Are you going alone?"
+   },
+   {
+    "jp": "もう一人じゃない。",
+    "rd": "もう ひとりじゃ ない。",
+    "en": "I'm not alone anymore."
+   }
+  ],
+  "n": "一人 is irregular (ひとり); 二人 = ふたり; then さんにん."
+ },
+ {
+  "w": "最初",
+  "r": "さいしょ",
+  "ro": "saisho",
+  "m": "first; beginning",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "最初は怖かった。",
+    "rd": "さいしょは こわかった。",
+    "en": "At first I was scared."
+   },
+   {
+    "jp": "最初から始めよう。",
+    "rd": "さいしょから はじめよう。",
+    "en": "Let's start from the beginning."
+   }
+  ]
+ },
+ {
+  "w": "最後",
+  "r": "さいご",
+  "ro": "saigo",
+  "m": "last; end",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "これが最後だよ。",
+    "rd": "これが さいごだよ。",
+    "en": "This is the last one."
+   },
+   {
+    "jp": "最後まで頑張る。",
+    "rd": "さいごまで がんばる。",
+    "en": "I'll keep going until the end."
+   }
+  ]
+ },
+ {
+  "w": "本気",
+  "r": "ほんき",
+  "ro": "honki",
+  "m": "serious; in earnest",
+  "pos": "noun",
+  "c": "general",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "本気なの?",
+    "rd": "ほんき なの?",
+    "en": "Are you serious?"
+   },
+   {
+    "jp": "今から本気を出す。",
+    "rd": "いまから ほんきを だす。",
+    "en": "I'll get serious from now."
+   }
+  ],
+  "n": "本気 (ほんき) vs 本当 (ほんとう, true)."
+ },
+ {
+  "w": "番",
+  "r": "ばん",
+  "ro": "ban",
+  "m": "turn; number (order)",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "次は私の番だ。",
+    "rd": "つぎは わたしの ばんだ。",
+    "en": "Next is my turn."
+   },
+   {
+    "jp": "あなたの番ですよ。",
+    "rd": "あなたの ばんですよ。",
+    "en": "It's your turn."
+   }
+  ],
+  "n": "Also ー番 in compounds like 一番 (number one/most)."
+ },
+ {
+  "w": "次",
+  "r": "つぎ",
+  "ro": "tsugi",
+  "m": "next",
+  "pos": "noun",
+  "c": "general",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "次は何をする?",
+    "rd": "つぎは なにを する?",
+    "en": "What shall we do next?"
+   },
+   {
+    "jp": "次の駅で降ります。",
+    "rd": "つぎの えきで おります。",
+    "en": "I'll get off at the next station."
+   }
+  ]
+ },
+ {
+  "w": "場合",
+  "r": "ばあい",
+  "ro": "baai",
+  "m": "case; situation",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "雨の場合は中止です。",
+    "rd": "あめの ばあいは ちゅうしです。",
+    "en": "In case of rain it's cancelled."
+   },
+   {
+    "jp": "その場合は連絡してね。",
+    "rd": "その ばあいは れんらくしてね。",
+    "en": "In that case, contact me."
+   }
+  ]
+ },
+ {
+  "w": "部分",
+  "r": "ぶぶん",
+  "ro": "bubun",
+  "m": "part; portion",
+  "pos": "noun",
+  "c": "general",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "この部分がわからない。",
+    "rd": "この ぶぶんが わからない。",
+    "en": "I don't understand this part."
+   },
+   {
+    "jp": "彼の優しい部分が好き。",
+    "rd": "かれの やさしい ぶぶんが すき。",
+    "en": "I like his kind side."
+   }
+  ]
+ },
+ {
+  "w": "半分",
+  "r": "はんぶん",
+  "ro": "hanbun",
+  "m": "half",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "半分あげるよ。",
+    "rd": "はんぶん あげるよ。",
+    "en": "I'll give you half."
+   },
+   {
+    "jp": "仕事は半分終わった。",
+    "rd": "しごとは はんぶん おわった。",
+    "en": "Half the work is done."
+   }
+  ]
+ },
+ {
+  "w": "全部",
+  "r": "ぜんぶ",
+  "ro": "zenbu",
+  "m": "all; everything",
+  "pos": "noun",
+  "c": "general",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "全部食べた。",
+    "rd": "ぜんぶ たべた。",
+    "en": "I ate it all."
+   },
+   {
+    "jp": "全部わかったよ。",
+    "rd": "ぜんぶ わかったよ。",
+    "en": "I understood everything."
+   }
+  ]
+ },
+ {
+  "w": "以外",
+  "r": "いがい",
+  "ro": "igai",
+  "m": "except; other than",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "日本語以外は話せない。",
+    "rd": "にほんご いがいは はなせない。",
+    "en": "I can't speak anything but Japanese."
+   },
+   {
+    "jp": "私以外は誰もいない。",
+    "rd": "わたし いがいは だれも いない。",
+    "en": "There's no one but me."
+   }
+  ]
+ },
+ {
+  "w": "以上",
+  "r": "いじょう",
+  "ro": "ijou",
+  "m": "more than; that's all",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "以上です。",
+    "rd": "いじょうです。",
+    "en": "That's all."
+   },
+   {
+    "jp": "百人以上が来た。",
+    "rd": "ひゃくにん いじょうが きた。",
+    "en": "More than a hundred people came."
+   }
+  ],
+  "n": "Said at the end of a speech or list."
+ },
+ {
+  "w": "例",
+  "r": "れい",
+  "ro": "rei",
+  "m": "example",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "例を挙げてください。",
+    "rd": "れいを あげてください。",
+    "en": "Please give an example."
+   },
+   {
+    "jp": "例えば、猫とか犬。",
+    "rd": "たとえば、ねことか いぬ。",
+    "en": "For example, cats and dogs."
+   }
+  ]
+ },
+ {
+  "w": "習慣",
+  "r": "しゅうかん",
+  "ro": "shuukan",
+  "m": "habit; custom",
+  "pos": "noun",
+  "c": "general",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "早起きの習慣をつけたい。",
+    "rd": "はやおきの しゅうかんを つけたい。",
+    "en": "I want to build the habit of rising early."
+   },
+   {
+    "jp": "日本の習慣は面白い。",
+    "rd": "にほんの しゅうかんは おもしろい。",
+    "en": "Japanese customs are interesting."
+   }
+  ]
+ },
+ {
+  "w": "遊び",
+  "r": "あそび",
+  "ro": "asobi",
+  "m": "play; fun",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "遊びに来てね。",
+    "rd": "あそびに きてね。",
+    "en": "Come hang out sometime."
+   },
+   {
+    "jp": "これは遊びじゃない。",
+    "rd": "これは あそびじゃ ない。",
+    "en": "This isn't a game."
+   }
+  ],
+  "n": "遊びに行く/来る = go/come to visit or hang out."
+ },
+ {
+  "w": "写真",
+  "r": "しゃしん",
+  "ro": "shashin",
+  "m": "photograph",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "写真を撮ろう!",
+    "rd": "しゃしんを とろう!",
+    "en": "Let's take a photo!"
+   },
+   {
+    "jp": "この写真、見て。",
+    "rd": "この しゃしん、みて。",
+    "en": "Look at this photo."
+   }
+  ]
+ },
+ {
+  "w": "散歩",
+  "r": "さんぽ",
+  "ro": "sanpo",
+  "m": "walk; stroll",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "犬と散歩に行く。",
+    "rd": "いぬと さんぽに いく。",
+    "en": "I go for a walk with the dog."
+   },
+   {
+    "jp": "朝の散歩は気持ちいい。",
+    "rd": "あさの さんぽは きもちいい。",
+    "en": "Morning walks feel great."
+   }
+  ]
+ },
+ {
+  "w": "買い物",
+  "r": "かいもの",
+  "ro": "kaimono",
+  "m": "shopping",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "買い物に行ってくる。",
+    "rd": "かいものに いってくる。",
+    "en": "I'm going shopping."
+   },
+   {
+    "jp": "買い物は楽しい。",
+    "rd": "かいものは たのしい。",
+    "en": "Shopping is fun."
+   }
+  ]
+ },
+ {
+  "w": "ゲーム",
+  "r": "ゲーム",
+  "ro": "geemu",
+  "m": "game; video game",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ゲームをしよう!",
+    "rd": "ゲームを しよう!",
+    "en": "Let's play a game!"
+   },
+   {
+    "jp": "このゲーム、面白い。",
+    "rd": "この ゲーム、おもしろい。",
+    "en": "This game is fun."
+   }
+  ],
+  "n": "Loanword (game)."
+ },
+ {
+  "w": "ニュース",
+  "r": "ニュース",
+  "ro": "nyuusu",
+  "m": "news",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ニュースを見た?",
+    "rd": "ニュースを みた?",
+    "en": "Did you watch the news?"
+   },
+   {
+    "jp": "悪いニュースがある。",
+    "rd": "わるい ニュースが ある。",
+    "en": "There's bad news."
+   }
+  ],
+  "n": "Loanword."
+ },
+ {
+  "w": "番号",
+  "r": "ばんごう",
+  "ro": "bangou",
+  "m": "number (ID, phone)",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "電話番号を教えて。",
+    "rd": "でんわばんごうを おしえて。",
+    "en": "Tell me your phone number."
+   },
+   {
+    "jp": "番号を間違えた。",
+    "rd": "ばんごうを まちがえた。",
+    "en": "I got the number wrong."
+   }
+  ]
+ },
+ {
+  "w": "仕方",
+  "r": "しかた",
+  "ro": "shikata",
+  "m": "way of doing; means",
+  "pos": "noun",
+  "c": "general",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "仕方がないよ。",
+    "rd": "しかたが ないよ。",
+    "en": "It can't be helped."
+   },
+   {
+    "jp": "他に仕方がない。",
+    "rd": "ほかに しかたが ない。",
+    "en": "There's no other way."
+   }
+  ],
+  "n": "仕方ない/仕方がない = it can't be helped (very common)."
+ }
+]

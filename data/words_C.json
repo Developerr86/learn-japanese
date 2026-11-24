@@ -1,0 +1,5707 @@
+[
+ {
+  "w": "大きい",
+  "r": "おおきい",
+  "ro": "ookii",
+  "m": "big, large",
+  "pos": "i-adj",
+  "f": {
+   "neg": "大きくない",
+   "past": "大きかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "この犬は大きいです。",
+    "rd": "この いぬは おおきいです。",
+    "en": "This dog is big."
+   },
+   {
+    "jp": "大きい声で言って！",
+    "rd": "おおきい こえで いって！",
+    "en": "Say it in a loud voice!"
+   }
+  ]
+ },
+ {
+  "w": "小さい",
+  "r": "ちいさい",
+  "ro": "chiisai",
+  "m": "small, little",
+  "pos": "i-adj",
+  "f": {
+   "neg": "小さくない",
+   "past": "小さかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "部屋が小さいですね。",
+    "rd": "へやが ちいさいですね。",
+    "en": "The room is small, isn't it."
+   },
+   {
+    "jp": "小さい頃、猫を飼っていた。",
+    "rd": "ちいさい ころ、ねこを かっていた。",
+    "en": "When I was little, I had a cat."
+   }
+  ]
+ },
+ {
+  "w": "いい",
+  "r": "いい",
+  "ro": "ii",
+  "m": "good, nice, fine",
+  "pos": "i-adj",
+  "f": {
+   "neg": "よくない",
+   "past": "よかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "今日はいい天気だね。",
+    "rd": "きょうは いい てんきだね。",
+    "en": "Nice weather today, huh."
+   },
+   {
+    "jp": "それはよくないと思う。",
+    "rd": "それは よくないと おもう。",
+    "en": "I don't think that's good."
+   }
+  ],
+  "n": "Also written 良い. Irregular: conjugates from よ- (よくない, よかった). 'いいよ' = 'OK / sure'."
+ },
+ {
+  "w": "悪い",
+  "r": "わるい",
+  "ro": "warui",
+  "m": "bad; (my) fault",
+  "pos": "i-adj",
+  "f": {
+   "neg": "悪くない",
+   "past": "悪かった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "ごめん、私が悪かった。",
+    "rd": "ごめん、わたしが わるかった。",
+    "en": "Sorry, it was my fault."
+   },
+   {
+    "jp": "悪い人じゃないよ。",
+    "rd": "わるい ひとじゃ ないよ。",
+    "en": "He's not a bad person."
+   }
+  ],
+  "n": "Casual 'わるい!' alone means 'my bad / sorry'."
+ },
+ {
+  "w": "高い",
+  "r": "たかい",
+  "ro": "takai",
+  "m": "high, tall; expensive",
+  "pos": "i-adj",
+  "f": {
+   "neg": "高くない",
+   "past": "高かった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "このバッグは高いです。",
+    "rd": "この バッグは たかいです。",
+    "en": "This bag is expensive."
+   },
+   {
+    "jp": "あのビルは高いね。",
+    "rd": "あの ビルは たかいね。",
+    "en": "That building is tall, isn't it."
+   }
+  ]
+ },
+ {
+  "w": "安い",
+  "r": "やすい",
+  "ro": "yasui",
+  "m": "cheap, inexpensive",
+  "pos": "i-adj",
+  "f": {
+   "neg": "安くない",
+   "past": "安かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ここのラーメンは安くておいしい。",
+    "rd": "ここの ラーメンは やすくて おいしい。",
+    "en": "The ramen here is cheap and tasty."
+   },
+   {
+    "jp": "昨日は安かったよ。",
+    "rd": "きのうは やすかったよ。",
+    "en": "It was cheap yesterday."
+   }
+  ]
+ },
+ {
+  "w": "低い",
+  "r": "ひくい",
+  "ro": "hikui",
+  "m": "low; short (height)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "低くない",
+   "past": "低かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "あの人は背が低い。",
+    "rd": "あの ひとは せが ひくい。",
+    "en": "That person is short."
+   },
+   {
+    "jp": "今日は気温が低いです。",
+    "rd": "きょうは きおんが ひくいです。",
+    "en": "The temperature is low today."
+   }
+  ]
+ },
+ {
+  "w": "新しい",
+  "r": "あたらしい",
+  "ro": "atarashii",
+  "m": "new, fresh",
+  "pos": "i-adj",
+  "f": {
+   "neg": "新しくない",
+   "past": "新しかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "新しい靴を買った。",
+    "rd": "あたらしい くつを かった。",
+    "en": "I bought new shoes."
+   },
+   {
+    "jp": "新しい先生はどんな人？",
+    "rd": "あたらしい せんせいは どんな ひと？",
+    "en": "What's the new teacher like?"
+   }
+  ]
+ },
+ {
+  "w": "古い",
+  "r": "ふるい",
+  "ro": "furui",
+  "m": "old (not for people's age)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "古くない",
+   "past": "古かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "この家はとても古いです。",
+    "rd": "この いえは とても ふるいです。",
+    "en": "This house is very old."
+   },
+   {
+    "jp": "古い写真を見つけた。",
+    "rd": "ふるい しゃしんを みつけた。",
+    "en": "I found an old photo."
+   }
+  ],
+  "n": "Used for things, not people (for a person's age, use 年上/年寄り etc.)."
+ },
+ {
+  "w": "長い",
+  "r": "ながい",
+  "ro": "nagai",
+  "m": "long",
+  "pos": "i-adj",
+  "f": {
+   "neg": "長くない",
+   "past": "長かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "髪が長いね。",
+    "rd": "かみが ながいね。",
+    "en": "Your hair is long."
+   },
+   {
+    "jp": "この映画は長すぎる。",
+    "rd": "この えいがは ながすぎる。",
+    "en": "This movie is too long."
+   }
+  ]
+ },
+ {
+  "w": "短い",
+  "r": "みじかい",
+  "ro": "mijikai",
+  "m": "short (length, time)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "短くない",
+   "past": "短かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "スカートが短い。",
+    "rd": "スカートが みじかい。",
+    "en": "The skirt is short."
+   },
+   {
+    "jp": "休みは短かった。",
+    "rd": "やすみは みじかかった。",
+    "en": "The break was short."
+   }
+  ]
+ },
+ {
+  "w": "広い",
+  "r": "ひろい",
+  "ro": "hiroi",
+  "m": "wide, spacious",
+  "pos": "i-adj",
+  "f": {
+   "neg": "広くない",
+   "past": "広かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "広い部屋に住みたい。",
+    "rd": "ひろい へやに すみたい。",
+    "en": "I want to live in a spacious room."
+   },
+   {
+    "jp": "この公園は広いです。",
+    "rd": "この こうえんは ひろいです。",
+    "en": "This park is big."
+   }
+  ]
+ },
+ {
+  "w": "狭い",
+  "r": "せまい",
+  "ro": "semai",
+  "m": "narrow, cramped",
+  "pos": "i-adj",
+  "f": {
+   "neg": "狭くない",
+   "past": "狭かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "私の部屋は狭いです。",
+    "rd": "わたしの へやは せまいです。",
+    "en": "My room is cramped."
+   },
+   {
+    "jp": "道が狭くて危ない。",
+    "rd": "みちが せまくて あぶない。",
+    "en": "The road is narrow and dangerous."
+   }
+  ]
+ },
+ {
+  "w": "多い",
+  "r": "おおい",
+  "ro": "ooi",
+  "m": "many, a lot",
+  "pos": "i-adj",
+  "f": {
+   "neg": "多くない",
+   "past": "多かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今日は人が多いね。",
+    "rd": "きょうは ひとが おおいね。",
+    "en": "There are a lot of people today."
+   },
+   {
+    "jp": "宿題が多くて大変。",
+    "rd": "しゅくだいが おおくて たいへん。",
+    "en": "There's lots of homework, it's tough."
+   }
+  ]
+ },
+ {
+  "w": "少ない",
+  "r": "すくない",
+  "ro": "sukunai",
+  "m": "few, little",
+  "pos": "i-adj",
+  "f": {
+   "neg": "少なくない",
+   "past": "少なかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "お金が少ないです。",
+    "rd": "おかねが すくないです。",
+    "en": "I have little money."
+   },
+   {
+    "jp": "今日は客が少なかった。",
+    "rd": "きょうは きゃくが すくなかった。",
+    "en": "There were few customers today."
+   }
+  ]
+ },
+ {
+  "w": "早い",
+  "r": "はやい",
+  "ro": "hayai",
+  "m": "early",
+  "pos": "i-adj",
+  "f": {
+   "neg": "早くない",
+   "past": "早かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "明日は朝が早いよ。",
+    "rd": "あしたは あさが はやいよ。",
+    "en": "Tomorrow morning is an early one."
+   },
+   {
+    "jp": "まだ早いから、もう少し寝よう。",
+    "rd": "まだ はやいから、もう すこし ねよう。",
+    "en": "It's still early, so let's sleep a bit more."
+   }
+  ],
+  "n": "Same sound as 速い (fast)."
+ },
+ {
+  "w": "速い",
+  "r": "はやい",
+  "ro": "hayai",
+  "m": "fast, quick",
+  "pos": "i-adj",
+  "f": {
+   "neg": "速くない",
+   "past": "速かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "新幹線は速いです。",
+    "rd": "しんかんせんは はやいです。",
+    "en": "The Shinkansen is fast."
+   },
+   {
+    "jp": "私は足が速くないんだ。",
+    "rd": "わたしは あしが はやくないんだ。",
+    "en": "I'm not a fast runner."
+   }
+  ]
+ },
+ {
+  "w": "遅い",
+  "r": "おそい",
+  "ro": "osoi",
+  "m": "slow; late",
+  "pos": "i-adj",
+  "f": {
+   "neg": "遅くない",
+   "past": "遅かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ごめん、遅くなった！",
+    "rd": "ごめん、おそくなった！",
+    "en": "Sorry, I got late!"
+   },
+   {
+    "jp": "もう遅いから帰ろう。",
+    "rd": "もう おそいから かえろう。",
+    "en": "It's already late, so let's go home."
+   }
+  ]
+ },
+ {
+  "w": "近い",
+  "r": "ちかい",
+  "ro": "chikai",
+  "m": "near, close",
+  "pos": "i-adj",
+  "f": {
+   "neg": "近くない",
+   "past": "近かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "駅は家から近いです。",
+    "rd": "えきは いえから ちかいです。",
+    "en": "The station is close to my house."
+   },
+   {
+    "jp": "学校が近くてよかった。",
+    "rd": "がっこうが ちかくて よかった。",
+    "en": "I'm glad the school is close."
+   }
+  ]
+ },
+ {
+  "w": "遠い",
+  "r": "とおい",
+  "ro": "tooi",
+  "m": "far, distant",
+  "pos": "i-adj",
+  "f": {
+   "neg": "遠くない",
+   "past": "遠かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "会社は遠いです。",
+    "rd": "かいしゃは とおいです。",
+    "en": "The office is far."
+   },
+   {
+    "jp": "そこは遠くないよ。",
+    "rd": "そこは とおくないよ。",
+    "en": "It's not far from there."
+   }
+  ]
+ },
+ {
+  "w": "重い",
+  "r": "おもい",
+  "ro": "omoi",
+  "m": "heavy; serious (mood)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "重くない",
+   "past": "重かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "この荷物、重い！",
+    "rd": "この にもつ、おもい！",
+    "en": "This luggage is heavy!"
+   },
+   {
+    "jp": "このかばんは重くないです。",
+    "rd": "この かばんは おもくないです。",
+    "en": "This bag isn't heavy."
+   }
+  ]
+ },
+ {
+  "w": "軽い",
+  "r": "かるい",
+  "ro": "karui",
+  "m": "light (weight); minor",
+  "pos": "i-adj",
+  "f": {
+   "neg": "軽くない",
+   "past": "軽かった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "この靴は軽いです。",
+    "rd": "この くつは かるいです。",
+    "en": "These shoes are light."
+   },
+   {
+    "jp": "軽い食事でいいよ。",
+    "rd": "かるい しょくじで いいよ。",
+    "en": "A light meal is fine."
+   }
+  ]
+ },
+ {
+  "w": "暑い",
+  "r": "あつい",
+  "ro": "atsui",
+  "m": "hot (weather)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "暑くない",
+   "past": "暑かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今日は暑いですね。",
+    "rd": "きょうは あついですね。",
+    "en": "It's hot today, isn't it."
+   },
+   {
+    "jp": "夏は暑すぎる。",
+    "rd": "なつは あつすぎる。",
+    "en": "Summer is too hot."
+   }
+  ],
+  "n": "暑い = hot air/weather; 熱い = hot to the touch."
+ },
+ {
+  "w": "熱い",
+  "r": "あつい",
+  "ro": "atsui",
+  "m": "hot (to the touch)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "熱くない",
+   "past": "熱かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "お茶が熱い！",
+    "rd": "おちゃが あつい！",
+    "en": "The tea is hot!"
+   },
+   {
+    "jp": "熱いから気をつけて。",
+    "rd": "あついから きを つけて。",
+    "en": "It's hot, so be careful."
+   }
+  ],
+  "n": "Also 'passionate' (熱い男 = a passionate guy)."
+ },
+ {
+  "w": "寒い",
+  "r": "さむい",
+  "ro": "samui",
+  "m": "cold (weather)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "寒くない",
+   "past": "寒かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今日は寒かったね。",
+    "rd": "きょうは さむかったね。",
+    "en": "It was cold today, huh."
+   },
+   {
+    "jp": "寒いから、窓を閉めて。",
+    "rd": "さむいから、まどを しめて。",
+    "en": "It's cold, so close the window."
+   }
+  ]
+ },
+ {
+  "w": "冷たい",
+  "r": "つめたい",
+  "ro": "tsumetai",
+  "m": "cold (to the touch); cold-hearted",
+  "pos": "i-adj",
+  "f": {
+   "neg": "冷たくない",
+   "past": "冷たかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "冷たい水をください。",
+    "rd": "つめたい みずを ください。",
+    "en": "Cold water, please."
+   },
+   {
+    "jp": "彼は冷たい人じゃないよ。",
+    "rd": "かれは つめたい ひとじゃ ないよ。",
+    "en": "He's not a cold person."
+   }
+  ]
+ },
+ {
+  "w": "暖かい",
+  "r": "あたたかい",
+  "ro": "atatakai",
+  "m": "warm (weather)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "暖かくない",
+   "past": "暖かかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "今日は暖かいですね。",
+    "rd": "きょうは あたたかいですね。",
+    "en": "It's warm today, isn't it."
+   },
+   {
+    "jp": "暖かいスープが飲みたい。",
+    "rd": "あたたかい スープが のみたい。",
+    "en": "I want to drink warm soup."
+   }
+  ],
+  "n": "温かい is used for warm things (food, hearts)."
+ },
+ {
+  "w": "涼しい",
+  "r": "すずしい",
+  "ro": "suzushii",
+  "m": "cool, refreshing (weather)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "涼しくない",
+   "past": "涼しかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "朝は涼しいです。",
+    "rd": "あさは すずしいです。",
+    "en": "It's cool in the morning."
+   },
+   {
+    "jp": "ここは涼しくて気持ちいい。",
+    "rd": "ここは すずしくて きもちいい。",
+    "en": "It's cool and pleasant here."
+   }
+  ]
+ },
+ {
+  "w": "美味しい",
+  "r": "おいしい",
+  "ro": "oishii",
+  "m": "delicious, tasty",
+  "pos": "i-adj",
+  "f": {
+   "neg": "美味しくない",
+   "past": "美味しかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "このケーキ、美味しい！",
+    "rd": "この ケーキ、おいしい！",
+    "en": "This cake is delicious!"
+   },
+   {
+    "jp": "昨日の晩ご飯は美味しかった。",
+    "rd": "きのうの ばんごはんは おいしかった。",
+    "en": "Last night's dinner was delicious."
+   }
+  ],
+  "n": "Usually written in hiragana: おいしい."
+ },
+ {
+  "w": "まずい",
+  "r": "まずい",
+  "ro": "mazui",
+  "m": "bad-tasting; awkward (bad situation)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "まずくない",
+   "past": "まずかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "これ、まずい…",
+    "rd": "これ、まずい…",
+    "en": "This tastes awful..."
+   },
+   {
+    "jp": "全然まずくないよ。",
+    "rd": "ぜんぜん まずくないよ。",
+    "en": "It doesn't taste bad at all."
+   }
+  ],
+  "n": "Blunt. 'まずい!' can also mean 'uh-oh, this is bad'."
+ },
+ {
+  "w": "甘い",
+  "r": "あまい",
+  "ro": "amai",
+  "m": "sweet; lenient",
+  "pos": "i-adj",
+  "f": {
+   "neg": "甘くない",
+   "past": "甘かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "甘いものが好き。",
+    "rd": "あまい ものが すき。",
+    "en": "I like sweet things."
+   },
+   {
+    "jp": "このケーキは甘すぎない？",
+    "rd": "この ケーキは あますぎない？",
+    "en": "Isn't this cake too sweet?"
+   }
+  ]
+ },
+ {
+  "w": "辛い",
+  "r": "からい",
+  "ro": "karai",
+  "m": "spicy, hot (taste)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "辛くない",
+   "past": "辛かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "カレーが辛すぎた。",
+    "rd": "カレーが からすぎた。",
+    "en": "The curry was too spicy."
+   },
+   {
+    "jp": "辛いのは苦手です。",
+    "rd": "からいのは にがてです。",
+    "en": "I'm not good with spicy food."
+   }
+  ],
+  "n": "Same kanji as つらい (painful, hard to bear)."
+ },
+ {
+  "w": "楽しい",
+  "r": "たのしい",
+  "ro": "tanoshii",
+  "m": "fun, enjoyable",
+  "pos": "i-adj",
+  "f": {
+   "neg": "楽しくない",
+   "past": "楽しかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "パーティーは楽しかった！",
+    "rd": "パーティーは たのしかった！",
+    "en": "The party was fun!"
+   },
+   {
+    "jp": "一緒にいると楽しいね。",
+    "rd": "いっしょに いると たのしいね。",
+    "en": "It's fun being together, isn't it."
+   }
+  ]
+ },
+ {
+  "w": "嬉しい",
+  "r": "うれしい",
+  "ro": "ureshii",
+  "m": "happy, glad",
+  "pos": "i-adj",
+  "f": {
+   "neg": "嬉しくない",
+   "past": "嬉しかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "プレゼント、嬉しい！ ありがとう。",
+    "rd": "プレゼント、うれしい！ ありがとう。",
+    "en": "I'm so happy about the present! Thanks."
+   },
+   {
+    "jp": "そう言ってくれて嬉しいです。",
+    "rd": "そう いってくれて うれしいです。",
+    "en": "I'm glad you said that."
+   }
+  ]
+ },
+ {
+  "w": "悲しい",
+  "r": "かなしい",
+  "ro": "kanashii",
+  "m": "sad",
+  "pos": "i-adj",
+  "f": {
+   "neg": "悲しくない",
+   "past": "悲しかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "悲しい話だね。",
+    "rd": "かなしい はなしだね。",
+    "en": "That's a sad story."
+   },
+   {
+    "jp": "別れは悲しかった。",
+    "rd": "わかれは かなしかった。",
+    "en": "The farewell was sad."
+   }
+  ]
+ },
+ {
+  "w": "寂しい",
+  "r": "さびしい",
+  "ro": "sabishii",
+  "m": "lonely",
+  "pos": "i-adj",
+  "f": {
+   "neg": "寂しくない",
+   "past": "寂しかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一人は寂しいよ。",
+    "rd": "ひとりは さびしいよ。",
+    "en": "Being alone is lonely."
+   },
+   {
+    "jp": "みんな帰って寂しくなった。",
+    "rd": "みんな かえって さびしくなった。",
+    "en": "Everyone went home and it got lonely."
+   }
+  ],
+  "n": "Also read さみしい (very common in speech and songs)."
+ },
+ {
+  "w": "怖い",
+  "r": "こわい",
+  "ro": "kowai",
+  "m": "scary, afraid",
+  "pos": "i-adj",
+  "f": {
+   "neg": "怖くない",
+   "past": "怖かった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "ホラー映画は怖いです。",
+    "rd": "ホラー えいがは こわいです。",
+    "en": "Horror movies are scary."
+   },
+   {
+    "jp": "暗いところは怖くない。",
+    "rd": "くらい ところは こわくない。",
+    "en": "I'm not scared of dark places."
+   }
+  ]
+ },
+ {
+  "w": "痛い",
+  "r": "いたい",
+  "ro": "itai",
+  "m": "painful, it hurts",
+  "pos": "i-adj",
+  "f": {
+   "neg": "痛くない",
+   "past": "痛かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "頭が痛いです。",
+    "rd": "あたまが いたいです。",
+    "en": "I have a headache."
+   },
+   {
+    "jp": "痛い！ やめて！",
+    "rd": "いたい！ やめて！",
+    "en": "Ow! Stop it!"
+   }
+  ]
+ },
+ {
+  "w": "眠い",
+  "r": "ねむい",
+  "ro": "nemui",
+  "m": "sleepy",
+  "pos": "i-adj",
+  "f": {
+   "neg": "眠くない",
+   "past": "眠かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "昨日寝ていないから眠い。",
+    "rd": "きのう ねていないから ねむい。",
+    "en": "I'm sleepy because I didn't sleep yesterday."
+   },
+   {
+    "jp": "眠くなってきた。",
+    "rd": "ねむくなってきた。",
+    "en": "I'm getting sleepy."
+   }
+  ]
+ },
+ {
+  "w": "忙しい",
+  "r": "いそがしい",
+  "ro": "isogashii",
+  "m": "busy",
+  "pos": "i-adj",
+  "f": {
+   "neg": "忙しくない",
+   "past": "忙しかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今週は忙しいです。",
+    "rd": "こんしゅうは いそがしいです。",
+    "en": "I'm busy this week."
+   },
+   {
+    "jp": "忙しかったから、行けなかった。",
+    "rd": "いそがしかったから、いけなかった。",
+    "en": "I was busy, so I couldn't go."
+   }
+  ]
+ },
+ {
+  "w": "難しい",
+  "r": "むずかしい",
+  "ro": "muzukashii",
+  "m": "difficult",
+  "pos": "i-adj",
+  "f": {
+   "neg": "難しくない",
+   "past": "難しかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "日本語は難しいですか？",
+    "rd": "にほんごは むずかしいですか？",
+    "en": "Is Japanese difficult?"
+   },
+   {
+    "jp": "漢字はちょっと難しい。",
+    "rd": "かんじは ちょっと むずかしい。",
+    "en": "Kanji are a little hard."
+   }
+  ]
+ },
+ {
+  "w": "優しい",
+  "r": "やさしい",
+  "ro": "yasashii",
+  "m": "kind, gentle",
+  "pos": "i-adj",
+  "f": {
+   "neg": "優しくない",
+   "past": "優しかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "彼女は優しい人です。",
+    "rd": "かのじょは やさしい ひとです。",
+    "en": "She's a kind person."
+   },
+   {
+    "jp": "先生はいつも優しかった。",
+    "rd": "せんせいは いつも やさしかった。",
+    "en": "The teacher was always kind."
+   }
+  ],
+  "n": "易しい (same sound) means 'easy'."
+ },
+ {
+  "w": "強い",
+  "r": "つよい",
+  "ro": "tsuyoi",
+  "m": "strong",
+  "pos": "i-adj",
+  "f": {
+   "neg": "強くない",
+   "past": "強かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "彼はとても強い。",
+    "rd": "かれは とても つよい。",
+    "en": "He's very strong."
+   },
+   {
+    "jp": "風が強いから気をつけて。",
+    "rd": "かぜが つよいから きを つけて。",
+    "en": "The wind is strong, so be careful."
+   }
+  ]
+ },
+ {
+  "w": "弱い",
+  "r": "よわい",
+  "ro": "yowai",
+  "m": "weak",
+  "pos": "i-adj",
+  "f": {
+   "neg": "弱くない",
+   "past": "弱かった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "私は寒さに弱い。",
+    "rd": "わたしは さむさに よわい。",
+    "en": "I can't handle the cold well."
+   },
+   {
+    "jp": "弱くないよ！",
+    "rd": "よわくないよ！",
+    "en": "I'm not weak!"
+   }
+  ]
+ },
+ {
+  "w": "若い",
+  "r": "わかい",
+  "ro": "wakai",
+  "m": "young",
+  "pos": "i-adj",
+  "f": {
+   "neg": "若くない",
+   "past": "若かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "先生は若いですね。",
+    "rd": "せんせいは わかいですね。",
+    "en": "The teacher is young, isn't he/she."
+   },
+   {
+    "jp": "若い頃は毎日遊んでいた。",
+    "rd": "わかい ころは まいにち あそんでいた。",
+    "en": "When I was young, I played every day."
+   }
+  ]
+ },
+ {
+  "w": "面白い",
+  "r": "おもしろい",
+  "ro": "omoshiroi",
+  "m": "interesting, funny",
+  "pos": "i-adj",
+  "f": {
+   "neg": "面白くない",
+   "past": "面白かった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "このアニメは面白い！",
+    "rd": "この アニメは おもしろい！",
+    "en": "This anime is interesting!"
+   },
+   {
+    "jp": "昨日の映画は面白くなかった。",
+    "rd": "きのうの えいがは おもしろくなかった。",
+    "en": "Yesterday's movie wasn't good."
+   }
+  ],
+  "n": "Covers both 'funny' and 'interesting'."
+ },
+ {
+  "w": "つまらない",
+  "r": "つまらない",
+  "ro": "tsumaranai",
+  "m": "boring, trivial",
+  "pos": "i-adj",
+  "f": {
+   "neg": "つまらなくない",
+   "past": "つまらなかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "この授業はつまらない。",
+    "rd": "この じゅぎょうは つまらない。",
+    "en": "This class is boring."
+   },
+   {
+    "jp": "つまらなかったら、帰ってもいいよ。",
+    "rd": "つまらなかったら、かえっても いいよ。",
+    "en": "If it's boring, you can go home."
+   }
+  ],
+  "n": "Sounds negative by itself, but written as ない-form; positive form つまる is not used this way."
+ },
+ {
+  "w": "可愛い",
+  "r": "かわいい",
+  "ro": "kawaii",
+  "m": "cute, adorable",
+  "pos": "i-adj",
+  "f": {
+   "neg": "可愛くない",
+   "past": "可愛かった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "この猫、可愛い！",
+    "rd": "この ねこ、かわいい！",
+    "en": "This cat is cute!"
+   },
+   {
+    "jp": "彼女は可愛くて優しい。",
+    "rd": "かのじょは かわいくて やさしい。",
+    "en": "She's cute and kind."
+   }
+  ],
+  "n": "Usually written in hiragana."
+ },
+ {
+  "w": "かっこいい",
+  "r": "かっこいい",
+  "ro": "kakkoii",
+  "m": "cool, good-looking",
+  "pos": "i-adj",
+  "f": {
+   "neg": "かっこよくない",
+   "past": "かっこよかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "彼、かっこいいね。",
+    "rd": "かれ、かっこいいね。",
+    "en": "He's cool, huh."
+   },
+   {
+    "jp": "そのジャケット、かっこよかったよ。",
+    "rd": "その ジャケット、かっこよかったよ。",
+    "en": "That jacket looked cool."
+   }
+  ],
+  "n": "Conjugates like いい: かっこよくない, かっこよかった. Short form: かっけー."
+ },
+ {
+  "w": "美しい",
+  "r": "うつくしい",
+  "ro": "utsukushii",
+  "m": "beautiful",
+  "pos": "i-adj",
+  "f": {
+   "neg": "美しくない",
+   "past": "美しかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "景色が美しい。",
+    "rd": "けしきが うつくしい。",
+    "en": "The scenery is beautiful."
+   },
+   {
+    "jp": "美しい歌声ですね。",
+    "rd": "うつくしい うたごえですね。",
+    "en": "What a beautiful singing voice."
+   }
+  ],
+  "n": "More literary/formal than きれい."
+ },
+ {
+  "w": "すごい",
+  "r": "すごい",
+  "ro": "sugoi",
+  "m": "amazing, great, terrible",
+  "pos": "i-adj",
+  "f": {
+   "neg": "すごくない",
+   "past": "すごかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "すごい！ 全部食べたの？",
+    "rd": "すごい！ ぜんぶ たべたの？",
+    "en": "Wow! You ate it all?"
+   },
+   {
+    "jp": "あの人の絵はすごいです。",
+    "rd": "あの ひとの えは すごいです。",
+    "en": "That person's drawings are amazing."
+   }
+  ],
+  "n": "Can be praise or shock. Often written in hiragana."
+ },
+ {
+  "w": "やばい",
+  "r": "やばい",
+  "ro": "yabai",
+  "m": "dangerous, awesome, terrible (slang)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "やばくない",
+   "past": "やばかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "やばい、遅刻する！",
+    "rd": "やばい、ちこくする！",
+    "en": "Oh no, I'm going to be late!"
+   },
+   {
+    "jp": "このラーメン、やばいくらいおいしい。",
+    "rd": "この ラーメン、やばいくらい おいしい。",
+    "en": "This ramen is crazy delicious."
+   }
+  ],
+  "n": "Slang. Can be good or bad depending on context. Avoid in formal situations."
+ },
+ {
+  "w": "うるさい",
+  "r": "うるさい",
+  "ro": "urusai",
+  "m": "noisy, annoying",
+  "pos": "i-adj",
+  "f": {
+   "neg": "うるさくない",
+   "past": "うるさかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "うるさいよ！ 静かにして。",
+    "rd": "うるさいよ！ しずかに して。",
+    "en": "Shut up, you're noisy! Be quiet."
+   },
+   {
+    "jp": "隣の部屋がうるさかった。",
+    "rd": "となりの へやが うるさかった。",
+    "en": "The next room was noisy."
+   }
+  ],
+  "n": "Rude if said to a person: 'うるさい!' = 'Shut up!'."
+ },
+ {
+  "w": "汚い",
+  "r": "きたない",
+  "ro": "kitanai",
+  "m": "dirty, messy",
+  "pos": "i-adj",
+  "f": {
+   "neg": "汚くない",
+   "past": "汚かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "部屋が汚いよ。",
+    "rd": "へやが きたないよ。",
+    "en": "Your room is dirty."
+   },
+   {
+    "jp": "手が汚いから洗って。",
+    "rd": "てが きたないから あらって。",
+    "en": "Your hands are dirty, so wash them."
+   }
+  ]
+ },
+ {
+  "w": "明るい",
+  "r": "あかるい",
+  "ro": "akarui",
+  "m": "bright; cheerful",
+  "pos": "i-adj",
+  "f": {
+   "neg": "明るくない",
+   "past": "明るかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "この部屋は明るいです。",
+    "rd": "この へやは あかるいです。",
+    "en": "This room is bright."
+   },
+   {
+    "jp": "彼女は明るい人だ。",
+    "rd": "かのじょは あかるい ひとだ。",
+    "en": "She's a cheerful person."
+   }
+  ]
+ },
+ {
+  "w": "暗い",
+  "r": "くらい",
+  "ro": "kurai",
+  "m": "dark; gloomy",
+  "pos": "i-adj",
+  "f": {
+   "neg": "暗くない",
+   "past": "暗かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "外はもう暗いよ。",
+    "rd": "そとは もう くらいよ。",
+    "en": "It's already dark outside."
+   },
+   {
+    "jp": "暗い道は怖い。",
+    "rd": "くらい みちは こわい。",
+    "en": "Dark roads are scary."
+   }
+  ]
+ },
+ {
+  "w": "細い",
+  "r": "ほそい",
+  "ro": "hosoi",
+  "m": "thin, slim, narrow",
+  "pos": "i-adj",
+  "f": {
+   "neg": "細くない",
+   "past": "細かった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "彼女は足が細い。",
+    "rd": "かのじょは あしが ほそい。",
+    "en": "She has slim legs."
+   },
+   {
+    "jp": "細い道を歩いた。",
+    "rd": "ほそい みちを あるいた。",
+    "en": "I walked down a narrow road."
+   }
+  ]
+ },
+ {
+  "w": "恥ずかしい",
+  "r": "はずかしい",
+  "ro": "hazukashii",
+  "m": "embarrassed, shy",
+  "pos": "i-adj",
+  "f": {
+   "neg": "恥ずかしくない",
+   "past": "恥ずかしかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "恥ずかしいよ、見ないで！",
+    "rd": "はずかしいよ、みないで！",
+    "en": "I'm embarrassed, don't look!"
+   },
+   {
+    "jp": "人前で話すのは恥ずかしい。",
+    "rd": "ひとまえで はなすのは はずかしい。",
+    "en": "Speaking in front of people is embarrassing."
+   }
+  ]
+ },
+ {
+  "w": "欲しい",
+  "r": "ほしい",
+  "ro": "hoshii",
+  "m": "want (something)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "欲しくない",
+   "past": "欲しかった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "新しいスマホが欲しい。",
+    "rd": "あたらしい スマホが ほしい。",
+    "en": "I want a new smartphone."
+   },
+   {
+    "jp": "何も欲しくないよ。",
+    "rd": "なにも ほしくないよ。",
+    "en": "I don't want anything."
+   }
+  ],
+  "n": "Used for wanting things; for wanting to do things, use verb+たい."
+ },
+ {
+  "w": "懐かしい",
+  "r": "なつかしい",
+  "ro": "natsukashii",
+  "m": "nostalgic, missed",
+  "pos": "i-adj",
+  "f": {
+   "neg": "懐かしくない",
+   "past": "懐かしかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "この歌、懐かしいね。",
+    "rd": "この うた、なつかしいね。",
+    "en": "This song brings back memories."
+   },
+   {
+    "jp": "懐かしい友達に会った。",
+    "rd": "なつかしい ともだちに あった。",
+    "en": "I met an old friend I'd missed."
+   }
+  ]
+ },
+ {
+  "w": "羨ましい",
+  "r": "うらやましい",
+  "ro": "urayamashii",
+  "m": "envious, enviable",
+  "pos": "i-adj",
+  "f": {
+   "neg": "羨ましくない",
+   "past": "羨ましかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "いいなあ、羨ましい！",
+    "rd": "いいなあ、うらやましい！",
+    "en": "Nice, I'm so jealous!"
+   },
+   {
+    "jp": "君が羨ましいよ。",
+    "rd": "きみが うらやましいよ。",
+    "en": "I envy you."
+   }
+  ]
+ },
+ {
+  "w": "詳しい",
+  "r": "くわしい",
+  "ro": "kuwashii",
+  "m": "detailed; knowledgeable",
+  "pos": "i-adj",
+  "f": {
+   "neg": "詳しくない",
+   "past": "詳しかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "彼はアニメに詳しい。",
+    "rd": "かれは アニメに くわしい。",
+    "en": "He knows a lot about anime."
+   },
+   {
+    "jp": "詳しい話は後で聞くよ。",
+    "rd": "くわしい はなしは あとで きくよ。",
+    "en": "I'll hear the details later."
+   }
+  ]
+ },
+ {
+  "w": "正しい",
+  "r": "ただしい",
+  "ro": "tadashii",
+  "m": "correct, right",
+  "pos": "i-adj",
+  "f": {
+   "neg": "正しくない",
+   "past": "正しかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "その答えは正しいです。",
+    "rd": "その こたえは ただしいです。",
+    "en": "That answer is correct."
+   },
+   {
+    "jp": "君は正しかったよ。",
+    "rd": "きみは ただしかったよ。",
+    "en": "You were right."
+   }
+  ]
+ },
+ {
+  "w": "珍しい",
+  "r": "めずらしい",
+  "ro": "mezurashii",
+  "m": "rare, unusual",
+  "pos": "i-adj",
+  "f": {
+   "neg": "珍しくない",
+   "past": "珍しかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "珍しいね、君が遅刻なんて。",
+    "rd": "めずらしいね、きみが ちこくなんて。",
+    "en": "That's rare, you being late."
+   },
+   {
+    "jp": "珍しい名前ですね。",
+    "rd": "めずらしい なまえですね。",
+    "en": "That's an unusual name."
+   }
+  ]
+ },
+ {
+  "w": "厳しい",
+  "r": "きびしい",
+  "ro": "kibishii",
+  "m": "strict, harsh",
+  "pos": "i-adj",
+  "f": {
+   "neg": "厳しくない",
+   "past": "厳しかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "先生は厳しい。",
+    "rd": "せんせいは きびしい。",
+    "en": "The teacher is strict."
+   },
+   {
+    "jp": "この仕事は厳しいです。",
+    "rd": "この しごとは きびしいです。",
+    "en": "This job is tough."
+   }
+  ]
+ },
+ {
+  "w": "苦しい",
+  "r": "くるしい",
+  "ro": "kurushii",
+  "m": "painful, hard, suffering",
+  "pos": "i-adj",
+  "f": {
+   "neg": "苦しくない",
+   "past": "苦しかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "胸が苦しい。",
+    "rd": "むねが くるしい。",
+    "en": "My chest feels tight."
+   },
+   {
+    "jp": "食べすぎて苦しいよ。",
+    "rd": "たべすぎて くるしいよ。",
+    "en": "I ate too much and feel stuffed."
+   }
+  ]
+ },
+ {
+  "w": "しつこい",
+  "r": "しつこい",
+  "ro": "shitsukoi",
+  "m": "persistent, annoying",
+  "pos": "i-adj",
+  "f": {
+   "neg": "しつこくない",
+   "past": "しつこかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "しつこいよ、もうやめて。",
+    "rd": "しつこいよ、もう やめて。",
+    "en": "You're being persistent, stop it."
+   },
+   {
+    "jp": "あの人はしつこくない。",
+    "rd": "あの ひとは しつこくない。",
+    "en": "That person isn't pushy."
+   }
+  ],
+  "n": "Usually negative: clingy, nagging."
+ },
+ {
+  "w": "ずるい",
+  "r": "ずるい",
+  "ro": "zurui",
+  "m": "unfair, sly",
+  "pos": "i-adj",
+  "f": {
+   "neg": "ずるくない",
+   "past": "ずるかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ずるいよ、一人だけ食べて！",
+    "rd": "ずるいよ、ひとりだけ たべて！",
+    "en": "Not fair, you're eating by yourself!"
+   },
+   {
+    "jp": "それはずるいと思う。",
+    "rd": "それは ずるいと おもう。",
+    "en": "I think that's unfair."
+   }
+  ]
+ },
+ {
+  "w": "細かい",
+  "r": "こまかい",
+  "ro": "komakai",
+  "m": "fine, detailed; petty",
+  "pos": "i-adj",
+  "f": {
+   "neg": "細かくない",
+   "past": "細かかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "細かいことは気にしない。",
+    "rd": "こまかい ことは きに しない。",
+    "en": "I don't care about small details."
+   },
+   {
+    "jp": "細かいお金がありません。",
+    "rd": "こまかい おかねが ありません。",
+    "en": "I have no small change."
+   }
+  ]
+ },
+ {
+  "w": "深い",
+  "r": "ふかい",
+  "ro": "fukai",
+  "m": "deep",
+  "pos": "i-adj",
+  "f": {
+   "neg": "深くない",
+   "past": "深かった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "この川は深いです。",
+    "rd": "この かわは ふかいです。",
+    "en": "This river is deep."
+   },
+   {
+    "jp": "深い意味はないよ。",
+    "rd": "ふかい いみは ないよ。",
+    "en": "It has no deep meaning."
+   }
+  ]
+ },
+ {
+  "w": "柔らかい",
+  "r": "やわらかい",
+  "ro": "yawarakai",
+  "m": "soft, tender",
+  "pos": "i-adj",
+  "f": {
+   "neg": "柔らかくない",
+   "past": "柔らかかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "このパンは柔らかい。",
+    "rd": "この パンは やわらかい。",
+    "en": "This bread is soft."
+   },
+   {
+    "jp": "柔らかい布団で寝たい。",
+    "rd": "やわらかい ふとんで ねたい。",
+    "en": "I want to sleep on a soft futon."
+   }
+  ]
+ },
+ {
+  "w": "危ない",
+  "r": "あぶない",
+  "ro": "abunai",
+  "m": "dangerous; watch out",
+  "pos": "i-adj",
+  "f": {
+   "neg": "危なくない",
+   "past": "危なかった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "危ない！ 車が来るよ！",
+    "rd": "あぶない！ くるまが くるよ！",
+    "en": "Watch out! A car is coming!"
+   },
+   {
+    "jp": "夜の一人歩きは危ないよ。",
+    "rd": "よるの ひとりあるきは あぶないよ。",
+    "en": "Walking alone at night is dangerous."
+   }
+  ]
+ },
+ {
+  "w": "酷い",
+  "r": "ひどい",
+  "ro": "hidoi",
+  "m": "terrible, cruel, awful",
+  "pos": "i-adj",
+  "f": {
+   "neg": "酷くない",
+   "past": "酷かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "酷い！ 約束したのに。",
+    "rd": "ひどい！ やくそく したのに。",
+    "en": "That's awful! We made a promise."
+   },
+   {
+    "jp": "昨日は酷い雨だった。",
+    "rd": "きのうは ひどい あめだった。",
+    "en": "Yesterday there was terrible rain."
+   }
+  ],
+  "n": "Usually written in hiragana: ひどい."
+ },
+ {
+  "w": "うざい",
+  "r": "うざい",
+  "ro": "uzai",
+  "m": "annoying (slang)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "うざくない",
+   "past": "うざかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "うざい、あっち行って。",
+    "rd": "うざい、あっち いって。",
+    "en": "You're annoying, go away."
+   },
+   {
+    "jp": "あいつ、本当にうざかった。",
+    "rd": "あいつ、ほんとうに うざかった。",
+    "en": "That guy was really annoying."
+   }
+  ],
+  "n": "Slang, rude. Short for うざったい."
+ },
+ {
+  "w": "ださい",
+  "r": "ださい",
+  "ro": "dasai",
+  "m": "uncool, lame (slang)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "ださくない",
+   "past": "ださかった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "その服、ださいよ。",
+    "rd": "その ふく、ださいよ。",
+    "en": "That outfit is lame."
+   },
+   {
+    "jp": "ださくないよ、似合ってる。",
+    "rd": "ださくないよ、にあってる。",
+    "en": "It's not lame, it suits you."
+   }
+  ],
+  "n": "Casual slang, can be insulting."
+ },
+ {
+  "w": "素晴らしい",
+  "r": "すばらしい",
+  "ro": "subarashii",
+  "m": "wonderful, splendid",
+  "pos": "i-adj",
+  "f": {
+   "neg": "素晴らしくない",
+   "past": "素晴らしかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "素晴らしい演技でした。",
+    "rd": "すばらしい えんぎでした。",
+    "en": "It was a wonderful performance."
+   },
+   {
+    "jp": "素晴らしい一日だった。",
+    "rd": "すばらしい いちにちだった。",
+    "en": "It was a wonderful day."
+   }
+  ]
+ },
+ {
+  "w": "賢い",
+  "r": "かしこい",
+  "ro": "kashikoi",
+  "m": "smart, clever",
+  "pos": "i-adj",
+  "f": {
+   "neg": "賢くない",
+   "past": "賢かった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "この犬は賢い。",
+    "rd": "この いぬは かしこい。",
+    "en": "This dog is smart."
+   },
+   {
+    "jp": "賢い選択だと思う。",
+    "rd": "かしこい せんたくだと おもう。",
+    "en": "I think it's a wise choice."
+   }
+  ]
+ },
+ {
+  "w": "偉い",
+  "r": "えらい",
+  "ro": "erai",
+  "m": "great, admirable",
+  "pos": "i-adj",
+  "f": {
+   "neg": "偉くない",
+   "past": "偉かった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "偉いね、毎日勉強して。",
+    "rd": "えらいね、まいにち べんきょうして。",
+    "en": "Good for you, studying every day."
+   },
+   {
+    "jp": "偉い人に会った。",
+    "rd": "えらい ひとに あった。",
+    "en": "I met an important person."
+   }
+  ],
+  "n": "Often used to praise someone: 'えらいね!'."
+ },
+ {
+  "w": "濃い",
+  "r": "こい",
+  "ro": "koi",
+  "m": "strong, dark, thick (flavor/color)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "濃くない",
+   "past": "濃かった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "このコーヒーは濃い。",
+    "rd": "この コーヒーは こい。",
+    "en": "This coffee is strong."
+   },
+   {
+    "jp": "濃い味が好き。",
+    "rd": "こい あじが すき。",
+    "en": "I like strong flavors."
+   }
+  ]
+ },
+ {
+  "w": "薄い",
+  "r": "うすい",
+  "ro": "usui",
+  "m": "thin, weak, light",
+  "pos": "i-adj",
+  "f": {
+   "neg": "薄くない",
+   "past": "薄かった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "スープが薄い。",
+    "rd": "スープが うすい。",
+    "en": "The soup is bland."
+   },
+   {
+    "jp": "この本は薄いです。",
+    "rd": "この ほんは うすいです。",
+    "en": "This book is thin."
+   }
+  ]
+ },
+ {
+  "w": "赤い",
+  "r": "あかい",
+  "ro": "akai",
+  "m": "red",
+  "pos": "i-adj",
+  "f": {
+   "neg": "赤くない",
+   "past": "赤かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "赤い服が好き。",
+    "rd": "あかい ふくが すき。",
+    "en": "I like red clothes."
+   },
+   {
+    "jp": "顔が赤いよ。",
+    "rd": "かおが あかいよ。",
+    "en": "Your face is red."
+   }
+  ]
+ },
+ {
+  "w": "青い",
+  "r": "あおい",
+  "ro": "aoi",
+  "m": "blue; green (traffic light)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "青くない",
+   "past": "青かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "青い空がきれい。",
+    "rd": "あおい そらが きれい。",
+    "en": "The blue sky is pretty."
+   },
+   {
+    "jp": "海は青かった。",
+    "rd": "うみは あおかった。",
+    "en": "The sea was blue."
+   }
+  ]
+ },
+ {
+  "w": "白い",
+  "r": "しろい",
+  "ro": "shiroi",
+  "m": "white",
+  "pos": "i-adj",
+  "f": {
+   "neg": "白くない",
+   "past": "白かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "白い猫がいる。",
+    "rd": "しろい ねこが いる。",
+    "en": "There's a white cat."
+   },
+   {
+    "jp": "雪は白いです。",
+    "rd": "ゆきは しろいです。",
+    "en": "Snow is white."
+   }
+  ]
+ },
+ {
+  "w": "黒い",
+  "r": "くろい",
+  "ro": "kuroi",
+  "m": "black",
+  "pos": "i-adj",
+  "f": {
+   "neg": "黒くない",
+   "past": "黒かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "黒い車が来た。",
+    "rd": "くろい くるまが きた。",
+    "en": "A black car came."
+   },
+   {
+    "jp": "黒くないよ、茶色だよ。",
+    "rd": "くろくないよ、ちゃいろだよ。",
+    "en": "It's not black, it's brown."
+   }
+  ]
+ },
+ {
+  "w": "眩しい",
+  "r": "まぶしい",
+  "ro": "mabushii",
+  "m": "dazzling, bright",
+  "pos": "i-adj",
+  "f": {
+   "neg": "眩しくない",
+   "past": "眩しかった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "朝日が眩しい。",
+    "rd": "あさひが まぶしい。",
+    "en": "The morning sun is dazzling."
+   },
+   {
+    "jp": "眩しくて目が開けられない。",
+    "rd": "まぶしくて めが あけられない。",
+    "en": "It's so bright I can't open my eyes."
+   }
+  ]
+ },
+ {
+  "w": "ありがたい",
+  "r": "ありがたい",
+  "ro": "arigatai",
+  "m": "grateful, appreciated",
+  "pos": "i-adj",
+  "f": {
+   "neg": "ありがたくない",
+   "past": "ありがたかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "そう言ってくれてありがたい。",
+    "rd": "そう いってくれて ありがたい。",
+    "en": "I appreciate you saying that."
+   },
+   {
+    "jp": "ありがたいです、助かりました。",
+    "rd": "ありがたいです、たすかりました。",
+    "en": "I'm grateful, you helped me a lot."
+   }
+  ]
+ },
+ {
+  "w": "おとなしい",
+  "r": "おとなしい",
+  "ro": "otonashii",
+  "m": "quiet, well-behaved, gentle",
+  "pos": "i-adj",
+  "f": {
+   "neg": "おとなしくない",
+   "past": "おとなしかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "おとなしい子ですね。",
+    "rd": "おとなしい こですね。",
+    "en": "He's a quiet child."
+   },
+   {
+    "jp": "犬はおとなしかった。",
+    "rd": "いぬは おとなしかった。",
+    "en": "The dog was gentle."
+   }
+  ]
+ },
+ {
+  "w": "太い",
+  "r": "ふとい",
+  "ro": "futoi",
+  "m": "thick, fat (round things)",
+  "pos": "i-adj",
+  "f": {
+   "neg": "太くない",
+   "past": "太かった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "太い木がある。",
+    "rd": "ふとい きが ある。",
+    "en": "There's a thick tree."
+   },
+   {
+    "jp": "腕が太い。",
+    "rd": "うでが ふとい。",
+    "en": "His arms are thick."
+   }
+  ]
+ },
+ {
+  "w": "丸い",
+  "r": "まるい",
+  "ro": "marui",
+  "m": "round",
+  "pos": "i-adj",
+  "f": {
+   "neg": "丸くない",
+   "past": "丸かった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "丸い月が出ている。",
+    "rd": "まるい つきが でている。",
+    "en": "A round moon is out."
+   },
+   {
+    "jp": "丸い顔が可愛い。",
+    "rd": "まるい かおが かわいい。",
+    "en": "Her round face is cute."
+   }
+  ]
+ },
+ {
+  "w": "苦い",
+  "r": "にがい",
+  "ro": "nigai",
+  "m": "bitter",
+  "pos": "i-adj",
+  "f": {
+   "neg": "苦くない",
+   "past": "苦かった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "コーヒーが苦い。",
+    "rd": "コーヒーが にがい。",
+    "en": "The coffee is bitter."
+   },
+   {
+    "jp": "苦くて飲めない。",
+    "rd": "にがくて のめない。",
+    "en": "It's too bitter to drink."
+   }
+  ]
+ },
+ {
+  "w": "酸っぱい",
+  "r": "すっぱい",
+  "ro": "suppai",
+  "m": "sour",
+  "pos": "i-adj",
+  "f": {
+   "neg": "酸っぱくない",
+   "past": "酸っぱかった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "このレモンは酸っぱい。",
+    "rd": "この レモンは すっぱい。",
+    "en": "This lemon is sour."
+   },
+   {
+    "jp": "酸っぱくないよ。",
+    "rd": "すっぱくないよ。",
+    "en": "It's not sour."
+   }
+  ]
+ },
+ {
+  "w": "辛い",
+  "r": "つらい",
+  "ro": "tsurai",
+  "m": "painful, hard to bear",
+  "pos": "i-adj",
+  "f": {
+   "neg": "辛くない",
+   "past": "辛かった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "別れは辛い。",
+    "rd": "わかれは つらい。",
+    "en": "Parting is painful."
+   },
+   {
+    "jp": "辛かったら休んでいいよ。",
+    "rd": "つらかったら やすんでも いいよ。",
+    "en": "If it's tough, you can rest."
+   }
+  ],
+  "n": "Same kanji as からい (spicy), but this reading is emotional: 'tough, heartbreaking'."
+ },
+ {
+  "w": "気持ち悪い",
+  "r": "きもちわるい",
+  "ro": "kimochiwarui",
+  "m": "gross, nauseous, creepy",
+  "pos": "i-adj",
+  "f": {
+   "neg": "気持ち悪くない",
+   "past": "気持ち悪かった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "食べすぎて気持ち悪い。",
+    "rd": "たべすぎて きもちわるい。",
+    "en": "I ate too much and feel sick."
+   },
+   {
+    "jp": "あの虫、気持ち悪い！",
+    "rd": "あの むし、きもちわるい！",
+    "en": "That bug is gross!"
+   }
+  ]
+ },
+ {
+  "w": "うまい",
+  "r": "うまい",
+  "ro": "umai",
+  "m": "tasty (casual); skillful",
+  "pos": "i-adj",
+  "f": {
+   "neg": "うまくない",
+   "past": "うまかった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "料理がうまいね。",
+    "rd": "りょうりが うまいね。",
+    "en": "You're good at cooking."
+   },
+   {
+    "jp": "この店のラーメン、うまい！",
+    "rd": "この みせの ラーメン、うまい！",
+    "en": "The ramen at this place is yummy!"
+   }
+  ],
+  "n": "Casual/masculine for おいしい; also 'skillful'. Usually hiragana."
+ },
+ {
+  "w": "面倒くさい",
+  "r": "めんどうくさい",
+  "ro": "mendoukusai",
+  "m": "annoying, a hassle",
+  "pos": "i-adj",
+  "f": {
+   "neg": "面倒くさくない",
+   "past": "面倒くさかった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "宿題が面倒くさい。",
+    "rd": "しゅくだいが めんどうくさい。",
+    "en": "Homework is a hassle."
+   },
+   {
+    "jp": "面倒くさいから行かない。",
+    "rd": "めんどうくさいから いかない。",
+    "en": "It's a hassle, so I won't go."
+   }
+  ],
+  "n": "Casual; short: めんどい."
+ },
+ {
+  "w": "かっこ悪い",
+  "r": "かっこわるい",
+  "ro": "kakkowarui",
+  "m": "uncool, embarrassing",
+  "pos": "i-adj",
+  "f": {
+   "neg": "かっこ悪くない",
+   "past": "かっこ悪かった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "かっこ悪いところを見られた。",
+    "rd": "かっこわるい ところを みられた。",
+    "en": "I got seen looking uncool."
+   },
+   {
+    "jp": "全然かっこ悪くないよ。",
+    "rd": "ぜんぜん かっこわるくないよ。",
+    "en": "You don't look uncool at all."
+   }
+  ]
+ },
+ {
+  "w": "好き",
+  "r": "すき",
+  "ro": "suki",
+  "m": "like, favorite",
+  "pos": "na-adj",
+  "f": {
+   "neg": "好きじゃない",
+   "past": "好きだった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "猫が好きです。",
+    "rd": "ねこが すきです。",
+    "en": "I like cats."
+   },
+   {
+    "jp": "私も好きだよ。",
+    "rd": "わたしも すきだよ。",
+    "en": "I like it too."
+   }
+  ],
+  "n": "Takes が: 〜が好き. 'Suki' alone can also mean 'I like you'."
+ },
+ {
+  "w": "嫌い",
+  "r": "きらい",
+  "ro": "kirai",
+  "m": "dislike, hate",
+  "pos": "na-adj",
+  "f": {
+   "neg": "嫌いじゃない",
+   "past": "嫌いだった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "ピーマンは嫌いです。",
+    "rd": "ピーマンは きらいです。",
+    "en": "I dislike green peppers."
+   },
+   {
+    "jp": "嫌いじゃないよ、ただ苦手なだけ。",
+    "rd": "きらいじゃ ないよ、ただ にがてなだけ。",
+    "en": "I don't hate it, I'm just bad with it."
+   }
+  ]
+ },
+ {
+  "w": "大丈夫",
+  "r": "だいじょうぶ",
+  "ro": "daijoubu",
+  "m": "okay, all right, safe",
+  "pos": "na-adj",
+  "f": {
+   "neg": "大丈夫じゃない",
+   "past": "大丈夫だった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "大丈夫ですか？",
+    "rd": "だいじょうぶですか？",
+    "en": "Are you okay?"
+   },
+   {
+    "jp": "大丈夫、心配しないで。",
+    "rd": "だいじょうぶ、しんぱい しないで。",
+    "en": "It's okay, don't worry."
+   }
+  ],
+  "n": "Also used to politely decline: 'だいじょうぶです' = 'No thanks'."
+ },
+ {
+  "w": "元気",
+  "r": "げんき",
+  "ro": "genki",
+  "m": "healthy, energetic, well",
+  "pos": "na-adj",
+  "f": {
+   "neg": "元気じゃない",
+   "past": "元気だった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "元気ですか？",
+    "rd": "げんきですか？",
+    "en": "How are you? (Are you well?)"
+   },
+   {
+    "jp": "最近、元気がないね。",
+    "rd": "さいきん、げんきが ないね。",
+    "en": "You've seemed down lately."
+   }
+  ]
+ },
+ {
+  "w": "静か",
+  "r": "しずか",
+  "ro": "shizuka",
+  "m": "quiet, calm",
+  "pos": "na-adj",
+  "f": {
+   "neg": "静かじゃない",
+   "past": "静かだった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "図書館は静かです。",
+    "rd": "としょかんは しずかです。",
+    "en": "The library is quiet."
+   },
+   {
+    "jp": "静かにしてください。",
+    "rd": "しずかに して ください。",
+    "en": "Please be quiet."
+   }
+  ]
+ },
+ {
+  "w": "有名",
+  "r": "ゆうめい",
+  "ro": "yuumei",
+  "m": "famous",
+  "pos": "na-adj",
+  "f": {
+   "neg": "有名じゃない",
+   "past": "有名だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "あの人はとても有名です。",
+    "rd": "あの ひとは とても ゆうめいです。",
+    "en": "That person is very famous."
+   },
+   {
+    "jp": "この店は有名なんだよ。",
+    "rd": "この みせは ゆうめいなんだよ。",
+    "en": "This shop is famous, you know."
+   }
+  ]
+ },
+ {
+  "w": "大切",
+  "r": "たいせつ",
+  "ro": "taisetsu",
+  "m": "important, precious",
+  "pos": "na-adj",
+  "f": {
+   "neg": "大切じゃない",
+   "past": "大切だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "家族は大切です。",
+    "rd": "かぞくは たいせつです。",
+    "en": "Family is important."
+   },
+   {
+    "jp": "大切にするね。",
+    "rd": "たいせつに するね。",
+    "en": "I'll treasure it."
+   }
+  ],
+  "n": "大切にする = 'to cherish/take care of'."
+ },
+ {
+  "w": "大事",
+  "r": "だいじ",
+  "ro": "daiji",
+  "m": "important; precious",
+  "pos": "na-adj",
+  "f": {
+   "neg": "大事じゃない",
+   "past": "大事だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "大事な話があるんだ。",
+    "rd": "だいじな はなしが あるんだ。",
+    "en": "I have something important to tell you."
+   },
+   {
+    "jp": "体が大事だよ。",
+    "rd": "からだが だいじだよ。",
+    "en": "Your health is what matters."
+   }
+  ],
+  "n": "お大事に = 'Take care (get well soon)'."
+ },
+ {
+  "w": "簡単",
+  "r": "かんたん",
+  "ro": "kantan",
+  "m": "easy, simple",
+  "pos": "na-adj",
+  "f": {
+   "neg": "簡単じゃない",
+   "past": "簡単だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "この問題は簡単です。",
+    "rd": "この もんだいは かんたんです。",
+    "en": "This problem is easy."
+   },
+   {
+    "jp": "簡単じゃなかった。",
+    "rd": "かんたんじゃ なかった。",
+    "en": "It wasn't easy."
+   }
+  ]
+ },
+ {
+  "w": "無理",
+  "r": "むり",
+  "ro": "muri",
+  "m": "impossible, unreasonable",
+  "pos": "na-adj",
+  "f": {
+   "neg": "無理じゃない",
+   "past": "無理だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "無理！ 絶対できない！",
+    "rd": "むり！ ぜったい できない！",
+    "en": "No way! I definitely can't do it!"
+   },
+   {
+    "jp": "今日は無理です。",
+    "rd": "きょうは むりです。",
+    "en": "Today isn't possible for me."
+   }
+  ],
+  "n": "Also 'don't push yourself': 無理しないでね."
+ },
+ {
+  "w": "変",
+  "r": "へん",
+  "ro": "hen",
+  "m": "strange, weird",
+  "pos": "na-adj",
+  "f": {
+   "neg": "変じゃない",
+   "past": "変だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "この味、ちょっと変。",
+    "rd": "この あじ、ちょっと へん。",
+    "en": "This taste is a bit weird."
+   },
+   {
+    "jp": "変な夢を見た。",
+    "rd": "へんな ゆめを みた。",
+    "en": "I had a strange dream."
+   }
+  ]
+ },
+ {
+  "w": "本当",
+  "r": "ほんとう",
+  "ro": "hontou",
+  "m": "true, real",
+  "pos": "na-adj",
+  "f": {
+   "neg": "本当じゃない",
+   "past": "本当だった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "本当ですか？",
+    "rd": "ほんとうですか？",
+    "en": "Is that true?"
+   },
+   {
+    "jp": "それ、本当？",
+    "rd": "それ、ほんとう？",
+    "en": "Really? Is that true?"
+   }
+  ],
+  "n": "Casual: ほんと. 'ほんとに' = really."
+ },
+ {
+  "w": "必要",
+  "r": "ひつよう",
+  "ro": "hitsuyou",
+  "m": "necessary, needed",
+  "pos": "na-adj",
+  "f": {
+   "neg": "必要じゃない",
+   "past": "必要だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "パスポートが必要です。",
+    "rd": "パスポートが ひつようです。",
+    "en": "A passport is necessary."
+   },
+   {
+    "jp": "傘は必要ないよ。",
+    "rd": "かさは ひつよう ないよ。",
+    "en": "You don't need an umbrella."
+   }
+  ]
+ },
+ {
+  "w": "特別",
+  "r": "とくべつ",
+  "ro": "tokubetsu",
+  "m": "special",
+  "pos": "na-adj",
+  "f": {
+   "neg": "特別じゃない",
+   "past": "特別だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "今日は特別な日です。",
+    "rd": "きょうは とくべつな ひです。",
+    "en": "Today is a special day."
+   },
+   {
+    "jp": "君は特別だよ。",
+    "rd": "きみは とくべつだよ。",
+    "en": "You're special."
+   }
+  ]
+ },
+ {
+  "w": "きれい",
+  "r": "きれい",
+  "ro": "kirei",
+  "m": "pretty; clean",
+  "pos": "na-adj",
+  "f": {
+   "neg": "きれいじゃない",
+   "past": "きれいだった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "富士山がきれいですね。",
+    "rd": "ふじさんが きれいですね。",
+    "en": "Mt. Fuji is beautiful, isn't it."
+   },
+   {
+    "jp": "部屋をきれいにした。",
+    "rd": "へやを きれいに した。",
+    "en": "I cleaned up the room."
+   }
+  ],
+  "n": "Looks like an い-adjective but is a な-adjective. Often written 綺麗 or 奇麗."
+ },
+ {
+  "w": "上手",
+  "r": "じょうず",
+  "ro": "jouzu",
+  "m": "skilled, good at",
+  "pos": "na-adj",
+  "f": {
+   "neg": "上手じゃない",
+   "past": "上手だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "日本語が上手ですね。",
+    "rd": "にほんごが じょうずですね。",
+    "en": "Your Japanese is good."
+   },
+   {
+    "jp": "歌が上手じゃない。",
+    "rd": "うたが じょうずじゃ ない。",
+    "en": "I'm not good at singing."
+   }
+  ],
+  "n": "Not used about your own skill (sounds boastful)."
+ },
+ {
+  "w": "下手",
+  "r": "へた",
+  "ro": "heta",
+  "m": "unskilled, bad at",
+  "pos": "na-adj",
+  "f": {
+   "neg": "下手じゃない",
+   "past": "下手だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "私は料理が下手です。",
+    "rd": "わたしは りょうりが へたです。",
+    "en": "I'm bad at cooking."
+   },
+   {
+    "jp": "絵は下手だけど好き。",
+    "rd": "えは へただけど すき。",
+    "en": "I'm bad at drawing, but I like it."
+   }
+  ]
+ },
+ {
+  "w": "得意",
+  "r": "とくい",
+  "ro": "tokui",
+  "m": "good at, one's strong point",
+  "pos": "na-adj",
+  "f": {
+   "neg": "得意じゃない",
+   "past": "得意だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "数学が得意です。",
+    "rd": "すうがくが とくいです。",
+    "en": "I'm good at math."
+   },
+   {
+    "jp": "料理は得意じゃない。",
+    "rd": "りょうりは とくいじゃ ない。",
+    "en": "Cooking isn't my strong point."
+   }
+  ]
+ },
+ {
+  "w": "苦手",
+  "r": "にがて",
+  "ro": "nigate",
+  "m": "bad at, not good with",
+  "pos": "na-adj",
+  "f": {
+   "neg": "苦手じゃない",
+   "past": "苦手だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "朝は苦手です。",
+    "rd": "あさは にがてです。",
+    "en": "I'm not good with mornings."
+   },
+   {
+    "jp": "虫が苦手なんだ。",
+    "rd": "むしが にがてなんだ。",
+    "en": "I can't stand bugs."
+   }
+  ],
+  "n": "Softer than 嫌い: 'not my thing'."
+ },
+ {
+  "w": "親切",
+  "r": "しんせつ",
+  "ro": "shinsetsu",
+  "m": "kind, helpful",
+  "pos": "na-adj",
+  "f": {
+   "neg": "親切じゃない",
+   "past": "親切だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "駅員さんは親切でした。",
+    "rd": "えきいんさんは しんせつでした。",
+    "en": "The station staff were kind."
+   },
+   {
+    "jp": "親切な人に会った。",
+    "rd": "しんせつな ひとに あった。",
+    "en": "I met a kind person."
+   }
+  ]
+ },
+ {
+  "w": "便利",
+  "r": "べんり",
+  "ro": "benri",
+  "m": "convenient, handy",
+  "pos": "na-adj",
+  "f": {
+   "neg": "便利じゃない",
+   "past": "便利だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "スマホは便利です。",
+    "rd": "スマホは べんりです。",
+    "en": "Smartphones are convenient."
+   },
+   {
+    "jp": "コンビニは便利だよね。",
+    "rd": "コンビニは べんりだよね。",
+    "en": "Convenience stores are handy, aren't they."
+   }
+  ]
+ },
+ {
+  "w": "不便",
+  "r": "ふべん",
+  "ro": "fuben",
+  "m": "inconvenient",
+  "pos": "na-adj",
+  "f": {
+   "neg": "不便じゃない",
+   "past": "不便だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "この町は不便です。",
+    "rd": "この まちは ふべんです。",
+    "en": "This town is inconvenient."
+   },
+   {
+    "jp": "前の家は不便だった。",
+    "rd": "まえの いえは ふべんだった。",
+    "en": "The previous house was inconvenient."
+   }
+  ]
+ },
+ {
+  "w": "安全",
+  "r": "あんぜん",
+  "ro": "anzen",
+  "m": "safe, secure",
+  "pos": "na-adj",
+  "f": {
+   "neg": "安全じゃない",
+   "past": "安全だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ここは安全です。",
+    "rd": "ここは あんぜんです。",
+    "en": "It's safe here."
+   },
+   {
+    "jp": "夜は安全じゃない。",
+    "rd": "よるは あんぜんじゃ ない。",
+    "en": "It isn't safe at night."
+   }
+  ]
+ },
+ {
+  "w": "危険",
+  "r": "きけん",
+  "ro": "kiken",
+  "m": "dangerous; danger",
+  "pos": "na-adj",
+  "f": {
+   "neg": "危険じゃない",
+   "past": "危険だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "その道は危険です。",
+    "rd": "その みちは きけんです。",
+    "en": "That road is dangerous."
+   },
+   {
+    "jp": "危険だから近づくな。",
+    "rd": "きけんだから ちかづくな。",
+    "en": "It's dangerous, so don't go near."
+   }
+  ]
+ },
+ {
+  "w": "自由",
+  "r": "じゆう",
+  "ro": "jiyuu",
+  "m": "free, freedom",
+  "pos": "na-adj",
+  "f": {
+   "neg": "自由じゃない",
+   "past": "自由だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "明日は自由です。",
+    "rd": "あしたは じゆうです。",
+    "en": "I'm free tomorrow."
+   },
+   {
+    "jp": "自由にしていいよ。",
+    "rd": "じゆうに して いいよ。",
+    "en": "Feel free to do as you like."
+   }
+  ]
+ },
+ {
+  "w": "幸せ",
+  "r": "しあわせ",
+  "ro": "shiawase",
+  "m": "happy, fortunate",
+  "pos": "na-adj",
+  "f": {
+   "neg": "幸せじゃない",
+   "past": "幸せだった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今、とても幸せです。",
+    "rd": "いま、とても しあわせです。",
+    "en": "I'm very happy right now."
+   },
+   {
+    "jp": "幸せになってね。",
+    "rd": "しあわせに なってね。",
+    "en": "Be happy."
+   }
+  ]
+ },
+ {
+  "w": "不安",
+  "r": "ふあん",
+  "ro": "fuan",
+  "m": "anxious, uneasy",
+  "pos": "na-adj",
+  "f": {
+   "neg": "不安じゃない",
+   "past": "不安だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "テストが不安です。",
+    "rd": "テストが ふあんです。",
+    "en": "I'm anxious about the test."
+   },
+   {
+    "jp": "一人で不安だった。",
+    "rd": "ひとりで ふあんだった。",
+    "en": "I felt uneasy alone."
+   }
+  ]
+ },
+ {
+  "w": "心配",
+  "r": "しんぱい",
+  "ro": "shinpai",
+  "m": "worried; worry",
+  "pos": "na-adj",
+  "f": {
+   "neg": "心配じゃない",
+   "past": "心配だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "君のことが心配だよ。",
+    "rd": "きみの ことが しんぱいだよ。",
+    "en": "I'm worried about you."
+   },
+   {
+    "jp": "心配しないで、大丈夫だから。",
+    "rd": "しんぱい しないで、だいじょうぶだから。",
+    "en": "Don't worry, it's okay."
+   }
+  ]
+ },
+ {
+  "w": "残念",
+  "r": "ざんねん",
+  "ro": "zannen",
+  "m": "regrettable, too bad",
+  "pos": "na-adj",
+  "f": {
+   "neg": "残念じゃない",
+   "past": "残念だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "それは残念ですね。",
+    "rd": "それは ざんねんですね。",
+    "en": "That's too bad."
+   },
+   {
+    "jp": "行けなくて残念だった。",
+    "rd": "いけなくて ざんねんだった。",
+    "en": "It was a pity I couldn't go."
+   }
+  ]
+ },
+ {
+  "w": "大変",
+  "r": "たいへん",
+  "ro": "taihen",
+  "m": "tough, serious, terrible",
+  "pos": "na-adj",
+  "f": {
+   "neg": "大変じゃない",
+   "past": "大変だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "毎日大変です。",
+    "rd": "まいにち たいへんです。",
+    "en": "Every day is tough."
+   },
+   {
+    "jp": "大変だ！ 財布がない！",
+    "rd": "たいへんだ！ さいふが ない！",
+    "en": "Oh no! My wallet's gone!"
+   }
+  ],
+  "n": "Can mean 'hard work' or 'a serious problem'."
+ },
+ {
+  "w": "丈夫",
+  "r": "じょうぶ",
+  "ro": "joubu",
+  "m": "sturdy, robust",
+  "pos": "na-adj",
+  "f": {
+   "neg": "丈夫じゃない",
+   "past": "丈夫だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "この靴は丈夫です。",
+    "rd": "この くつは じょうぶです。",
+    "en": "These shoes are sturdy."
+   },
+   {
+    "jp": "体が丈夫になった。",
+    "rd": "からだが じょうぶに なった。",
+    "en": "My body became stronger."
+   }
+  ]
+ },
+ {
+  "w": "暇",
+  "r": "ひま",
+  "ro": "hima",
+  "m": "free (time), idle",
+  "pos": "na-adj",
+  "f": {
+   "neg": "暇じゃない",
+   "past": "暇だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "今、暇ですか？",
+    "rd": "いま、ひまですか？",
+    "en": "Are you free now?"
+   },
+   {
+    "jp": "昨日は暇だった。",
+    "rd": "きのうは ひまだった。",
+    "en": "I had nothing to do yesterday."
+   }
+  ]
+ },
+ {
+  "w": "楽",
+  "r": "らく",
+  "ro": "raku",
+  "m": "easy, comfortable",
+  "pos": "na-adj",
+  "f": {
+   "neg": "楽じゃない",
+   "past": "楽だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "このゲームは楽だよ。",
+    "rd": "この ゲームは らくだよ。",
+    "en": "This game is easy."
+   },
+   {
+    "jp": "楽にしてね。",
+    "rd": "らくに してね。",
+    "en": "Make yourself comfortable."
+   }
+  ],
+  "n": "Same kanji as 楽しい (fun)."
+ },
+ {
+  "w": "同じ",
+  "r": "おなじ",
+  "ro": "onaji",
+  "m": "same",
+  "pos": "na-adj",
+  "f": {
+   "neg": "同じじゃない",
+   "past": "同じだった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "私たちは同じ学校です。",
+    "rd": "わたしたちは おなじ がっこうです。",
+    "en": "We go to the same school."
+   },
+   {
+    "jp": "同じのをください。",
+    "rd": "おなじのを ください。",
+    "en": "The same one, please."
+   }
+  ],
+  "n": "Before a noun, there is no な: 同じ本 (not 同じな本)."
+ },
+ {
+  "w": "普通",
+  "r": "ふつう",
+  "ro": "futsuu",
+  "m": "ordinary, normal",
+  "pos": "na-adj",
+  "f": {
+   "neg": "普通じゃない",
+   "past": "普通だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "普通の日だったよ。",
+    "rd": "ふつうの ひだったよ。",
+    "en": "It was an ordinary day."
+   },
+   {
+    "jp": "普通においしい。",
+    "rd": "ふつうに おいしい。",
+    "en": "It's pretty good (just normally tasty)."
+   }
+  ],
+  "n": "In casual speech, 普通に = 'really, quite'."
+ },
+ {
+  "w": "ダメ",
+  "r": "ダメ",
+  "ro": "dame",
+  "m": "no good, not allowed",
+  "pos": "na-adj",
+  "f": {
+   "neg": "ダメじゃない",
+   "past": "ダメだった"
+  },
+  "t": 1,
+  "ex": [
+   {
+    "jp": "それはダメです。",
+    "rd": "それは ダメです。",
+    "en": "That's not allowed."
+   },
+   {
+    "jp": "ダメだよ、食べちゃ。",
+    "rd": "ダメだよ、たべちゃ。",
+    "en": "No, you mustn't eat it."
+   }
+  ],
+  "n": "Also written 駄目. Very common: 'ダメ!' = 'No!/Don't!'."
+ },
+ {
+  "w": "平気",
+  "r": "へいき",
+  "ro": "heiki",
+  "m": "fine, unfazed",
+  "pos": "na-adj",
+  "f": {
+   "neg": "平気じゃない",
+   "past": "平気だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "私は平気です。",
+    "rd": "わたしは へいきです。",
+    "en": "I'm fine."
+   },
+   {
+    "jp": "寒くても平気だよ。",
+    "rd": "さむくても へいきだよ。",
+    "en": "I'm fine even if it's cold."
+   }
+  ]
+ },
+ {
+  "w": "正直",
+  "r": "しょうじき",
+  "ro": "shoujiki",
+  "m": "honest; honestly",
+  "pos": "na-adj",
+  "f": {
+   "neg": "正直じゃない",
+   "past": "正直だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "正直な人が好き。",
+    "rd": "しょうじきな ひとが すき。",
+    "en": "I like honest people."
+   },
+   {
+    "jp": "正直、よくわからない。",
+    "rd": "しょうじき、よく わからない。",
+    "en": "Honestly, I don't really get it."
+   }
+  ]
+ },
+ {
+  "w": "真面目",
+  "r": "まじめ",
+  "ro": "majime",
+  "m": "serious, diligent",
+  "pos": "na-adj",
+  "f": {
+   "neg": "真面目じゃない",
+   "past": "真面目だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "彼は真面目です。",
+    "rd": "かれは まじめです。",
+    "en": "He's serious and diligent."
+   },
+   {
+    "jp": "真面目に勉強してるよ。",
+    "rd": "まじめに べんきょう してるよ。",
+    "en": "I'm studying seriously."
+   }
+  ]
+ },
+ {
+  "w": "素敵",
+  "r": "すてき",
+  "ro": "suteki",
+  "m": "lovely, wonderful",
+  "pos": "na-adj",
+  "f": {
+   "neg": "素敵じゃない",
+   "past": "素敵だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "素敵なお店ですね。",
+    "rd": "すてきな おみせですね。",
+    "en": "What a lovely shop."
+   },
+   {
+    "jp": "そのワンピース、素敵！",
+    "rd": "その ワンピース、すてき！",
+    "en": "That dress is lovely!"
+   }
+  ]
+ },
+ {
+  "w": "立派",
+  "r": "りっぱ",
+  "ro": "rippa",
+  "m": "splendid, impressive",
+  "pos": "na-adj",
+  "f": {
+   "neg": "立派じゃない",
+   "past": "立派だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "立派な家ですね。",
+    "rd": "りっぱな いえですね。",
+    "en": "That's an impressive house."
+   },
+   {
+    "jp": "君は立派になったね。",
+    "rd": "きみは りっぱに なったね。",
+    "en": "You've grown up admirably."
+   }
+  ]
+ },
+ {
+  "w": "確か",
+  "r": "たしか",
+  "ro": "tashika",
+  "m": "certain; if I remember correctly",
+  "pos": "na-adj",
+  "f": {
+   "neg": "確かじゃない",
+   "past": "確かだった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "確かな情報です。",
+    "rd": "たしかな じょうほうです。",
+    "en": "It's reliable information."
+   },
+   {
+    "jp": "確かじゃないけど、多分来るよ。",
+    "rd": "たしかじゃ ないけど、たぶん くるよ。",
+    "en": "I'm not sure, but he'll probably come."
+   }
+  ],
+  "n": "'たしか' alone, as an adverb, means 'if I recall correctly'."
+ },
+ {
+  "w": "無駄",
+  "r": "むだ",
+  "ro": "muda",
+  "m": "wasteful, useless",
+  "pos": "na-adj",
+  "f": {
+   "neg": "無駄じゃない",
+   "past": "無駄だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "時間の無駄だよ。",
+    "rd": "じかんの むだだよ。",
+    "en": "That's a waste of time."
+   },
+   {
+    "jp": "全部無駄じゃなかった。",
+    "rd": "ぜんぶ むだじゃ なかった。",
+    "en": "It wasn't all for nothing."
+   }
+  ]
+ },
+ {
+  "w": "最高",
+  "r": "さいこう",
+  "ro": "saikou",
+  "m": "the best, awesome",
+  "pos": "na-adj",
+  "f": {
+   "neg": "最高じゃない",
+   "past": "最高だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "このラーメン、最高！",
+    "rd": "この ラーメン、さいこう！",
+    "en": "This ramen is the best!"
+   },
+   {
+    "jp": "昨日の夜は最高だった。",
+    "rd": "きのうの よるは さいこうだった。",
+    "en": "Last night was amazing."
+   }
+  ]
+ },
+ {
+  "w": "最悪",
+  "r": "さいあく",
+  "ro": "saiaku",
+  "m": "the worst, terrible",
+  "pos": "na-adj",
+  "f": {
+   "neg": "最悪じゃない",
+   "past": "最悪だった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "最悪だ、財布を忘れた。",
+    "rd": "さいあくだ、さいふを わすれた。",
+    "en": "Ugh, the worst, I forgot my wallet."
+   },
+   {
+    "jp": "天気は最悪だった。",
+    "rd": "てんきは さいあくだった。",
+    "en": "The weather was terrible."
+   }
+  ]
+ },
+ {
+  "w": "十分",
+  "r": "じゅうぶん",
+  "ro": "juubun",
+  "m": "enough, sufficient",
+  "pos": "na-adj",
+  "f": {
+   "neg": "十分じゃない",
+   "past": "十分だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "これで十分です。",
+    "rd": "これで じゅうぶんです。",
+    "en": "This is enough."
+   },
+   {
+    "jp": "十分じゃないよ。",
+    "rd": "じゅうぶんじゃ ないよ。",
+    "en": "It's not enough."
+   }
+  ],
+  "n": "Also read じっぷん in 十分 = ten minutes."
+ },
+ {
+  "w": "不思議",
+  "r": "ふしぎ",
+  "ro": "fushigi",
+  "m": "strange, mysterious",
+  "pos": "na-adj",
+  "f": {
+   "neg": "不思議じゃない",
+   "past": "不思議だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "不思議な話ですね。",
+    "rd": "ふしぎな はなしですね。",
+    "en": "That's a mysterious story."
+   },
+   {
+    "jp": "不思議だね、誰もいない。",
+    "rd": "ふしぎだね、だれも いない。",
+    "en": "Strange, nobody's here."
+   }
+  ]
+ },
+ {
+  "w": "複雑",
+  "r": "ふくざつ",
+  "ro": "fukuzatsu",
+  "m": "complicated, complex",
+  "pos": "na-adj",
+  "f": {
+   "neg": "複雑じゃない",
+   "past": "複雑だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "気持ちが複雑だ。",
+    "rd": "きもちが ふくざつだ。",
+    "en": "My feelings are complicated."
+   },
+   {
+    "jp": "この話は複雑です。",
+    "rd": "この はなしは ふくざつです。",
+    "en": "This story is complicated."
+   }
+  ]
+ },
+ {
+  "w": "自然",
+  "r": "しぜん",
+  "ro": "shizen",
+  "m": "natural",
+  "pos": "na-adj",
+  "f": {
+   "neg": "自然じゃない",
+   "past": "自然だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "自然な日本語を話したい。",
+    "rd": "しぜんな にほんごを はなしたい。",
+    "en": "I want to speak natural Japanese."
+   },
+   {
+    "jp": "とても自然だったよ。",
+    "rd": "とても しぜんだったよ。",
+    "en": "It was very natural."
+   }
+  ],
+  "n": "Also a noun meaning 'nature'."
+ },
+ {
+  "w": "派手",
+  "r": "はで",
+  "ro": "hade",
+  "m": "flashy, showy",
+  "pos": "na-adj",
+  "f": {
+   "neg": "派手じゃない",
+   "past": "派手だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "派手な服ですね。",
+    "rd": "はでな ふくですね。",
+    "en": "That's a flashy outfit."
+   },
+   {
+    "jp": "派手すぎない？",
+    "rd": "はですぎない？",
+    "en": "Isn't it too flashy?"
+   }
+  ]
+ },
+ {
+  "w": "地味",
+  "r": "じみ",
+  "ro": "jimi",
+  "m": "plain, subdued",
+  "pos": "na-adj",
+  "f": {
+   "neg": "地味じゃない",
+   "past": "地味だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "地味な色が好き。",
+    "rd": "じみな いろが すき。",
+    "en": "I like subdued colors."
+   },
+   {
+    "jp": "彼女は地味じゃないよ。",
+    "rd": "かのじょは じみじゃ ないよ。",
+    "en": "She isn't plain."
+   }
+  ]
+ },
+ {
+  "w": "賑やか",
+  "r": "にぎやか",
+  "ro": "nigiyaka",
+  "m": "lively, bustling",
+  "pos": "na-adj",
+  "f": {
+   "neg": "賑やかじゃない",
+   "past": "賑やかだった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "町は賑やかです。",
+    "rd": "まちは にぎやかです。",
+    "en": "The town is lively."
+   },
+   {
+    "jp": "賑やかな夜だった。",
+    "rd": "にぎやかな よるだった。",
+    "en": "It was a lively night."
+   }
+  ]
+ },
+ {
+  "w": "完璧",
+  "r": "かんぺき",
+  "ro": "kanpeki",
+  "m": "perfect, flawless",
+  "pos": "na-adj",
+  "f": {
+   "neg": "完璧じゃない",
+   "past": "完璧だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "完璧です！",
+    "rd": "かんぺきです！",
+    "en": "It's perfect!"
+   },
+   {
+    "jp": "まだ完璧じゃない。",
+    "rd": "まだ かんぺきじゃ ない。",
+    "en": "It's not perfect yet."
+   }
+  ]
+ },
+ {
+  "w": "迷惑",
+  "r": "めいわく",
+  "ro": "meiwaku",
+  "m": "a nuisance, trouble",
+  "pos": "na-adj",
+  "f": {
+   "neg": "迷惑じゃない",
+   "past": "迷惑だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "夜の大声は迷惑です。",
+    "rd": "よるの おおごえは めいわくです。",
+    "en": "Shouting at night is a nuisance."
+   },
+   {
+    "jp": "迷惑じゃないですか？",
+    "rd": "めいわくじゃ ないですか？",
+    "en": "Am I not bothering you?"
+   }
+  ],
+  "n": "迷惑をかける = 'to cause trouble'."
+ },
+ {
+  "w": "素直",
+  "r": "すなお",
+  "ro": "sunao",
+  "m": "honest, docile, straightforward",
+  "pos": "na-adj",
+  "f": {
+   "neg": "素直じゃない",
+   "past": "素直だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "彼は素直な子です。",
+    "rd": "かれは すなおな こです。",
+    "en": "He's an obedient child."
+   },
+   {
+    "jp": "素直になれない。",
+    "rd": "すなおに なれない。",
+    "en": "I can't be honest with my feelings."
+   }
+  ]
+ },
+ {
+  "w": "無事",
+  "r": "ぶじ",
+  "ro": "buji",
+  "m": "safe, without incident",
+  "pos": "na-adj",
+  "f": {
+   "neg": "無事じゃない",
+   "past": "無事だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "無事でよかった！",
+    "rd": "ぶじで よかった！",
+    "en": "I'm glad you're safe!"
+   },
+   {
+    "jp": "無事に着きました。",
+    "rd": "ぶじに つきました。",
+    "en": "I arrived safely."
+   }
+  ]
+ },
+ {
+  "w": "当然",
+  "r": "とうぜん",
+  "ro": "touzen",
+  "m": "natural, of course",
+  "pos": "na-adj",
+  "f": {
+   "neg": "当然じゃない",
+   "past": "当然だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "当然だよ。",
+    "rd": "とうぜんだよ。",
+    "en": "Of course."
+   },
+   {
+    "jp": "それは当然の結果です。",
+    "rd": "それは とうぜんの けっかです。",
+    "en": "That's a natural result."
+   }
+  ]
+ },
+ {
+  "w": "勝手",
+  "r": "かって",
+  "ro": "katte",
+  "m": "selfish; as one pleases",
+  "pos": "na-adj",
+  "f": {
+   "neg": "勝手じゃない",
+   "past": "勝手だった"
+  },
+  "t": 5,
+  "ex": [
+   {
+    "jp": "勝手にしていいよ。",
+    "rd": "かってに して いいよ。",
+    "en": "You can do as you like."
+   },
+   {
+    "jp": "彼は勝手な人だ。",
+    "rd": "かれは かってな ひとだ。",
+    "en": "He's a selfish person."
+   }
+  ],
+  "n": "勝手に = 'without permission / on one's own'."
+ },
+ {
+  "w": "かわいそう",
+  "r": "かわいそう",
+  "ro": "kawaisou",
+  "m": "poor, pitiable",
+  "pos": "na-adj",
+  "f": {
+   "neg": "かわいそうじゃない",
+   "past": "かわいそうだった"
+  },
+  "t": 3,
+  "ex": [
+   {
+    "jp": "あの子がかわいそう。",
+    "rd": "あの こが かわいそう。",
+    "en": "I feel sorry for that kid."
+   },
+   {
+    "jp": "かわいそうな犬だね。",
+    "rd": "かわいそうな いぬだね。",
+    "en": "What a poor dog."
+   }
+  ]
+ },
+ {
+  "w": "嫌",
+  "r": "いや",
+  "ro": "iya",
+  "m": "unpleasant, don't want",
+  "pos": "na-adj",
+  "f": {
+   "neg": "嫌じゃない",
+   "past": "嫌だった"
+  },
+  "t": 2,
+  "ex": [
+   {
+    "jp": "嫌だ！ 行きたくない。",
+    "rd": "いやだ！ いきたくない。",
+    "en": "No way! I don't want to go."
+   },
+   {
+    "jp": "嫌じゃなかったら、一緒に行こう。",
+    "rd": "いやじゃ なかったら、いっしょに いこう。",
+    "en": "If you don't mind, let's go together."
+   }
+  ],
+  "n": "'いやだ' = 'I don't want to / no way'."
+ },
+ {
+  "w": "健康",
+  "r": "けんこう",
+  "ro": "kenkou",
+  "m": "healthy, health",
+  "pos": "na-adj",
+  "f": {
+   "neg": "健康じゃない",
+   "past": "健康だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "健康が一番大切。",
+    "rd": "けんこうが いちばん たいせつ。",
+    "en": "Health is the most important."
+   },
+   {
+    "jp": "最近、健康じゃない。",
+    "rd": "さいきん、けんこうじゃ ない。",
+    "en": "I haven't been healthy lately."
+   }
+  ]
+ },
+ {
+  "w": "急",
+  "r": "きゅう",
+  "ro": "kyuu",
+  "m": "sudden; urgent",
+  "pos": "na-adj",
+  "f": {
+   "neg": "急じゃない",
+   "past": "急だった"
+  },
+  "t": 4,
+  "ex": [
+   {
+    "jp": "急な話でごめん。",
+    "rd": "きゅうな はなしで ごめん。",
+    "en": "Sorry for the sudden news."
+   },
+   {
+    "jp": "急じゃなくていいよ。",
+    "rd": "きゅうじゃ なくて いいよ。",
+    "en": "It doesn't have to be urgent."
+   }
+  ]
+ },
+ {
+  "w": "とても",
+  "r": "とても",
+  "ro": "totemo",
+  "m": "very",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "とても楽しかった！",
+    "rd": "とても たのしかった！",
+    "en": "It was a lot of fun!"
+   },
+   {
+    "jp": "このラーメンはとても辛いです。",
+    "rd": "この ラーメンは とても からいです。",
+    "en": "This ramen is very spicy."
+   }
+  ],
+  "n": "Polite, standard 'very'."
+ },
+ {
+  "w": "すごく",
+  "r": "すごく",
+  "ro": "sugoku",
+  "m": "very, extremely",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "すごく眠い。",
+    "rd": "すごく ねむい。",
+    "en": "I'm super sleepy."
+   },
+   {
+    "jp": "すごく嬉しいです。",
+    "rd": "すごく うれしいです。",
+    "en": "I'm really happy."
+   }
+  ],
+  "n": "Casual 'very'."
+ },
+ {
+  "w": "ちょっと",
+  "r": "ちょっと",
+  "ro": "chotto",
+  "m": "a little; just a moment",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "ちょっと待って。",
+    "rd": "ちょっと まって。",
+    "en": "Wait a moment."
+   },
+   {
+    "jp": "ちょっと高いですね。",
+    "rd": "ちょっと たかいですね。",
+    "en": "It's a little expensive."
+   }
+  ],
+  "n": "'ちょっと…' is also a soft refusal."
+ },
+ {
+  "w": "少し",
+  "r": "すこし",
+  "ro": "sukoshi",
+  "m": "a little, a few",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "少し休もう。",
+    "rd": "すこし やすもう。",
+    "en": "Let's rest a little."
+   },
+   {
+    "jp": "日本語が少しわかります。",
+    "rd": "にほんごが すこし わかります。",
+    "en": "I understand a little Japanese."
+   }
+  ]
+ },
+ {
+  "w": "たくさん",
+  "r": "たくさん",
+  "ro": "takusan",
+  "m": "a lot, many",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "たくさん食べてね。",
+    "rd": "たくさん たべてね。",
+    "en": "Eat a lot."
+   },
+   {
+    "jp": "友達がたくさんいます。",
+    "rd": "ともだちが たくさん います。",
+    "en": "I have many friends."
+   }
+  ]
+ },
+ {
+  "w": "もう",
+  "r": "もう",
+  "ro": "mou",
+  "m": "already; anymore; more",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "もう帰るの？",
+    "rd": "もう かえるの？",
+    "en": "You're leaving already?"
+   },
+   {
+    "jp": "もう食べました。",
+    "rd": "もう たべました。",
+    "en": "I've already eaten."
+   }
+  ],
+  "n": "もう + negative = 'no longer'. もう一回 = 'one more time'."
+ },
+ {
+  "w": "まだ",
+  "r": "まだ",
+  "ro": "mada",
+  "m": "still, not yet",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "まだ食べていない。",
+    "rd": "まだ たべていない。",
+    "en": "I haven't eaten yet."
+   },
+   {
+    "jp": "まだ早いよ。",
+    "rd": "まだ はやいよ。",
+    "en": "It's still early."
+   }
+  ]
+ },
+ {
+  "w": "また",
+  "r": "また",
+  "ro": "mata",
+  "m": "again; see you",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "また明日ね！",
+    "rd": "また あしたね！",
+    "en": "See you tomorrow!"
+   },
+   {
+    "jp": "また来ます。",
+    "rd": "また きます。",
+    "en": "I'll come again."
+   }
+  ]
+ },
+ {
+  "w": "よく",
+  "r": "よく",
+  "ro": "yoku",
+  "m": "often; well",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "よくここに来ます。",
+    "rd": "よく ここに きます。",
+    "en": "I often come here."
+   },
+   {
+    "jp": "よく分かりません。",
+    "rd": "よく わかりません。",
+    "en": "I don't understand well."
+   }
+  ],
+  "n": "Adverb form of いい, but 'often' as well."
+ },
+ {
+  "w": "いつも",
+  "r": "いつも",
+  "ro": "itsumo",
+  "m": "always",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "いつも一緒だね。",
+    "rd": "いつも いっしょだね。",
+    "en": "We're always together, aren't we."
+   },
+   {
+    "jp": "彼はいつも遅い。",
+    "rd": "かれは いつも おそい。",
+    "en": "He's always late."
+   }
+  ]
+ },
+ {
+  "w": "時々",
+  "r": "ときどき",
+  "ro": "tokidoki",
+  "m": "sometimes",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "時々、映画を見ます。",
+    "rd": "ときどき、えいがを みます。",
+    "en": "I sometimes watch movies."
+   },
+   {
+    "jp": "時々、会いたくなる。",
+    "rd": "ときどき、あいたく なる。",
+    "en": "Sometimes I find myself wanting to see you."
+   }
+  ]
+ },
+ {
+  "w": "全然",
+  "r": "ぜんぜん",
+  "ro": "zenzen",
+  "m": "not at all; totally",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "全然わからない。",
+    "rd": "ぜんぜん わからない。",
+    "en": "I don't understand at all."
+   },
+   {
+    "jp": "全然大丈夫だよ。",
+    "rd": "ぜんぜん だいじょうぶだよ。",
+    "en": "It's totally fine."
+   }
+  ],
+  "n": "Traditionally used with negatives; casual speech uses it positively too."
+ },
+ {
+  "w": "絶対",
+  "r": "ぜったい",
+  "ro": "zettai",
+  "m": "absolutely, definitely",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "絶対行く！",
+    "rd": "ぜったい いく！",
+    "en": "I'm definitely going!"
+   },
+   {
+    "jp": "絶対に言わないでね。",
+    "rd": "ぜったいに いわないでね。",
+    "en": "Never tell anyone, okay?"
+   }
+  ]
+ },
+ {
+  "w": "多分",
+  "r": "たぶん",
+  "ro": "tabun",
+  "m": "probably, maybe",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "多分、明日は雨だよ。",
+    "rd": "たぶん、あしたは あめだよ。",
+    "en": "It'll probably rain tomorrow."
+   },
+   {
+    "jp": "多分大丈夫です。",
+    "rd": "たぶん だいじょうぶです。",
+    "en": "It'll probably be okay."
+   }
+  ]
+ },
+ {
+  "w": "きっと",
+  "r": "きっと",
+  "ro": "kitto",
+  "m": "surely, I'm sure",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "きっとうまくいくよ。",
+    "rd": "きっと うまく いくよ。",
+    "en": "It will surely go well."
+   },
+   {
+    "jp": "彼はきっと来る。",
+    "rd": "かれは きっと くる。",
+    "en": "He'll surely come."
+   }
+  ]
+ },
+ {
+  "w": "やっぱり",
+  "r": "やっぱり",
+  "ro": "yappari",
+  "m": "as expected, after all",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "やっぱり君が好き。",
+    "rd": "やっぱり きみが すき。",
+    "en": "I like you after all."
+   },
+   {
+    "jp": "やっぱりやめた。",
+    "rd": "やっぱり やめた。",
+    "en": "I changed my mind."
+   }
+  ],
+  "n": "Casual form of やはり. Short: やっぱ."
+ },
+ {
+  "w": "本当に",
+  "r": "ほんとうに",
+  "ro": "hontouni",
+  "m": "really, truly",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "本当にありがとう。",
+    "rd": "ほんとうに ありがとう。",
+    "en": "Thank you so much, really."
+   },
+   {
+    "jp": "本当に行くの？",
+    "rd": "ほんとうに いくの？",
+    "en": "Are you really going?"
+   }
+  ],
+  "n": "Casual: ほんとに."
+ },
+ {
+  "w": "ずっと",
+  "r": "ずっと",
+  "ro": "zutto",
+  "m": "all along; far (more)",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ずっと待っていた。",
+    "rd": "ずっと まっていた。",
+    "en": "I've been waiting the whole time."
+   },
+   {
+    "jp": "ずっと好きでした。",
+    "rd": "ずっと すきでした。",
+    "en": "I've loved you all along."
+   }
+  ]
+ },
+ {
+  "w": "すぐ",
+  "r": "すぐ",
+  "ro": "sugu",
+  "m": "immediately, soon",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "すぐ行きます。",
+    "rd": "すぐ いきます。",
+    "en": "I'll go right away."
+   },
+   {
+    "jp": "駅はすぐそこです。",
+    "rd": "えきは すぐそこです。",
+    "en": "The station is right there."
+   }
+  ]
+ },
+ {
+  "w": "ゆっくり",
+  "r": "ゆっくり",
+  "ro": "yukkuri",
+  "m": "slowly; leisurely",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ゆっくり話してください。",
+    "rd": "ゆっくり はなして ください。",
+    "en": "Please speak slowly."
+   },
+   {
+    "jp": "ゆっくり休んでね。",
+    "rd": "ゆっくり やすんでね。",
+    "en": "Take a good rest."
+   }
+  ]
+ },
+ {
+  "w": "一緒に",
+  "r": "いっしょに",
+  "ro": "isshoni",
+  "m": "together",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "一緒に行こう！",
+    "rd": "いっしょに いこう！",
+    "en": "Let's go together!"
+   },
+   {
+    "jp": "一緒に食べませんか？",
+    "rd": "いっしょに たべませんか？",
+    "en": "Won't you eat with me?"
+   }
+  ]
+ },
+ {
+  "w": "一番",
+  "r": "いちばん",
+  "ro": "ichiban",
+  "m": "the most, number one",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "これが一番好き。",
+    "rd": "これが いちばん すき。",
+    "en": "I like this one the most."
+   },
+   {
+    "jp": "日本で一番高い山は富士山です。",
+    "rd": "にほんで いちばん たかい やまは ふじさんです。",
+    "en": "The tallest mountain in Japan is Mt. Fuji."
+   }
+  ]
+ },
+ {
+  "w": "もっと",
+  "r": "もっと",
+  "ro": "motto",
+  "m": "more",
+  "pos": "adverb",
+  "t": 1,
+  "ex": [
+   {
+    "jp": "もっと食べたい。",
+    "rd": "もっと たべたい。",
+    "en": "I want to eat more."
+   },
+   {
+    "jp": "もっと安いのはありますか？",
+    "rd": "もっと やすいのは ありますか？",
+    "en": "Do you have a cheaper one?"
+   }
+  ]
+ },
+ {
+  "w": "全部",
+  "r": "ぜんぶ",
+  "ro": "zenbu",
+  "m": "all, everything",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "全部食べた。",
+    "rd": "ぜんぶ たべた。",
+    "en": "I ate it all."
+   },
+   {
+    "jp": "全部で千円です。",
+    "rd": "ぜんぶで せんえんです。",
+    "en": "It's 1,000 yen in total."
+   }
+  ]
+ },
+ {
+  "w": "特に",
+  "r": "とくに",
+  "ro": "tokuni",
+  "m": "especially, in particular",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "特に何もないよ。",
+    "rd": "とくに なにも ないよ。",
+    "en": "Nothing in particular."
+   },
+   {
+    "jp": "特に好きなのは何？",
+    "rd": "とくに すきなのは なに？",
+    "en": "Which one do you especially like?"
+   }
+  ]
+ },
+ {
+  "w": "早く",
+  "r": "はやく",
+  "ro": "hayaku",
+  "m": "quickly, early",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "早く来て！",
+    "rd": "はやく きて！",
+    "en": "Come quick!"
+   },
+   {
+    "jp": "明日は早く起きます。",
+    "rd": "あしたは はやく おきます。",
+    "en": "I'll get up early tomorrow."
+   }
+  ],
+  "n": "Adverb form of 早い/速い."
+ },
+ {
+  "w": "実は",
+  "r": "じつは",
+  "ro": "jitsuha",
+  "m": "actually, to tell the truth",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "実は、結婚したんです。",
+    "rd": "じつは、けっこん したんです。",
+    "en": "Actually, I got married."
+   },
+   {
+    "jp": "実は私も知らなかった。",
+    "rd": "じつは わたしも しらなかった。",
+    "en": "Actually, I didn't know either."
+   }
+  ]
+ },
+ {
+  "w": "結構",
+  "r": "けっこう",
+  "ro": "kekkou",
+  "m": "fairly, quite",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "結構おいしいね。",
+    "rd": "けっこう おいしいね。",
+    "en": "It's quite tasty."
+   },
+   {
+    "jp": "結構です、もう十分です。",
+    "rd": "けっこうです、もう じゅうぶんです。",
+    "en": "No thank you, I've had enough."
+   }
+  ],
+  "n": "'けっこうです' can mean 'I'm fine / no thanks'."
+ },
+ {
+  "w": "なかなか",
+  "r": "なかなか",
+  "ro": "nakanaka",
+  "m": "quite; not easily",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "なかなか寝られない。",
+    "rd": "なかなか ねられない。",
+    "en": "I can't fall asleep easily."
+   },
+   {
+    "jp": "なかなか面白いね。",
+    "rd": "なかなか おもしろいね。",
+    "en": "That's quite interesting."
+   }
+  ],
+  "n": "With negative = 'not easily / hardly'."
+ },
+ {
+  "w": "別に",
+  "r": "べつに",
+  "ro": "betsuni",
+  "m": "not particularly",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "別に何もないよ。",
+    "rd": "べつに なにも ないよ。",
+    "en": "Nothing in particular."
+   },
+   {
+    "jp": "別にいいけど。",
+    "rd": "べつに いいけど。",
+    "en": "I don't mind, though."
+   }
+  ],
+  "n": "Said flatly, can sound indifferent ('whatever')."
+ },
+ {
+  "w": "さっき",
+  "r": "さっき",
+  "ro": "sakki",
+  "m": "a little while ago",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "さっき電話したよ。",
+    "rd": "さっき でんわ したよ。",
+    "en": "I called a little while ago."
+   },
+   {
+    "jp": "さっきまで寝ていた。",
+    "rd": "さっきまで ねていた。",
+    "en": "I was sleeping until a moment ago."
+   }
+  ]
+ },
+ {
+  "w": "先に",
+  "r": "さきに",
+  "ro": "sakini",
+  "m": "first, ahead",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "先に行くね。",
+    "rd": "さきに いくね。",
+    "en": "I'll go ahead."
+   },
+   {
+    "jp": "先に食べてて。",
+    "rd": "さきに たべてて。",
+    "en": "Go ahead and eat first."
+   }
+  ]
+ },
+ {
+  "w": "初めて",
+  "r": "はじめて",
+  "ro": "hajimete",
+  "m": "for the first time",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "初めて日本に来ました。",
+    "rd": "はじめて にほんに きました。",
+    "en": "I came to Japan for the first time."
+   },
+   {
+    "jp": "初めて会ったとき、緊張した。",
+    "rd": "はじめて あった とき、きんちょう した。",
+    "en": "I was nervous when we first met."
+   }
+  ]
+ },
+ {
+  "w": "まさか",
+  "r": "まさか",
+  "ro": "masaka",
+  "m": "no way, surely not",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "まさか、本当？",
+    "rd": "まさか、ほんとう？",
+    "en": "No way, is that true?"
+   },
+   {
+    "jp": "まさか負けるなんて。",
+    "rd": "まさか まけるなんて。",
+    "en": "I never thought we'd lose."
+   }
+  ]
+ },
+ {
+  "w": "どうぞ",
+  "r": "どうぞ",
+  "ro": "douzo",
+  "m": "please (go ahead)",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "どうぞ座ってください。",
+    "rd": "どうぞ すわって ください。",
+    "en": "Please have a seat."
+   },
+   {
+    "jp": "どうぞ、お先に。",
+    "rd": "どうぞ、おさきに。",
+    "en": "After you, please."
+   }
+  ],
+  "n": "Used when offering or allowing something."
+ },
+ {
+  "w": "一体",
+  "r": "いったい",
+  "ro": "ittai",
+  "m": "(what) on earth",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "一体何があったの？",
+    "rd": "いったい なにが あったの？",
+    "en": "What on earth happened?"
+   },
+   {
+    "jp": "一体誰がやったんだ？",
+    "rd": "いったい だれが やったんだ？",
+    "en": "Who on earth did this?"
+   }
+  ],
+  "n": "Emphasizes question words; often shows irritation or surprise."
+ },
+ {
+  "w": "ちゃんと",
+  "r": "ちゃんと",
+  "ro": "chanto",
+  "m": "properly, neatly",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "ちゃんと勉強しなさい。",
+    "rd": "ちゃんと べんきょう しなさい。",
+    "en": "Study properly."
+   },
+   {
+    "jp": "ちゃんと聞いてる？",
+    "rd": "ちゃんと きいてる？",
+    "en": "Are you listening properly?"
+   }
+  ]
+ },
+ {
+  "w": "しっかり",
+  "r": "しっかり",
+  "ro": "shikkari",
+  "m": "firmly, steadily, well",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "しっかり食べてね。",
+    "rd": "しっかり たべてね。",
+    "en": "Eat well."
+   },
+   {
+    "jp": "しっかりしてよ！",
+    "rd": "しっかり してよ！",
+    "en": "Get a grip!"
+   }
+  ]
+ },
+ {
+  "w": "そろそろ",
+  "r": "そろそろ",
+  "ro": "sorosoro",
+  "m": "soon, about time to",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "そろそろ帰ります。",
+    "rd": "そろそろ かえります。",
+    "en": "I'll be heading home soon."
+   },
+   {
+    "jp": "そろそろ寝よう。",
+    "rd": "そろそろ ねよう。",
+    "en": "It's about time to sleep."
+   }
+  ]
+ },
+ {
+  "w": "ほとんど",
+  "r": "ほとんど",
+  "ro": "hotondo",
+  "m": "almost, mostly",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ほとんど毎日走っている。",
+    "rd": "ほとんど まいにち はしっている。",
+    "en": "I run almost every day."
+   },
+   {
+    "jp": "ほとんど分からなかった。",
+    "rd": "ほとんど わからなかった。",
+    "en": "I hardly understood anything."
+   }
+  ],
+  "n": "With negative = 'hardly'."
+ },
+ {
+  "w": "大体",
+  "r": "だいたい",
+  "ro": "daitai",
+  "m": "roughly, mostly",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "だいたい分かったよ。",
+    "rd": "だいたい わかったよ。",
+    "en": "I mostly understood."
+   },
+   {
+    "jp": "駅まで大体十分です。",
+    "rd": "えきまで だいたい じゅっぷんです。",
+    "en": "It's about ten minutes to the station."
+   }
+  ],
+  "n": "Usually written in hiragana."
+ },
+ {
+  "w": "必ず",
+  "r": "かならず",
+  "ro": "kanarazu",
+  "m": "without fail, always",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "必ず連絡します。",
+    "rd": "かならず れんらく します。",
+    "en": "I'll definitely contact you."
+   },
+   {
+    "jp": "必ず来てね。",
+    "rd": "かならず きてね。",
+    "en": "Be sure to come."
+   }
+  ]
+ },
+ {
+  "w": "是非",
+  "r": "ぜひ",
+  "ro": "zehi",
+  "m": "by all means, definitely",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "是非来てください。",
+    "rd": "ぜひ きて ください。",
+    "en": "Please do come."
+   },
+   {
+    "jp": "是非、一緒に行きたい。",
+    "rd": "ぜひ、いっしょに いきたい。",
+    "en": "I'd love to go together."
+   }
+  ],
+  "n": "Expresses a strong wish or invitation; usually in hiragana."
+ },
+ {
+  "w": "例えば",
+  "r": "たとえば",
+  "ro": "tatoeba",
+  "m": "for example",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "例えば、どんな食べ物？",
+    "rd": "たとえば、どんな たべもの？",
+    "en": "For example, what kind of food?"
+   },
+   {
+    "jp": "例えば、これはどう？",
+    "rd": "たとえば、これは どう？",
+    "en": "For example, how about this?"
+   }
+  ]
+ },
+ {
+  "w": "もちろん",
+  "r": "もちろん",
+  "ro": "mochiron",
+  "m": "of course",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "もちろん行くよ！",
+    "rd": "もちろん いくよ！",
+    "en": "Of course I'll go!"
+   },
+   {
+    "jp": "もちろんです。",
+    "rd": "もちろんです。",
+    "en": "Of course."
+   }
+  ]
+ },
+ {
+  "w": "やっと",
+  "r": "やっと",
+  "ro": "yatto",
+  "m": "finally, at last",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "やっと終わった！",
+    "rd": "やっと おわった！",
+    "en": "It's finally over!"
+   },
+   {
+    "jp": "やっと会えたね。",
+    "rd": "やっと あえたね。",
+    "en": "We finally got to meet."
+   }
+  ]
+ },
+ {
+  "w": "急に",
+  "r": "きゅうに",
+  "ro": "kyuuni",
+  "m": "suddenly",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "急に雨が降ってきた。",
+    "rd": "きゅうに あめが ふってきた。",
+    "en": "It suddenly started raining."
+   },
+   {
+    "jp": "急に寒くなったね。",
+    "rd": "きゅうに さむく なったね。",
+    "en": "It suddenly got cold, didn't it."
+   }
+  ]
+ },
+ {
+  "w": "突然",
+  "r": "とつぜん",
+  "ro": "totsuzen",
+  "m": "suddenly, abruptly",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "突然ごめんね。",
+    "rd": "とつぜん ごめんね。",
+    "en": "Sorry for the sudden call."
+   },
+   {
+    "jp": "突然、電気が消えた。",
+    "rd": "とつぜん、でんきが きえた。",
+    "en": "Suddenly, the lights went out."
+   }
+  ]
+ },
+ {
+  "w": "いきなり",
+  "r": "いきなり",
+  "ro": "ikinari",
+  "m": "all of a sudden, out of nowhere",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "いきなり怒られた。",
+    "rd": "いきなり おこられた。",
+    "en": "I got scolded out of nowhere."
+   },
+   {
+    "jp": "いきなり何？",
+    "rd": "いきなり なに？",
+    "en": "What's with you all of a sudden?"
+   }
+  ]
+ },
+ {
+  "w": "そのまま",
+  "r": "そのまま",
+  "ro": "sonomama",
+  "m": "as it is, just like that",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "そのままでいいよ。",
+    "rd": "そのままで いいよ。",
+    "en": "It's fine just as it is."
+   },
+   {
+    "jp": "そのまま寝ちゃった。",
+    "rd": "そのまま ねちゃった。",
+    "en": "I just fell asleep like that."
+   }
+  ]
+ },
+ {
+  "w": "わざと",
+  "r": "わざと",
+  "ro": "wazato",
+  "m": "on purpose",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "わざとじゃないよ。",
+    "rd": "わざとじゃ ないよ。",
+    "en": "I didn't do it on purpose."
+   },
+   {
+    "jp": "わざと負けたでしょ？",
+    "rd": "わざと まけたでしょ？",
+    "en": "You lost on purpose, didn't you?"
+   }
+  ]
+ },
+ {
+  "w": "わざわざ",
+  "r": "わざわざ",
+  "ro": "wazawaza",
+  "m": "going out of one's way",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "わざわざ来てくれてありがとう。",
+    "rd": "わざわざ きてくれて ありがとう。",
+    "en": "Thanks for going out of your way to come."
+   },
+   {
+    "jp": "わざわざ言わなくていいよ。",
+    "rd": "わざわざ いわなくて いいよ。",
+    "en": "You don't need to bother saying it."
+   }
+  ]
+ },
+ {
+  "w": "せっかく",
+  "r": "せっかく",
+  "ro": "sekkaku",
+  "m": "(rare) opportunity; with great effort",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "せっかくだから食べよう。",
+    "rd": "せっかくだから たべよう。",
+    "en": "Since we're here, let's eat."
+   },
+   {
+    "jp": "せっかく作ったのに。",
+    "rd": "せっかく つくったのに。",
+    "en": "And I went to all that trouble making it."
+   }
+  ]
+ },
+ {
+  "w": "ついに",
+  "r": "ついに",
+  "ro": "tsuini",
+  "m": "finally, at long last",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ついに夏休みだ！",
+    "rd": "ついに なつやすみだ！",
+    "en": "Summer vacation at last!"
+   },
+   {
+    "jp": "ついに完成した。",
+    "rd": "ついに かんせい した。",
+    "en": "It was finally completed."
+   }
+  ]
+ },
+ {
+  "w": "とうとう",
+  "r": "とうとう",
+  "ro": "toutou",
+  "m": "finally, in the end",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "とうとう雨が降り出した。",
+    "rd": "とうとう あめが ふりだした。",
+    "en": "It finally started to rain."
+   },
+   {
+    "jp": "とうとう泣いてしまった。",
+    "rd": "とうとう ないてしまった。",
+    "en": "In the end, I burst into tears."
+   }
+  ]
+ },
+ {
+  "w": "つい",
+  "r": "つい",
+  "ro": "tsui",
+  "m": "unintentionally, just",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "つい食べちゃった。",
+    "rd": "つい たべちゃった。",
+    "en": "I ate it without meaning to."
+   },
+   {
+    "jp": "つい笑っちゃった。",
+    "rd": "つい わらっちゃった。",
+    "en": "I couldn't help laughing."
+   }
+  ]
+ },
+ {
+  "w": "思わず",
+  "r": "おもわず",
+  "ro": "omowazu",
+  "m": "involuntarily",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "思わず笑ってしまった。",
+    "rd": "おもわず わらってしまった。",
+    "en": "I laughed without thinking."
+   },
+   {
+    "jp": "思わず叫んだ。",
+    "rd": "おもわず さけんだ。",
+    "en": "I screamed instinctively."
+   }
+  ]
+ },
+ {
+  "w": "たまに",
+  "r": "たまに",
+  "ro": "tamani",
+  "m": "occasionally, once in a while",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "たまに運動します。",
+    "rd": "たまに うんどう します。",
+    "en": "I exercise occasionally."
+   },
+   {
+    "jp": "たまに会うよ。",
+    "rd": "たまに あうよ。",
+    "en": "We meet once in a while."
+   }
+  ]
+ },
+ {
+  "w": "しばらく",
+  "r": "しばらく",
+  "ro": "shibaraku",
+  "m": "for a while",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "しばらく待ってね。",
+    "rd": "しばらく まってね。",
+    "en": "Wait for a while."
+   },
+   {
+    "jp": "しばらく会ってないね。",
+    "rd": "しばらく あって ないね。",
+    "en": "We haven't seen each other in a while."
+   }
+  ],
+  "n": "'しばらくぶり' / 'お久しぶり' = 'long time no see'."
+ },
+ {
+  "w": "ずいぶん",
+  "r": "ずいぶん",
+  "ro": "zuibun",
+  "m": "quite, considerably",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ずいぶん大きくなったね。",
+    "rd": "ずいぶん おおきく なったね。",
+    "en": "You've gotten quite big."
+   },
+   {
+    "jp": "ずいぶん久しぶりだね。",
+    "rd": "ずいぶん ひさしぶりだね。",
+    "en": "It's been quite a while."
+   }
+  ]
+ },
+ {
+  "w": "かなり",
+  "r": "かなり",
+  "ro": "kanari",
+  "m": "fairly, considerably",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "かなり疲れた。",
+    "rd": "かなり つかれた。",
+    "en": "I'm pretty tired."
+   },
+   {
+    "jp": "かなり難しいです。",
+    "rd": "かなり むずかしいです。",
+    "en": "It's quite difficult."
+   }
+  ]
+ },
+ {
+  "w": "非常に",
+  "r": "ひじょうに",
+  "ro": "hijouni",
+  "m": "extremely, very (formal)",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "非常に重要です。",
+    "rd": "ひじょうに じゅうようです。",
+    "en": "It's extremely important."
+   },
+   {
+    "jp": "非常に残念です。",
+    "rd": "ひじょうに ざんねんです。",
+    "en": "It's very regrettable."
+   }
+  ],
+  "n": "Formal; used in writing and speeches."
+ },
+ {
+  "w": "割と",
+  "r": "わりと",
+  "ro": "warito",
+  "m": "relatively, fairly",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "割と簡単だったよ。",
+    "rd": "わりと かんたんだったよ。",
+    "en": "It was relatively easy."
+   },
+   {
+    "jp": "割と好きかも。",
+    "rd": "わりと すきかも。",
+    "en": "I might like it, actually."
+   }
+  ],
+  "n": "Also わりに."
+ },
+ {
+  "w": "ほぼ",
+  "r": "ほぼ",
+  "ro": "hobo",
+  "m": "almost, nearly",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "ほぼ終わったよ。",
+    "rd": "ほぼ おわったよ。",
+    "en": "It's nearly finished."
+   },
+   {
+    "jp": "ほぼ毎日走ってる。",
+    "rd": "ほぼ まいにち はしってる。",
+    "en": "I run nearly every day."
+   }
+  ]
+ },
+ {
+  "w": "もし",
+  "r": "もし",
+  "ro": "moshi",
+  "m": "if, suppose",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "もし時間があったら、行くよ。",
+    "rd": "もし じかんが あったら、いくよ。",
+    "en": "If I have time, I'll go."
+   },
+   {
+    "jp": "もし雨なら、中止です。",
+    "rd": "もし あめなら、ちゅうしです。",
+    "en": "If it rains, it's cancelled."
+   }
+  ],
+  "n": "Used with たら / なら / ば. 'もしもし' = 'hello' on the phone."
+ },
+ {
+  "w": "まず",
+  "r": "まず",
+  "ro": "mazu",
+  "m": "first (of all)",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "まず手を洗って。",
+    "rd": "まず てを あらって。",
+    "en": "First, wash your hands."
+   },
+   {
+    "jp": "まず、名前を教えて。",
+    "rd": "まず、なまえを おしえて。",
+    "en": "First, tell me your name."
+   }
+  ]
+ },
+ {
+  "w": "最初に",
+  "r": "さいしょに",
+  "ro": "saishoni",
+  "m": "at first, first",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "最初にこれを食べた。",
+    "rd": "さいしょに これを たべた。",
+    "en": "I ate this first."
+   },
+   {
+    "jp": "最初に言っておくね。",
+    "rd": "さいしょに いっておくね。",
+    "en": "Let me say this first."
+   }
+  ]
+ },
+ {
+  "w": "最後に",
+  "r": "さいごに",
+  "ro": "saigoni",
+  "m": "finally, lastly",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "最後にもう一つだけ。",
+    "rd": "さいごに もう ひとつだけ。",
+    "en": "One last thing."
+   },
+   {
+    "jp": "最後に会ったのはいつ？",
+    "rd": "さいごに あったのは いつ？",
+    "en": "When did we last meet?"
+   }
+  ]
+ },
+ {
+  "w": "一人で",
+  "r": "ひとりで",
+  "ro": "hitoride",
+  "m": "alone, by oneself",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "一人で行けるよ。",
+    "rd": "ひとりで いけるよ。",
+    "en": "I can go by myself."
+   },
+   {
+    "jp": "一人で住んでいます。",
+    "rd": "ひとりで すんで います。",
+    "en": "I live alone."
+   }
+  ]
+ },
+ {
+  "w": "だんだん",
+  "r": "だんだん",
+  "ro": "dandan",
+  "m": "gradually",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "だんだん暑くなってきた。",
+    "rd": "だんだん あつく なってきた。",
+    "en": "It's gradually getting hot."
+   },
+   {
+    "jp": "だんだん分かってきた。",
+    "rd": "だんだん わかって きた。",
+    "en": "I'm gradually starting to understand."
+   }
+  ]
+ },
+ {
+  "w": "どんどん",
+  "r": "どんどん",
+  "ro": "dondon",
+  "m": "rapidly, one after another",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "どんどん食べてね。",
+    "rd": "どんどん たべてね。",
+    "en": "Keep eating, one after another."
+   },
+   {
+    "jp": "どんどん上手になってる。",
+    "rd": "どんどん じょうずに なってる。",
+    "en": "You're improving rapidly."
+   }
+  ]
+ },
+ {
+  "w": "はっきり",
+  "r": "はっきり",
+  "ro": "hakkiri",
+  "m": "clearly, distinctly",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "はっきり言って。",
+    "rd": "はっきり いって。",
+    "en": "Say it clearly."
+   },
+   {
+    "jp": "はっきり見えない。",
+    "rd": "はっきり みえない。",
+    "en": "I can't see it clearly."
+   }
+  ]
+ },
+ {
+  "w": "そっと",
+  "r": "そっと",
+  "ro": "sotto",
+  "m": "softly, quietly, gently",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "そっとドアを開けた。",
+    "rd": "そっと ドアを あけた。",
+    "en": "I opened the door quietly."
+   },
+   {
+    "jp": "そっとしておいて。",
+    "rd": "そっと して おいて。",
+    "en": "Please leave me alone."
+   }
+  ]
+ },
+ {
+  "w": "ただ",
+  "r": "ただ",
+  "ro": "tada",
+  "m": "just, only; however",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "ただ、ちょっと心配なだけ。",
+    "rd": "ただ、ちょっと しんぱいなだけ。",
+    "en": "It's just that I'm a bit worried."
+   },
+   {
+    "jp": "ただ見ているだけです。",
+    "rd": "ただ みている だけです。",
+    "en": "I'm just looking."
+   }
+  ],
+  "n": "Also means 'free of charge' (ただ)."
+ },
+ {
+  "w": "ちょうど",
+  "r": "ちょうど",
+  "ro": "choudo",
+  "m": "just, exactly",
+  "pos": "adverb",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "ちょうど今、着いたよ。",
+    "rd": "ちょうど いま、ついたよ。",
+    "en": "I just arrived now."
+   },
+   {
+    "jp": "ちょうどいい大きさだね。",
+    "rd": "ちょうど いい おおきさだね。",
+    "en": "It's just the right size."
+   }
+  ]
+ },
+ {
+  "w": "もうすぐ",
+  "r": "もうすぐ",
+  "ro": "mousugu",
+  "m": "very soon",
+  "pos": "adverb",
+  "t": 2,
+  "ex": [
+   {
+    "jp": "もうすぐ春だね。",
+    "rd": "もうすぐ はるだね。",
+    "en": "It'll soon be spring."
+   },
+   {
+    "jp": "もうすぐ着きます。",
+    "rd": "もうすぐ つきます。",
+    "en": "We'll arrive soon."
+   }
+  ]
+ },
+ {
+  "w": "一応",
+  "r": "いちおう",
+  "ro": "ichiou",
+  "m": "for now, just in case",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "一応、確認するね。",
+    "rd": "いちおう、かくにん するね。",
+    "en": "I'll check just in case."
+   },
+   {
+    "jp": "一応できたよ。",
+    "rd": "いちおう できたよ。",
+    "en": "It's more or less done."
+   }
+  ]
+ },
+ {
+  "w": "ぴったり",
+  "r": "ぴったり",
+  "ro": "pittari",
+  "m": "exactly, snugly",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "この服はぴったりだ。",
+    "rd": "この ふくは ぴったりだ。",
+    "en": "This outfit fits perfectly."
+   },
+   {
+    "jp": "ぴったりの大きさ。",
+    "rd": "ぴったりの おおきさ。",
+    "en": "Just the right size."
+   }
+  ]
+ },
+ {
+  "w": "うっかり",
+  "r": "うっかり",
+  "ro": "ukkari",
+  "m": "carelessly, absent-mindedly",
+  "pos": "adverb",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "うっかり忘れてた。",
+    "rd": "うっかり わすれてた。",
+    "en": "I carelessly forgot."
+   },
+   {
+    "jp": "うっかり寝ちゃった。",
+    "rd": "うっかり ねちゃった。",
+    "en": "I fell asleep before I knew it."
+   }
+  ]
+ },
+ {
+  "w": "のんびり",
+  "r": "のんびり",
+  "ro": "nonbiri",
+  "m": "leisurely, relaxed",
+  "pos": "adverb",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "のんびりしたい。",
+    "rd": "のんびり したい。",
+    "en": "I want to relax."
+   },
+   {
+    "jp": "週末はのんびり過ごした。",
+    "rd": "しゅうまつは のんびり すごした。",
+    "en": "I spent the weekend relaxing."
+   }
+  ]
+ },
+ {
+  "w": "ドキドキ",
+  "r": "ドキドキ",
+  "ro": "dokidoki",
+  "m": "heart pounding",
+  "pos": "onomatopoeia",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "心臓がドキドキする。",
+    "rd": "しんぞうが ドキドキ する。",
+    "en": "My heart is pounding."
+   },
+   {
+    "jp": "初デートでドキドキした。",
+    "rd": "はつデートで ドキドキ した。",
+    "en": "I was nervous on my first date."
+   }
+  ],
+  "n": "Excitement or nervousness."
+ },
+ {
+  "w": "ワクワク",
+  "r": "ワクワク",
+  "ro": "wakuwaku",
+  "m": "excited, thrilled",
+  "pos": "onomatopoeia",
+  "t": 3,
+  "ex": [
+   {
+    "jp": "明日の旅行にワクワクしてる。",
+    "rd": "あしたの りょこうに ワクワク してる。",
+    "en": "I'm excited about tomorrow's trip."
+   },
+   {
+    "jp": "ワクワクするね！",
+    "rd": "ワクワク するね！",
+    "en": "This is exciting!"
+   }
+  ]
+ },
+ {
+  "w": "ニコニコ",
+  "r": "ニコニコ",
+  "ro": "nikoniko",
+  "m": "smiling happily",
+  "pos": "onomatopoeia",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "彼女はいつもニコニコしている。",
+    "rd": "かのじょは いつも ニコニコ している。",
+    "en": "She's always smiling."
+   },
+   {
+    "jp": "赤ちゃんがニコニコ笑った。",
+    "rd": "あかちゃんが ニコニコ わらった。",
+    "en": "The baby smiled happily."
+   }
+  ]
+ },
+ {
+  "w": "ペコペコ",
+  "r": "ペコペコ",
+  "ro": "pekopeko",
+  "m": "very hungry; bowing servilely",
+  "pos": "onomatopoeia",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "お腹がペコペコだよ。",
+    "rd": "おなかが ペコペコだよ。",
+    "en": "I'm starving."
+   },
+   {
+    "jp": "部長にペコペコしている。",
+    "rd": "ぶちょうに ペコペコ している。",
+    "en": "He's bowing and scraping to the manager."
+   }
+  ],
+  "n": "お腹ペコペコ = very hungry; also ペコペコ頭を下げる = bow repeatedly."
+ },
+ {
+  "w": "イライラ",
+  "r": "イライラ",
+  "ro": "iraira",
+  "m": "irritated, on edge",
+  "pos": "onomatopoeia",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "待たされてイライラする。",
+    "rd": "またされて イライラ する。",
+    "en": "I get irritated being kept waiting."
+   },
+   {
+    "jp": "今日はずっとイライラしてた。",
+    "rd": "きょうは ずっと イライラ してた。",
+    "en": "I've been irritated all day."
+   }
+  ]
+ },
+ {
+  "w": "ハラハラ",
+  "r": "ハラハラ",
+  "ro": "harahara",
+  "m": "on edge, in suspense",
+  "pos": "onomatopoeia",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "ハラハラする映画だった。",
+    "rd": "ハラハラ する えいがだった。",
+    "en": "It was a nail-biting movie."
+   },
+   {
+    "jp": "見ていてハラハラした。",
+    "rd": "みていて ハラハラ した。",
+    "en": "I felt anxious watching it."
+   }
+  ]
+ },
+ {
+  "w": "ふわふわ",
+  "r": "ふわふわ",
+  "ro": "fuwafuwa",
+  "m": "fluffy, soft",
+  "pos": "onomatopoeia",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "このパンはふわふわだ。",
+    "rd": "この パンは ふわふわだ。",
+    "en": "This bread is fluffy."
+   },
+   {
+    "jp": "ふわふわの猫が好き。",
+    "rd": "ふわふわの ねこが すき。",
+    "en": "I like fluffy cats."
+   }
+  ]
+ },
+ {
+  "w": "キラキラ",
+  "r": "キラキラ",
+  "ro": "kirakira",
+  "m": "sparkling, glittering",
+  "pos": "onomatopoeia",
+  "t": 4,
+  "ex": [
+   {
+    "jp": "星がキラキラしている。",
+    "rd": "ほしが キラキラ している。",
+    "en": "The stars are sparkling."
+   },
+   {
+    "jp": "キラキラした目で見ていた。",
+    "rd": "キラキラ した めで みていた。",
+    "en": "She looked with sparkling eyes."
+   }
+  ]
+ },
+ {
+  "w": "ぺらぺら",
+  "r": "ぺらぺら",
+  "ro": "perapera",
+  "m": "fluent (speech)",
+  "pos": "onomatopoeia",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "彼は英語がぺらぺらだ。",
+    "rd": "かれは えいごが ぺらぺらだ。",
+    "en": "He's fluent in English."
+   },
+   {
+    "jp": "日本語、ぺらぺらだね！",
+    "rd": "にほんご、ぺらぺらだね！",
+    "en": "Your Japanese is fluent!"
+   }
+  ]
+ },
+ {
+  "w": "ゴロゴロ",
+  "r": "ゴロゴロ",
+  "ro": "gorogoro",
+  "m": "lazing around; rumbling",
+  "pos": "onomatopoeia",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "日曜日は家でゴロゴロしてた。",
+    "rd": "にちようびは いえで ゴロゴロ してた。",
+    "en": "I lazed around at home on Sunday."
+   },
+   {
+    "jp": "猫がゴロゴロ言っている。",
+    "rd": "ねこが ゴロゴロ いっている。",
+    "en": "The cat is purring."
+   }
+  ]
+ },
+ {
+  "w": "ぐっすり",
+  "r": "ぐっすり",
+  "ro": "gussuri",
+  "m": "sound asleep",
+  "pos": "onomatopoeia",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "ぐっすり眠れた。",
+    "rd": "ぐっすり ねむれた。",
+    "en": "I slept soundly."
+   },
+   {
+    "jp": "赤ちゃんがぐっすり寝ている。",
+    "rd": "あかちゃんが ぐっすり ねている。",
+    "en": "The baby is sound asleep."
+   }
+  ]
+ },
+ {
+  "w": "ぐるぐる",
+  "r": "ぐるぐる",
+  "ro": "guruguru",
+  "m": "spinning round and round",
+  "pos": "onomatopoeia",
+  "t": 5,
+  "ex": [
+   {
+    "jp": "目がぐるぐる回る。",
+    "rd": "めが ぐるぐる まわる。",
+    "en": "My eyes are spinning."
+   },
+   {
+    "jp": "頭がぐるぐるする。",
+    "rd": "あたまが ぐるぐる する。",
+    "en": "My head is spinning."
+   }
+  ]
+ }
+]
