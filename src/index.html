@@ -1,0 +1,79 @@
+<title>Learn Japanese</title>
+<meta name="description" content="Kana and kanji drills, the 1000 most useful Japanese words with spaced repetition, and an everyday phrasebook.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/*@CORE_CSS*/
+.hero{padding-block:8px 22px;max-width:62ch}
+.hero p{margin:8px 0 0;color:var(--ink-2);font-size:15.5px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:28px}
+@media (max-width:760px){.cards{grid-template-columns:minmax(0,1fr)}}
+.pcard{display:flex;flex-direction:column;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;text-decoration:none;color:inherit;box-shadow:var(--shadow);min-width:0}
+.pcard:hover{border-color:var(--ai)}
+.pcard .sq{width:64px;height:64px;margin:0}
+.pcard .glyph{font-size:40px}
+.pcard h2{font-size:18px}
+.pcard p{margin:0;font-size:14px;color:var(--ink-2)}
+.pcard .go{margin-top:auto;font-weight:500;color:var(--ai);font-size:14px}
+.routine{width:100%;border-collapse:collapse;font-size:14px}
+.routine th,.routine td{text-align:left;padding:8px 10px;border-top:1px solid var(--line);vertical-align:top}
+.routine th{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);border-top:none}
+.routine td:last-child{white-space:nowrap;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="seal" aria-hidden="true">学</div>
+    <div class="brand"><h1>Learn Japanese</h1><span class="sub">Building blocks for following Japanese media and saying simple things.</span></div>
+    <nav class="suite" id="suite"></nav>
+  </header>
+
+  <section class="hero">
+    <h2 style="font-size:24px">Read the scripts, know the core words, borrow the common phrases.</h2>
+    <p>The aim isn't fluency. It's enough foundation to pick out meaning from shows and conversations, and to get your intent across in simple sentences, even broken ones.</p>
+  </section>
+
+  <div class="cards">
+    <a class="pcard" href="kana-kanji.html">
+      <div class="sq"><span class="glyph">字</span></div>
+      <h2>Kana &amp; Kanji Dojo</h2>
+      <p>Adaptive hiragana and katakana quizzes, a kana chart, word-reading practice, and 250 beginner kanji with flashcards.</p>
+      <span class="go">Practice characters →</span>
+    </a>
+    <a class="pcard" href="words.html">
+      <div class="sq"><span class="glyph">語</span></div>
+      <h2>Core 1000 Words</h2>
+      <p>The most useful words in order, each with two example sentences. Spaced-repetition flashcards and a context drill.</p>
+      <span class="go">Study words →</span>
+    </a>
+    <a class="pcard" href="phrases.html">
+      <div class="sq"><span class="glyph">話</span></div>
+      <h2>Everyday Phrasebook</h2>
+      <p>234 phrases with breakdowns and usage notes, plus 39 sentence patterns for building your own sentences.</p>
+      <span class="go">Learn phrases →</span>
+    </a>
+  </div>
+
+  <section class="panel">
+    <span class="label">Daily routine, about 25–30 minutes</span>
+    <div class="tablewrap">
+      <table class="routine">
+        <thead><tr><th>Page</th><th>What to do</th><th>Time</th></tr></thead>
+        <tbody>
+          <tr><td>Kana &amp; Kanji</td><td>One kana quiz round, until you rarely miss; then 2–3 times a week</td><td>5 min</td></tr>
+          <tr><td>1000 Words</td><td>10 new words plus all reviews due</td><td>10–15 min</td></tr>
+          <tr><td>Phrasebook</td><td>5 new phrases plus reviews, must-know set first</td><td>5–8 min</td></tr>
+          <tr><td>Phrasebook</td><td>One new sentence pattern, Step 1 → 3</td><td>3 min</td></tr>
+          <tr><td>1000 Words</td><td>A few context-drill sentences (optional)</td><td>2–5 min</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted" style="font-size:13.5px;margin:10px 0 0">Missed a day? Do your reviews first and skip new cards until the review count is back to normal.</p>
+  </section>
+</div>
+
+<script>
+/*@CORE_JS*/
+/*@SUITE*/
+</script>

@@ -117,3 +117,6 @@ ruby rt{font-size:.5em;color:var(--ink-2);font-family:var(--f-body);font-weight:
 .empty{padding:36px 16px;text-align:center;color:var(--ink-2)}
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 @media (max-width:560px){.grades{grid-template-columns:repeat(2,1fr)}.tabs a{padding:9px 10px}}
+.backup{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);display:flex;gap:12px 20px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
+.backup>div:first-child{max-width:62ch}
+.no-audio .audio-only{display:none!important}

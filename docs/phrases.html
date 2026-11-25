@@ -1,0 +1,4796 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.5 system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Everyday Japanese Phrasebook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one centered study column (max 980px) under a slim header; practice "stage" uses manuscript-paper (genkō yōshi) squares with practice-sheet cross guides. */
+:root{
+  --paper:#f5f6f8; --surface:#ffffff; --ink:#1a1c21; --ink-2:#596070; --ink-3:#8a90a0;
+  --line:#dde1e8; --grid:#e8ebf1; --guide:#c9d0dc;
+  --ai:#284a8a; --ai-ink:#ffffff; --ai-soft:#e5ebf6;
+  --shu:#c63f2a; --shu-soft:#fbe8e4; --matcha:#3f7a33; --matcha-soft:#e5f1e0; --yamabuki:#b67f0c; --yamabuki-soft:#f8efd9;
+  --f-glyph:"Klee One","Hiragino Mincho ProN","Yu Mincho",serif;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP","Yu Gothic",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --r:10px; --shadow:0 1px 2px rgb(20 30 60/.06),0 4px 16px rgb(20 30 60/.05);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#13151a; --surface:#1b1e25; --ink:#e7e9ee; --ink-2:#a3a9b6; --ink-3:#737a89;
+  --line:#2b3039; --grid:#20242c; --guide:#353c48;
+  --ai:#91b1f2; --ai-ink:#0f1830; --ai-soft:#212e48;
+  --shu:#ff7b64; --shu-soft:#3a1f1b; --matcha:#8fca72; --matcha-soft:#1e3019; --yamabuki:#e8b84c; --yamabuki-soft:#33290f;
+  --shadow:0 1px 2px rgb(0 0 0/.3),0 4px 16px rgb(0 0 0/.25); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#13151a; --surface:#1b1e25; --ink:#e7e9ee; --ink-2:#a3a9b6; --ink-3:#737a89;
+  --line:#2b3039; --grid:#20242c; --guide:#353c48;
+  --ai:#91b1f2; --ai-ink:#0f1830; --ai-soft:#212e48;
+  --shu:#ff7b64; --shu-soft:#3a1f1b; --matcha:#8fca72; --matcha-soft:#1e3019; --yamabuki:#e8b84c; --yamabuki-soft:#33290f;
+  --shadow:0 1px 2px rgb(0 0 0/.3),0 4px 16px rgb(0 0 0/.25); color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+.wrap{max-width:980px;margin:0 auto}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ai);outline-offset:2px}
+h1,h2,h3{text-wrap:balance;line-height:1.25;margin:0}
+.muted{color:var(--ink-2)} .faint{color:var(--ink-3)}
+.mono{font-family:var(--f-mono)}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* header */
+.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding-block:18px 14px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.seal{width:40px;height:40px;border-radius:7px;background:var(--ai);color:var(--ai-ink);display:grid;place-items:center;font-family:var(--f-glyph);font-size:24px;font-weight:600;flex:none}
+.brand{display:flex;flex-direction:column;min-width:0}
+.brand h1{font-size:19px;font-weight:700;letter-spacing:.01em}
+.brand .sub{font-size:12.5px;color:var(--ink-2)}
+.sync{margin-left:auto;font-size:12px;color:var(--ink-3);display:flex;align-items:center;gap:6px}
+.sync i{width:7px;height:7px;border-radius:50%;background:var(--ink-3)}
+.sync.on i{background:var(--matcha)}
+.suite{display:flex;gap:4px;flex-wrap:wrap;width:100%;font-size:13px}
+.suite a{color:var(--ink-2);text-decoration:none;padding:3px 10px;border-radius:999px;border:1px solid var(--line)}
+.suite a:hover{color:var(--ink);border-color:var(--ink-3)}
+.suite a.here{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* tabs */
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-bottom:18px;overflow-x:auto}
+.tabs a{padding:9px 14px;text-decoration:none;color:var(--ink-2);font-weight:500;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+.tabs a:hover{color:var(--ink)}
+.tabs a.on{color:var(--ink);border-bottom-color:var(--ai)}
+.tabs .jp{font-size:12px;color:var(--ink-3);margin-left:5px}
+
+/* controls */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 14px;cursor:pointer;font-weight:500;line-height:1.2}
+.btn:hover{border-color:var(--ink-3)}
+.btn.primary{background:var(--ai);border-color:var(--ai);color:var(--ai-ink)}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent}
+.btn.small{padding:5px 10px;font-size:13px}
+.btn:disabled{opacity:.45;cursor:default}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;line-height:1.4;user-select:none}
+.chip:hover{border-color:var(--ink-3)}
+.chip.on{background:var(--ai-soft);border-color:var(--ai);color:var(--ink)}
+.chip .n{color:var(--ink-3);font-size:11.5px;margin-left:4px}
+input[type=text],input[type=search],select{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 11px;min-width:0}
+input[type=search]{width:100%}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.spacer{flex:1}
+.label{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);font-weight:700}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.say{border:none;background:transparent;cursor:pointer;color:var(--ai);padding:2px 4px;border-radius:6px;display:inline-flex;align-items:center;vertical-align:middle}
+.say:hover{background:var(--ai-soft)}
+.say svg{width:17px;height:17px}
+.no-audio .say{display:none!important}
+
+/* stage: manuscript paper */
+.stage{position:relative;border:1px solid var(--line);border-radius:var(--r);background-color:var(--surface);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:28px 28px;background-position:-1px -1px;padding:28px 20px;box-shadow:var(--shadow)}
+.sq{position:relative;display:grid;place-items:center;margin:0 auto;background:var(--surface);border:1.5px solid var(--guide);border-radius:4px}
+.sq::before,.sq::after{content:"";position:absolute;pointer-events:none}
+.sq::before{left:50%;top:6%;bottom:6%;border-left:1px dashed var(--guide)}
+.sq::after{top:50%;left:6%;right:6%;border-top:1px dashed var(--guide)}
+.glyph{font-family:var(--f-glyph);font-weight:600;line-height:1;position:relative;z-index:1}
+
+/* grade buttons */
+.grades{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.grade{border:1px solid var(--line);border-radius:9px;background:var(--surface);padding:9px 6px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:1px;font-weight:600}
+.grade small{font-weight:400;font-size:11.5px;color:var(--ink-3)}
+.grade kbd{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);font-weight:400}
+.grade.g0{color:var(--shu)} .grade.g0:hover{background:var(--shu-soft);border-color:var(--shu)}
+.grade.g1{color:var(--yamabuki)} .grade.g1:hover{background:var(--yamabuki-soft);border-color:var(--yamabuki)}
+.grade.g2{color:var(--matcha)} .grade.g2:hover{background:var(--matcha-soft);border-color:var(--matcha)}
+.grade.g3{color:var(--ai)} .grade.g3:hover{background:var(--ai-soft);border-color:var(--ai)}
+
+/* example sentences */
+.ex{border-left:2px solid var(--line);padding:2px 0 2px 12px;display:flex;flex-direction:column;gap:1px}
+.ex .jp{font-size:16.5px}
+.ex .rd{font-size:13.5px;color:var(--ink-2)}
+.ex .en{font-size:13.5px;color:var(--ink-2);font-style:italic}
+mark{background:var(--yamabuki-soft);color:inherit;border-radius:3px;padding:0 2px;box-shadow:inset 0 -2px 0 var(--yamabuki)}
+ruby rt{font-size:.5em;color:var(--ink-2);font-family:var(--f-body);font-weight:400}
+
+.pill{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink-2);white-space:nowrap;line-height:1.6}
+.pill.new{color:var(--ai);border-color:var(--ai)}
+.pill.learning{color:var(--yamabuki);border-color:var(--yamabuki)}
+.pill.young{color:var(--matcha);border-color:var(--matcha)}
+.pill.known{background:var(--matcha);color:var(--surface);border-color:var(--matcha)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:8px 16px;border-radius:999px;font-size:13.5px;z-index:50;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+.empty{padding:36px 16px;text-align:center;color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+@media (max-width:560px){.grades{grid-template-columns:repeat(2,1fr)}.tabs a{padding:9px 10px}}
+.backup{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);display:flex;gap:12px 20px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
+.backup>div:first-child{max-width:62ch}
+.no-audio .audio-only{display:none!important}
+
+.filters{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:720px){.grid{grid-template-columns:minmax(0,1fr)}}
+.ph{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.ph .jp{font-size:22px;font-weight:500;line-height:1.4;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.ph .rd{font-size:14px;color:var(--ink-2)}
+.ph .ro{font-family:var(--f-mono);font-size:12.5px;color:var(--ink-3)}
+.ph .en{font-size:16px;font-weight:700}
+.ph .lit{font-size:13px;color:var(--ink-2);background:var(--paper);border-radius:6px;padding:5px 9px}
+.ph .use{font-size:13.5px;color:var(--ink-2)}
+.ph .alt{display:flex;flex-wrap:wrap;gap:5px}
+.ph .alt span{font-size:12.5px;border:1px dashed var(--line);border-radius:6px;padding:1px 7px}
+.ph .tags{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.lvl-casual{color:var(--yamabuki);border-color:var(--yamabuki)}
+.lvl-polite{color:var(--ai);border-color:var(--ai)}
+.lvl-formal{color:var(--matcha);border-color:var(--matcha)}
+.core{color:var(--shu);border-color:var(--shu)}
+.secthead{display:flex;align-items:baseline;gap:10px;margin:22px 0 10px}
+.secthead h2{font-size:17px}
+/* patterns */
+.steps{display:flex;flex-direction:column;gap:26px}
+.pat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:9px;min-width:0}
+.pat .p{font-size:22px;font-weight:500;line-height:1.5}
+.slot{display:inline-block;font-size:.62em;font-weight:700;color:var(--ai);background:var(--ai-soft);border:1px dashed var(--ai);border-radius:5px;padding:0 6px;vertical-align:.25em;margin:0 2px;font-family:var(--f-body)}
+.pat .m{font-size:15.5px;font-weight:700}
+.pat .how{font-size:14px;color:var(--ink-2)}
+.pat .casual{font-size:13.5px;background:var(--yamabuki-soft);border-radius:6px;padding:6px 10px}
+.stepintro{font-size:14px;color:var(--ink-2);margin:2px 0 10px;max-width:68ch}
+/* practice */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:18px;align-items:start}
+@media (max-width:820px){.layout{grid-template-columns:minmax(0,1fr)}}
+.side{display:flex;flex-direction:column;gap:14px}
+.side .panel{display:flex;flex-direction:column;gap:9px}
+.side label{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13.5px}
+.card{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:280px;justify-content:center}
+.card .big{font-size:min(34px,8vw);font-weight:700;line-height:1.35}
+.card .bigjp{font-size:min(36px,8vw);font-weight:500;line-height:1.4}
+.card .ph{text-align:left;width:100%;max-width:560px}
+.counts{display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2);margin-bottom:10px}
+.counts b{color:var(--ink);font-variant-numeric:tabular-nums;font-size:15px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="seal" aria-hidden="true">話</div>
+    <div class="brand"><h1>Everyday Japanese Phrasebook</h1><span class="sub">Ready-made phrases you'll hear constantly, and patterns to build your own sentences.</span></div>
+    <div class="sync"><i></i><span>Loading progress…</span></div>
+    <nav class="suite" id="suite"></nav>
+  </header>
+  <nav class="tabs">
+    <a href="#phrases">Phrases<span class="jp">フレーズ</span></a>
+    <a href="#patterns">Sentence patterns<span class="jp">文型</span></a>
+    <a href="#practice">Practice<span class="jp">練習</span></a>
+  </nav>
+
+  <section id="view-phrases">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search phrases in Japanese, romaji or English…" aria-label="Search phrases">
+      <div class="chips" id="catChips"></div>
+      <div class="chips" id="lvlChips"></div>
+    </div>
+    <div id="plist"></div>
+  </section>
+
+  <section id="view-patterns" hidden>
+    <p class="stepintro">Each pattern is a frame: drop a word from your 1000-word list into the dashed slot and you have a sentence. Start with Step 1; with those alone you can already say what you want, what you like, and ask where things are.</p>
+    <div class="steps" id="pats"></div>
+  </section>
+
+  <section id="view-practice" class="layout" hidden>
+    <div>
+      <div class="counts" id="counts"></div>
+      <div class="stage"><div class="card" id="card"></div></div>
+    </div>
+    <aside class="side">
+      <div class="panel">
+        <span class="label">Practice</span>
+        <label for="pDir">Prompt <select id="pDir"><option value="en">English → say it in Japanese</option><option value="jp">Japanese → meaning</option></select></label>
+        <label for="pNew">New per day <select id="pNew"><option>5</option><option>10</option><option>15</option><option>20</option></select></label>
+        <label for="pCore">Phrases <select id="pCore"><option value="core">Must-know first</option><option value="all">All</option></select></label>
+      </div>
+      <div class="panel">
+        <span class="label">Situations</span>
+        <div class="chips" id="pCats"></div>
+      </div>
+      <p class="faint" style="font-size:13px;margin:0">Say your answer out loud before revealing. Keys: space reveals, 1–4 rate.</p>
+    </aside>
+  </section>
+</div>
+
+<script>
+/* ---------- shared core: storage, audio, SRS, helpers ---------- */
+const PAGES = true; // build.py --pages flips this: standalone site, no audio, backup controls
+const DAY = 86400000;
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const todayKey = () => { const d = new Date(); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+const isKana = s => /^[぀-ヿー\s・〜ー!?！？。、]*$/.test(s);
+function ruby(w, r) {
+  if (!r || w === r || isKana(w)) return esc(w);
+  return `<ruby>${esc(w)}<rt>${esc(r)}</rt></ruby>`;
+}
+const SPEAK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+const sayBtn = (text, label = "Play audio") => PAGES ? "" : `<button class="say" type="button" data-say="${esc(text)}" aria-label="${esc(label)}" title="Listen">${SPEAK_ICON}</button>`;
+
+function toast(msg) {
+  let t = $(".toast"); if (!t) { t = document.createElement("div"); t.className = "toast"; document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 1800);
+}
+
+/* ---- persistence: account-synced db doc (private per viewer) with browser fallback ---- */
+const LS = {
+  get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
+};
+const withTimeout = (p, ms) => Promise.race([p, new Promise(r => setTimeout(() => r(null), ms))]);
+const dbConn = (async () => {
+  try {
+    if (!window.claude || !window.claude.use) return null;
+    const [db, user] = await Promise.all([claude.use("db"), claude.use("user")]);
+    if (!db || !user) return null;
+    const id = await withTimeout(user.id(), 10000);
+    return id ? { db, id } : null;
+  } catch (e) { return null; }
+})();
+function setSync(on) { const el = $(".sync"); if (!el) return; el.classList.toggle("on", on); $("span", el).textContent = on ? "Progress synced to your account" : "Progress saved in this browser"; }
+
+function makeStore(key, onLoad) {
+  const lsKey = "jpstudy:" + key;
+  const s = { data: LS.get(lsKey) || {}, ref: null };
+  let writing = false, again = false, timer = null;
+  async function flush() {
+    timer = null;
+    if (!s.ref) return;
+    if (writing) { again = true; return; }
+    writing = true;
+    try { await s.ref.set(JSON.parse(JSON.stringify(s.data))); }
+    catch (e) { if (e && (e.code === "invalid_argument" || e.code === "revoked" || e.code === "not_granted")) { s.ref = null; setSync(false); } }
+    writing = false;
+    if (again) { again = false; flush(); }
+  }
+  s.save = () => {
+    s.data._t = Date.now();
+    LS.set(lsKey, s.data);
+    if (s.ref) { clearTimeout(timer); timer = setTimeout(flush, 1200); }
+  };
+  document.addEventListener("visibilitychange", () => { if (document.hidden && timer) { clearTimeout(timer); flush(); } });
+  s.ready = (async () => {
+    const c = await dbConn;
+    if (!c) { setSync(false); return; }
+    try {
+      const ref = c.db.doc("data/users/" + c.id + "/" + key);
+      const snap = await withTimeout(ref.get(), 10000);
+      if (!snap) { setSync(false); return; }
+      s.ref = ref; setSync(true);
+      if (snap.exists) {
+        const remote = snap.data();
+        if ((remote._t || 0) >= (s.data._t || 0)) { s.data = JSON.parse(JSON.stringify(remote)); LS.set(lsKey, s.data); onLoad && onLoad(); }
+        else flush();
+      } else if (s.data._t) flush();
+    } catch (e) { setSync(false); }
+  })();
+  return s;
+}
+
+/* ---- audio: Claude voice when available, else the browser's Japanese voice ---- */
+const Speech = PAGES ? (document.documentElement.classList.add("no-audio"), { speak() { }, available: () => false }) : (() => {
+  let tts = null, ttsOff = false, jaVoice = null, settled = false;
+  const synth = "speechSynthesis" in window ? window.speechSynthesis : null;
+  function pickVoice() { if (!synth) return; const vs = synth.getVoices(); jaVoice = vs.find(v => /^ja(-|_|$)/i.test(v.lang)) || null; refresh(); }
+  if (synth) { pickVoice(); synth.onvoiceschanged = pickVoice; }
+  const ready = (window.claude && window.claude.use) ? claude.use("tts").catch(() => null) : Promise.resolve(null);
+  ready.then(t => { tts = t; refresh(); });
+  setTimeout(() => { settled = true; refresh(); }, 2500);
+  function available() { return (tts && !ttsOff) || !!jaVoice; }
+  function refresh() { if (settled || tts || jaVoice) document.documentElement.classList.toggle("no-audio", !available()); }
+  function speak(text, rate = 0.9) {
+    if (!text) return;
+    if (tts && !ttsOff) {
+      tts.speak(text, { language: "ja", rate }).catch(e => {
+        if (e && (e.code === "not_granted" || e.code === "unavailable")) { ttsOff = true; tts = null; refresh(); }
+      });
+      return;
+    }
+    if (synth && jaVoice) {
+      synth.cancel(); const u = new SpeechSynthesisUtterance(text); u.voice = jaVoice; u.lang = jaVoice.lang; u.rate = rate; synth.speak(u);
+    }
+  }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-say]"); if (b) { e.stopPropagation(); speak(b.dataset.say); } }, true);
+  return { speak, available };
+})();
+
+/* ---- spaced repetition (SM-2 style, with short learning steps) ---- */
+const SRS = {
+  status(c) { if (!c) return "new"; if (c.i === 0) return "learning"; return c.i >= 21 ? "known" : "young"; },
+  grade(c, g, now = Date.now()) {
+    c = c ? { ...c } : { i: 0, e: 2.5, r: 0, l: 0, st: 0 };
+    if (c.i === 0) {
+      if (g === 0) { c.st = 0; c.d = now + 60e3; }
+      else if (g === 1) { c.d = now + 5 * 60e3; }
+      else if (g === 2) { if (c.st >= 1) { c.i = 1; c.d = now + DAY; } else { c.st = 1; c.d = now + 10 * 60e3; } }
+      else { c.i = 4; c.d = now + 4 * DAY; }
+    } else {
+      if (g === 0) { c.l++; c.e = Math.max(1.3, c.e - 0.2); c.i = 0; c.st = 0; c.d = now + 10 * 60e3; }
+      else {
+        if (g === 1) { c.e = Math.max(1.3, c.e - 0.15); c.i = Math.max(1, c.i * 1.2); }
+        else if (g === 2) c.i = c.i * c.e;
+        else { c.e += 0.15; c.i = c.i * c.e * 1.3; }
+        c.i = Math.round(c.i * 10) / 10; c.d = now + c.i * DAY;
+      }
+    }
+    c.r++; return c;
+  },
+  preview(c, g) { const now = Date.now(); const n = SRS.grade(c, g, now); return SRS.fmt(n.d - now); },
+  fmt(ms) {
+    const m = ms / 60e3; if (m < 1.5) return "<1 min"; if (m < 60) return Math.round(m) + " min";
+    const d = ms / DAY; if (d < 1) return Math.round(m / 60) + " h"; if (d < 30) return Math.round(d) + (Math.round(d) === 1 ? " day" : " days");
+    if (d < 365) return Math.round(d / 30) + " mo"; return (d / 365).toFixed(1) + " yr";
+  },
+  known() { const now = Date.now(); return { i: 30, e: 2.6, r: 1, l: 0, st: 1, d: now + 30 * DAY }; }
+};
+
+/* ---- hash tabs ---- */
+function hashTabs(views, start, onShow) {
+  function show() {
+    const h = location.hash.slice(1); const v = views.includes(h) ? h : start;
+    views.forEach(n => { const el = document.getElementById("view-" + n); if (el) el.hidden = n !== v; });
+    $$(".tabs a").forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#" + v));
+    onShow && onShow(v);
+  }
+  window.addEventListener("hashchange", show); show();
+}
+
+/* ---- choose the next card: due reviews, then new, then learning cards coming up soon ---- */
+function pickNext(items, cards, { id, newLeft, lastId }) {
+  const now = Date.now(); const due = [], ahead = []; let fresh = null;
+  for (const it of items) {
+    const k = id(it), c = cards[k];
+    if (!c) { if (!fresh && newLeft > 0) fresh = it; continue; }
+    if (c.d <= now) due.push([c.d, it]); else if (c.i === 0 && c.d <= now + 20 * 60e3) ahead.push([c.d, it]);
+  }
+  due.sort((a, b) => a[0] - b[0]); ahead.sort((a, b) => a[0] - b[0]);
+  const order = [...due.map(x => [x[1], "due"]), ...(fresh ? [[fresh, "new"]] : []), ...ahead.map(x => [x[1], "ahead"])];
+  if (!order.length) return null;
+  const pick = order.find(o => id(o[0]) !== lastId) || order[0];
+  return { it: pick[0], kind: pick[1] };
+}
+function srsCounts(items, cards, id) {
+  const now = Date.now(); let due = 0, learning = 0, fresh = 0;
+  for (const it of items) { const c = cards[id(it)]; if (!c) fresh++; else if (c.d <= now) { due++; } else if (c.i === 0) learning++; }
+  return { due, learning, fresh };
+}
+
+/* ---- standalone site: ask the browser to keep our data, and offer backup / restore ---- */
+if (PAGES) {
+  try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) { }
+  const PREFIX = "jpstudy:";
+  function exportProgress() {
+    const out = { app: "learn-japanese", version: 1, exported: new Date().toISOString(), data: {} };
+    try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k.startsWith(PREFIX)) out.data[k] = JSON.parse(localStorage.getItem(k)); } } catch (e) { }
+    if (!Object.keys(out.data).length) { toast("Nothing to back up yet"); return; }
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(out)], { type: "application/json" }));
+    a.download = "japanese-progress-" + todayKey() + ".json";
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    toast("Backup downloaded");
+  }
+  function importProgress(file) {
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const j = JSON.parse(r.result);
+        if (j.app !== "learn-japanese" || !j.data || typeof j.data !== "object") throw new Error("not a backup");
+        const keys = Object.keys(j.data).filter(k => k.startsWith(PREFIX));
+        if (!keys.length) throw new Error("empty");
+        keys.forEach(k => localStorage.setItem(k, JSON.stringify(j.data[k])));
+        toast("Progress restored"); setTimeout(() => location.reload(), 700);
+      } catch (e) { toast("That file isn't a progress backup from these pages"); }
+    };
+    r.readAsText(file);
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    const wrap = $(".wrap"); if (!wrap) return;
+    const f = document.createElement("footer"); f.className = "backup";
+    f.innerHTML = `<div><b>Your progress lives in this browser.</b> It covers all three pages. Clearing site data erases it, and other devices don't see it, so download a backup now and then.</div>
+      <div class="row"><button class="btn small" type="button" id="bkExport">Download backup</button><label class="btn small ghost" for="bkImport">Restore from file</label><input type="file" id="bkImport" accept="application/json,.json" hidden></div>`;
+    wrap.appendChild(f);
+    $("#bkExport").onclick = exportProgress;
+    $("#bkImport").onchange = e => { const file = e.target.files[0]; if (file) importProgress(file); e.target.value = ""; };
+  });
+}
+
+const PHRASES = [
+ {
+  "jp": "おはようございます",
+  "rd": "おはよう ございます",
+  "ro": "ohayō gozaimasu",
+  "en": "Good morning",
+  "lit": "おはよう (early) ございます (polite 'is')",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Morning greeting, used until about late morning. Use it with coworkers, teachers, neighbours; with friends and family drop ございます.",
+  "alt": [
+   "おはよう (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "こんにちは",
+  "rd": "こんにちは",
+  "ro": "konnichiwa",
+  "en": "Hello / Good afternoon",
+  "lit": "今日 (today) は (topic marker, read 'wa') ...",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "All-purpose daytime hello, roughly 10am to dusk. Safe with anyone; a bit stiff among close friends.",
+  "core": true
+ },
+ {
+  "jp": "こんばんは",
+  "rd": "こんばんは",
+  "ro": "konbanwa",
+  "en": "Good evening",
+  "lit": "今晩 (this evening) は (topic marker, read 'wa') ...",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Greeting from dusk onward, when meeting someone. Not used when leaving (that is おやすみなさい).",
+  "core": true
+ },
+ {
+  "jp": "おやすみなさい",
+  "rd": "おやすみ なさい",
+  "ro": "oyasumi nasai",
+  "en": "Good night",
+  "lit": "お休み (rest) なさい (please do)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Said before going to bed or when parting late at night. Never used as a daytime hello.",
+  "alt": [
+   "おやすみ (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "さようなら",
+  "rd": "さようなら",
+  "ro": "sayōnara",
+  "en": "Goodbye",
+  "lit": "さようなら (if that is how it is...)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "A fairly final goodbye, common at school and in formal settings. In daily life friends usually say じゃあね or またね instead.",
+  "alt": [
+   "さよなら (shortened)",
+   "じゃあね (casual)"
+  ]
+ },
+ {
+  "jp": "じゃあね",
+  "rd": "じゃあ ね",
+  "ro": "jā ne",
+  "en": "See you / Bye",
+  "lit": "じゃあ (well then) ね (softener)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Casual goodbye between friends and family. Very common in anime and daily talk.",
+  "alt": [
+   "またね (casual, 'see you again')",
+   "バイバイ (casual, 'bye-bye')"
+  ]
+ },
+ {
+  "jp": "またね",
+  "rd": "また ね",
+  "ro": "mata ne",
+  "en": "See you again",
+  "lit": "また (again) ね (softener)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Friendly goodbye when you expect to meet again. Add a time for precision: また明日 (see you tomorrow).",
+  "alt": [
+   "また明日 (see you tomorrow)",
+   "またあとで (see you later)"
+  ]
+ },
+ {
+  "jp": "お久しぶりです",
+  "rd": "おひさしぶり です",
+  "ro": "ohisashiburi desu",
+  "en": "Long time no see",
+  "lit": "お久しぶり (long time) です (is)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Greeting someone you have not seen in a long while. Politeness adjusts by dropping です with friends.",
+  "alt": [
+   "久しぶり (casual)",
+   "お久しぶりですね (polite, with 'isn't it')"
+  ]
+ },
+ {
+  "jp": "お元気ですか",
+  "rd": "おげんき ですか",
+  "ro": "ogenki desu ka",
+  "en": "How are you? / Are you well?",
+  "lit": "お元気 (healthy, honorific) です (is) か (question)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Asked of someone you have not seen for a while, not as a daily hello. Reply 元気です.",
+  "alt": [
+   "元気? (casual)"
+  ]
+ },
+ {
+  "jp": "元気です",
+  "rd": "げんき です",
+  "ro": "genki desu",
+  "en": "I'm fine / I'm well",
+  "lit": "元気 (energetic) です (is)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Standard answer to お元気ですか. Add おかげさまで (thanks to you) to be extra polite.",
+  "alt": [
+   "元気だよ (casual)",
+   "まあまあです (so-so)"
+  ]
+ },
+ {
+  "jp": "いってきます",
+  "rd": "いってきます",
+  "ro": "ittekimasu",
+  "en": "I'm off (and I'll be back)",
+  "lit": "行って (go) きます (come)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Said when leaving home, school, or the office, meaning 'I'll go and come back'. The reply is いってらっしゃい.",
+  "alt": [
+   "いってきまーす (cheerful, casual)"
+  ]
+ },
+ {
+  "jp": "いってらっしゃい",
+  "rd": "いってらっしゃい",
+  "ro": "itterasshai",
+  "en": "Have a good day / See you later (to someone leaving)",
+  "lit": "行って (go) らっしゃい (honorific 'come')",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Reply to いってきます, said by whoever stays behind. Warm and routine; used with family and colleagues."
+ },
+ {
+  "jp": "あけましておめでとうございます",
+  "rd": "あけまして おめでとう ございます",
+  "ro": "akemashite omedetō gozaimasu",
+  "en": "Happy New Year",
+  "lit": "あけまして (opening [of the new year]) おめでとう (congratulations) ございます (polite)",
+  "c": "greetings",
+  "lvl": "polite",
+  "use": "Said from January 1 for the first days of the year. Before the New Year people say 良いお年を (have a good year).",
+  "alt": [
+   "あけおめ (very casual, abbreviation)"
+  ]
+ },
+ {
+  "jp": "お誕生日おめでとう",
+  "rd": "おたんじょうび おめでとう",
+  "ro": "otanjōbi omedetō",
+  "en": "Happy birthday",
+  "lit": "お誕生日 (birthday) おめでとう (congratulations)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "Say it to friends and family on their birthday. Add ございます to be polite to a boss or older person.",
+  "alt": [
+   "お誕生日おめでとうございます (polite)"
+  ]
+ },
+ {
+  "jp": "おめでとう",
+  "rd": "おめでとう",
+  "ro": "omedetō",
+  "en": "Congratulations",
+  "lit": "おめでとう (congratulations)",
+  "c": "greetings",
+  "lvl": "casual",
+  "use": "For any good news: passing an exam, marriage, a baby, a win. Add ございます for polite use.",
+  "alt": [
+   "おめでとうございます (polite)"
+  ]
+ },
+ {
+  "jp": "ありがとうございます",
+  "rd": "ありがとう ございます",
+  "ro": "arigatō gozaimasu",
+  "en": "Thank you",
+  "lit": "ありがとう (thanks) ございます (polite 'is')",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "The standard polite thanks, fine with anyone. Use the past ございました after something is finished.",
+  "alt": [
+   "ありがとう (casual)",
+   "どうもありがとうございます (very polite)",
+   "ありがとうございました (polite, past)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "どうも ありがとうございました",
+  "rd": "どうも ありがとう ございました",
+  "ro": "dōmo arigatō gozaimashita",
+  "en": "Thank you very much (for what you did)",
+  "lit": "どうも (very much) ありがとう (thanks) ございました (polite, past)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Use after receiving help or service, especially when leaving a shop or ending a favour. Warm and slightly formal.",
+  "alt": [
+   "どうも (casual, short)"
+  ]
+ },
+ {
+  "jp": "どういたしまして",
+  "rd": "どう いたしまして",
+  "ro": "dō itashimashite",
+  "en": "You're welcome",
+  "lit": "どう (how) いたしまして (doing, humble)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Reply to thanks. Japanese often just say いえいえ (no no) or 気にしないで instead, as this can sound a little stiff.",
+  "alt": [
+   "いえいえ (casual, 'not at all')",
+   "気にしないで (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "すみません",
+  "rd": "すみません",
+  "ro": "sumimasen",
+  "en": "Excuse me / Sorry / Thank you (for the trouble)",
+  "lit": "済み (finished) ません (not)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "The most useful word: get a waiter's attention, apologise lightly, squeeze past someone, or thank someone for going to trouble. Polite and flexible.",
+  "alt": [
+   "すいません (relaxed pronunciation)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ごめんなさい",
+  "rd": "ごめん なさい",
+  "ro": "gomen nasai",
+  "en": "I'm sorry",
+  "lit": "ごめん (pardon) なさい (please do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "A sincere personal apology to people close to you, or for a minor mistake. Stronger and more personal than すみません.",
+  "alt": [
+   "ごめん (casual)",
+   "ごめんね (casual, soft)",
+   "申し訳ありません (formal)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "申し訳ありません",
+  "rd": "もうしわけ ありません",
+  "ro": "mōshiwake arimasen",
+  "en": "I'm very sorry (formal apology)",
+  "lit": "申し訳 (excuse) ありません (there is none)",
+  "c": "politeness",
+  "lvl": "formal",
+  "use": "Business and customer-service apology, used to superiors and customers. Literally 'I have no excuse'.",
+  "alt": [
+   "申し訳ございません (even more formal)",
+   "すみません (everyday)"
+  ]
+ },
+ {
+  "jp": "失礼します",
+  "rd": "しつれい します",
+  "ro": "shitsurei shimasu",
+  "en": "Excuse me (entering/leaving) / Pardon the intrusion",
+  "lit": "失礼 (rudeness) します (do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Said when entering a room, leaving a meeting, or hanging up a call. Part of workplace and school manners.",
+  "alt": [
+   "失礼しました (I apologise for what I did, past)",
+   "失礼します (formal)"
+  ]
+ },
+ {
+  "jp": "お願いします",
+  "rd": "おねがい します",
+  "ro": "onegai shimasu",
+  "en": "Please (I request this)",
+  "lit": "お願い (request) します (do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Attach it after a noun to ask for something: 水をお願いします. It is the polite 'please' for service situations.",
+  "alt": [
+   "お願い (casual)",
+   "お願いします (polite)",
+   "お願いいたします (formal)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "どうぞ",
+  "rd": "どうぞ",
+  "ro": "dōzo",
+  "en": "Please go ahead / Here you are",
+  "lit": "どうぞ (please, go ahead)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Offering something or permission: gesturing someone to go first, handing something over, inviting someone to sit.",
+  "alt": [
+   "どうぞ (polite)",
+   "はい、どうぞ (when handing over)"
+  ]
+ },
+ {
+  "jp": "どうも",
+  "rd": "どうも",
+  "ro": "dōmo",
+  "en": "Thanks / Hi / Sorry (all-purpose)",
+  "lit": "どうも (very much, somehow)",
+  "c": "politeness",
+  "lvl": "casual",
+  "use": "A short mumbled thanks, hello or apology. Casual and polite-neutral; fine to shop assistants and neighbours.",
+  "alt": [
+   "どうもすみません (sorry, more polite)"
+  ]
+ },
+ {
+  "jp": "気にしないでください",
+  "rd": "きに しないで ください",
+  "ro": "ki ni shinaide kudasai",
+  "en": "Please don't worry about it",
+  "lit": "気 (mind) に しないで (not doing) ください (please)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Reassuring someone who apologised or feels they troubled you. Use the short form 気にしないで with friends.",
+  "alt": [
+   "気にしないで (casual)",
+   "気にしなくていいよ (casual, 'no need to worry')"
+  ]
+ },
+ {
+  "jp": "大丈夫です",
+  "rd": "だいじょうぶ です",
+  "ro": "daijōbu desu",
+  "en": "I'm fine / It's OK / No thank you",
+  "lit": "大丈夫 (all right) です (is)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Works both as 'I'm OK' and as a polite refusal ('No, I'm fine, thanks'). Tone and context tell which.",
+  "alt": [
+   "大丈夫 (casual)",
+   "結構です (polite refusal)"
+  ]
+ },
+ {
+  "jp": "お待たせしました",
+  "rd": "おまたせ しました",
+  "ro": "omatase shimashita",
+  "en": "Sorry to keep you waiting",
+  "lit": "お待たせ (making [you] wait) しました (did)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Say it when you arrive late, or when bringing food or finishing something people waited for.",
+  "alt": [
+   "待たせてごめん (casual)",
+   "お待たせ (casual)"
+  ]
+ },
+ {
+  "jp": "お先にどうぞ",
+  "rd": "おさきに どうぞ",
+  "ro": "osaki ni dōzo",
+  "en": "After you / Please go first",
+  "lit": "お先に (ahead) どうぞ (please)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Offering someone to go through a door or in a line before you. Also said at the elevator.",
+  "alt": [
+   "先にどうぞ (shorter)"
+  ]
+ },
+ {
+  "jp": "お邪魔します",
+  "rd": "おじゃま します",
+  "ro": "ojama shimasu",
+  "en": "Pardon the intrusion (entering someone's home)",
+  "lit": "お邪魔 (hindrance) します (do)",
+  "c": "politeness",
+  "lvl": "polite",
+  "use": "Say it when you step into someone's house. When leaving: お邪魔しました.",
+  "alt": [
+   "お邪魔しました (when leaving)"
+  ]
+ },
+ {
+  "jp": "はい",
+  "rd": "はい",
+  "ro": "hai",
+  "en": "Yes / Okay / Understood",
+  "lit": "はい (yes)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Yes, and also 'I hear you' or 'here' when your name is called. Polite and universal; it does not always mean agreement.",
+  "alt": [
+   "ええ (polite, softer)",
+   "うん (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いいえ",
+  "rd": "いいえ",
+  "ro": "iie",
+  "en": "No",
+  "lit": "いいえ (no)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "The polite 'no', also used to deflect compliments or thanks. Japanese often soften it or use ちょっと….",
+  "alt": [
+   "いえ (shorter)",
+   "ううん (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "うん",
+  "rd": "うん",
+  "ro": "un",
+  "en": "Yeah / Uh-huh",
+  "lit": "うん (yes, casual)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual yes among friends and family. Do not use it to teachers, bosses, or strangers; use はい.",
+  "alt": [
+   "ええ (polite)",
+   "はい (polite)"
+  ]
+ },
+ {
+  "jp": "ううん",
+  "rd": "ううん",
+  "ro": "ūn",
+  "en": "Nope / No (casual)",
+  "lit": "ううん (no, casual)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual no, said with falling or flat intonation, in contrast to うん (yes) with a rising feel. Friends only.",
+  "alt": [
+   "いいえ (polite)"
+  ]
+ },
+ {
+  "jp": "そうですか",
+  "rd": "そう ですか",
+  "ro": "sō desu ka",
+  "en": "I see / Is that so?",
+  "lit": "そう (that way) です (is) か (question)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Reaction to new information, said with falling pitch to show you took it in. Rising pitch makes it sound like genuine doubt.",
+  "alt": [
+   "そうなんだ (casual)",
+   "そっか (casual)",
+   "そうなんですか (polite, interested)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "そうですね",
+  "rd": "そう ですね",
+  "ro": "sō desu ne",
+  "en": "That's right / Let me see...",
+  "lit": "そう (that way) です (is) ね (isn't it)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Agree with the speaker, or buy time to think before answering. Casual: そうだね.",
+  "alt": [
+   "そうだね (casual)",
+   "そうですね…(hesitant)"
+  ]
+ },
+ {
+  "jp": "本当ですか",
+  "rd": "ほんとう ですか",
+  "ro": "hontō desu ka",
+  "en": "Really?",
+  "lit": "本当 (true) です (is) か (question)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Express surprise or ask for confirmation. Casual version is 本当? or ほんとに?.",
+  "alt": [
+   "ほんと? (casual)",
+   "本当に? (casual)",
+   "マジで? (very casual slang)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "なるほど",
+  "rd": "なるほど",
+  "ro": "naruhodo",
+  "en": "I see / That makes sense",
+  "lit": "なるほど (indeed, I see)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Signals that you understand a reasoning or explanation. Slightly 'know-it-all' to superiors; use なるほどですね or そうですか then.",
+  "alt": [
+   "なるほどね (casual)",
+   "なるほどです (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "わかりました",
+  "rd": "わかりました",
+  "ro": "wakarimashita",
+  "en": "Understood / Got it / Okay",
+  "lit": "わかり (understand) ました (did, polite past)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Say it after instructions or requests to show you understood and will do it. Casual: わかった.",
+  "alt": [
+   "わかった (casual)",
+   "了解 (casual-business, 'roger')",
+   "かしこまりました (very polite, service)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いいですよ",
+  "rd": "いい ですよ",
+  "ro": "ii desu yo",
+  "en": "Sure / That's fine / It's OK",
+  "lit": "いい (good) です (is) よ (assertion)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Giving permission or accepting an offer. With a flat tone it may also mean 'no need, thanks'.",
+  "alt": [
+   "いいよ (casual)",
+   "いいですね (sounds good)"
+  ]
+ },
+ {
+  "jp": "だめです",
+  "rd": "だめ です",
+  "ro": "dame desu",
+  "en": "That's no good / You can't / Not allowed",
+  "lit": "だめ (no good) です (is)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Refusing permission or saying something is not OK. Casual だめ! is common to children.",
+  "alt": [
+   "だめ (casual)",
+   "だめだよ (casual, softer)",
+   "いけません (formal)"
+  ]
+ },
+ {
+  "jp": "もちろん",
+  "rd": "もちろん",
+  "ro": "mochiron",
+  "en": "Of course",
+  "lit": "もちろん (of course)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Strong agreement or yes. Add です to be polite: もちろんです.",
+  "alt": [
+   "もちろんです (polite)"
+  ]
+ },
+ {
+  "jp": "たぶん",
+  "rd": "たぶん",
+  "ro": "tabun",
+  "en": "Maybe / Probably",
+  "lit": "たぶん (probably)",
+  "c": "responses",
+  "lvl": "polite",
+  "use": "Use when you are not sure. Combine with だと思う (I think) or でしょう to soften.",
+  "alt": [
+   "たぶんね (casual)",
+   "おそらく (formal)"
+  ]
+ },
+ {
+  "jp": "えっと",
+  "rd": "えっと",
+  "ro": "etto",
+  "en": "Um... / Let me see...",
+  "lit": "えっと (um)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "A filler word while thinking. Also あの, ええと. Helps you sound natural when forming a sentence.",
+  "alt": [
+   "ええと (less casual)",
+   "あのう (hesitant)"
+  ]
+ },
+ {
+  "jp": "そうだね",
+  "rd": "そう だ ね",
+  "ro": "sō da ne",
+  "en": "Yeah, you're right",
+  "lit": "そう (that way) だ (is) ね (isn't it)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual agreement with a friend. Also used to stall for a moment.",
+  "alt": [
+   "そうですね (polite)"
+  ]
+ },
+ {
+  "jp": "確かに",
+  "rd": "たしかに",
+  "ro": "tashika ni",
+  "en": "Good point / True / Indeed",
+  "lit": "確か (certain) に (adverb)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Show you agree with a point just made. Very common in everyday conversations and anime.",
+  "alt": [
+   "確かにね (casual)",
+   "確かにそうですね (polite)"
+  ]
+ },
+ {
+  "jp": "ですよね",
+  "rd": "です よね",
+  "ro": "desu yo ne",
+  "en": "Right? / I agree / Isn't it?",
+  "lit": "です (is) よ (assertion) ね (confirm)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Agree with someone and invite them to agree. Casual: だよね.",
+  "alt": [
+   "だよね (casual)",
+   "そうですよね (polite, 'exactly')"
+  ]
+ },
+ {
+  "jp": "へえ",
+  "rd": "へえ",
+  "ro": "hē",
+  "en": "Oh really? / Wow",
+  "lit": "へえ (interjection)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "A small reaction of mild surprise or interest while someone talks. Very frequent in conversation.",
+  "alt": [
+   "へー (casual)",
+   "そうなんだ (casual)"
+  ]
+ },
+ {
+  "jp": "すごい",
+  "rd": "すごい",
+  "ro": "sugoi",
+  "en": "Amazing / Wow / Awesome",
+  "lit": "すごい (amazing, terrible)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Praise or astonishment, for people, skills, food, scenery. One of the most common reactions in anime.",
+  "alt": [
+   "すごいですね (polite)",
+   "すごっ (very casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いや",
+  "rd": "いや",
+  "ro": "iya",
+  "en": "No / Nah / Hold on",
+  "lit": "いや (no)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Casual 'no' to correct or disagree, also a starting 'well, actually'. In anime it can be stronger: 'No!'.",
+  "alt": [
+   "いやいや (no no, waving it off)",
+   "いえ (polite)"
+  ]
+ },
+ {
+  "jp": "了解",
+  "rd": "りょうかい",
+  "ro": "ryōkai",
+  "en": "Roger / Understood",
+  "lit": "了解 (understanding, roger)",
+  "c": "responses",
+  "lvl": "casual",
+  "use": "Brief confirmation among friends and coworkers in chat. Not polite enough for a boss.",
+  "alt": [
+   "了解です (polite-ish)",
+   "承知しました (formal business)"
+  ]
+ },
+ {
+  "jp": "わかりません",
+  "rd": "わかり ません",
+  "ro": "wakarimasen",
+  "en": "I don't understand / I don't know",
+  "lit": "わかり (understand) ません (not)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Your most important survival phrase. Say it plainly when you did not catch something. Casual: わからない.",
+  "alt": [
+   "わからない (casual)",
+   "よくわかりません (I don't quite understand)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "もう一度お願いします",
+  "rd": "もう いちど おねがい します",
+  "ro": "mō ichido onegai shimasu",
+  "en": "Once more, please",
+  "lit": "もう (more) 一度 (one time) お願いします (I request)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask someone to repeat what they said. Natural and polite in conversation, shops and stations.",
+  "alt": [
+   "もう一回言って (casual)",
+   "もう一度言ってください (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ゆっくりお願いします",
+  "rd": "ゆっくり おねがい します",
+  "ro": "yukkuri onegai shimasu",
+  "en": "Slowly, please",
+  "lit": "ゆっくり (slowly) お願いします (I request)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask a speaker to slow down. Combine with もう一度: もう一度、ゆっくりお願いします.",
+  "alt": [
+   "ゆっくり話してください (please speak slowly)",
+   "ゆっくり言って (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "これは何ですか",
+  "rd": "これ は なん ですか",
+  "ro": "kore wa nan desu ka",
+  "en": "What is this?",
+  "lit": "これ (this) は (topic) 何 (what) です (is) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Point at something and ask. Swap これ for それ (that near you) or あれ (that over there).",
+  "alt": [
+   "これ、何? (casual)",
+   "それは何ですか (what is that?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "日本語で何と言いますか",
+  "rd": "にほんご で なんと いいます か",
+  "ro": "nihongo de nanto iimasu ka",
+  "en": "How do you say this in Japanese?",
+  "lit": "日本語 (Japanese) で (in) 何と (what) 言います (say) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Use it with pointing or an English word to learn vocab on the spot. Reverse: 英語で何ですか (what is it in English?).",
+  "alt": [
+   "日本語で何ですか (simpler)",
+   "これは日本語で何ですか (this, in Japanese?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "どういう意味ですか",
+  "rd": "どういう いみ ですか",
+  "ro": "dō iu imi desu ka",
+  "en": "What does that mean?",
+  "lit": "どういう (what kind of) 意味 (meaning) です (is) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask about a word you heard. Put the word first: 「大丈夫」はどういう意味ですか.",
+  "alt": [
+   "どういう意味? (casual)",
+   "〜って何? (casual)"
+  ]
+ },
+ {
+  "jp": "日本語が少し話せます",
+  "rd": "にほんご が すこし はなせます",
+  "ro": "nihongo ga sukoshi hanasemasu",
+  "en": "I can speak a little Japanese",
+  "lit": "日本語 (Japanese) が (subject) 少し (a little) 話せます (can speak)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Set expectations; people will then speak more simply. Use 少しだけ to stress 'just a bit'.",
+  "alt": [
+   "日本語が下手です (my Japanese is bad)",
+   "日本語を勉強しています (I'm studying Japanese)"
+  ]
+ },
+ {
+  "jp": "英語が話せますか",
+  "rd": "えいご が はなせます か",
+  "ro": "eigo ga hanasemasu ka",
+  "en": "Can you speak English?",
+  "lit": "英語 (English) が (subject) 話せます (can speak) か (question)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask before launching into English, at a hotel or shop. Smile and add すみません first.",
+  "alt": [
+   "英語わかりますか (do you understand English?)"
+  ]
+ },
+ {
+  "jp": "聞こえません",
+  "rd": "きこえ ません",
+  "ro": "kikoemasen",
+  "en": "I can't hear you",
+  "lit": "聞こえ (be audible) ません (not)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "On a noisy street or a bad phone line. Add もう少し大きい声でお願いします (a bit louder, please).",
+  "alt": [
+   "聞こえない (casual)"
+  ]
+ },
+ {
+  "jp": "書いてください",
+  "rd": "かいて ください",
+  "ro": "kaite kudasai",
+  "en": "Please write it down",
+  "lit": "書いて (write) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask someone to write a word, price, or address when speaking is too hard.",
+  "alt": [
+   "書いてもらえますか (softer)"
+  ]
+ },
+ {
+  "jp": "ちょっと待ってください",
+  "rd": "ちょっと まって ください",
+  "ro": "chotto matte kudasai",
+  "en": "Please wait a moment",
+  "lit": "ちょっと (a little) 待って (wait) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Buy time to think or look something up. Close friends hear ちょっと待って.",
+  "alt": [
+   "ちょっと待って (casual)",
+   "少々お待ちください (formal, service)"
+  ]
+ },
+ {
+  "jp": "助けてください",
+  "rd": "たすけて ください",
+  "ro": "tasukete kudasai",
+  "en": "Please help me",
+  "lit": "助けて (help) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "For real trouble. For small favours use 手伝ってください (please lend a hand).",
+  "alt": [
+   "手伝ってください (please help with a task)",
+   "助けて (casual, urgent)"
+  ]
+ },
+ {
+  "jp": "知りません",
+  "rd": "しり ません",
+  "ro": "shirimasen",
+  "en": "I don't know (it)",
+  "lit": "知り (know) ません (not)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "About facts, people, places you are not aware of. Different from わかりません (can't grasp/figure out).",
+  "alt": [
+   "知らない (casual)",
+   "知らなかった (I didn't know)"
+  ]
+ },
+ {
+  "jp": "忘れました",
+  "rd": "わすれ ました",
+  "ro": "wasuremashita",
+  "en": "I forgot",
+  "lit": "忘れ (forget) ました (did)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Use it for words, names, items left behind. 忘れ物 means a lost item.",
+  "alt": [
+   "忘れた (casual)",
+   "忘れちゃった (casual, 'oops')"
+  ]
+ },
+ {
+  "jp": "迷いました",
+  "rd": "まよい ました",
+  "ro": "mayoimashita",
+  "en": "I'm lost / I got lost",
+  "lit": "迷い (lose one's way) ました (did)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Say it when asking for directions: 道に迷いました (I lost my way).",
+  "alt": [
+   "道に迷いました (I lost my way)",
+   "迷った (casual)"
+  ]
+ },
+ {
+  "jp": "困っています",
+  "rd": "こまって います",
+  "ro": "komatte imasu",
+  "en": "I'm in trouble / I have a problem",
+  "lit": "困って (be troubled) います (am doing)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Explain you need help before describing the problem. Common at counters and with staff.",
+  "alt": [
+   "困った (casual, 'what a pain')"
+  ]
+ },
+ {
+  "jp": "手伝ってください",
+  "rd": "てつだって ください",
+  "ro": "tetsudatte kudasai",
+  "en": "Please help (me with this)",
+  "lit": "手伝って (assist) ください (please)",
+  "c": "getting-by",
+  "lvl": "polite",
+  "use": "Ask for hands-on help: carrying, filling in a form. Less dramatic than 助けて.",
+  "alt": [
+   "手伝って (casual)",
+   "手伝いましょうか (shall I help?)"
+  ]
+ },
+ {
+  "jp": "何ですか",
+  "rd": "なん ですか",
+  "ro": "nan desu ka",
+  "en": "What is it?",
+  "lit": "何 (what) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Basic question. Before です/の/か, 何 reads 'nan'; before other words it can read 'nani' (何を, 何が).",
+  "alt": [
+   "何? (casual)",
+   "何なの? (casual, 'what is it?')"
+  ]
+ },
+ {
+  "jp": "誰ですか",
+  "rd": "だれ ですか",
+  "ro": "dare desu ka",
+  "en": "Who is it?",
+  "lit": "誰 (who) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask about a person. Polite form of who is どなた.",
+  "alt": [
+   "誰? (casual)",
+   "どなたですか (very polite)"
+  ]
+ },
+ {
+  "jp": "どこですか",
+  "rd": "どこ ですか",
+  "ro": "doko desu ka",
+  "en": "Where is it?",
+  "lit": "どこ (where) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Put a place first: トイレはどこですか. Also ask 'where' to point: どこ?.",
+  "alt": [
+   "どこ? (casual)",
+   "どちらですか (more polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いつですか",
+  "rd": "いつ ですか",
+  "ro": "itsu desu ka",
+  "en": "When is it?",
+  "lit": "いつ (when) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "About events and plans: 試験はいつですか (when is the exam?).",
+  "alt": [
+   "いつ? (casual)",
+   "いつ行く? (casual, when will you go?)"
+  ]
+ },
+ {
+  "jp": "どうして",
+  "rd": "どうして",
+  "ro": "dōshite",
+  "en": "Why?",
+  "lit": "どうして (why, how come)",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "Asks for a reason, can sound sympathetic or surprised. Answer with から (because).",
+  "alt": [
+   "なんで (casual)",
+   "なぜ (formal)",
+   "どうしてですか (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "なんで",
+  "rd": "なんで",
+  "ro": "nande",
+  "en": "Why? / How come?",
+  "lit": "なんで (why, 'for what')",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "Everyday casual 'why'. In anime often angry or incredulous: なんでだ!",
+  "alt": [
+   "どうして (a bit softer)",
+   "なぜ (formal)"
+  ]
+ },
+ {
+  "jp": "どうやって",
+  "rd": "どうやって",
+  "ro": "dō yatte",
+  "en": "How (do I do it)?",
+  "lit": "どう (how) やって (doing)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for a method: どうやって行きますか (how do I get there?).",
+  "alt": [
+   "どうすればいい? (casual, 'what should I do?')"
+  ]
+ },
+ {
+  "jp": "いくつですか",
+  "rd": "いくつ ですか",
+  "ro": "ikutsu desu ka",
+  "en": "How many? / How old?",
+  "lit": "いくつ (how many) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for a count of items. With people's ages use おいくつですか; to ask for number use 何個.",
+  "alt": [
+   "何個ですか (how many pieces?)"
+  ]
+ },
+ {
+  "jp": "どれですか",
+  "rd": "どれ ですか",
+  "ro": "dore desu ka",
+  "en": "Which one?",
+  "lit": "どれ (which one of three or more) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask to identify something among several. For two, どちら is common; to say 'which + noun' use どの.",
+  "alt": [
+   "どっち? (casual, 'which of two')"
+  ]
+ },
+ {
+  "jp": "どう思いますか",
+  "rd": "どう おもいます か",
+  "ro": "dō omoimasu ka",
+  "en": "What do you think?",
+  "lit": "どう (how) 思います (think) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for someone's opinion. Casual: どう思う?.",
+  "alt": [
+   "どう思う? (casual)",
+   "どう? (casual, 'how about it?')"
+  ]
+ },
+ {
+  "jp": "どうしたの",
+  "rd": "どうした の",
+  "ro": "dōshita no",
+  "en": "What's wrong? / What happened?",
+  "lit": "どう (how) した (did) の (soft question)",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "To someone who looks troubled or acts strangely. Warm and caring, among close people.",
+  "alt": [
+   "どうしたんですか (polite)",
+   "どうした? (casual, shorter)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "何してるの",
+  "rd": "なに してる の",
+  "ro": "nani shiteru no",
+  "en": "What are you doing?",
+  "lit": "何 (what) してる (doing) の (soft question)",
+  "c": "questions",
+  "lvl": "casual",
+  "use": "Casual chat starter, or asking what someone is up to. Polite: 何をしていますか.",
+  "alt": [
+   "何をしていますか (polite)",
+   "何してる? (casual, shorter)"
+  ]
+ },
+ {
+  "jp": "何時ですか",
+  "rd": "なんじ ですか",
+  "ro": "nanji desu ka",
+  "en": "What time is it?",
+  "lit": "何時 (what time) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for the time, or a schedule: 電車は何時ですか (what time is the train?).",
+  "alt": [
+   "今何時? (casual)"
+  ]
+ },
+ {
+  "jp": "何が好きですか",
+  "rd": "なにが すき ですか",
+  "ro": "nani ga suki desu ka",
+  "en": "What do you like?",
+  "lit": "何 (what) が (subject) 好き (liked) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Good conversation opener. Replace 何 with a category: 食べ物は何が好きですか.",
+  "alt": [
+   "何が好き? (casual)",
+   "趣味は何ですか (what's your hobby?)"
+  ]
+ },
+ {
+  "jp": "どこから来ましたか",
+  "rd": "どこ から きました か",
+  "ro": "doko kara kimashita ka",
+  "en": "Where are you from? / Where did you come from?",
+  "lit": "どこ (where) から (from) 来ました (came) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask where someone is from. Answer: アメリカから来ました.",
+  "alt": [
+   "お国はどちらですか (very polite)",
+   "どこの出身ですか (where are you from?)"
+  ]
+ },
+ {
+  "jp": "どうですか",
+  "rd": "どう ですか",
+  "ro": "dō desu ka",
+  "en": "How is it? / How about it?",
+  "lit": "どう (how) です (is) か (question)",
+  "c": "questions",
+  "lvl": "polite",
+  "use": "Ask for impressions or offer a suggestion: コーヒーはどうですか (how about coffee?).",
+  "alt": [
+   "どう? (casual)",
+   "いかがですか (very polite)"
+  ]
+ },
+ {
+  "jp": "うれしい",
+  "rd": "うれしい",
+  "ro": "ureshii",
+  "en": "I'm happy / glad",
+  "lit": "うれしい (happy)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Express happiness about something that happened to you. Polite: うれしいです.",
+  "alt": [
+   "うれしいです (polite)",
+   "幸せ (happy, deeper)"
+  ]
+ },
+ {
+  "jp": "楽しい",
+  "rd": "たのしい",
+  "ro": "tanoshii",
+  "en": "Fun / enjoyable",
+  "lit": "楽しい (fun)",
+  "c": "feelings",
+  "lvl": "polite",
+  "use": "For activities, events or time together. Past: 楽しかった (it was fun).",
+  "alt": [
+   "楽しかったです (polite, past)",
+   "楽しいです (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "悲しい",
+  "rd": "かなしい",
+  "ro": "kanashii",
+  "en": "I'm sad / sad",
+  "lit": "悲しい (sad)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Sadness over losses or sad news. Related: さびしい (lonely).",
+  "alt": [
+   "悲しいです (polite)",
+   "つらい (painful, hard)"
+  ]
+ },
+ {
+  "jp": "疲れた",
+  "rd": "つかれた",
+  "ro": "tsukareta",
+  "en": "I'm tired",
+  "lit": "疲れた (became tired)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say after work or exercise. Polite: 疲れました.",
+  "alt": [
+   "疲れました (polite)",
+   "疲れてる (I'm tired now)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お腹がすいた",
+  "rd": "おなか が すいた",
+  "ro": "onaka ga suita",
+  "en": "I'm hungry",
+  "lit": "お腹 (stomach) が (subject) すいた (became empty)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Very common. Polite: お腹がすきました. Another casual word: はらへった (rough, male).",
+  "alt": [
+   "お腹がすきました (polite)",
+   "お腹ペコペコ (very hungry, casual)",
+   "腹減った (rough, male)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "のどが渇いた",
+  "rd": "のど が かわいた",
+  "ro": "nodo ga kawaita",
+  "en": "I'm thirsty",
+  "lit": "のど (throat) が (subject) 渇いた (dried)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say when you want a drink. Polite: のどが渇きました.",
+  "alt": [
+   "のどが渇きました (polite)"
+  ]
+ },
+ {
+  "jp": "眠い",
+  "rd": "ねむい",
+  "ro": "nemui",
+  "en": "I'm sleepy",
+  "lit": "眠い (sleepy)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Used about yourself or others. Add です for polite use.",
+  "alt": [
+   "眠いです (polite)",
+   "眠たい (sleepy, softer)"
+  ]
+ },
+ {
+  "jp": "怖い",
+  "rd": "こわい",
+  "ro": "kowai",
+  "en": "Scary / I'm scared",
+  "lit": "怖い (scary)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Both 'I'm scared' and 'that's scary'. Context tells which. Polite: 怖いです.",
+  "alt": [
+   "怖いです (polite)",
+   "怖かった (it was scary)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "好きです",
+  "rd": "すき です",
+  "ro": "suki desu",
+  "en": "I like it / I like you",
+  "lit": "好き (liked) です (is)",
+  "c": "feelings",
+  "lvl": "polite",
+  "use": "Expresses liking: [thing] が好きです. Alone to a person, it means romantic confession.",
+  "alt": [
+   "好き (casual)",
+   "大好き (love it)",
+   "好きだよ (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "大好き",
+  "rd": "だいすき",
+  "ro": "daisuki",
+  "en": "I love it / I really like it",
+  "lit": "大 (big) 好き (like)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Strong liking for foods, hobbies, friends. 大好きです is polite.",
+  "alt": [
+   "大好きです (polite)",
+   "愛してる (I love you, rare, deep)"
+  ]
+ },
+ {
+  "jp": "嫌い",
+  "rd": "きらい",
+  "ro": "kirai",
+  "en": "I hate it / I dislike it",
+  "lit": "嫌い (disliked)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Strong dislike. Softer: あまり好きじゃない (don't like it much).",
+  "alt": [
+   "嫌いです (polite)",
+   "あまり好きじゃない (don't much like it)"
+  ]
+ },
+ {
+  "jp": "嫌だ",
+  "rd": "いやだ",
+  "ro": "iya da",
+  "en": "I don't want to / I hate that",
+  "lit": "嫌 (unpleasant) だ (is)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Express refusal or aversion. Childish or strong in tone. Anime uses いやだ!",
+  "alt": [
+   "いやです (polite)",
+   "いや! (casual, short)"
+  ]
+ },
+ {
+  "jp": "暑い",
+  "rd": "あつい",
+  "ro": "atsui",
+  "en": "Hot (weather)",
+  "lit": "暑い (hot weather)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "For weather and room temperature. Hot thing/touch uses 熱い, same sound.",
+  "alt": [
+   "暑いですね (it's hot, isn't it)"
+  ]
+ },
+ {
+  "jp": "寒い",
+  "rd": "さむい",
+  "ro": "samui",
+  "en": "Cold (weather)",
+  "lit": "寒い (cold weather)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Weather small talk. 'Cold' to the touch is 冷たい.",
+  "alt": [
+   "寒いですね (it's cold, isn't it)"
+  ]
+ },
+ {
+  "jp": "痛い",
+  "rd": "いたい",
+  "ro": "itai",
+  "en": "It hurts / Ouch",
+  "lit": "痛い (painful)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Pain. Specify where: お腹が痛い (my stomach hurts), 頭が痛い (my head hurts).",
+  "alt": [
+   "痛いです (polite)",
+   "頭が痛い (I have a headache)"
+  ]
+ },
+ {
+  "jp": "恥ずかしい",
+  "rd": "はずかしい",
+  "ro": "hazukashii",
+  "en": "I'm embarrassed / How embarrassing",
+  "lit": "恥ずかしい (embarrassing)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Shyness or embarrassment. Common in anime romance and comedy.",
+  "alt": [
+   "恥ずかしいです (polite)",
+   "照れる (be bashful)"
+  ]
+ },
+ {
+  "jp": "緊張する",
+  "rd": "きんちょう する",
+  "ro": "kinchō suru",
+  "en": "I'm nervous",
+  "lit": "緊張 (tension) する (do)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Before exams, interviews, speeches. Past: 緊張した.",
+  "alt": [
+   "緊張してる (I'm nervous now)",
+   "ドキドキする (my heart's pounding)"
+  ]
+ },
+ {
+  "jp": "楽しみ",
+  "rd": "たのしみ",
+  "ro": "tanoshimi",
+  "en": "I'm looking forward to it",
+  "lit": "楽しみ (something to look forward to)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say it when anticipating an event: 明日が楽しみ (I'm looking forward to tomorrow).",
+  "alt": [
+   "楽しみです (polite)",
+   "楽しみにしています (polite, 'I'm looking forward')"
+  ]
+ },
+ {
+  "jp": "さびしい",
+  "rd": "さびしい",
+  "ro": "sabishii",
+  "en": "I'm lonely / I miss it",
+  "lit": "さびしい (lonely)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Loneliness or missing someone. Often used when a friend leaves.",
+  "alt": [
+   "さみしい (variant)",
+   "さびしいです (polite)"
+  ]
+ },
+ {
+  "jp": "びっくりした",
+  "rd": "びっくり した",
+  "ro": "bikkuri shita",
+  "en": "I was surprised / You scared me",
+  "lit": "びっくり (startled) した (did)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Mild shock. Polite: びっくりしました.",
+  "alt": [
+   "驚きました (polite, formal)",
+   "びっくりしました (polite)"
+  ]
+ },
+ {
+  "jp": "面白い",
+  "rd": "おもしろい",
+  "ro": "omoshiroi",
+  "en": "Interesting / Funny",
+  "lit": "面白い (interesting, funny)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Praise a film, joke, or idea. Opposite is つまらない (boring).",
+  "alt": [
+   "面白いですね (polite)",
+   "つまらない (boring)"
+  ]
+ },
+ {
+  "jp": "おいしい",
+  "rd": "おいしい",
+  "ro": "oishii",
+  "en": "Delicious",
+  "lit": "おいしい (tasty)",
+  "c": "feelings",
+  "lvl": "polite",
+  "use": "Praise food. Say おいしいです to be polite. Even more: すごくおいしい.",
+  "alt": [
+   "おいしいです (polite)",
+   "うまい (casual, masculine)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "かわいい",
+  "rd": "かわいい",
+  "ro": "kawaii",
+  "en": "Cute",
+  "lit": "かわいい (cute)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Used for babies, animals, clothes, people. Very common in Japanese. Strong form: めっちゃかわいい.",
+  "alt": [
+   "かわいいですね (polite)",
+   "かわいい! (exclamation)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "かっこいい",
+  "rd": "かっこいい",
+  "ro": "kakkoii",
+  "en": "Cool / Handsome",
+  "lit": "かっこいい (cool-looking)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Praise people, cars, moves, anime heroes. Polite: かっこいいですね.",
+  "alt": [
+   "かっこいいですね (polite)",
+   "イケメン (handsome guy)"
+  ]
+ },
+ {
+  "jp": "最高",
+  "rd": "さいこう",
+  "ro": "saikō",
+  "en": "The best / Fantastic",
+  "lit": "最高 (the highest)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Say it about a meal, a day, a trip. Equivalent to 'it's the best'.",
+  "alt": [
+   "最高です (polite)",
+   "最高!(exclamation)"
+  ]
+ },
+ {
+  "jp": "忙しい",
+  "rd": "いそがしい",
+  "ro": "isogashii",
+  "en": "I'm busy",
+  "lit": "忙しい (busy)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Explain you have no time. Polite: 忙しいです.",
+  "alt": [
+   "忙しいです (polite)",
+   "暇 (free, not busy)"
+  ]
+ },
+ {
+  "jp": "気持ちいい",
+  "rd": "きもち いい",
+  "ro": "kimochi ii",
+  "en": "It feels good",
+  "lit": "気持ち (feeling) いい (good)",
+  "c": "feelings",
+  "lvl": "casual",
+  "use": "Hot baths, fresh air, massage. Casual and fun.",
+  "alt": [
+   "気持ちいいです (polite)",
+   "気持ち悪い (feels bad, gross)"
+  ]
+ },
+ {
+  "jp": "これをください",
+  "rd": "これ を ください",
+  "ro": "kore o kudasai",
+  "en": "This one, please",
+  "lit": "これ (this) を (object) ください (please give)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Point and say it to order or buy. Swap これ for any noun: 水をください.",
+  "alt": [
+   "これお願いします (this, please)",
+   "これ、ください (casual-polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "いくらですか",
+  "rd": "いくら ですか",
+  "ro": "ikura desu ka",
+  "en": "How much is it?",
+  "lit": "いくら (how much) です (is) か (question)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask a price while pointing: これはいくらですか. Prices are given in 円 (en).",
+  "alt": [
+   "いくら? (casual)",
+   "おいくらですか (very polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "高い",
+  "rd": "たかい",
+  "ro": "takai",
+  "en": "Expensive / High / Tall",
+  "lit": "高い (high, expensive)",
+  "c": "shopping-food",
+  "lvl": "casual",
+  "use": "Comment on a price: ちょっと高い (a bit expensive). Opposite is 安い (cheap).",
+  "alt": [
+   "高いですね (polite)",
+   "ちょっと高いです (it's a bit pricey)"
+  ]
+ },
+ {
+  "jp": "安い",
+  "rd": "やすい",
+  "ro": "yasui",
+  "en": "Cheap",
+  "lit": "安い (cheap)",
+  "c": "shopping-food",
+  "lvl": "casual",
+  "use": "Praise a good price: 安い! Opposite is 高い (expensive).",
+  "alt": [
+   "安いですね (polite)"
+  ]
+ },
+ {
+  "jp": "お会計お願いします",
+  "rd": "おかいけい おねがい します",
+  "ro": "okaikei onegai shimasu",
+  "en": "The bill, please",
+  "lit": "お会計 (bill) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say it in a restaurant after you have finished eating. Staff will bring the bill or point to the register.",
+  "alt": [
+   "お会計 (shorter)",
+   "お勘定お願いします (older style)",
+   "チェックお願いします (casual, English-loan)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "カードは使えますか",
+  "rd": "カード は つかえます か",
+  "ro": "kādo wa tsukaemasu ka",
+  "en": "Can I use a card?",
+  "lit": "カード (card) は (topic) 使えます (can use) か (question)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask before paying at small shops and restaurants. Many accept only cash.",
+  "alt": [
+   "現金のみですか (cash only?)",
+   "クレジットカードは使えますか (credit card?)"
+  ]
+ },
+ {
+  "jp": "袋はいりません",
+  "rd": "ふくろ は いりません",
+  "ro": "fukuro wa irimasen",
+  "en": "I don't need a bag",
+  "lit": "袋 (bag) は (topic) いりません (don't need)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say it at a convenience store or supermarket where bags cost extra and the clerk asks.",
+  "alt": [
+   "袋は大丈夫です (the bag is fine)"
+  ]
+ },
+ {
+  "jp": "メニューをお願いします",
+  "rd": "メニュー を おねがい します",
+  "ro": "menyū o onegai shimasu",
+  "en": "A menu, please",
+  "lit": "メニュー (menu) を (object) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say it after being seated. For English menus: 英語のメニューはありますか.",
+  "alt": [
+   "メニューください (casual)",
+   "英語のメニューはありますか (English menu?)"
+  ]
+ },
+ {
+  "jp": "おすすめは何ですか",
+  "rd": "おすすめ は なん ですか",
+  "ro": "osusume wa nan desu ka",
+  "en": "What do you recommend?",
+  "lit": "おすすめ (recommendation) は (topic) 何 (what) ですか (is?)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask the staff what is good; helpful when you cannot read a menu.",
+  "alt": [
+   "おすすめはありますか (do you have recommendations?)"
+  ]
+ },
+ {
+  "jp": "水をください",
+  "rd": "みず を ください",
+  "ro": "mizu o kudasai",
+  "en": "Water, please",
+  "lit": "水 (water) を (object) ください (please give)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Water is free in most restaurants and will be brought. The お冷 (ohiya) is cold water.",
+  "alt": [
+   "お水をお願いします (polite)",
+   "お水ください (casual-polite)"
+  ]
+ },
+ {
+  "jp": "注文お願いします",
+  "rd": "ちゅうもん おねがい します",
+  "ro": "chūmon onegai shimasu",
+  "en": "I'd like to order",
+  "lit": "注文 (order) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Call a waiter over by saying すみません first, then this. Or press the call button on the table.",
+  "alt": [
+   "すみません、注文いいですか (excuse me, can I order?)"
+  ]
+ },
+ {
+  "jp": "ひとつください",
+  "rd": "ひとつ ください",
+  "ro": "hitotsu kudasai",
+  "en": "One of these, please",
+  "lit": "ひとつ (one thing) ください (please give)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Counting items by pointing: ふたつ (2), みっつ (3). Combine: これをふたつください.",
+  "alt": [
+   "ふたつください (two, please)",
+   "これを二つお願いします (two of these)"
+  ]
+ },
+ {
+  "jp": "いただきます",
+  "rd": "いただきます",
+  "ro": "itadakimasu",
+  "en": "Let's eat / Thanks for the meal (before eating)",
+  "lit": "いただき (receive, humble) ます (polite)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Said by everyone before eating, with hands together. It thanks the cook and the food itself. Always say it.",
+  "alt": [
+   "いただきまーす (cheerful)",
+   "いただきます (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ごちそうさまでした",
+  "rd": "ごちそう さま でした",
+  "ro": "gochisōsama deshita",
+  "en": "Thank you for the meal (after eating)",
+  "lit": "ごちそう (feast) さま (honorific) でした (was)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Said after eating, and to the staff when leaving a restaurant. Casual: ごちそうさま.",
+  "alt": [
+   "ごちそうさま (casual)",
+   "ごちそうさまです (said when someone treats you)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "おいしかった",
+  "rd": "おいしかった",
+  "ro": "oishikatta",
+  "en": "That was delicious",
+  "lit": "おいしかった (was tasty)",
+  "c": "shopping-food",
+  "lvl": "casual",
+  "use": "Praise after a meal. Polite: おいしかったです. A real compliment to a host or cook.",
+  "alt": [
+   "おいしかったです (polite)",
+   "すごくおいしかった (it was really good)"
+  ]
+ },
+ {
+  "jp": "見ているだけです",
+  "rd": "みている だけ です",
+  "ro": "mite iru dake desu",
+  "en": "I'm just looking",
+  "lit": "見ている (looking) だけ (only) です (is)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Politely decline a shop assistant's offer to help. Often accompanied by a small bow.",
+  "alt": [
+   "見てるだけです (casual)",
+   "大丈夫です (I'm fine)"
+  ]
+ },
+ {
+  "jp": "試着してもいいですか",
+  "rd": "しちゃく しても いい ですか",
+  "ro": "shichaku shite mo ii desu ka",
+  "en": "May I try it on?",
+  "lit": "試着 (try on) して (do) も (even) いい (OK) です (is) か (question)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Ask in clothing stores. You will be pointed to the fitting room.",
+  "alt": [
+   "試着できますか (can I try it on?)"
+  ]
+ },
+ {
+  "jp": "おかわりお願いします",
+  "rd": "おかわり おねがい します",
+  "ro": "okawari onegai shimasu",
+  "en": "Another helping, please",
+  "lit": "おかわり (refill) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Used for rice, tea, coffee, or drinks when you want a refill. Some places refill rice free.",
+  "alt": [
+   "おかわり (casual)",
+   "おかわりください (please give a refill)"
+  ]
+ },
+ {
+  "jp": "二人です",
+  "rd": "ふたり です",
+  "ro": "futari desu",
+  "en": "Table for two",
+  "lit": "二人 (two people) です (is)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "Say the number of people when you enter a restaurant. 一人 (hitori) for one, 三人 (sannin) for three.",
+  "alt": [
+   "一人です (one person)",
+   "三人です (three people)"
+  ]
+ },
+ {
+  "jp": "いらっしゃいませ",
+  "rd": "いらっしゃいませ",
+  "ro": "irasshaimase",
+  "en": "Welcome (said by shop staff)",
+  "lit": "いらっしゃいませ (honorific 'please come')",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "You hear it on entering shops and restaurants. You do not need to reply, just nod.",
+  "alt": [
+   "いらっしゃい (casual)"
+  ]
+ },
+ {
+  "jp": "持ち帰りでお願いします",
+  "rd": "もちかえり で おねがい します",
+  "ro": "mochikaeri de onegai shimasu",
+  "en": "To take away, please",
+  "lit": "持ち帰り (takeaway) で (as) お願いします (I request)",
+  "c": "shopping-food",
+  "lvl": "polite",
+  "use": "For takeout. For dining in, you say ここで食べます (I'll eat here).",
+  "alt": [
+   "テイクアウトで (takeout)",
+   "ここで食べます (eating here)"
+  ]
+ },
+ {
+  "jp": "トイレはどこですか",
+  "rd": "トイレ は どこ ですか",
+  "ro": "toire wa doko desu ka",
+  "en": "Where is the toilet?",
+  "lit": "トイレ (toilet) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Probably the most useful travel sentence. Also works with お手洗い (otearai) in polite contexts.",
+  "alt": [
+   "お手洗いはどこですか (more polite)",
+   "トイレどこ? (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "駅はどこですか",
+  "rd": "えき は どこ ですか",
+  "ro": "eki wa doko desu ka",
+  "en": "Where is the station?",
+  "lit": "駅 (station) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Replace 駅 with another place: コンビニ, ホテル, 出口.",
+  "alt": [
+   "一番近い駅はどこですか (where is the nearest station?)"
+  ]
+ },
+ {
+  "jp": "〜に行きたいです",
+  "rd": "〜 に いきたい です",
+  "ro": "~ ni ikitai desu",
+  "en": "I want to go to ~",
+  "lit": "〜 (place) に (to) 行きたい (want to go) です (is)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Tell a taxi driver, station staff or a friend where you want to go: 京都に行きたいです.",
+  "alt": [
+   "〜に行きたい (casual)",
+   "〜に行きたいんですが (polite, softer)"
+  ]
+ },
+ {
+  "jp": "まっすぐ",
+  "rd": "まっすぐ",
+  "ro": "massugu",
+  "en": "Straight ahead",
+  "lit": "まっすぐ (straight)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Direction word. With 行きます: まっすぐ行ってください (go straight).",
+  "alt": [
+   "まっすぐ行ってください (go straight)"
+  ]
+ },
+ {
+  "jp": "右・左",
+  "rd": "みぎ ・ ひだり",
+  "ro": "migi / hidari",
+  "en": "Right / Left",
+  "lit": "右 (right) 左 (left)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Used in directions: 右に曲がってください (please turn right). 曲がる means to turn.",
+  "alt": [
+   "右に曲がってください (turn right)",
+   "左に曲がってください (turn left)"
+  ]
+ },
+ {
+  "jp": "近いですか",
+  "rd": "ちかい ですか",
+  "ro": "chikai desu ka",
+  "en": "Is it close?",
+  "lit": "近い (close) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask whether a place is near. Opposite question: 遠いですか (is it far?).",
+  "alt": [
+   "遠いですか (is it far?)",
+   "ここから遠いですか (is it far from here?)"
+  ]
+ },
+ {
+  "jp": "この電車は〜に行きますか",
+  "rd": "この でんしゃ は 〜 に いきます か",
+  "ro": "kono densha wa ~ ni ikimasu ka",
+  "en": "Does this train go to ~?",
+  "lit": "この (this) 電車 (train) は (topic) 〜に (to) 行きます (go) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Check before boarding. Replace 電車 with バス (bus).",
+  "alt": [
+   "このバスは〜に行きますか (does this bus go to ~?)"
+  ]
+ },
+ {
+  "jp": "何番線ですか",
+  "rd": "なんばんせん ですか",
+  "ro": "nanbansen desu ka",
+  "en": "Which platform is it?",
+  "lit": "何番線 (which platform) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask station staff or a passer-by for the platform number.",
+  "alt": [
+   "〜は何番線ですか (which platform for ~?)"
+  ]
+ },
+ {
+  "jp": "〜までいくらですか",
+  "rd": "〜 まで いくら ですか",
+  "ro": "~ made ikura desu ka",
+  "en": "How much is it to ~?",
+  "lit": "〜 (place) まで (up to) いくら (how much) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Used for train tickets or taxi fares. 駅までいくらですか.",
+  "alt": [
+   "〜までお願いします (to ~, please, to a taxi)"
+  ]
+ },
+ {
+  "jp": "ここはどこですか",
+  "rd": "ここ は どこ ですか",
+  "ro": "koko wa doko desu ka",
+  "en": "Where am I? / Where is this?",
+  "lit": "ここ (here) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "When you are lost. Show a map and ask これはどこですか (where is this?).",
+  "alt": [
+   "今どこですか (where am I now?)"
+  ]
+ },
+ {
+  "jp": "乗り換えはどこですか",
+  "rd": "のりかえ は どこ ですか",
+  "ro": "norikae wa doko desu ka",
+  "en": "Where do I transfer?",
+  "lit": "乗り換え (transfer) は (topic) どこ (where) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Used in big stations. Staff will point to the correct platform or line.",
+  "alt": [
+   "乗り換えが必要ですか (do I need to transfer?)"
+  ]
+ },
+ {
+  "jp": "歩いて何分ですか",
+  "rd": "あるいて なんぷん ですか",
+  "ro": "aruite nanpun desu ka",
+  "en": "How many minutes on foot?",
+  "lit": "歩いて (walking) 何分 (how many minutes) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask how long on foot: 駅から歩いて何分ですか.",
+  "alt": [
+   "何分かかりますか (how long does it take?)",
+   "電車で何分ですか (how many minutes by train?)"
+  ]
+ },
+ {
+  "jp": "ここで止めてください",
+  "rd": "ここ で とめて ください",
+  "ro": "koko de tomete kudasai",
+  "en": "Please stop here",
+  "lit": "ここ (here) で (at) 止めて (stop) ください (please)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Tell a taxi driver where to stop. Taxi doors open automatically.",
+  "alt": [
+   "ここでお願いします (here, please)"
+  ]
+ },
+ {
+  "jp": "写真を撮ってもいいですか",
+  "rd": "しゃしん を とって も いい ですか",
+  "ro": "shashin o totte mo ii desu ka",
+  "en": "May I take a photo?",
+  "lit": "写真 (photo) を (object) 撮って (take) も (even) いい (OK) です (is) か (question)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Ask before photographing people, shops, or shrines. Also: 写真を撮ってもらえますか (could you take a photo of us?).",
+  "alt": [
+   "写真を撮ってください (please take a photo)",
+   "撮ってもいいですか (May I take one?)"
+  ]
+ },
+ {
+  "jp": "パスポートです",
+  "rd": "パスポート です",
+  "ro": "pasupōto desu",
+  "en": "Here is my passport",
+  "lit": "パスポート (passport) です (is)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "At immigration or hotel check-in, hand over your passport and say this.",
+  "alt": [
+   "パスポートをお願いします (staff asks for it)"
+  ]
+ },
+ {
+  "jp": "予約しています",
+  "rd": "よやく して います",
+  "ro": "yoyaku shite imasu",
+  "en": "I have a reservation",
+  "lit": "予約 (reservation) して (do) います (am)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Say it at hotels or restaurants. Add the name: 田中で予約しています.",
+  "alt": [
+   "〜で予約しました (I reserved under ~)"
+  ]
+ },
+ {
+  "jp": "入口・出口",
+  "rd": "いりぐち ・ でぐち",
+  "ro": "iriguchi / deguchi",
+  "en": "Entrance / Exit",
+  "lit": "入口 (entrance) 出口 (exit)",
+  "c": "directions-travel",
+  "lvl": "polite",
+  "use": "Signs in stations, shops, and buildings. Useful to ask 出口はどこですか.",
+  "alt": [
+   "出口はどこですか (where is the exit?)"
+  ]
+ },
+ {
+  "jp": "はじめまして",
+  "rd": "はじめまして",
+  "ro": "hajimemashite",
+  "en": "Nice to meet you (first meeting)",
+  "lit": "初めまして (for the first time)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "The standard opener when meeting someone for the first time. Follow with your name and よろしくお願いします.",
+  "alt": [
+   "初めまして (kanji)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "私の名前は〜です",
+  "rd": "わたし の なまえ は 〜 です",
+  "ro": "watashi no namae wa ~ desu",
+  "en": "My name is ~",
+  "lit": "私 (I) の (possessive) 名前 (name) は (topic) 〜です (is)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Self-introduction. Shortened: 〜です, or 〜と申します (formal, humble).",
+  "alt": [
+   "〜です (short)",
+   "〜と申します (formal)",
+   "〜といいます (polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "よろしくお願いします",
+  "rd": "よろしく おねがい します",
+  "ro": "yoroshiku onegai shimasu",
+  "en": "Please treat me well / Nice to meet you",
+  "lit": "よろしく (well) お願いします (I request)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Used after introductions, and when asking for a favour or beginning a collaboration. Casual: よろしく.",
+  "alt": [
+   "よろしく (casual)",
+   "どうぞよろしくお願いします (very polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "〜から来ました",
+  "rd": "〜 から きました",
+  "ro": "~ kara kimashita",
+  "en": "I'm from ~",
+  "lit": "〜 (place) から (from) 来ました (came)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Tell where you are from: アメリカから来ました.",
+  "alt": [
+   "〜出身です (I'm originally from ~)",
+   "〜人です (I'm [nationality])"
+  ]
+ },
+ {
+  "jp": "学生です",
+  "rd": "がくせい です",
+  "ro": "gakusei desu",
+  "en": "I'm a student",
+  "lit": "学生 (student) です (is)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Self introduction. Replace with your job: 会社員です (office worker), エンジニアです.",
+  "alt": [
+   "会社員です (I'm an office worker)"
+  ]
+ },
+ {
+  "jp": "趣味は何ですか",
+  "rd": "しゅみ は なん ですか",
+  "ro": "shumi wa nan desu ka",
+  "en": "What are your hobbies?",
+  "lit": "趣味 (hobby) は (topic) 何 (what) です (is) か (question)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Safe small talk with new acquaintances. Answer: 趣味は〜です.",
+  "alt": [
+   "趣味は〜です (my hobby is ~)"
+  ]
+ },
+ {
+  "jp": "行こう",
+  "rd": "いこう",
+  "ro": "ikō",
+  "en": "Let's go",
+  "lit": "行こう (let's go)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Casual invitation to go together. Polite: 行きましょう.",
+  "alt": [
+   "行きましょう (polite)",
+   "行こうか (shall we go?)"
+  ]
+ },
+ {
+  "jp": "気をつけて",
+  "rd": "き を つけて",
+  "ro": "ki o tsukete",
+  "en": "Take care / Be careful",
+  "lit": "気 (attention) を (object) つけて (attach)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Said to someone leaving or doing something risky. Polite: 気をつけてください.",
+  "alt": [
+   "気をつけてください (polite)",
+   "お気をつけて (more polite)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お元気で",
+  "rd": "おげんき で",
+  "ro": "ogenki de",
+  "en": "Take care of yourself (when parting for long)",
+  "lit": "お元気 (healthy) で (state)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "For long separations, such as a friend moving away. Feels slightly final and warm.",
+  "alt": [
+   "お大事に (get well soon)"
+  ]
+ },
+ {
+  "jp": "乾杯",
+  "rd": "かんぱい",
+  "ro": "kanpai",
+  "en": "Cheers!",
+  "lit": "乾杯 (dry cup)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Said when raising drinks together. Everyone waits until all have a glass, then toasts.",
+  "alt": [
+   "乾杯! (exclamation)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お大事に",
+  "rd": "おだいじ に",
+  "ro": "odaiji ni",
+  "en": "Get well soon / Take care of yourself",
+  "lit": "お大事 (precious) に (adverb)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "To someone sick or injured. Used by shopkeepers, doctors and friends.",
+  "alt": [
+   "お大事にしてください (polite)"
+  ]
+ },
+ {
+  "jp": "お先に失礼します",
+  "rd": "おさき に しつれい します",
+  "ro": "osaki ni shitsurei shimasu",
+  "en": "Excuse me for leaving before you",
+  "lit": "お先に (ahead) 失礼 (rudeness) します (do)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Said when leaving work before others. Coworkers reply お疲れ様でした.",
+  "alt": [
+   "お先に (casual)"
+  ]
+ },
+ {
+  "jp": "待った?",
+  "rd": "まった",
+  "ro": "matta",
+  "en": "Did you wait? / Sorry I'm late",
+  "lit": "待った (waited?)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Casual question when you meet someone you kept waiting. Reply: ううん、今来たところ (no, I just got here).",
+  "alt": [
+   "待たせてごめん (sorry to make you wait)",
+   "ううん、今来たところ (no, I just arrived)"
+  ]
+ },
+ {
+  "jp": "今度遊ぼう",
+  "rd": "こんど あそぼう",
+  "ro": "kondo asobō",
+  "en": "Let's hang out sometime",
+  "lit": "今度 (next time) 遊ぼう (let's play)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Friendly invitation, often vague. It may not lead to a real plan.",
+  "alt": [
+   "今度遊びましょう (polite)",
+   "また遊ぼうね (let's hang out again)"
+  ]
+ },
+ {
+  "jp": "私も",
+  "rd": "わたし も",
+  "ro": "watashi mo",
+  "en": "Me too",
+  "lit": "私 (I) も (also)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Show agreement. Casual: 私も! Men may say 俺も.",
+  "alt": [
+   "僕も (casual, male)",
+   "俺も (rough, male)"
+  ]
+ },
+ {
+  "jp": "一緒にどうですか",
+  "rd": "いっしょ に どう ですか",
+  "ro": "issho ni dō desu ka",
+  "en": "Would you like to join me?",
+  "lit": "一緒に (together) どう (how) です (is) か (question)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Invite someone politely: 一緒にご飯はどうですか (how about eating together?).",
+  "alt": [
+   "一緒に行きませんか (won't you go with me?)",
+   "一緒に行こう (casual)"
+  ]
+ },
+ {
+  "jp": "楽しかった",
+  "rd": "たのしかった",
+  "ro": "tanoshikatta",
+  "en": "That was fun",
+  "lit": "楽しかった (was fun)",
+  "c": "social",
+  "lvl": "casual",
+  "use": "Say at the end of a party or outing. Polite: 楽しかったです.",
+  "alt": [
+   "楽しかったです (polite)",
+   "楽しかったね (it was fun, wasn't it?)"
+  ]
+ },
+ {
+  "jp": "お願いがあります",
+  "rd": "おねがい が あります",
+  "ro": "onegai ga arimasu",
+  "en": "I have a favour to ask",
+  "lit": "お願い (request) が (subject) あります (exists)",
+  "c": "social",
+  "lvl": "polite",
+  "use": "Prepare a request politely before saying it. Casual: お願いがあるんだけど.",
+  "alt": [
+   "お願いがあるんだけど (casual)",
+   "ちょっといいですか (do you have a minute?)"
+  ]
+ },
+ {
+  "jp": "やめて",
+  "rd": "やめて",
+  "ro": "yamete",
+  "en": "Stop it! / Don't!",
+  "lit": "やめ (stop) て (request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Said to make someone stop doing something. Add ください for polite; やめろ is a harsh command.",
+  "alt": [
+   "やめてください (polite)",
+   "やめろ (rough command)",
+   "やめなさい (firm, parent-like)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "待って",
+  "rd": "まって",
+  "ro": "matte",
+  "en": "Wait!",
+  "lit": "待って (wait, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Calling out to stop someone leaving or to get a moment. Polite: 待ってください.",
+  "alt": [
+   "待ってください (polite)",
+   "待て (rough command)",
+   "ちょっと待って (wait a sec)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "大丈夫?",
+  "rd": "だいじょうぶ",
+  "ro": "daijōbu?",
+  "en": "Are you okay?",
+  "lit": "大丈夫 (all right)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Asked with rising intonation when someone looks hurt or upset. Reply 大丈夫 (I'm okay). Polite: 大丈夫ですか.",
+  "alt": [
+   "大丈夫ですか (polite)",
+   "大丈夫だ (I'm fine, masculine)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "うそ!",
+  "rd": "うそ",
+  "ro": "uso!",
+  "en": "No way! / You're kidding!",
+  "lit": "うそ (a lie)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Shock reaction to surprising news. Literally 'lie', used like 'no way!'. Noun for lying: うそつき.",
+  "alt": [
+   "うそでしょ (you've got to be kidding)",
+   "うそだ! (it's a lie!)",
+   "まじで? (really?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "まさか",
+  "rd": "まさか",
+  "ro": "masaka",
+  "en": "No way... / Surely not",
+  "lit": "まさか (surely not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Disbelief at something unexpected or feared. Anime characters say it when the villain's identity or plan is revealed.",
+  "alt": [
+   "まさか…! (said trailing off)",
+   "まさかそんな (surely not)"
+  ]
+ },
+ {
+  "jp": "よし!",
+  "rd": "よし",
+  "ro": "yoshi!",
+  "en": "Alright! / Okay, let's go!",
+  "lit": "よし (good, okay)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Self-motivation or confirming a plan. Hero announces readiness. Often before action.",
+  "alt": [
+   "よっしゃ (more fired-up, Kansai flavour)",
+   "よし、行こう (alright, let's go)"
+  ]
+ },
+ {
+  "jp": "行くぞ",
+  "rd": "いくぞ",
+  "ro": "ikuzo",
+  "en": "Here I go! / Let's go!",
+  "lit": "行く (go) ぞ (masculine emphasis)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Battle cry or a push to move out. ぞ gives a rough, masculine, emphatic tone.",
+  "alt": [
+   "行くよ (softer, any gender)",
+   "行くわよ (feminine)"
+  ]
+ },
+ {
+  "jp": "任せて",
+  "rd": "まかせて",
+  "ro": "makasete",
+  "en": "Leave it to me",
+  "lit": "任せて (entrust, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Confident reassurance that you will handle it. 任せろ is a rougher male version.",
+  "alt": [
+   "任せてください (polite)",
+   "任せろ (rough, male)",
+   "俺に任せろ (leave it to me, male)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "信じて",
+  "rd": "しんじて",
+  "ro": "shinjite",
+  "en": "Believe in me / Trust me",
+  "lit": "信じて (believe, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Used by heroes and in emotional scenes. Also 信じてる (I trust you).",
+  "alt": [
+   "信じてください (polite)",
+   "信じてる (I believe in you)",
+   "信じろ (rough command)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "助けて",
+  "rd": "たすけて",
+  "ro": "tasukete",
+  "en": "Help!",
+  "lit": "助けて (help, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "An urgent cry for help. A staple in anime and dramas. Real emergencies: 助けて!",
+  "alt": [
+   "助けてください (polite)",
+   "誰か助けて (somebody help)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ふざけるな",
+  "rd": "ふざける な",
+  "ro": "fuzakeru na",
+  "en": "Don't mess with me! / Quit joking!",
+  "lit": "ふざける (to joke around) な (don't)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Angry shout, very rough. Never use to someone you respect. Common from villains and angry heroes.",
+  "alt": [
+   "ふざけないで (less rough)",
+   "冗談じゃない (this is no joke)"
+  ]
+ },
+ {
+  "jp": "何だと?",
+  "rd": "なんだと",
+  "ro": "nan da to?",
+  "en": "What did you say?!",
+  "lit": "何 (what) だ (is) と (quote)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Angry or shocked, masculine and confrontational. Very common in anime.",
+  "alt": [
+   "何を言ってる (what are you saying?)",
+   "なんだって? (what did you say?)"
+  ]
+ },
+ {
+  "jp": "しまった",
+  "rd": "しまった",
+  "ro": "shimatta",
+  "en": "Damn! / Oh no, I messed up",
+  "lit": "しまった (ended, I blew it)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Realising a mistake or something bad. Related to しまう (finish up); often said under the breath.",
+  "alt": [
+   "やっちゃった (oops, I did it)",
+   "しまった! (exclamation)"
+  ]
+ },
+ {
+  "jp": "どういうこと?",
+  "rd": "どういう こと",
+  "ro": "dō iu koto?",
+  "en": "What do you mean? / What's going on?",
+  "lit": "どういう (what kind of) こと (thing)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Demand an explanation after a shock. Polite: どういうことですか.",
+  "alt": [
+   "どういうことですか (polite)",
+   "どういうこと? (casual)",
+   "どういう意味? (what does that mean?)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "頑張って",
+  "rd": "がんばって",
+  "ro": "ganbatte",
+  "en": "Do your best! / Good luck!",
+  "lit": "頑張って (try hard, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Encouragement to someone about to do something hard. Add ください for politeness. To someone already exhausted, avoid it; use 無理しないで.",
+  "alt": [
+   "頑張ってください (polite)",
+   "頑張れ (rough, cheer)",
+   "頑張ります (I'll do my best)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "お疲れ様",
+  "rd": "おつかれさま",
+  "ro": "otsukaresama",
+  "en": "Good work / Thanks for your effort",
+  "lit": "お疲れ (tired) 様 (honorific)",
+  "c": "media",
+  "lvl": "polite",
+  "use": "Greeting between coworkers and teammates: for end-of-day, after work or tasks. Formal: お疲れ様でした.",
+  "alt": [
+   "お疲れ様です (polite)",
+   "お疲れ様でした (when done)",
+   "お疲れ (casual)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "ただいま",
+  "rd": "ただいま",
+  "ro": "tadaima",
+  "en": "I'm home / I'm back",
+  "lit": "ただいま (just now)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Said when arriving home or back to the office. Reply is おかえり.",
+  "alt": [
+   "ただいま戻りました (formal, office)"
+  ]
+ },
+ {
+  "jp": "おかえり",
+  "rd": "おかえり",
+  "ro": "okaeri",
+  "en": "Welcome back / Welcome home",
+  "lit": "お帰り (return)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Reply to ただいま. Polite: おかえりなさい.",
+  "alt": [
+   "おかえりなさい (polite)"
+  ]
+ },
+ {
+  "jp": "やった!",
+  "rd": "やった",
+  "ro": "yatta!",
+  "en": "I did it! / Yay!",
+  "lit": "やった (did it)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Joy at success or good news. Said alone or loudly.",
+  "alt": [
+   "やったー (happy shout)",
+   "よっしゃ (yes!)"
+  ]
+ },
+ {
+  "jp": "逃げろ",
+  "rd": "にげろ",
+  "ro": "nigero",
+  "en": "Run! / Escape!",
+  "lit": "逃げろ (escape, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Urgent order from heroes or rescuers. Polite request: 逃げてください.",
+  "alt": [
+   "逃げて (softer)",
+   "逃げてください (polite)"
+  ]
+ },
+ {
+  "jp": "危ない",
+  "rd": "あぶない",
+  "ro": "abunai",
+  "en": "Watch out! / Dangerous",
+  "lit": "危ない (dangerous)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Shout when danger is near. Also describes something risky.",
+  "alt": [
+   "危ないよ (careful)",
+   "危ない! (shout)"
+  ]
+ },
+ {
+  "jp": "見て",
+  "rd": "みて",
+  "ro": "mite",
+  "en": "Look!",
+  "lit": "見て (look, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Draw attention to something. Polite: 見てください. 見ろ is a rough command.",
+  "alt": [
+   "見てください (polite)",
+   "見ろ (rough)",
+   "ほら (look, there)"
+  ]
+ },
+ {
+  "jp": "聞いて",
+  "rd": "きいて",
+  "ro": "kiite",
+  "en": "Listen to me",
+  "lit": "聞いて (listen, request form)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Used to get someone to hear you out, often emotionally: 聞いてくれ (male).",
+  "alt": [
+   "聞いてください (polite)",
+   "聞いてくれ (please listen, male)"
+  ]
+ },
+ {
+  "jp": "静かに",
+  "rd": "しずかに",
+  "ro": "shizuka ni",
+  "en": "Quiet! / Be quiet",
+  "lit": "静か (quiet) に (adverb)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Telling others to quiet down. Polite: 静かにしてください.",
+  "alt": [
+   "静かにして (casual)",
+   "静かにしてください (polite)",
+   "黙れ (shut up, rough)"
+  ]
+ },
+ {
+  "jp": "動くな",
+  "rd": "うごくな",
+  "ro": "ugoku na",
+  "en": "Don't move!",
+  "lit": "動く (move) な (don't)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Used by police or captors. The 'verb + な' pattern is a rough prohibition.",
+  "alt": [
+   "動かないで (softer)"
+  ]
+ },
+ {
+  "jp": "許さない",
+  "rd": "ゆるさない",
+  "ro": "yurusanai",
+  "en": "I won't forgive you",
+  "lit": "許さ (forgive) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Anger and revenge in dramas and anime. Strong; often a villain or hero vow.",
+  "alt": [
+   "許せない (I can't forgive)",
+   "絶対に許さない (I'll never forgive you)"
+  ]
+ },
+ {
+  "jp": "負けない",
+  "rd": "まけない",
+  "ro": "makenai",
+  "en": "I won't lose",
+  "lit": "負け (lose) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Declaration of determination, rival-style. Opposite 負けた (I lost).",
+  "alt": [
+   "負けないよ (softer)",
+   "絶対負けない (I'll never lose)"
+  ]
+ },
+ {
+  "jp": "絶対",
+  "rd": "ぜったい",
+  "ro": "zettai",
+  "en": "Absolutely / Definitely",
+  "lit": "絶対 (absolute)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Emphasis word. 絶対に行く (I will definitely go), 絶対ダメ (absolutely not).",
+  "alt": [
+   "絶対に (with に, more emphasis)",
+   "絶対だよ (promise)"
+  ]
+ },
+ {
+  "jp": "約束だよ",
+  "rd": "やくそく だよ",
+  "ro": "yakusoku da yo",
+  "en": "It's a promise",
+  "lit": "約束 (promise) だ (is) よ (assertion)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Seal a promise. Popular in emotional scenes. Pinky promise: 指切り.",
+  "alt": [
+   "約束する (I promise)",
+   "約束します (polite)"
+  ]
+ },
+ {
+  "jp": "なんとかなる",
+  "rd": "なんとか なる",
+  "ro": "nantoka naru",
+  "en": "It'll work out somehow",
+  "lit": "なんとか (somehow) なる (become)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Optimism in a tough spot. Said by friendly characters.",
+  "alt": [
+   "なんとかなるさ (it'll be alright)",
+   "なんとかする (I'll manage it)"
+  ]
+ },
+ {
+  "jp": "しょうがない",
+  "rd": "しょうがない",
+  "ro": "shōganai",
+  "en": "It can't be helped",
+  "lit": "しょうが (way) ない (none)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Resignation, accepting what cannot be changed. Very Japanese attitude.",
+  "alt": [
+   "仕方ない (same meaning)",
+   "しょうがないですね (polite)"
+  ]
+ },
+ {
+  "jp": "やばい",
+  "rd": "やばい",
+  "ro": "yabai",
+  "en": "Uh-oh / Crazy / Awesome",
+  "lit": "やばい (dangerous, wow)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Slang with many meanings: danger, shock, or super-good, depending on context. Casual only; avoid at work.",
+  "alt": [
+   "やばっ (short)",
+   "ヤバすぎる (way too crazy)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "最悪",
+  "rd": "さいあく",
+  "ro": "saiaku",
+  "en": "The worst / Terrible",
+  "lit": "最悪 (the worst)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Complain about a bad situation. Opposite 最高 (the best).",
+  "alt": [
+   "最悪だ (it's the worst)",
+   "最悪です (polite)"
+  ]
+ },
+ {
+  "jp": "くそ",
+  "rd": "くそ",
+  "ro": "kuso",
+  "en": "Damn! / Crap!",
+  "lit": "くそ (excrement)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Rough curse of frustration, very common in anime. Do not use in polite company.",
+  "alt": [
+   "ちくしょう (damn it)",
+   "くそっ (short)"
+  ]
+ },
+ {
+  "jp": "本気?",
+  "rd": "ほんき",
+  "ro": "honki?",
+  "en": "Are you serious?",
+  "lit": "本気 (serious)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Check that someone means it. 本気だ (I'm serious).",
+  "alt": [
+   "本気だ (I'm serious)",
+   "本気ですか (polite)",
+   "マジ? (slangy)"
+  ]
+ },
+ {
+  "jp": "冗談でしょ",
+  "rd": "じょうだん でしょ",
+  "ro": "jōdan desho",
+  "en": "You must be joking",
+  "lit": "冗談 (joke) でしょ (right?)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Express disbelief. 冗談じゃない (this is no joke) is an angry denial.",
+  "alt": [
+   "冗談じゃない (this is no joke)",
+   "冗談だよ (just kidding)"
+  ]
+ },
+ {
+  "jp": "まじで?",
+  "rd": "まじ で",
+  "ro": "maji de?",
+  "en": "Seriously? / For real?",
+  "lit": "まじ (serious) で (adverb)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Slangy 'really?'. Also まじ (really). Casual only.",
+  "alt": [
+   "マジ? (short)",
+   "本当に? (more neutral)"
+  ]
+ },
+ {
+  "jp": "何でもない",
+  "rd": "なんでも ない",
+  "ro": "nandemo nai",
+  "en": "It's nothing / Never mind",
+  "lit": "何でも (anything) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Brush off a question or worry. 'Nothing' as a sort of evasion.",
+  "alt": [
+   "何でもないです (polite)",
+   "なんでもないよ (soft)"
+  ]
+ },
+ {
+  "jp": "気のせい",
+  "rd": "き の せい",
+  "ro": "ki no sei",
+  "en": "It's just your imagination",
+  "lit": "気 (mind) の (of) せい (fault)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Dismiss a feeling or sound as imagined. Often in horror scenes.",
+  "alt": [
+   "気のせいだよ (it's just in your head)",
+   "気のせいかな (maybe it's my imagination)"
+  ]
+ },
+ {
+  "jp": "当たり前",
+  "rd": "あたりまえ",
+  "ro": "atarimae",
+  "en": "Obviously / Of course",
+  "lit": "当たり前 (taken for granted)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Something self-evident. 当たり前だ! 'Of course!'",
+  "alt": [
+   "当たり前だよ (casual)",
+   "当然 (naturally)"
+  ]
+ },
+ {
+  "jp": "無理",
+  "rd": "むり",
+  "ro": "muri",
+  "en": "Impossible / No way / Can't",
+  "lit": "無理 (unreasonable)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Declare something impossible or refuse. Polite: 無理です. 無理しないで means 'don't push yourself'.",
+  "alt": [
+   "無理です (polite)",
+   "無理しないで (don't overdo it)"
+  ]
+ },
+ {
+  "jp": "大変だ",
+  "rd": "たいへん だ",
+  "ro": "taihen da",
+  "en": "This is bad! / It's tough",
+  "lit": "大変 (serious) だ (is)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Alert to an emergency or grumbling about difficulty. Polite: 大変です. 大変でしたね is sympathy.",
+  "alt": [
+   "大変です (polite)",
+   "大変だったね (that was rough)"
+  ]
+ },
+ {
+  "jp": "離せ",
+  "rd": "はなせ",
+  "ro": "hanase",
+  "en": "Let go of me!",
+  "lit": "離せ (release, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Rough command. Gentler: 離して.",
+  "alt": [
+   "離して (softer)",
+   "離してください (polite)"
+  ]
+ },
+ {
+  "jp": "来い",
+  "rd": "こい",
+  "ro": "koi",
+  "en": "Come on! / Come at me!",
+  "lit": "来い (come, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Challenge in a fight, or calling someone near. Rough and masculine.",
+  "alt": [
+   "来て (come, softer)",
+   "おいで (come, to children)"
+  ]
+ },
+ {
+  "jp": "お前は誰だ",
+  "rd": "おまえ は だれ だ",
+  "ro": "omae wa dare da",
+  "en": "Who are you?",
+  "lit": "お前 (you, rough) は (topic) 誰 (who) だ (is)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Confrontational question to a stranger. お前 is rude. Polite: あなたは誰ですか.",
+  "alt": [
+   "あなたは誰ですか (polite)",
+   "誰だ (who's there?)"
+  ]
+ },
+ {
+  "jp": "俺に任せろ",
+  "rd": "おれ に まかせろ",
+  "ro": "ore ni makasero",
+  "en": "Leave it to me",
+  "lit": "俺 (I, rough male) に (to) 任せろ (entrust, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Confident hero line, masculine. Neutral version: 私に任せて.",
+  "alt": [
+   "私に任せて (neutral)",
+   "任せてください (polite)"
+  ]
+ },
+ {
+  "jp": "一緒に行こう",
+  "rd": "いっしょ に いこう",
+  "ro": "issho ni ikō",
+  "en": "Let's go together",
+  "lit": "一緒に (together) 行こう (let's go)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Invitation to join forces. Polite: 一緒に行きましょう.",
+  "alt": [
+   "一緒に行きましょう (polite)"
+  ]
+ },
+ {
+  "jp": "よかった",
+  "rd": "よかった",
+  "ro": "yokatta",
+  "en": "Thank goodness / I'm glad",
+  "lit": "よかった (was good)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Relief when something works out or someone is safe. Polite: よかったです.",
+  "alt": [
+   "よかったです (polite)",
+   "無事でよかった (glad you're safe)"
+  ],
+  "core": true
+ },
+ {
+  "jp": "間に合った",
+  "rd": "まにあった",
+  "ro": "ma ni atta",
+  "en": "I made it in time",
+  "lit": "間に合った (was in time)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Relief of arriving or finishing before it was too late. Opposite 間に合わなかった.",
+  "alt": [
+   "間に合いました (polite)",
+   "間に合わなかった (didn't make it)"
+  ]
+ },
+ {
+  "jp": "あきらめない",
+  "rd": "あきらめ ない",
+  "ro": "akiramenai",
+  "en": "I won't give up",
+  "lit": "あきらめ (give up) ない (not)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Hero determination; also a motto. Command: あきらめるな (don't give up).",
+  "alt": [
+   "あきらめるな (don't give up)",
+   "あきらめません (polite)"
+  ]
+ },
+ {
+  "jp": "何を言っている",
+  "rd": "なに を いっている",
+  "ro": "nani o itte iru",
+  "en": "What are you talking about?",
+  "lit": "何 (what) を (object) 言って (say) いる (is doing)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Incredulous reaction. Casual: 何言ってるの. Rough: 何を言ってやがる.",
+  "alt": [
+   "何言ってるの (casual)",
+   "何を言っているんですか (polite)"
+  ]
+ },
+ {
+  "jp": "本当にごめん",
+  "rd": "ほんとうに ごめん",
+  "ro": "hontō ni gomen",
+  "en": "I'm really sorry",
+  "lit": "本当に (truly) ごめん (sorry)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Sincere apology to a friend or family member. More polite: 本当にすみません.",
+  "alt": [
+   "本当にごめんなさい (more polite)",
+   "本当にすみません (polite)"
+  ]
+ },
+ {
+  "jp": "助かった",
+  "rd": "たすかった",
+  "ro": "tasukatta",
+  "en": "You saved me / That helped",
+  "lit": "助かった (was saved)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Thanks for a rescue or favour. Polite: 助かりました.",
+  "alt": [
+   "助かりました (polite)",
+   "ありがとう、助かった (thanks, you saved me)"
+  ]
+ },
+ {
+  "jp": "いい加減にしろ",
+  "rd": "いいかげん に しろ",
+  "ro": "iikagen ni shiro",
+  "en": "That's enough! / Cut it out!",
+  "lit": "いい加減 (decent limit) に (to) しろ (do, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Angry demand to stop. Heard when someone has had enough. Rough.",
+  "alt": [
+   "いい加減にして (a bit softer)",
+   "いい加減にしてください (polite)"
+  ]
+ },
+ {
+  "jp": "心配するな",
+  "rd": "しんぱい する な",
+  "ro": "shinpai suru na",
+  "en": "Don't worry",
+  "lit": "心配 (worry) する (do) な (don't)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Reassurance, masculine. Neutral: 心配しないで.",
+  "alt": [
+   "心配しないで (neutral)",
+   "心配しないでください (polite)"
+  ]
+ },
+ {
+  "jp": "気をつけろ",
+  "rd": "き を つけろ",
+  "ro": "ki o tsukero",
+  "en": "Watch out!",
+  "lit": "気 (attention) を (object) つけろ (attach, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Warning to take care. Neutral: 気をつけて.",
+  "alt": [
+   "気をつけて (neutral)"
+  ]
+ },
+ {
+  "jp": "やるしかない",
+  "rd": "やる しか ない",
+  "ro": "yaru shika nai",
+  "en": "There's no choice but to do it",
+  "lit": "やる (do) しか (nothing but) ない (none)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "A resolved moment before a hard act. Polite: やるしかありません.",
+  "alt": [
+   "やるしかありません (polite)",
+   "やるしかないね (casual)"
+  ]
+ },
+ {
+  "jp": "お待たせ",
+  "rd": "おまたせ",
+  "ro": "omatase",
+  "en": "Sorry to keep you waiting",
+  "lit": "お待たせ (made you wait)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Casual line when arriving or when ready. Hero shows up: お待たせ!",
+  "alt": [
+   "お待たせしました (polite)",
+   "待たせたな (male, cool)"
+  ]
+ },
+ {
+  "jp": "おい",
+  "rd": "おい",
+  "ro": "oi",
+  "en": "Hey!",
+  "lit": "おい (hey)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Rough way to call someone, used by men or in anger. Do not use to people you respect.",
+  "alt": [
+   "ねえ (friendly hey)",
+   "ちょっと (hey, you)"
+  ]
+ },
+ {
+  "jp": "ねえ",
+  "rd": "ねえ",
+  "ro": "nē",
+  "en": "Hey / Say...",
+  "lit": "ねえ (hey)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Get someone's attention among friends or family. Friendlier than おい.",
+  "alt": [
+   "ねえねえ (hey hey)",
+   "あのう (excuse me, polite)"
+  ]
+ },
+ {
+  "jp": "嘘つき",
+  "rd": "うそつき",
+  "ro": "usotsuki",
+  "en": "Liar",
+  "lit": "嘘 (lie) つき (teller)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Accusation in drama, or playful. 嘘つき! is a cry in betrayals.",
+  "alt": [
+   "嘘つかないで (don't lie)"
+  ]
+ },
+ {
+  "jp": "誰だ",
+  "rd": "だれ だ",
+  "ro": "dare da?",
+  "en": "Who's there?",
+  "lit": "誰 (who) だ (is)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Sharp question to an unknown person, often in the dark. Rough and masculine.",
+  "alt": [
+   "誰ですか (polite)",
+   "誰?(casual)"
+  ]
+ },
+ {
+  "jp": "行け",
+  "rd": "いけ",
+  "ro": "ike",
+  "en": "Go!",
+  "lit": "行け (go, command)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Urging someone onward. Often cheering a hero on.",
+  "alt": [
+   "行って (softer)",
+   "行って!(go!)"
+  ]
+ },
+ {
+  "jp": "守る",
+  "rd": "まもる",
+  "ro": "mamoru",
+  "en": "I will protect you",
+  "lit": "守る (protect)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Pledge of protection, a trope: 俺が守る (I'll protect you). Dictionary form used as declaration.",
+  "alt": [
+   "私が守る (I will protect)",
+   "守ってみせる (I'll protect you, I swear)"
+  ]
+ },
+ {
+  "jp": "やっぱり",
+  "rd": "やっぱり",
+  "ro": "yappari",
+  "en": "As expected / After all",
+  "lit": "やっぱり (after all)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Shows that things turned out as you thought. Casual form of やはり.",
+  "alt": [
+   "やはり (more formal)",
+   "やっぱりね (just as I thought)"
+  ]
+ },
+ {
+  "jp": "さすが",
+  "rd": "さすが",
+  "ro": "sasuga",
+  "en": "As expected of you / Impressive",
+  "lit": "さすが (as expected)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Praise for someone living up to reputation: さすがだね.",
+  "alt": [
+   "さすがですね (polite)",
+   "さすが〜 (as expected of ~)"
+  ]
+ },
+ {
+  "jp": "お願い",
+  "rd": "おねがい",
+  "ro": "onegai",
+  "en": "Please! / I beg you",
+  "lit": "お願い (request)",
+  "c": "media",
+  "lvl": "casual",
+  "use": "Emotional plea. Polite: お願いします.",
+  "alt": [
+   "お願いします (polite)",
+   "お願いだから (I'm begging you)"
+  ]
+ }
+];
+const PATTERNS = [
+ {
+  "p": "[noun A] は [noun B] です",
+  "ro": "[noun A] wa [noun B] desu",
+  "m": "A is B",
+  "how": "Put two nouns on either side of は (read 'wa') and end with です. This is the basic 'A is B' sentence. です makes it polite.",
+  "ex": [
+   {
+    "jp": "私は 学生です",
+    "rd": "わたし は がくせい です",
+    "en": "I am a student."
+   },
+   {
+    "jp": "これは 本です",
+    "rd": "これ は ほん です",
+    "en": "This is a book."
+   },
+   {
+    "jp": "田中さんは 先生です",
+    "rd": "たなかさん は せんせい です",
+    "en": "Mr. Tanaka is a teacher."
+   }
+  ],
+  "casual": "Drop です and use だ or nothing with friends: 私は 学生だ / 学生。",
+  "lvl": 1
+ },
+ {
+  "p": "[noun A] は [noun B] じゃありません",
+  "ro": "[noun A] wa [noun B] ja arimasen",
+  "m": "A is not B",
+  "how": "Replace です with じゃありません (or ではありません in formal writing). Casual speech uses じゃない.",
+  "ex": [
+   {
+    "jp": "私は 先生じゃありません",
+    "rd": "わたし は せんせい じゃ ありません",
+    "en": "I am not a teacher."
+   },
+   {
+    "jp": "これは 水じゃありません",
+    "rd": "これ は みず じゃ ありません",
+    "en": "This is not water."
+   },
+   {
+    "jp": "田中さんは 日本人じゃありません",
+    "rd": "たなかさん は にほんじん じゃ ありません",
+    "en": "Mr. Tanaka is not Japanese."
+   }
+  ],
+  "casual": "じゃない: 先生じゃない (is not a teacher).",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] は [adjective] です",
+  "ro": "[noun] wa [adjective] desu",
+  "m": "X is [adjective]",
+  "how": "い-adjectives (ending in い) go straight before です: 高い → 高いです. な-adjectives take です after the bare word: きれい → きれいです. Do not add な before です.",
+  "ex": [
+   {
+    "jp": "このラーメンは おいしいです",
+    "rd": "この ラーメン は おいしい です",
+    "en": "This ramen is delicious."
+   },
+   {
+    "jp": "今日は 暑いです",
+    "rd": "きょう は あつい です",
+    "en": "Today is hot."
+   },
+   {
+    "jp": "あの花は きれいです",
+    "rd": "あの はな は きれい です",
+    "en": "That flower is pretty."
+   }
+  ],
+  "casual": "Drop です: おいしい! / きれいだ (な-adj + だ).",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] が 好きです",
+  "ro": "[noun] ga suki desu",
+  "m": "I like [noun]",
+  "how": "Place what you like before が and end with 好きです. The person who likes it takes は: 私は 猫が 好きです. Use 大好き (love) for more, 嫌い (dislike) for the opposite.",
+  "ex": [
+   {
+    "jp": "私は 猫が 好きです",
+    "rd": "わたし は ねこ が すき です",
+    "en": "I like cats."
+   },
+   {
+    "jp": "ラーメンが 好きです",
+    "rd": "ラーメン が すき です",
+    "en": "I like ramen."
+   },
+   {
+    "jp": "音楽が 好きです",
+    "rd": "おんがく が すき です",
+    "en": "I like music."
+   }
+  ],
+  "casual": "好きだよ / 好き。 Add 大 for 'love': 大好き。",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] を ください",
+  "ro": "[noun] o kudasai",
+  "m": "Please give me [noun]",
+  "how": "Noun + を + ください. Also for ordering and shopping. Add お願いします for a softer tone. For counts: これを ふたつ ください.",
+  "ex": [
+   {
+    "jp": "水を ください",
+    "rd": "みず を ください",
+    "en": "Water, please."
+   },
+   {
+    "jp": "これを ください",
+    "rd": "これ を ください",
+    "en": "This one, please."
+   },
+   {
+    "jp": "コーヒーを ください",
+    "rd": "コーヒー を ください",
+    "en": "Coffee, please."
+   }
+  ],
+  "casual": "Drop を in casual talk: 水ください。",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] は どこですか",
+  "ro": "[noun] wa doko desu ka",
+  "m": "Where is [noun]?",
+  "how": "Name the thing, then は どこですか. Answer with ここ (here), そこ (there), あそこ (over there), or a direction.",
+  "ex": [
+   {
+    "jp": "トイレは どこですか",
+    "rd": "トイレ は どこ ですか",
+    "en": "Where is the toilet?"
+   },
+   {
+    "jp": "駅は どこですか",
+    "rd": "えき は どこ ですか",
+    "en": "Where is the station?"
+   },
+   {
+    "jp": "田中さんは どこですか",
+    "rd": "たなかさん は どこ ですか",
+    "en": "Where is Mr. Tanaka?"
+   }
+  ],
+  "casual": "トイレどこ? (drop は and です).",
+  "lvl": 1
+ },
+ {
+  "p": "[place] に [noun] が あります / います",
+  "ro": "[place] ni [noun] ga arimasu / imasu",
+  "m": "There is [noun] at [place]",
+  "how": "Use あります for things and plants, います for people and animals. Question: あります か / います か. Negative: ありません / いません.",
+  "ex": [
+   {
+    "jp": "机の 上に 本が あります",
+    "rd": "つくえ の うえ に ほん が あります",
+    "en": "There is a book on the desk."
+   },
+   {
+    "jp": "部屋に 猫が います",
+    "rd": "へや に ねこ が います",
+    "en": "There is a cat in the room."
+   },
+   {
+    "jp": "質問が あります",
+    "rd": "しつもん が あります",
+    "en": "I have a question."
+   }
+  ],
+  "casual": "あるよ / いるよ; ある? / いる? as questions.",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] が ほしい",
+  "ro": "[noun] ga hoshii",
+  "m": "I want [noun]",
+  "how": "Noun + が + ほしい (ほしいです for polite). It describes your own wants. For wanting to do something use [verb]-たい.",
+  "ex": [
+   {
+    "jp": "水が ほしいです",
+    "rd": "みず が ほしい です",
+    "en": "I want water."
+   },
+   {
+    "jp": "新しい 車が ほしい",
+    "rd": "あたらしい くるま が ほしい",
+    "en": "I want a new car."
+   },
+   {
+    "jp": "時間が ほしいです",
+    "rd": "じかん が ほしい です",
+    "en": "I want time."
+   }
+  ],
+  "casual": "ほしい is already casual; drop です.",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] を [verb]ます",
+  "ro": "[noun] o [verb]-masu",
+  "m": "Do [verb] to [noun]",
+  "how": "を marks what the action acts on. Polite verbs end in ます. Basic verbs: 食べます (eat), 飲みます (drink), 見ます (see/watch), 買います (buy).",
+  "ex": [
+   {
+    "jp": "ご飯を 食べます",
+    "rd": "ごはん を たべます",
+    "en": "I eat a meal."
+   },
+   {
+    "jp": "水を 飲みます",
+    "rd": "みず を のみます",
+    "en": "I drink water."
+   },
+   {
+    "jp": "映画を 見ます",
+    "rd": "えいが を みます",
+    "en": "I watch a movie."
+   }
+  ],
+  "casual": "Use the dictionary form: ご飯を 食べる。",
+  "lvl": 1
+ },
+ {
+  "p": "[place] に 行きます",
+  "ro": "[place] ni ikimasu",
+  "m": "Go to [place]",
+  "how": "Place + に (or へ) + 行きます. Replace 行きます with 来ます (come) or 帰ります (return). に marks the destination.",
+  "ex": [
+   {
+    "jp": "学校に 行きます",
+    "rd": "がっこう に いきます",
+    "en": "I go to school."
+   },
+   {
+    "jp": "明日 東京に 行きます",
+    "rd": "あした とうきょう に いきます",
+    "en": "I will go to Tokyo tomorrow."
+   },
+   {
+    "jp": "家に 帰ります",
+    "rd": "いえ に かえります",
+    "en": "I go home."
+   }
+  ],
+  "casual": "行く / 来る / 帰る (dictionary form).",
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-ません (negative)",
+  "ro": "[verb]-masen",
+  "m": "Don't / doesn't do",
+  "how": "Polite negative: change ます to ません. Casual negative is the ない form: 食べる → 食べない (see Casual).",
+  "ex": [
+   {
+    "jp": "肉を 食べません",
+    "rd": "にく を たべません",
+    "en": "I don't eat meat."
+   },
+   {
+    "jp": "お酒を 飲みません",
+    "rd": "おさけ を のみません",
+    "en": "I don't drink alcohol."
+   },
+   {
+    "jp": "今日は 行きません",
+    "rd": "きょう は いきません",
+    "en": "I'm not going today."
+   }
+  ],
+  "casual": "ない form: 食べない. For u-verbs, change the final u to a and add ない (飲む → 飲まない); る-verbs drop る (食べる → 食べない). する → しない, 来る → こない. Note: 買う → 買わない.",
+  "lvl": 1
+ },
+ {
+  "p": "[noun] と [noun]",
+  "ro": "[noun] to [noun]",
+  "m": "[noun] and [noun] / with [person]",
+  "how": "と joins nouns ('and') or means 'with' for a person: 友達と 行きます. Use や for 'and things like', but と is the safest.",
+  "ex": [
+   {
+    "jp": "パンと 卵",
+    "rd": "パン と たまご",
+    "en": "bread and eggs"
+   },
+   {
+    "jp": "友達と 行きます",
+    "rd": "ともだち と いきます",
+    "en": "I go with a friend."
+   },
+   {
+    "jp": "猫と 犬が 好きです",
+    "rd": "ねこ と いぬ が すき です",
+    "en": "I like cats and dogs."
+   }
+  ],
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-たい",
+  "ro": "[verb]-tai",
+  "m": "I want to [verb]",
+  "how": "Take the ます-stem (the part before ます) and add たい: 食べます → 食べたい. 行きます → 行きたい. It conjugates like an い-adjective: 食べたくない (don't want to eat). Add です for polite.",
+  "ex": [
+   {
+    "jp": "日本に 行きたいです",
+    "rd": "にほん に いきたい です",
+    "en": "I want to go to Japan."
+   },
+   {
+    "jp": "ラーメンを 食べたい",
+    "rd": "ラーメン を たべたい",
+    "en": "I want to eat ramen."
+   },
+   {
+    "jp": "寝たいです",
+    "rd": "ねたい です",
+    "en": "I want to sleep."
+   }
+  ],
+  "casual": "Drop です: 食べたい! Best for yourself; for others use たがっている.",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-てください",
+  "ro": "[verb]-te kudasai",
+  "m": "Please do [verb]",
+  "how": "Change the verb to its て-form, then add ください. て-form: う/つ/る → って (買う → 買って); む/ぶ/ぬ → んで (飲む → 飲んで); く → いて (書く → 書いて, but 行く → 行って); す → して; る-verbs drop る and add て (食べる → 食べて); する → して; 来る → 来て.",
+  "ex": [
+   {
+    "jp": "ちょっと 待ってください",
+    "rd": "ちょっと まって ください",
+    "en": "Please wait a moment."
+   },
+   {
+    "jp": "見てください",
+    "rd": "みて ください",
+    "en": "Please look."
+   },
+   {
+    "jp": "名前を 書いてください",
+    "rd": "なまえ を かいて ください",
+    "en": "Please write your name."
+   }
+  ],
+  "casual": "Drop ください: 待って! (friendly request).",
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-ましょう",
+  "ro": "[verb]-mashō",
+  "m": "Let's [verb]",
+  "how": "Change ます to ましょう: 食べます → 食べましょう. It suggests doing something together. Casual: volitional form (see [verb]-よう).",
+  "ex": [
+   {
+    "jp": "食べましょう",
+    "rd": "たべましょう",
+    "en": "Let's eat."
+   },
+   {
+    "jp": "行きましょう",
+    "rd": "いきましょう",
+    "en": "Let's go."
+   },
+   {
+    "jp": "一緒に 帰りましょう",
+    "rd": "いっしょ に かえりましょう",
+    "en": "Let's go home together."
+   }
+  ],
+  "casual": "食べよう / 行こう (casual).",
+  "lvl": 1
+ },
+ {
+  "p": "[verb]-てもいいですか",
+  "ro": "[verb]-te mo ii desu ka",
+  "m": "May I [verb]?",
+  "how": "て-form + もいいですか. Asking permission. To give permission say いいですよ; to refuse say すみません、ちょっと…. て-form rules: see [verb]-てください.",
+  "ex": [
+   {
+    "jp": "入ってもいいですか",
+    "rd": "はいって も いい ですか",
+    "en": "May I come in?"
+   },
+   {
+    "jp": "写真を 撮ってもいいですか",
+    "rd": "しゃしん を とって も いい ですか",
+    "en": "May I take a photo?"
+   },
+   {
+    "jp": "ここに 座ってもいいですか",
+    "rd": "ここ に すわって も いい ですか",
+    "en": "May I sit here?"
+   }
+  ],
+  "casual": "入ってもいい? / いい?",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-ないでください",
+  "ro": "[verb]-naide kudasai",
+  "m": "Please don't [verb]",
+  "how": "Change the verb to the ない form (see [verb]-ません), then add でください: 触る → 触らないで ください. する → しないで.",
+  "ex": [
+   {
+    "jp": "触らないでください",
+    "rd": "さわらないで ください",
+    "en": "Please don't touch."
+   },
+   {
+    "jp": "心配しないでください",
+    "rd": "しんぱい しないで ください",
+    "en": "Please don't worry."
+   },
+   {
+    "jp": "忘れないでください",
+    "rd": "わすれないで ください",
+    "en": "Please don't forget."
+   }
+  ],
+  "casual": "Drop ください: 心配しないで。",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-ている",
+  "ro": "[verb]-te iru",
+  "m": "Is doing / has done [verb]",
+  "how": "て-form + いる (います in polite). It shows an action in progress (食べている = is eating) or a continuing state (住んでいる = lives; 結婚している = is married).",
+  "ex": [
+   {
+    "jp": "今 ご飯を 食べています",
+    "rd": "いま ごはん を たべて います",
+    "en": "I'm eating a meal now."
+   },
+   {
+    "jp": "東京に 住んでいます",
+    "rd": "とうきょう に すんで います",
+    "en": "I live in Tokyo."
+   },
+   {
+    "jp": "日本語を 勉強しています",
+    "rd": "にほんご を べんきょう して います",
+    "en": "I'm studying Japanese."
+   }
+  ],
+  "casual": "In speech, い often drops: 食べてる, 勉強してる。",
+  "lvl": 2
+ },
+ {
+  "p": "[place/time] から [place/time] まで",
+  "ro": "[A] kara [B] made",
+  "m": "From A to B",
+  "how": "から means 'from', まで means 'until/up to'. Works for places and times. Add に (to) or で (by) for means.",
+  "ex": [
+   {
+    "jp": "九時から 五時まで",
+    "rd": "くじ から ごじ まで",
+    "en": "from nine to five"
+   },
+   {
+    "jp": "東京から 大阪まで",
+    "rd": "とうきょう から おおさか まで",
+    "en": "from Tokyo to Osaka"
+   },
+   {
+    "jp": "月曜日から 金曜日まで 働きます",
+    "rd": "げつようび から きんようび まで はたらきます",
+    "en": "I work from Monday to Friday."
+   }
+  ],
+  "lvl": 2
+ },
+ {
+  "p": "[clause] から、[clause]",
+  "ro": "[clause] kara, [clause]",
+  "m": "Because [reason], [result]",
+  "how": "Put the reason first, then から, then the result. Polite sentences use ですから; casual use だから. Use から alone as an answer to どうして.",
+  "ex": [
+   {
+    "jp": "疲れましたから、寝ます",
+    "rd": "つかれました から、ねます",
+    "en": "I'm tired, so I'll sleep."
+   },
+   {
+    "jp": "雨だから、行かない",
+    "rd": "あめ だ から、いかない",
+    "en": "It's raining, so I won't go."
+   },
+   {
+    "jp": "安いから、買いました",
+    "rd": "やすい から、かいました",
+    "en": "It was cheap, so I bought it."
+   }
+  ],
+  "casual": "だから. Often used alone: 安いから (because it's cheap).",
+  "lvl": 2
+ },
+ {
+  "p": "[place] で [verb]",
+  "ro": "[place] de [verb]",
+  "m": "Do [verb] at [place] / by [means]",
+  "how": "で marks where an action happens or the means used. Contrast に, which marks existence or destination.",
+  "ex": [
+   {
+    "jp": "駅で 会いましょう",
+    "rd": "えき で あいましょう",
+    "en": "Let's meet at the station."
+   },
+   {
+    "jp": "バスで 行きます",
+    "rd": "バス で いきます",
+    "en": "I go by bus."
+   },
+   {
+    "jp": "箸で 食べます",
+    "rd": "はし で たべます",
+    "en": "I eat with chopsticks."
+   }
+  ],
+  "lvl": 2
+ },
+ {
+  "p": "[clause] でしょう?",
+  "ro": "[clause] deshō?",
+  "m": "Right? / Probably",
+  "how": "Add でしょう after a noun, adjective or verb to express a guess or to ask for agreement. With rising pitch it means 'right?'. Casual: だろう (guess) or でしょ?.",
+  "ex": [
+   {
+    "jp": "明日は 雨でしょう",
+    "rd": "あした は あめ でしょう",
+    "en": "It will probably rain tomorrow."
+   },
+   {
+    "jp": "これ、おいしいでしょう?",
+    "rd": "これ、おいしい でしょう",
+    "en": "This is tasty, isn't it?"
+   },
+   {
+    "jp": "難しいでしょう?",
+    "rd": "むずかしい でしょう",
+    "en": "It's hard, right?"
+   }
+  ],
+  "casual": "でしょ? or だよね?",
+  "lvl": 2
+ },
+ {
+  "p": "[noun] って何?",
+  "ro": "[noun] tte nani?",
+  "m": "What is [noun]?",
+  "how": "って marks the topic of a casual question. Use it to ask about a word you heard: 「〜」って 何? Polite: 〜は 何ですか.",
+  "ex": [
+   {
+    "jp": "「ツンデレ」って 何?",
+    "rd": "ツンデレ って なに",
+    "en": "What is 'tsundere'?"
+   },
+   {
+    "jp": "「大丈夫」って 何ですか",
+    "rd": "だいじょうぶ って なん ですか",
+    "en": "What does 'daijōbu' mean?"
+   },
+   {
+    "jp": "これって 何?",
+    "rd": "これ って なに",
+    "en": "What is this?"
+   }
+  ],
+  "casual": "That is the casual form. Polite: 〜は 何ですか.",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-た / -ました (past)",
+  "ro": "[verb]-ta / -mashita",
+  "m": "Did [verb]",
+  "how": "Polite past: ます → ました. Casual past: use the た-form, built like the て-form but with た (食べて → 食べた, 飲んで → 飲んだ, 行って → 行った, 書いて → 書いた, して → した).",
+  "ex": [
+   {
+    "jp": "昨日 寿司を 食べた",
+    "rd": "きのう すし を たべた",
+    "en": "I ate sushi yesterday."
+   },
+   {
+    "jp": "日本に 行きました",
+    "rd": "にほん に いきました",
+    "en": "I went to Japan."
+   },
+   {
+    "jp": "宿題を しました",
+    "rd": "しゅくだい を しました",
+    "en": "I did my homework."
+   }
+  ],
+  "casual": "た-form is already casual.",
+  "lvl": 2
+ },
+ {
+  "p": "[verb]-たことがある",
+  "ro": "[verb]-ta koto ga aru",
+  "m": "Have done [verb] before",
+  "how": "た-form + ことがある (あります for polite). It states experience. Negative: ことがない (ありません).",
+  "ex": [
+   {
+    "jp": "日本に 行ったことが あります",
+    "rd": "にほん に いった こと が あります",
+    "en": "I have been to Japan."
+   },
+   {
+    "jp": "寿司を 食べたことが ある",
+    "rd": "すし を たべた こと が ある",
+    "en": "I have eaten sushi."
+   },
+   {
+    "jp": "アニメを 見たことが ありません",
+    "rd": "アニメ を みた こと が ありません",
+    "en": "I have never watched anime."
+   }
+  ],
+  "casual": "行ったことある? (drop が).",
+  "lvl": 3
+ },
+ {
+  "p": "[noun A] より [noun B] のほうが [adj]",
+  "ro": "[A] yori [B] no hō ga [adj]",
+  "m": "B is more [adj] than A",
+  "how": "Say the thing compared in より, then the winner with のほうが and an adjective. Question: AとBと どちらが 〜ですか.",
+  "ex": [
+   {
+    "jp": "犬より 猫のほうが 好きです",
+    "rd": "いぬ より ねこ の ほう が すき です",
+    "en": "I like cats more than dogs."
+   },
+   {
+    "jp": "電車より バスのほうが 安いです",
+    "rd": "でんしゃ より バス の ほう が やすい です",
+    "en": "The bus is cheaper than the train."
+   },
+   {
+    "jp": "夏より 冬のほうが 好き",
+    "rd": "なつ より ふゆ の ほう が すき",
+    "en": "I like winter more than summer."
+   }
+  ],
+  "casual": "Same, drop です.",
+  "lvl": 3
+ },
+ {
+  "p": "[clause] と思う",
+  "ro": "[clause] to omou",
+  "m": "I think that ...",
+  "how": "Put a plain-form sentence before と思う (思います for polite). Plain form: 雨だ, 高い, 行く, 行かない. Use だと after nouns and な-adjectives.",
+  "ex": [
+   {
+    "jp": "明日は 雨だと 思います",
+    "rd": "あした は あめ だ と おもいます",
+    "en": "I think it will rain tomorrow."
+   },
+   {
+    "jp": "日本語は 面白いと 思います",
+    "rd": "にほんご は おもしろい と おもいます",
+    "en": "I think Japanese is interesting."
+   },
+   {
+    "jp": "彼は 来ないと 思う",
+    "rd": "かれ は こない と おもう",
+    "en": "I don't think he will come."
+   }
+  ],
+  "casual": "思う or と思うんだ。",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-なければならない",
+  "ro": "[verb]-nakereba naranai",
+  "m": "Must / have to [verb]",
+  "how": "Take the ない form, drop the final い, add ければならない: 行かない → 行かなければならない. Polite: ならない → なりません. Casual: ないと or なきゃ.",
+  "ex": [
+   {
+    "jp": "勉強しなければなりません",
+    "rd": "べんきょう しなければ なりません",
+    "en": "I have to study."
+   },
+   {
+    "jp": "早く 寝なければならない",
+    "rd": "はやく ねなければ ならない",
+    "en": "I have to sleep early."
+   },
+   {
+    "jp": "行かなければならない",
+    "rd": "いかなければ ならない",
+    "en": "I have to go."
+   }
+  ],
+  "casual": "行かなきゃ / 行かないと (casual, 'gotta go').",
+  "lvl": 3
+ },
+ {
+  "p": "[clause] かもしれない",
+  "ro": "[clause] kamoshirenai",
+  "m": "Might / maybe",
+  "how": "Plain form before かもしれない (かもしれません in polite). After nouns and な-adjectives, don't add だ: 雨かもしれない.",
+  "ex": [
+   {
+    "jp": "雨が 降るかもしれない",
+    "rd": "あめ が ふる かも しれない",
+    "en": "It might rain."
+   },
+   {
+    "jp": "彼は 来ないかもしれません",
+    "rd": "かれ は こない かも しれません",
+    "en": "He might not come."
+   },
+   {
+    "jp": "これは 高いかもしれません",
+    "rd": "これ は たかい かも しれません",
+    "en": "This might be expensive."
+   }
+  ],
+  "casual": "かも (very casual).",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-ても",
+  "ro": "[verb]-te mo",
+  "m": "Even if / even though",
+  "how": "て-form + も for 'even if'. い-adjectives: 高い → 高くても. Nouns and な-adjectives: 〜でも.",
+  "ex": [
+   {
+    "jp": "雨が 降っても 行きます",
+    "rd": "あめ が ふって も いきます",
+    "en": "I'll go even if it rains."
+   },
+   {
+    "jp": "高くても 買う",
+    "rd": "たかくて も かう",
+    "en": "I'll buy it even if it is expensive."
+   },
+   {
+    "jp": "忙しくても 来て",
+    "rd": "いそがしくて も きて",
+    "en": "Come even if you're busy."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-たら",
+  "ro": "[verb]-tara",
+  "m": "If / when [verb]",
+  "how": "Take the た-form and add ら: 行く → 行ったら, 食べる → 食べたら. For い-adjectives: 安い → 安かったら. Use it for conditions and for 'after doing'.",
+  "ex": [
+   {
+    "jp": "安かったら 買います",
+    "rd": "やすかったら かいます",
+    "en": "If it's cheap, I'll buy it."
+   },
+   {
+    "jp": "雨が 降ったら 行きません",
+    "rd": "あめ が ふったら いきません",
+    "en": "If it rains I won't go."
+   },
+   {
+    "jp": "日本に 行ったら、寿司を 食べたい",
+    "rd": "にほん に いったら、すし を たべたい",
+    "en": "When I go to Japan, I want to eat sushi."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[noun] の ために",
+  "ro": "[noun] no tame ni",
+  "m": "For [noun] / in order to",
+  "how": "Noun + のため(に) means 'for the sake of'. With a verb dictionary form + ために: 勉強するために (in order to study).",
+  "ex": [
+   {
+    "jp": "健康のために 運動します",
+    "rd": "けんこう の ために うんどう します",
+    "en": "I exercise for my health."
+   },
+   {
+    "jp": "家族のために 働く",
+    "rd": "かぞく の ために はたらく",
+    "en": "I work for my family."
+   },
+   {
+    "jp": "日本語を 勉強するために、日本に 来ました",
+    "rd": "にほんご を べんきょう する ために、にほん に きました",
+    "en": "I came to Japan in order to study Japanese."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[noun] みたい",
+  "ro": "[noun] mitai",
+  "m": "Like [noun] / seems like",
+  "how": "Noun or plain-form clause + みたい (みたいです for polite). It means 'looks like' or 'seems like'. As an adjective: 夢みたいな 話 (a dream-like story).",
+  "ex": [
+   {
+    "jp": "夢みたい",
+    "rd": "ゆめ みたい",
+    "en": "It's like a dream."
+   },
+   {
+    "jp": "子供みたいですね",
+    "rd": "こども みたい ですね",
+    "en": "You're like a child."
+   },
+   {
+    "jp": "雨が 降っているみたい",
+    "rd": "あめ が ふっている みたい",
+    "en": "It looks like it's raining."
+   }
+  ],
+  "casual": "Already casual.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-ちゃった",
+  "ro": "[verb]-chatta",
+  "m": "I ended up doing [verb] (oops)",
+  "how": "Casual contraction of て-form + しまった. て → ちゃった (食べて → 食べちゃった); で → じゃった (飲んで → 飲んじゃった). Expresses regret, surprise or completion.",
+  "ex": [
+   {
+    "jp": "全部 食べちゃった",
+    "rd": "ぜんぶ たべちゃった",
+    "en": "I ate it all (oops)."
+   },
+   {
+    "jp": "忘れちゃった",
+    "rd": "わすれちゃった",
+    "en": "I forgot (oops)."
+   },
+   {
+    "jp": "寝坊しちゃった",
+    "rd": "ねぼう しちゃった",
+    "en": "I overslept (oops)."
+   }
+  ],
+  "casual": "That is the casual form of [verb]-てしまう.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-てしまう",
+  "ro": "[verb]-te shimau",
+  "m": "Do completely / end up doing",
+  "how": "て-form + しまう (しまいました polite, しまった casual past). Means 'finish doing completely' or 'regretfully do'.",
+  "ex": [
+   {
+    "jp": "財布を 忘れてしまいました",
+    "rd": "さいふ を わすれて しまいました",
+    "en": "I ended up forgetting my wallet."
+   },
+   {
+    "jp": "全部 食べてしまった",
+    "rd": "ぜんぶ たべて しまった",
+    "en": "I finished eating everything."
+   },
+   {
+    "jp": "電車に 乗り遅れてしまった",
+    "rd": "でんしゃ に のりおくれて しまった",
+    "en": "I missed my train."
+   }
+  ],
+  "casual": "-ちゃった / -じゃった.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-よう (let's / I'll)",
+  "ro": "[verb]-yō",
+  "m": "Let's [verb] / I'll [verb]",
+  "how": "The casual volitional form. る-verbs drop る and add よう (食べる → 食べよう); u-verbs change the final u to o and add う (行く → 行こう, 飲む → 飲もう); する → しよう, 来る → 来よう. Polite: ましょう.",
+  "ex": [
+   {
+    "jp": "食べよう",
+    "rd": "たべよう",
+    "en": "Let's eat."
+   },
+   {
+    "jp": "行こう",
+    "rd": "いこう",
+    "en": "Let's go."
+   },
+   {
+    "jp": "帰ろう",
+    "rd": "かえろう",
+    "en": "Let's go home."
+   }
+  ],
+  "casual": "That is the casual form. Polite is ましょう.",
+  "lvl": 2
+ },
+ {
+  "p": "[clause] んじゃない?",
+  "ro": "[clause] n janai?",
+  "m": "Isn't it ...? / Maybe ...",
+  "how": "Plain form + んじゃない? gives a soft suggestion or guess. Casual. Polite: んじゃないですか.",
+  "ex": [
+   {
+    "jp": "それ、いいんじゃない?",
+    "rd": "それ、いい んじゃ ない",
+    "en": "Isn't that good? / That seems fine."
+   },
+   {
+    "jp": "彼は もう 帰ったんじゃない?",
+    "rd": "かれ は もう かえった んじゃ ない",
+    "en": "He may have gone home already."
+   },
+   {
+    "jp": "疲れてるんじゃない?",
+    "rd": "つかれてる んじゃ ない",
+    "en": "You're tired, aren't you?"
+   }
+  ],
+  "casual": "Already casual.",
+  "lvl": 3
+ },
+ {
+  "p": "[verb]-てから",
+  "ro": "[verb]-te kara",
+  "m": "After doing [verb]",
+  "how": "て-form + から means 'after doing', then the next action follows.",
+  "ex": [
+   {
+    "jp": "ご飯を 食べてから 行きます",
+    "rd": "ごはん を たべて から いきます",
+    "en": "I'll go after eating."
+   },
+   {
+    "jp": "顔を 洗ってから 寝る",
+    "rd": "かお を あらって から ねる",
+    "en": "I wash my face before sleeping."
+   },
+   {
+    "jp": "宿題を してから 遊ぼう",
+    "rd": "しゅくだい を して から あそぼう",
+    "en": "Let's play after doing homework."
+   }
+  ],
+  "lvl": 3
+ },
+ {
+  "p": "[verb dictionary form] ことができる",
+  "ro": "[verb] koto ga dekiru",
+  "m": "Can [verb]",
+  "how": "Dictionary form + ことが できる (できます polite). Means 'be able to'. Easier alternative for many verbs: [verb]-られる.",
+  "ex": [
+   {
+    "jp": "日本語を 話すことが できます",
+    "rd": "にほんご を はなす こと が できます",
+    "en": "I can speak Japanese."
+   },
+   {
+    "jp": "泳ぐことが できる",
+    "rd": "およぐ こと が できる",
+    "en": "I can swim."
+   },
+   {
+    "jp": "ピアノを 弾くことが できます",
+    "rd": "ピアノ を ひく こと が できます",
+    "en": "I can play the piano."
+   }
+  ],
+  "casual": "話せる / 泳げる (potential forms).",
+  "lvl": 3
+ }
+];
+(()=>{const L=[{"id": "index", "name": "Home", "url": "./"}, {"id": "kana-kanji", "name": "Kana & Kanji", "url": "kana-kanji.html"}, {"id": "words", "name": "1000 Words", "url": "words.html"}, {"id": "phrases", "name": "Phrases", "url": "phrases.html"}];const el=document.getElementById('suite');if(!el)return;el.innerHTML=L.filter(l=>l.url||l.id==="phrases").map(l=>l.id==="phrases"?`<a class="here" aria-current="page">${l.name}</a>`:`<a href="${l.url}">${l.name}</a>`).join('');})();
+const CATS = { greetings: "Greetings", politeness: "Thanks & sorry", responses: "Reactions", "getting-by": "Getting by", questions: "Questions", feelings: "Feelings", "shopping-food": "Shopping & food", "directions-travel": "Directions & travel", social: "Meeting people", media: "Heard in anime & dramas" };
+const LVL = { casual: "Casual", polite: "Polite", formal: "Formal" };
+const STEP = { 1: ["Step 1", "The core frames. Enough to state facts, wants and likes, and ask basic questions."], 2: ["Step 2", "Verb forms that unlock requests, permission, plans and ongoing actions."], 3: ["Step 3", "Nuance: guesses, conditions, comparisons and the casual endings you hear in shows."] };
+PHRASES.forEach((p, i) => p.id = i);
+const pkey = p => p.jp;
+const store = makeStore("phrases", () => rerender());
+const C = () => (store.data.cards ||= {});
+const cfg = () => { const c = (store.data.cfg ||= {}); c.dir ??= "en"; c.newPerDay ??= 10; c.core ??= "core"; c.cats ??= Object.keys(CATS); return c; };
+const log = () => (store.data.log ||= {});
+
+function phraseCard(p, { compact = false } = {}) {
+  return `<article class="ph">
+    <div class="tags"><span class="pill lvl-${p.lvl}">${LVL[p.lvl] || p.lvl}</span>${p.core ? `<span class="pill core">Must-know</span>` : ""}${compact ? "" : `<span class="pill">${esc(CATS[p.c] || p.c)}</span>`}</div>
+    <div class="jp">${esc(p.jp)} ${sayBtn(p.rd.replace(/\s+/g, ""))}</div>
+    <div class="rd">${esc(p.rd)}</div>
+    <div class="ro">${esc(p.ro)}</div>
+    <div class="en">${esc(p.en)}</div>
+    ${p.lit ? `<div class="lit">${esc(p.lit)}</div>` : ""}
+    ${p.use ? `<div class="use">${esc(p.use)}</div>` : ""}
+    ${p.alt && p.alt.length ? `<div class="alt">${p.alt.map(a => `<span>${esc(a)}</span>`).join("")}</div>` : ""}
+  </article>`;
+}
+
+/* ---------- phrasebook ---------- */
+let fCat = null, fLvl = null, fCore = false;
+function renderPhrases() {
+  const q = $("#q").value.trim().toLowerCase();
+  const n = {}; PHRASES.forEach(p => n[p.c] = (n[p.c] || 0) + 1);
+  $("#catChips").innerHTML = `<button type="button" class="chip ${!fCat ? "on" : ""}" data-c="">All situations<span class="n">${PHRASES.length}</span></button>` + Object.entries(CATS).filter(([c]) => n[c]).map(([c, name]) => `<button type="button" class="chip ${fCat === c ? "on" : ""}" data-c="${c}">${name}<span class="n">${n[c]}</span></button>`).join("");
+  $("#lvlChips").innerHTML = `<button type="button" class="chip ${fCore ? "on" : ""}" data-core="1">Must-know only<span class="n">${PHRASES.filter(p => p.core).length}</span></button>` + Object.entries(LVL).map(([l, name]) => `<button type="button" class="chip ${fLvl === l ? "on" : ""}" data-l="${l}">${name}</button>`).join("");
+  let list = PHRASES;
+  if (q) list = list.filter(p => [p.jp, p.rd.replace(/\s/g, ""), p.ro.toLowerCase(), p.en.toLowerCase(), (p.use || "").toLowerCase()].some(s => s.includes(q.replace(/\s/g, "")) || s.includes(q)));
+  if (fCat) list = list.filter(p => p.c === fCat);
+  if (fLvl) list = list.filter(p => p.lvl === fLvl);
+  if (fCore) list = list.filter(p => p.core);
+  if (!list.length) { $("#plist").innerHTML = `<div class="empty">No phrases match. Try another word or clear the filters.</div>`; return; }
+  const groups = {}; list.forEach(p => (groups[p.c] ||= []).push(p));
+  $("#plist").innerHTML = Object.keys(CATS).filter(c => groups[c]).map(c => `<div class="secthead"><h2>${CATS[c]}</h2><span class="faint">${groups[c].length}</span></div><div class="grid">${groups[c].sort((a, b) => (b.core ? 1 : 0) - (a.core ? 1 : 0)).map(p => phraseCard(p, { compact: true })).join("")}</div>`).join("");
+}
+$("#q").addEventListener("input", renderPhrases);
+$("#catChips").addEventListener("click", e => { const c = e.target.closest("[data-c]"); if (c) { fCat = c.dataset.c || null; renderPhrases(); } });
+$("#lvlChips").addEventListener("click", e => {
+  const c = e.target.closest("[data-l]"), k = e.target.closest("[data-core]");
+  if (c) fLvl = fLvl === c.dataset.l ? null : c.dataset.l; if (k) fCore = !fCore; if (c || k) renderPhrases();
+});
+
+/* ---------- patterns ---------- */
+const slot = s => esc(s).replace(/\[([^\]]+)\]/g, '<span class="slot">$1</span>');
+function renderPatterns() {
+  const by = {}; PATTERNS.forEach(p => (by[p.lvl] ||= []).push(p));
+  $("#pats").innerHTML = Object.keys(by).sort().map(l => `<section><div class="secthead" style="margin-top:0"><h2>${STEP[l] ? STEP[l][0] : "Step " + l}</h2><span class="faint">${by[l].length} patterns</span></div>${STEP[l] ? `<p class="stepintro">${STEP[l][1]}</p>` : ""}<div class="grid">${by[l].map(p => `<article class="pat">
+    <div class="p">${slot(p.p)}</div><div class="mono faint" style="font-size:12.5px">${esc(p.ro)}</div>
+    <div class="m">${esc(p.m)}</div><div class="how">${esc(p.how)}</div>
+    ${(p.ex || []).map(x => `<div class="ex"><span class="jp">${esc(x.jp)} ${sayBtn(x.rd.replace(/\s+/g, ""))}</span><span class="rd">${esc(x.rd)}</span><span class="en">${esc(x.en)}</span></div>`).join("")}
+    ${p.casual ? `<div class="casual"><b>Casual:</b> ${esc(p.casual)}</div>` : ""}
+  </article>`).join("")}</div></section>`).join("");
+}
+
+/* ---------- practice ---------- */
+let cur = null, revealed = false, lastKey = null;
+function pool() {
+  const cats = new Set(cfg().cats); let l = PHRASES.filter(p => cats.has(p.c));
+  if (cfg().core === "core") l = [...l.filter(p => p.core), ...l.filter(p => !p.core)];
+  return l;
+}
+const newLeft = () => Math.max(0, cfg().newPerDay - ((log()[todayKey()] || {}).n || 0));
+function renderPractice() {
+  const P = pool(); const c = srsCounts(P, C(), pkey);
+  $("#counts").innerHTML = `<span><b>${c.due}</b> due</span><span><b>${Math.min(c.fresh, newLeft())}</b> new left today</span><span><b>${c.learning}</b> learning</span><span class="spacer"></span><span><b>${P.length - c.fresh}</b> / ${P.length} started</span>`;
+  $("#pCats").innerHTML = Object.entries(CATS).map(([k, n]) => `<button type="button" class="chip ${cfg().cats.includes(k) ? "on" : ""}" data-pc="${k}">${n}</button>`).join("");
+  if (!revealed) cur = pickNext(P, C(), { id: pkey, newLeft: newLeft(), lastId: lastKey });
+  const el = $("#card");
+  if (!cur) { el.innerHTML = `<div class="empty"><h2 style="font-size:20px;margin-bottom:6px">Done for now</h2>Come back later for reviews, or raise the daily limit.</div>`; return; }
+  const p = cur.it, st = C()[pkey(p)], en = cfg().dir === "en";
+  let h = cur.kind === "new" ? `<span class="pill new">New phrase</span>` : `<span class="pill ${SRS.status(st)}">${SRS.status(st) === "learning" ? "Learning" : "Review"}</span>`;
+  h += `<span class="faint" style="font-size:13px">${esc(CATS[p.c] || p.c)}</span>`;
+  if (!revealed) {
+    h += en ? `<div class="big">${esc(p.en)}</div><div class="muted">How would you say this in Japanese?</div>` : `<div class="bigjp">${esc(p.jp)}</div><div class="muted">${esc(p.rd)}</div>`;
+    h += `<button class="btn primary" id="reveal" type="button">Show answer <kbd class="mono" style="font-size:11px;opacity:.7">space</kbd></button>`;
+  } else {
+    h += phraseCard(p, { compact: true }) + `<div class="grades" style="width:100%;max-width:560px">${["Again", "Hard", "Good", "Easy"].map((n, g) => `<button class="grade g${g}" data-g="${g}" type="button">${n}<small>${SRS.preview(st, g)}</small><kbd>${g + 1}</kbd></button>`).join("")}</div>`;
+  }
+  el.innerHTML = h;
+}
+function reveal() { if (!cur || revealed) return; revealed = true; renderPractice(); Speech.speak(cur.it.rd.replace(/\s+/g, "")); }
+function grade(g) {
+  if (!cur || !revealed) return; const k = pkey(cur.it), L = (log()[todayKey()] ||= { n: 0, r: 0 });
+  if (!C()[k]) L.n++; L.r++; C()[k] = SRS.grade(C()[k], g); store.save(); lastKey = k; revealed = false; renderPractice();
+}
+$("#card").addEventListener("click", e => { if (e.target.closest("#reveal")) return reveal(); const g = e.target.closest("[data-g]"); if (g) grade(+g.dataset.g); });
+$("#pCats").addEventListener("click", e => { const c = e.target.closest("[data-pc]"); if (!c) return; const a = cfg().cats; const i = a.indexOf(c.dataset.pc); i >= 0 ? (a.length > 1 && a.splice(i, 1)) : a.push(c.dataset.pc); store.save(); revealed = false; renderPractice(); });
+$("#pDir").onchange = e => { cfg().dir = e.target.value; store.save(); revealed = false; renderPractice(); };
+$("#pNew").onchange = e => { cfg().newPerDay = +e.target.value; store.save(); if (!revealed) renderPractice(); };
+$("#pCore").onchange = e => { cfg().core = e.target.value; store.save(); revealed = false; renderPractice(); };
+
+let view = "phrases";
+function rerender() {
+  $("#pDir").value = cfg().dir; $("#pNew").value = String(cfg().newPerDay); $("#pCore").value = cfg().core;
+  if (view === "phrases") renderPhrases(); else if (view === "patterns") renderPatterns(); else { revealed = false; renderPractice(); }
+}
+hashTabs(["phrases", "patterns", "practice"], "phrases", v => { view = v; rerender(); });
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input,select,textarea") || view !== "practice") return;
+  if (e.key === " " && !revealed && cur) { e.preventDefault(); reveal(); }
+  else if (revealed && "1234".includes(e.key)) grade(+e.key - 1);
+});
+</script>
+
+</body>
+</html>

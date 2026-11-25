@@ -123,6 +123,9 @@ ruby rt{font-size:.5em;color:var(--ink-2);font-family:var(--f-body);font-weight:
 .empty{padding:36px 16px;text-align:center;color:var(--ink-2)}
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 @media (max-width:560px){.grades{grid-template-columns:repeat(2,1fr)}.tabs a{padding:9px 10px}}
+.backup{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);display:flex;gap:12px 20px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
+.backup>div:first-child{max-width:62ch}
+.no-audio .audio-only{display:none!important}
 
 .modes{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--surface)}
 .modes button{border:none;background:transparent;padding:7px 14px;cursor:pointer;color:var(--ink-2);font-weight:500}
@@ -242,7 +245,7 @@ ruby rt{font-size:.5em;color:var(--ink-2);font-family:var(--f-body);font-weight:
     </div>
 
     <div id="kana-chart" hidden>
-      <p class="muted" style="margin:0 0 14px">Tap a character to hear it. The bar under each one shows your quiz accuracy.</p>
+      <p class="muted" style="margin:0 0 14px"><span class="audio-only">Tap a character to hear it. </span>The bar under each one shows your quiz accuracy.</p>
       <div id="chart"></div>
     </div>
 
@@ -280,6 +283,7 @@ ruby rt{font-size:.5em;color:var(--ink-2);font-family:var(--f-body);font-weight:
 
 <script>
 /* ---------- shared core: storage, audio, SRS, helpers ---------- */
+const PAGES = false; // build.py --pages flips this: standalone site, no audio, backup controls
 const DAY = 86400000;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -292,7 +296,7 @@ function ruby(w, r) {
   return `<ruby>${esc(w)}<rt>${esc(r)}</rt></ruby>`;
 }
 const SPEAK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
-const sayBtn = (text, label = "Play audio") => `<button class="say" type="button" data-say="${esc(text)}" aria-label="${esc(label)}" title="Listen">${SPEAK_ICON}</button>`;
+const sayBtn = (text, label = "Play audio") => PAGES ? "" : `<button class="say" type="button" data-say="${esc(text)}" aria-label="${esc(label)}" title="Listen">${SPEAK_ICON}</button>`;
 
 function toast(msg) {
   let t = $(".toast"); if (!t) { t = document.createElement("div"); t.className = "toast"; document.body.appendChild(t); }
@@ -355,7 +359,7 @@ function makeStore(key, onLoad) {
 }
 
 /* ---- audio: Claude voice when available, else the browser's Japanese voice ---- */
-const Speech = (() => {
+const Speech = PAGES ? (document.documentElement.classList.add("no-audio"), { speak() { }, available: () => false }) : (() => {
   let tts = null, ttsOff = false, jaVoice = null, settled = false;
   const synth = "speechSynthesis" in window ? window.speechSynthesis : null;
   function pickVoice() { if (!synth) return; const vs = synth.getVoices(); jaVoice = vs.find(v => /^ja(-|_|$)/i.test(v.lang)) || null; refresh(); }
@@ -440,6 +444,45 @@ function srsCounts(items, cards, id) {
   const now = Date.now(); let due = 0, learning = 0, fresh = 0;
   for (const it of items) { const c = cards[id(it)]; if (!c) fresh++; else if (c.d <= now) { due++; } else if (c.i === 0) learning++; }
   return { due, learning, fresh };
+}
+
+/* ---- standalone site: ask the browser to keep our data, and offer backup / restore ---- */
+if (PAGES) {
+  try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) { }
+  const PREFIX = "jpstudy:";
+  function exportProgress() {
+    const out = { app: "learn-japanese", version: 1, exported: new Date().toISOString(), data: {} };
+    try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k.startsWith(PREFIX)) out.data[k] = JSON.parse(localStorage.getItem(k)); } } catch (e) { }
+    if (!Object.keys(out.data).length) { toast("Nothing to back up yet"); return; }
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(out)], { type: "application/json" }));
+    a.download = "japanese-progress-" + todayKey() + ".json";
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    toast("Backup downloaded");
+  }
+  function importProgress(file) {
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const j = JSON.parse(r.result);
+        if (j.app !== "learn-japanese" || !j.data || typeof j.data !== "object") throw new Error("not a backup");
+        const keys = Object.keys(j.data).filter(k => k.startsWith(PREFIX));
+        if (!keys.length) throw new Error("empty");
+        keys.forEach(k => localStorage.setItem(k, JSON.stringify(j.data[k])));
+        toast("Progress restored"); setTimeout(() => location.reload(), 700);
+      } catch (e) { toast("That file isn't a progress backup from these pages"); }
+    };
+    r.readAsText(file);
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    const wrap = $(".wrap"); if (!wrap) return;
+    const f = document.createElement("footer"); f.className = "backup";
+    f.innerHTML = `<div><b>Your progress lives in this browser.</b> It covers all three pages. Clearing site data erases it, and other devices don't see it, so download a backup now and then.</div>
+      <div class="row"><button class="btn small" type="button" id="bkExport">Download backup</button><label class="btn small ghost" for="bkImport">Restore from file</label><input type="file" id="bkImport" accept="application/json,.json" hidden></div>`;
+    wrap.appendChild(f);
+    $("#bkExport").onclick = exportProgress;
+    $("#bkImport").onchange = e => { const file = e.target.files[0]; if (file) importProgress(file); e.target.value = ""; };
+  });
 }
 
 const KANJI = [
